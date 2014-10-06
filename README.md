@@ -1,4 +1,4 @@
 MS-BGD
 ======
 
-Big data TELECOM Paristech
+Welcome to the Big Data TELECOM Paristech repository !
