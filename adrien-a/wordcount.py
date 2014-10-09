@@ -39,11 +39,55 @@ print_words() and print_top().
 
 import sys
 
-# +++your code here+++
-# Define print_words(filename) and print_top(filename) functions.
-# You could write a helper utility function that reads a file
-# and builds and returns a word/count dict for it.
-# Then print_words() and print_top() can just call the utility function.
+def getDictionary(filename) :
+
+  # Ouverture, lecture et fermeture du fichier
+  fichier = open(filename, 'r')
+  contenuFichier = fichier.read()
+  fichier.close()
+
+  # Decoupage en collection de mots
+  mots = contenuFichier.split()
+
+  # Creation du dictionnaire comptant le nombre d'occurrences de chaque mot du fichier
+  dictionnaire = {}
+  for mot in mots:
+    if mot in dictionnaire :
+      dictionnaire[mot] = dictionnaire[mot] + 1
+    else :
+      dictionnaire[mot] = 1
+
+  return dictionnaire
+
+
+def print_words(filename) :
+
+  # Obtention du dictionnaire {mots: nbOccurrences} du fichier
+  dictionnaire = getDictionary(filename)
+
+  # Tri du dictionnaire par ordre alphabetique
+  listeDesMotsTriee = sorted(dictionnaire.items(), key = lambda tupleMotOccurrence : tupleMotOccurrence[0])
+
+  # Affichage
+  for mot in listeDesMotsTriee :
+    print mot[0] + ' ' + str(mot[1])
+
+
+def print_top(filename) :
+
+  # Obtention du dictionnaire {mots: nbOccurrences} du fichier
+  dictionnaire = getDictionary(filename)
+
+  # Tri du dictionnaire en utilisant le nombre d'occurrences des mots cette fois
+  listeDesMotsTriee = sorted(dictionnaire.items(), key = lambda tupleMotOccurrence : tupleMotOccurrence[1])
+
+  # Recuperation des 20 premiers mots seulement
+  listeDesMotsTriee.reverse()
+  les20Premiers = listeDesMotsTriee[:20]
+
+  # Affichage
+  for mot in les20Premiers :
+    print mot[0] + ' ' + str(mot[1])
 
 ###
 
