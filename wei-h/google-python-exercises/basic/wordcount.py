@@ -69,7 +69,8 @@ def helper(filename):
                 wordcount[word] += 1
     
     return wordcount
-    
+
+
 # +++your code here+++
 # Define print_words(filename) and print_top(filename) functions.
 # You could write a helper utility function that reads a file
