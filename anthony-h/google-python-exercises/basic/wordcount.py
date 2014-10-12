@@ -39,6 +39,42 @@ print_words() and print_top().
 
 import sys
 
+filename='C:\Users\moi\Documents\Anthony\INFMDI721\MS-BGD\anthony-h\google-python-exercises\basic\alice.txt'
+def print_words(filename):
+    
+    word_count={}
+    text=open(filename,'r')
+    
+    for line in text:
+        for word in line.split():
+            word=word.lower()
+            if word not in word_count:
+                word_count[word]=1
+            else:
+                word_count[word]=word_count(word)+1
+                
+    for word in sorted(word_count.keys()):
+        print word,word_count[word]
+    
+def get_count(word_count_item):
+    return word_count_item[1]
+
+def print_top(filename):
+    word_count={}
+    text=open(filename,'r')
+    
+    for line in text:
+        for word in line.split():
+            word=word.lower()
+            if word not in word_count:
+                word_count[word]=1
+            else:
+                word_count[word]=word_count(word)+1
+                
+    for word in sorted(word_count.items(),key=get_count,reverse=True) [:20]:
+        print word,word_count[word]
+    
+
 # +++your code here+++
 # Define print_words(filename) and print_top(filename) functions.
 # You could write a helper utility function that reads a file
