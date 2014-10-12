@@ -39,8 +39,7 @@ print_words() and print_top().
 
 import sys
 
-filename="\home\weimender\TPINFMDI721\MS-BGD\wei-h\google-python-exercises\basic\alice.txt"
-#filename=".\alice.txt"
+filename=".\alice.txt"
 
 def print_words(filename):
     
