@@ -71,10 +71,13 @@ def print_top(filename):
     w = word.lower()
     result[w] = result[w] + 1
 
+  i = 0;
   for key, value in sorted(result.iteritems(), key=lambda (k,v): (v,k), reverse = True):
-    print "%s: %s" % (key, value)
-###
+    if i <20:
+      print "%s: %s" % (key, value)
+    i+=1
 
+####
 # This basic command line argument parsing code is provided and
 # calls the print_words() and print_top() functions which you must define.
 def main():
