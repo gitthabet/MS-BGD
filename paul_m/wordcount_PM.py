@@ -45,36 +45,31 @@ import sys
 # and builds and returns a word/count dict for it.
 # Then print_words() and print_top() can just call the utility function.
 
-def dictionnaire(fichier):
+def creation_dictionnaire(fichier):
   dic={}
   input_file = open(fichier,'r')
-  for ligne in input_file:
-    mots=ligne.split()
-    for mot in mots:
-      mot=mot.lower()
-      if not mot in mots:
-        dic[mot]=1
-      else:
-        dic[mot]+=1
-  return dic
+  contenuFichier = input_file.read()
+  mots=contenuFichier.split()
+  for mot in mots:
+    mot=mot.lower()
+    if not mot in dic.keys():
+      dic[mot]=1
+    else:
+      dic[mot]+=1
+  return sorted(dic.items(),key=occurence,reverse=True)
 
-def nbrmots(tuple):
-  return tuple[1]
-
-def dictionnairetrie(fichier):
-  dic=dictionnaire(fichier)
-  dictrie=sorted(dic,key=nbrmots,reverse=True)
-  return dictrie
+def occurence(element):
+  return element[1]
 
 def print_words(fichier):
-  dictrie=dictionnairetrie(fichier)
-  for w in dictrie:
-    print w[0]," ",w[1]
+  dictrie=creation_dictionnaire(fichier)
+  for mot, occ in dictrie:
+    print "{} {}".format(mot,occ)
 
 def print_top(fichier):
-  dictrie=dictionnairetrie(fichier)
-  for w in dictrie[:20]:
-    print w[0]," ",w[1]
+  dictrie=creation_dictionnaire(fichier)
+  for mot,occ in dictrie[:20]:
+    print "{} {}".format(mot,occ)
 
 
 # This basic command line argument parsing code is provided and
