@@ -39,6 +39,36 @@ print_words() and print_top().
 
 import sys
 
+def read_file(filename):
+  mot_nb = {}
+  fichier = open(filename,'r')
+  lignes = fichier.readlines()
+  fichier.close()
+  for ligne in lignes:
+    mots=ligne.split()
+    for mot in mots:
+        mot=mot.lower()
+        if mot in mot_nb:
+            mot_nb[mot]+=1
+        else:
+            mot_nb[mot]=1
+  return mot_nb
+
+def print_words(filename):
+  mots = read_file(filename)
+  motstries = sorted(mots.keys())
+  for mot in motstries:
+   print mot, mots[mot]
+
+def get_count(word_count_tuple):
+  return word_count_tuple[1]
+
+def print_top(filename):
+  word_count = read_file(filename)
+  items = sorted(word_count.items(), key=get_count, reverse=True)
+  for item in items[:20]:
+    print item[0], item[1]
+
 # +++your code here+++
 # Define print_words(filename) and print_top(filename) functions.
 # You could write a helper utility function that reads a file
