@@ -44,39 +44,37 @@ import sys
 # You could write a helper utility function that reads a file
 # and builds and returns a word/count dict for it.
 # Then print_words() and print_top() can just call the utility function.
+def word_count_dict(filename):
+  word_count = {}  
+  input_file = open(filename, 'r')
+  for line in input_file:
+    words = line.split()
+    for word in words:
+      word = word.lower()
+      if not word in word_count:
+        word_count[word] = 1
+      else:
+        word_count[word] = word_count[word] + 1
+  input_file.close() 
+  return word_count
+  
+def print_words(filename):
+  word_count = word_count_dict(filename)
+  words = sorted(word_count.keys())
+  for word in words:
+    print word, word_count[word]
+    
+def get_count(word_count_tuple):
+  return word_count_tuple[1]
+    
+def print_top(filename):
+  word_count = word_count_dict(filename)
 
-def creation_dictionnaire(fichier):
-  dic={}
-  input_file = open(fichier,'r')
-  contenuFichier = input_file.read()
-  mots=contenuFichier.split()
-  for mot in mots:
-    mot=mot.lower()
-    if not mot in dic.keys():
-      dic[mot]=1
-    else:
-      dic[mot]+=1
-  return sorted(dic.items(),key=occurence,reverse=True)
-
-def occurence(element):
-  return element[1]
-
-def print_words(fichier):
-  dictrie=creation_dictionnaire(fichier)
-  for mot, occ in dictrie:
-    print "{} {}".format(mot,occ)
-
-def print_top(fichier):
-  dictrie=creation_dictionnaire(fichier)
-  for mot,occ in dictrie[:20]:
-    print "{} {}".format(mot,occ)
-
+###
 
 # This basic command line argument parsing code is provided and
 # calls the print_words() and print_top() functions which you must define.
-
 def main():
-
   if len(sys.argv) != 3:
     print 'usage: ./wordcount.py {--count | --topcount} file'
     sys.exit(1)
