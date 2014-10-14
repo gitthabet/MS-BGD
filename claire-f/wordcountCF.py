@@ -51,6 +51,11 @@ import sys
 
 def print_words(filename):
 
+    dict = {}
+    dict = trt_fic(filename)
+    print dict
+
+def trt_fic(filename):
     lstMots = []
     nbrMots = 0
     dict = {}
@@ -60,20 +65,35 @@ def print_words(filename):
     for uneLigne in monFic:
         for unMot in uneLigne.split():
             mot = unMot.lower()
+# dict : key = mot, valeur = compteur de ce mot
             if mot in dict:
                 dict[mot] +=1
             else:
                 dict[mot] = 1
-
-    print dict
     monFic.close()
 
+    return dict
 
-def print_top
-    
-    
+def print_top(filename):
+    dict = {}
+    dict = trt_fic(filename)
+    liste = []
 
-    monFic.close()
+    for mot in dict:
+        tuple = (dict[mot],mot)
+        liste.append(tuple)
+    
+    liste = sorted(liste, key=lambda liste: liste[0], reverse=True)   
+    
+    compteur = 0
+
+    for tuple in liste:
+        print compteur
+        print tuple
+        compteur = compteur + 1
+        if compteur > 20: sys.exit()
+
+
 
 
 # This basic command line argument parsing code is provided and

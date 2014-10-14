@@ -38,45 +38,50 @@ print_words() and print_top().
 """
 
 import sys
-
 # +++your code here+++
 # Define print_words(filename) and print_top(filename) functions.
 # You could write a helper utility function that reads a file
 # and builds and returns a word/count dict for it.
 # Then print_words() and print_top() can just call the utility function.
 
-def creation_dictionnaire(fichier):
-  dic={}
-  input_file = open(fichier,'r')
-  contenuFichier = input_file.read()
-  mots=contenuFichier.split()
-  for mot in mots:
-    mot=mot.lower()
-    if not mot in dic.keys():
-      dic[mot]=1
-    else:
-      dic[mot]+=1
-  return sorted(dic.items(),key=occurence,reverse=True)
+def helper(filename):
+  f = open(filename, 'rU')
+  dictionnary = {}
+  for line in f:
+    words = line.split()
+    for word in words:
+      word = word.lower()
+      if word in dictionnary: 
+        dictionnary[word] +=1
+      else: dictionnary[word]=1
+  f.close()
+  return dictionnary
 
-def occurence(element):
-  return element[1]
+def print_words(filename):
+  dictio = helper(filename)
+  for word in dictio:
+   print word + " : " + str(dictio[word])
 
-def print_words(fichier):
-  dictrie=creation_dictionnaire(fichier)
-  for mot, occ in dictrie:
-    print "{} {}".format(mot,occ)
+import operator
+def print_top(filename):
+ dictio = helper(filename)
+ sorted_dictio = sorted(dictio.items(), key=operator.itemgetter(1))
+ b=0
+ for it in sorted_dictio[-20:]:
+   print str(it[0]) + " : " + str(it[1])
 
-def print_top(fichier):
-  dictrie=creation_dictionnaire(fichier)
-  for mot,occ in dictrie[:20]:
-    print "{} {}".format(mot,occ)
+
+
+
+
+
+
 
 
 # This basic command line argument parsing code is provided and
 # calls the print_words() and print_top() functions which you must define.
 
 def main():
-
   if len(sys.argv) != 3:
     print 'usage: ./wordcount.py {--count | --topcount} file'
     sys.exit(1)
