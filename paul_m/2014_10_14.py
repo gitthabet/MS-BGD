@@ -27,8 +27,8 @@ def last2(string):
     #return string.count(stest)-1
     a=0
     for n,i in enumerate(string):
-        if n!=len(string):
-            if string[n]==stest[0] & string[n+1]==stest[1]:
+        if n!=len(string)-1:
+            if string[n]==stest[0] and string[n+1]==stest[1]:
                 a+=1
     return a-1
 
