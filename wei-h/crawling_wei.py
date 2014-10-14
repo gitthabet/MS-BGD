@@ -9,32 +9,6 @@ import requests
 from bs4 import BeautifulSoup
 import html5lib
 
-#result = req.get('https://www.youtube.com/')
-"""res = req.get('https://www.youtube.com/results?search_query=rihanna')
-
-#print result.text
-#soup = BeautifulSoup(res.text)
-soup = BeautifulSoup(res.text,"html5lib")
-if res.status_code == 200:
-    #print 'Request successful'
-    
-    #print soup.prettify()
-    balises_a = soup.find_all("a", class_="yt-uix-tile-link")
-    #print balises_a
-    links = [balise.get('href') for balise in balises_a]
-    print 'Here are the links ', links
-    #link = links[0]
-    #print link
-    
-    for link in links:
-        soupPage = 
-    
-    #links.pop(0)
-    #pageHTML = 
-else:
-    print "Request failed"
-    """
-
 # Returns a soup object from a given url
 def getSoupFromUrl(url):
     result = requests.get(url)
@@ -45,8 +19,8 @@ def getSoupFromUrl(url):
         print 'Request failed', url
         return None
 
-# REmove links that are not watch video
-def popNoVideo(links):
+# Remove links that are not watch video
+def removeNoVideoLinks(links):
     count = 0
     for link in links:
         if link.find("watch") == -1:
@@ -58,7 +32,7 @@ def getAllMetricsForArtist(artist):
     soupYoutube = getSoupFromUrl('https://www.youtube.com/results?search_query='+artist)
     balises_a = soupYoutube.find_all("a", class_="yt-uix-tile-link")
     links = [balise.get('href') for balise in balises_a]
-    links=popNoVideo(links)
+    links=removeNoVideoLinks(links)
     print 'Here are the video links', links
     
     link = links[0]
@@ -83,23 +57,3 @@ def getAllMetricsForArtist(artist):
 
 rihanna = getAllMetricsForArtist('rihanna')
 beyonce = getAllMetricsForArtist('beyonce')
-
-
-#print result.headers['content-type']
-
-#print result.encoding
-
-#print soup.prettify()
-
-
-#for balise in balises_a:
-#    print balise.text
-
-    #class_=\"yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link\"
-
-#<a href="/watch?v=ehcVomMexkY" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDEQ3DAYAiITCJfJwNzZq8ECFcuHwgodB18ANCj0JFIHcmloYW5uYQ" title="Rihanna - Pour It Up (Explicit)" dir="ltr">Rihanna - Pour It Up (Explicit)</a>
-#print result.text
-
-#print result.json()
-
-#print result.
