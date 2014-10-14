@@ -45,38 +45,43 @@ import sys
 # and builds and returns a word/count dict for it.
 # Then print_words() and print_top() can just call the utility function.
 
-def creation_dictionnaire(fichier):
-  dic={}
-  input_file = open(fichier,'r')
-  contenuFichier = input_file.read()
-  mots=contenuFichier.split()
-  for mot in mots:
-    mot=mot.lower()
-    if not mot in dic.keys():
-      dic[mot]=1
+def print_words(filename):
+  f = open(filename,"r")
+  text = f.readlines()
+  textLowerCase = text.lower()
+  wordsInText = textLowerCase.split(" ")
+  sortedWordsInText = wordsInText.sort()
+  count = {}
+  for word in sortedWordsInText:
+    if word in count:
+      count[word] += 1
     else:
-      dic[mot]+=1
-  return sorted(dic.items(),key=occurence,reverse=True)
+      count[word] = 1
+  for word in count:
+    print "%s %d" % (word, count[word])
+  f.close()
 
-def occurence(element):
-  return element[1]
+def getCount(count):
+  return count[1]
 
-def print_words(fichier):
-  dictrie=creation_dictionnaire(fichier)
-  for mot, occ in dictrie:
-    print "{} {}".format(mot,occ)
-
-def print_top(fichier):
-  dictrie=creation_dictionnaire(fichier)
-  for mot,occ in dictrie[:20]:
-    print "{} {}".format(mot,occ)
-
+def print_top(filename):
+  f = open(filename,"r")
+  text = f.readlines()
+  textLowerCase = text.lower()
+  wordsInText = textLowerCase.split(" ")
+  sortedWordsInText = wordsInText.sort()
+  count = {}
+  for word in sortedWordsInText:
+    if word in count:
+      count[word] += 1
+    else:
+      count[word] = 1
+  sorted(count.items(),key=getCount,reverse=True)
+###
 
 # This basic command line argument parsing code is provided and
 # calls the print_words() and print_top() functions which you must define.
-
 def main():
-
   if len(sys.argv) != 3:
     print 'usage: ./wordcount.py {--count | --topcount} file'
     sys.exit(1)
