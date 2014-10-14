@@ -6,6 +6,7 @@ import unittest
 
 def string_times(string, n):
 <<<<<<< HEAD
+<<<<<<< HEAD
     n_string = string
     for i in range(1,n):
         n_string+=string
@@ -14,10 +15,14 @@ def string_times(string, n):
 =======
     return
 >>>>>>> 8659b647e91e601ed89958183ca6264a0886023c
+=======
+    return string*n
+>>>>>>> c1d13ecbaeed672249831b4d716b7ee250cbb11b
 
 # Given an array of ints, return True if one of the first 4 elements
 # in the array is a 9. The array length may be less than 4.
 def array_front9(nums):
+<<<<<<< HEAD
 <<<<<<< HEAD
  results = False
  index = 0
@@ -30,11 +35,21 @@ def array_front9(nums):
 =======
     return
 >>>>>>> 8659b647e91e601ed89958183ca6264a0886023c
+=======
+    
+    for i in range (1,4):
+        if nums[i]==9:
+            return True
+        else:
+            return False
+            
+>>>>>>> c1d13ecbaeed672249831b4d716b7ee250cbb11b
 
 # Given a string, return the count of the number of times
 # that a substring length 2 appears  in the string and also as
 # the last 2 chars of the string, so "hixxxhi" yields 1 (we won't count the end substring).
 def last2(string):
+<<<<<<< HEAD
 <<<<<<< HEAD
  str_search=string[-2:]
  count = 0
@@ -45,6 +60,15 @@ def last2(string):
 =======
     return
 >>>>>>> 8659b647e91e601ed89958183ca6264a0886023c
+=======
+    count=0
+    for i in range(len(string-2)):
+        if string[i:i+2]==string[-2:]:
+            count=count+1
+                
+    return count
+    
+>>>>>>> c1d13ecbaeed672249831b4d716b7ee250cbb11b
 
 
 # Here's our "unit tests".
