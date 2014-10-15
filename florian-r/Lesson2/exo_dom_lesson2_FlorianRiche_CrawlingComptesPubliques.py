@@ -20,18 +20,15 @@ def GetReportFromYear(year):
     'TOTAL DES CHARGES DE FONCTIONNEMENT = B',
     "TOTAL DES RESSOURCES D'INVESTISSEMENT = C",
     "TOTAL DES EMPLOIS D'INVESTISSEMENT = D"]
-#    print prettypage
     for row in RowsToFind :
         ligne = prettypage.find(text=row).parent.parent
         cellules = ligne.contents
-        #print cellules
         dataParHabitant= cellules[3].text
         dataParHabitant= int(dataParHabitant.replace(u'\xa0', u' ').replace(' ' ,''))
 
         dataParStrate = cellules[5].text
         dataParStrate= int(dataParStrate.replace(u'\xa0', u' ').replace(' ' ,''))
 
-        #    
         
         print dataParHabitant
         print dataParStrate
@@ -40,14 +37,6 @@ def GetReportFromYear(year):
         Result["MoyenneStrate"]=dataParStrate
         report[row]=Result
     return report
-#    cellules = [prettypage.find_all(class_='montpetit G')
-#    print cellules
-    
-    
-#    print ligne
-#    print page.text()    
-#    print url
-    
 
 Reports={}
 Reports["Report2013"]= GetReportFromYear('2013')
@@ -55,4 +44,3 @@ Reports["Report2012"]= GetReportFromYear('2012')
 Reports["Report2011"]= GetReportFromYear('2011')
 Reports["Report2010"]= GetReportFromYear('2010')
 pprint.pprint(Reports)
-#print BeautifulSoup(Reports).prettify
