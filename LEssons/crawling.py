@@ -17,10 +17,14 @@ def getAllMetricsForArtist(artist):
     balises_a = soupYoutube.find_all("a", class_="yt-uix-tile-link")
     links = [balise.get('href') for balise in balises_a]
     print 'Here are the links', links
-    #links.pop(0)
-    #links.pop(0)
     #TODO
     # REmove links that are not watch video
+    def excep(links):
+        for i in range(len(links)):
+            if links[i][1]=='u':
+                return links[i]
+            print links[i]
+    links.pop(links.index(excep(links)))
     link = links[0]
     all_metrics = []
     for link in links:
