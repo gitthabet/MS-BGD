@@ -7,7 +7,7 @@ Created on Tue Oct 14 09:54:24 2014
 
 import requests
 from bs4 import BeautifulSoup
-import html5lib
+#import html5lib
 
 # Returns a soup object from a given url
 def getSoupFromUrl(url):
