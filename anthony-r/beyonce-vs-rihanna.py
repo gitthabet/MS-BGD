@@ -71,6 +71,7 @@ class SongInfo:
 
     self.view_count = self.data.findAll(attrs={'class': re.compile(r".*\bwatch-view-count\b.*")})[0].text
     self.title = self.data.title.string
+
     self.likes = self.data.find_all(id='watch-like')[0].text
     self.dislikes = self.data.find_all(id='watch-dislike')[0].text
 
@@ -125,6 +126,20 @@ def save_beyonce(artist):
 
     con.commit()
 
+def save_rihanna(artist):
+  con = lite.connect('beyonce_vs_rihanna.db')
+  with con:
+    cur = con.cursor()
+    # Saving detailled data
+    details = artist.export_details_to_db()
+    cur.executemany(''' INSERT INTO Rihanna_details(Curr_date, Title, Views, Likes, Dislikes) VALUES(?,?,?,?,?)''', details)
+
+    # Saving aggregated data
+    aggregate = artist.export_aggregate_to_db()
+    cur.execute(''' INSERT INTO Rihanna_stats(Curr_date, Total_likes, Total_dislikes, Total_Views) VALUES(?,?,?,?)''',aggregate)
+
+    con.commit()
+
 # Retrieving Data
 bey_child_urls = get_url_list(beyonce_root_url)
 rih_child_urls = get_url_list(rihanna_root_url)
@@ -145,3 +160,4 @@ Beyonce.describe()
 Rihanna.describe()
 
 save_beyonce(Beyonce)
+save_rihanna(Rihanna)
