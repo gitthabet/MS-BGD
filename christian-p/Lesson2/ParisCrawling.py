@@ -23,27 +23,6 @@ def getSoupFromUrl(url):
         print 'Request failed', url
         return None
 
-def correct_unicode(s):
-    """ Corrects things like \xe9 """
-    errs ={ u"\xe9":u"e",
-            u"\xe8":u"e",
-            u"\xea":u"e",
-            u"\xf6":u"o",
-            u"\xf8":u"o",
-            u"\xf3":u"o",
-            u"\xfc":u"u", 
-            u"\xe4":u"a", 
-            u"\xe1":u"a", 
-            u"\xe3":u"a", 
-            u"\xed":u"i" 
-          }
-    for err in errs: 
-       if err in s:
-            ss = s.split(err)
-            res =  errs[err].join(ss)
-            return res
-    return s
-
 def getMetricsABCDforParis(year):
     
     soupParis = getSoupFromUrl('http://alize2.finances.gouv.fr/communes/eneuro/detail.php?icom=056&dep=075&type=BPS&param=5&exercice='+str(year))
