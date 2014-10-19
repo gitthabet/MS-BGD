@@ -17,8 +17,8 @@ def recherche(chanteuse):
 
         links.pop(0)
 
-        print 'here are the links'
-        print links
+#        print 'here are the links'
+#        print links
 
         count = 0
         for link in links:
@@ -70,6 +70,16 @@ def calc_totaux(cptr_chanteuse):
         nb_dislikes = nb_dislikes + cpt_page['compteur_dislikes']
     return (nb_views,nb_likes,nb_dislikes)
 
+def calc_ratio(cptr_chanteuse):
+    ratio = 0
+    for cpt_page in cptr_chanteuse:
+        nb_views = cpt_page['compteur_views']
+        nb_likes = cpt_page['compteur_likes']
+        nb_dislikes = cpt_page['compteur_dislikes']
+        ratio = ratio + nb_views*(nb_likes - nb_dislikes)/(nb_likes + nb_dislikes)
+        
+    return (ratio)
+
 fichier=open("fic_result.txt",'w') 
 
 # RIHANNA
@@ -77,15 +87,24 @@ fichier.write("Rihanna"+'\n')
 cptr_rihanna = recherche("rihanna")
 totaux_rihanna = calc_totaux(cptr_rihanna)
 print "Totaux rihanna", totaux_rihanna
-
+ratio_rihanna = calc_ratio(cptr_rihanna)
+print "ratio rihanna : ",ratio_rihanna
 
 # BEYONCE
 fichier.write("Beyonce"+'\n')
 cptr_beyonce = recherche("beyonce")
 totaux_beyonce = calc_totaux(cptr_beyonce)
 print "Totaux beyoncé", totaux_beyonce
+ratio_beyonce = calc_ratio(cptr_beyonce)
+print "ratio beyoncé : ", ratio_beyonce
 
 fichier.close()
+
+if ratio_rihanna>ratio_beyonce:
+    print("Rihanna gagne en RATIO")
+else:
+    print("C est Beyonce qui gagne en RATIO")
+
 
 if totaux_rihanna[1]>totaux_beyonce[1]:
     print("Rihanna gagne en likes")
