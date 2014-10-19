@@ -20,8 +20,7 @@ def getYearlyFinancialData (year, requiredDataList):
   
   #Get soup from the webpage
   yearlyFinancialStatementPageSoup = getSoupfromURL ('http://alize2.finances.gouv.fr/communes/eneuro/detail.php?icom=056&dep=075&type=BPS&param=5&exercice='+year)
-  #print yearlyFinancialStatementPageSoup
-  #print 'http://alize2.finances.gouv.fr/communes/eneuro/detail.php?icom=056&dep=075&type=BPS&param=5&exercice='+year
+
   #Initialize the dictionnary to store the data
   dataDictionary = {}  
   index = 1
