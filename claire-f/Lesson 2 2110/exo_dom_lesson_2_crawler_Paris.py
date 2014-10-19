@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 def recherche(annee):
     annee_str = str(annee)
     result = requests.get('http://alize2.finances.gouv.fr/communes/eneuro/detail.php?icom=056&dep=075&type=BPS&param=5&exercice='+annee_str)
-    mts_annee = []
+ #  mts_annee = []
 
     if result.status_code == 200:
         print 'request successful'
@@ -47,7 +47,7 @@ def recherche(annee):
     else:
         print 'request failed'
     
-    return mts_annee
+#   return mts_annee
 
 fichier=open("fic_result.txt",'w') 
 
