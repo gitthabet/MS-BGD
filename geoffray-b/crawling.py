@@ -1,7 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Oct 14 11:20:47 2014
+
+@author: taigeo
+"""
+
+import urllib2
 import requests
 from bs4 import BeautifulSoup
-
-
 # Returns a soup object from a given url
 def getSoupFromUrl(url):
     result = requests.get(url)
@@ -17,14 +23,10 @@ def getAllMetricsForArtist(artist):
     balises_a = soupYoutube.find_all("a", class_="yt-uix-tile-link")
     links = [balise.get('href') for balise in balises_a]
     print 'Here are the links', links
+    #links.pop(0)
+    #links.pop(0)
     #TODO
     # REmove links that are not watch video
-    def excep(links):
-        for i in range(len(links)):
-            if links[i][1]=='u':
-                return links[i]
-            print links[i]
-    links.pop(links.index(excep(links)))
     link = links[0]
     all_metrics = []
     for link in links:
@@ -43,7 +45,6 @@ def getAllMetricsForArtist(artist):
         print 'MEtrics for ', metrics
         all_metrics.append(metrics)
     return all_metrics
-
-
+        
 rihanna = getAllMetricsForArtist('rihanna')
 beyonce = getAllMetricsForArtist('beyonce')
