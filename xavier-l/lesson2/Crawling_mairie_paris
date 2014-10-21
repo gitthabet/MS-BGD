@@ -1,0 +1,49 @@
+import requests
+from bs4 import BeautifulSoup
+
+
+# Returns a soup object from a given url
+def getSoupFromUrl(url):
+    result = requests.get(url)
+    if result.status_code == 200:
+        #print 'Request succesful'
+        return BeautifulSoup(result.text)
+    else:
+        print 'Request failed', url
+        return None
+
+
+def getAllValuesForABCD(year):
+    soupMairie = getSoupFromUrl('http://alize2.finances.gouv.fr/communes/eneuro/detail.php?icom=056&dep=075&type=BPS&param=5&exercice='+str(year))
+    balises_a = soupMairie.find_all("tr", class_="bleu")
+    
+    balise = balises_a[3];
+    detail = balise.find_all("td", class_="montantpetit G")
+    montant_HAB_A = detail[1].text
+    montant_Strate_A = detail[2].text       
+    
+    balise = balises_a[7];
+    detail = balise.find_all("td", class_="montantpetit G")
+    montant_HAB_B = detail[1].text
+    montant_Strate_B = detail[2].text
+    
+    balise = balises_a[15];
+    detail = balise.find_all("td", class_="montantpetit G")
+    montant_HAB_C = detail[1].text
+    montant_Strate_C = detail[2].text
+    
+    balise = balises_a[20];
+    detail = balise.find_all("td", class_="montantpetit G")
+    montant_HAB_D = detail[1].text
+    montant_Strate_D = detail[2].text 
+
+    return {montant_HAB_A,montant_Strate_A,montant_HAB_B,montant_Strate_B,montant_HAB_C,montant_Strate_C,montant_HAB_D,montant_Strate_D}
+
+
+Dates = {2010,2011,2012,2013}
+
+for date in Dates: 
+    print date
+    print "montant_HAB_A,montant_Strate_A,montant_HAB_B,montant_Strate_B,montant_HAB_C,montant_Strate_C,montant_HAB_D,montant_Strate_D"
+    print getAllValuesForABCD(date)
+
