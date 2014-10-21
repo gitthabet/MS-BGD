@@ -15,23 +15,33 @@ def getSoupFromUrl(url):
 
 def getAllPeople(page):
     soupPeople = getSoupFromUrl("https://news.ycombinator.com/news?p="+str(page))
-    balises_P = soupKarma.find_all("td", class_="subtext")
-    
-   for 
+    balises_P = soupPeople.find_all("td", class_="subtext")
+    People={}
+    for balise in balises_P:
+        Name = balise.find_all("a")
+        Name = str(Name[0])
+        if Name.index("id="):
+            i = Name.index("id=")
+            j = Name.index("\"=")
+            Name = Name[i+3:j]
+            Karma = getKarma(Name)
+            People[Name]=Karma
+    return People
 
-    return 
 
-def getAllKarma(people):
+def getKarma(people):
     soupKarma = getSoupFromUrl("https://news.ycombinator.com/user?id="+str(people))
-    balises_K = soupKarma.find_all("td", class_="valign")
+    balises_K = soupKarma.find_all("td")
+    for balise in balise_k:
+        if 'Karma' in str(balise):
+            baliseatraiter = balise
+            balisetraiter = 0
+    return balisetraiter
 
 
 pages = [1,2,3]
 print "Name Karma"
-People =  getAllKarmaForPeople(date)
-
-
-for date in Dates: 
-    print date
-    print getAllValuesForABCD(date)
+for page in pages:
+    PeopleName =  getAllPeople(page)
+    print PeopleName
 
