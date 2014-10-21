@@ -29,6 +29,13 @@ url="http://alize2.finances.gouv.fr/communes/eneuro/detail.php?icom=056&dep=075&
 totaux_financiers_eph={}
 totaux_financiers_ms={}
 
+<<<<<<< HEAD
+=======
+result=getSoupFromUrl(url+str(2013))
+balises_tr=result.find_all("tbody nth-of-type(6)")
+print "test",balises_tr
+
+>>>>>>> 788f81667cea7a722cf32174d7620bd6639e9e3a
 #for date in Dates:
 for date in Dates:
 	result=getSoupFromUrl(url+str(date))
@@ -53,6 +60,12 @@ for date in Dates:
 			#On incremente les lettres
 			j=j+1
 
+<<<<<<< HEAD
 print totaux_financiers_eph
+=======
+print "Euros Par Habitant"
+print totaux_financiers_eph
+print "Moyenne de la strate"
+>>>>>>> 788f81667cea7a722cf32174d7620bd6639e9e3a
 print totaux_financiers_ms
 

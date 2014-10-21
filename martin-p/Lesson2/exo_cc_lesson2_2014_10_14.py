@@ -5,32 +5,36 @@ import unittest
 # that is n copies of the original string.
 
 def string_times(string, n):
-    st=""
-    for i in range(n):
-        st+=string
-    return st
+    if n >= 0:
+        for i in range(n):
+            stra = stra + string 
+        return stra
+    else:
+        return
 
 # Given an array of ints, return True if one of the first 4 elements
 # in the array is a 9. The array length may be less than 4.
 def array_front9(nums):
-    a=9
-    if a in nums[:4]:
-        return True
-    else:
-        return False
+    for current in range(len(nums)):
+     if current < 4 and nums[current] == 9:
+         return True
+    return False
 
 # Given a string, return the count of the number of times
 # that a substring length 2 appears  in the string and also as
 # the last 2 chars of the string, so "hixxxhi" yields 1 (we won't count the end substring).
 def last2(string):
-    stest=string[-2:]
-    #return string.count(stest)-1
-    a=0
-    for n,i in enumerate(string):
-        if n!=len(string)-1:
-            if string[n]==stest[0] and string[n+1]==stest[1]:
-                a+=1
-    return a-1
+    if (len(string) < 2):
+        return 0
+    
+    index = 0
+    lastCharacter = string[-2:]
+    for i in range(len(string)):
+        tmp = string[i:i+2]
+        if (tmp == lastCharacter):
+            index +=1
+    
+    return index-1
 
 
 # Here's our "unit tests".
