@@ -24,16 +24,22 @@ for link in soupHN.find_all('a'):
 userids = []
 for link in links:
     if link[0:8]=='user?id=':
+         # get user name
         userids.append(link[8:])
-        # get user name
 
 # get corresponding karmas
-karma = {}
+karmas = {}
 for userid in userids:
     # load user id page
     soupHN_user = getSoupFromUrl('https://news.ycombinator.com/user?id=' + userid)
-    # get karma from user
+    #<bound method Tag.get of <td valign="top">karma:</td>>
+    count = 0
+    for html in soupHN_user.find_all('td'):
+        count = count+1    
+        if count==11: 
+            karma = int(html.text)
+    
+    # add karma of user
+    karmas[userid]=karma
 
-#userid = 'iprashantsharma'
-#soupHN_user = getSoupFromUrl('https://news.ycombinator.com/user?id=' + userid)
-#soupHN_user.find_all('.valign')
+karmas
