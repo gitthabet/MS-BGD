@@ -21,17 +21,11 @@
 # and last chars of the string are the same.
 # Note: python does not have a ++ operator, but += works.
 def match_ends(words):
-    count=0
-    for i in words:
-        l=len(i)
-        if l>1:
-            if i[0]==i[-1]:
-                count+=1
-    return count
-  
-        
-match_ends(['thabet','chelligue'])        
-    
+  count = 0
+  for w in words:
+    if (len(w)>1 and w[0]==w[-1]):
+      count += 1;
+  return count
 
 
 # B. front_x
@@ -42,23 +36,18 @@ match_ends(['thabet','chelligue'])
 # Hint: this can be done by making 2 lists and sorting each of them
 # before combining them.
 def front_x(words):
-    a=[]
-    b=[]
-    for i in words:
-        if i[0]=='x':
-            a.append(i)
-        else:
-            b.append(i)
-    a.sort()
-    b.sort()
-    a.extend(b)
-    return a
-    
-    
-words=['thabet','xchelligue']
-front_x(words)
+  Listx = []
+  Listnonx = []
+  for w in words:
+    if w[0]=='x':
+      Listx.append(w)
+    else:
+      Listnonx.append(w)
 
+  Listx.sort()
+  Listnonx.sort()
 
+  return Listx + Listnonx
 
 
 
@@ -68,21 +57,12 @@ front_x(words)
 # e.g. [(1, 7), (1, 3), (3, 4, 5), (2, 2)] yields
 # [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
 # Hint: use a custom key= function to extract the last element form each tuple.
+def last(a):
+  return a[-1]
 
 def sort_last(tuples):
-  x = 0
-  a = []
-  b = []
-  for t in tuples:
-      x = t[len(t)-1]
-      a.append(x)
-  a.sort()
-  for l in a:
-    for t in tuples:
-      if t[len(t)-1] == l:
-        b.append(t)
-        tuples.remove(t)
-  return b
+  return sorted(tuples, key=last)
+
 
 # Simple provided test() function used in main() to print
 # what each function returns vs. what it's supposed to return.
