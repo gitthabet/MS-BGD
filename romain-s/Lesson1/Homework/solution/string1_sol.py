@@ -23,12 +23,17 @@
 # instead of the actual count.
 # So donuts(5) returns 'Number of donuts: 5'
 # and donuts(23) returns 'Number of donuts: many'
-
 def donuts(count):
-    return 'Number of donuts: '+ str(count) if count<10 else 'Number of donuts: many'
+  # +++your code here+++
+  # LAB(begin solution)
+  if count < 10:
+    return 'Number of donuts: ' + str(count)
+  else:
+    return 'Number of donuts: many'
+  # LAB(replace solution)
+  # return
+  # LAB(end solution)
 
-donuts(5)
-donuts(23)
 
 # B. both_ends
 # Given a string s, return a string made of the first 2
@@ -36,10 +41,23 @@ donuts(23)
 # so 'spring' yields 'spng'. However, if the string length
 # is less than 2, return instead the empty string.
 def both_ends(s):
-  return s[:2]+s[-2:] if len(s)>=2 else ''
+  # +++your code here+++
+  # LAB(begin solution)
+  if len(s) < 2:
+    return ''
+  first2 = s[0:2]
+  last2 = s[-2:]
+  return first2 + last2
+  # LAB(replace solution)
+  # return
+  # LAB(end solution)
 
-both_ends('thabet')
-both_ends('t')
+both_ends('essai')
+both_ends('no')
+both_ends('i')
+
+s = 'essai'
+print(s[0:3])
 
 # C. fix_start
 # Given a string s, return a string
@@ -51,11 +69,17 @@ both_ends('t')
 # Hint: s.replace(stra, strb) returns a version of string s
 # where all instances of stra have been replaced by strb.
 def fix_start(s):
-  first_char=s[0]
-  t=s.replace(first_char,'*')
-  return s[0]+t[1:] if len(s)>=2 else ''
+  # +++your code here+++
+  # LAB(begin solution)
+  front = s[0]
+  back = s[1:]
+  fixed_back = back.replace(front, '*')
+  return front + fixed_back
+  # LAB(replace solution)
+  # return
+  # LAB(end solution)
 
-fix_start('babble')
+fix_start('tentative')
 
 # D. MixUp
 # Given strings a and b, return a single string with a and b separated
@@ -65,10 +89,14 @@ fix_start('babble')
 #   'dog', 'dinner' -> 'dig donner'
 # Assume a and b are length 2 or more.
 def mix_up(a, b):
-  return a.replace(a[:2],b[:2])+' '+b.replace(b[:2],a[:2]) if len(a)>=2 and len(b)>=2 else ''
-
-mix_up('mix','pod') 
-mix_up('dog','dinner')  
+  # +++your code here+++
+  # LAB(begin solution)
+  a_swapped = b[:2] + a[2:]
+  b_swapped = a[:2] + b[2:]
+  return a_swapped + ' ' + b_swapped
+  # LAB(replace solution)
+  # return
+  # LAB(end solution)
 
 
 # Provided simple test() function used in main() to print
@@ -80,7 +108,6 @@ def test(got, expected):
     prefix = '  X '
   print '%s got: %s expected: %s' % (prefix, repr(got), repr(expected))
 
-test('hhh','hhh')
 
 # Provided main() calls the above functions with interesting inputs,
 # using test() to check if each result is correct or not.
