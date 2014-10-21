@@ -1,0 +1,38 @@
+year 2009
+
+year 2010
+mt_D_par_hab : 1 265
+mt_B_par_hab : 2 241
+mt_B_par_strate : 2 241
+mt_D_par_strate : 1 265
+mt_A_par_hab : 2 449
+mt_C_par_strate : 1 119
+mt_C_par_hab : 1 119
+mt_A_par_strate : 2 449
+year 2011
+mt_D_par_hab : 1 268
+mt_B_par_hab : 2 327
+mt_B_par_strate : 2 327
+mt_D_par_strate : 1 268
+mt_A_par_hab : 2 546
+mt_C_par_strate : 1 264
+mt_C_par_hab : 1 264
+mt_A_par_strate : 2 546
+year 2012
+mt_D_par_hab : 1 058
+mt_B_par_hab : 2 135
+mt_B_par_strate : 2 135
+mt_D_par_strate : 1 058
+mt_A_par_hab : 2 311
+mt_C_par_strate : 1 085
+mt_C_par_hab : 1 085
+mt_A_par_strate : 2 311
+year2013
+mt_D_par_hab : 1 048
+mt_B_par_hab : 2 235
+mt_B_par_strate : 2 235
+mt_D_par_strate : 1 048
+mt_A_par_hab : 2 308
+mt_C_par_strate : 1 157
+mt_C_par_hab : 1 157
+mt_A_par_strate : 2 308

@@ -14,53 +14,42 @@ def getSoupFromUrl(url):
         print 'Request failed', url
         return None
 
-""" getMontantABCD recupere les montants states et hab pour les totaux ABCD """
+""" getMontantABCD recupere les montants states et hab pour les totaux ABCD dans un dictionnaire"""
 def getMontantABCD(year):
     soupYoutube = getSoupFromUrl('http://alize2.finances.gouv.fr/communes/eneuro/detail.php?icom=056&dep=075&type=BPS&param=5&exercice='+str(year))
     balises_bleu = soupYoutube.find_all("tr", class_="bleu")
-    Montant_hab=[]
-    Montant_strate=[]
-    i=0
+    Montant_hab={}
+    Montant_strate={}
     for balise in balises_bleu:
         if 'TOTAL' in str(balise):
             #netoyage des entiers
-            Montanthab = balise.find_all("td")[1].text
-            Montantstrate = balise.find_all("td")[2].text
+            col = balise.find_all("td")
+            Montanthab = col[1].text
+            Montantstrate = col[2].text
+            index = col[3].text[-1:]
+            index = str(index)
             Montanthab = int(Montanthab.replace(u'\xa0', u' ').replace(' ' ,''))
             Montantstrate = int(Montantstrate.replace(u'\xa0', u' ').replace(' ' ,''))
-            Montant_hab.append(Montanthab)
-            Montant_strate.append(Montantstrate)
-            i=i+1
+            Montant_hab[index]= Montanthab
+            Montant_strate[index] = Montantstrate
+    # retourne         
     return [Montant_hab,Montant_strate]
-        #print 'Here are the links', links
-    #link = links[0]
-    # all_metrics = []
-    # for link in links:
-    #     if link[0:6] == '/watch':
-    #      soupPage = getSoupFromUrl('https://www.youtube.com' +link)
-    #      likes_count = soupPage.find_all(id='watch-like')[0].text
-    #      dislikes_count = soupPage.find_all(id='watch-dislike')[0].text
-    #      views_count = soupPage.find_all(class_='watch-view-count')[0].text
-    #      dislikes_count = int(dislikes_count.replace(u'\xa0', u' ').replace(' ' ,''))
-    #      likes_count = int(likes_count.replace(u'\xa0', u' ').replace(' ' ,''))
-    #      views_count = int(views_count.replace(u'\xa0', u' ').replace(' ' ,''))
-    #      metrics = {}
-    #      metrics['views_count'] = views_count
-    #      metrics['dislikes_count'] = dislikes_count
-    #      metrics['likes_count'] = likes_count
-    #      metrics['title'] = soupPage.title.text
-    #      #print 'MEtrics for ', metrics
-    #      all_metrics.append(metrics)
-    # print 'parser succesful, metric calculated for ' + artist
-    # return all_metrics
-result2010 = getMontantABCD(2010)
-result2011 = getMontantABCD(2011)
-result2012 = getMontantABCD(2012)
-result2013 = getMontantABCD(2013)
-
-print  result2010
-print  result2011 
-print  result2012
-print  result2013
 
 
+Date = {2010,2011,2012,2013}
+Compte_de_Paris_Habitants={}
+Compte_de_Paris_Strates={}
+for date in Date: 
+    temp = getMontantABCD(date)
+    Compte_de_Paris_Habitants[str(date)] = temp[0]
+    Compte_de_Paris_Strates[str(date)] = temp[1]
+Compte_de_Paris={}
+Compte_de_Paris['Strates']= Compte_de_Paris_Strates
+Compte_de_Paris['Habitants'] = Compte_de_Paris_Habitants
+
+""" Compte_de_Paris[1*][2*][3*]
+1* type 'Strates' ou 'Habitants'
+2* Annee '2010' - '2013'
+3* Totaux 'A','B','C','D'    """
+print  Compte_de_Paris
+print Compte_de_Paris['Strates']['2010']['A']

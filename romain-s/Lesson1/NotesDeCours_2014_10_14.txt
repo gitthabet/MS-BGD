@@ -1,0 +1,32 @@
+* crawler = bot que l'on va écrire pour aller chercher des infos
+exemple: sur youtube, aller chercher les nombres de vues sur la homepage
+difficile d'empêcher les crawler (notamment sites javascript)
+
+* exemple du jour: faire un crawler youtube pour voir qui de Rihanna ou Beyonce est la plus populaire
+
+* Quelques notes sur le html:
+	- on distingue sites classiques et sites dynamiques
+	- html <=> markup <=> DOM
+	- le html est fait de balises (cf lien qui va être envoyé)
+	- web = 1 couche de marquage + une couche de style
+	- pour accéder: clic droit > voir code source ou clic droit > inspecter élément
+	- 3 différents languages: HTML, CSS, JavaScript
+	- le serveur distant envoie les infos (html, css, js) et le browser les interprête
+	- html c'est le markup, le style c'est CSS et le javascript fait par exemple l'autocomplétion des moteurs de recherche, recharger plus de commentaires
+	- backend = server. Distant. Languages = Java, Ruby, Python, php...etc
+	- frontend = client = browser = chrome. Chez nous. C'est du javascript
+	- Java != JavaScript
+	- js permet de faire vivre le document après l'envoi par le server
+	- html c'est le statique (le markup) et javascript c'est ce qui permet de le rendre dynamique
+	- html: classe = maniere e faire un lien entre css et html (ex: tous ceux qui ont la classe X seront du style Y)
+	- beautiful-soup4 = parser (parser = )
+
+* comment faire le crawler?
+	1 - simuler une requête depuis le code python (par exemple voir la pqrtie 'network' de la page dans chrome developper tools (le code est fait pour être illisible: tout en attaché, avec de noms de variables pourris...etc)
+	2 - récupérer tous liens de Rihanna: identifier la classe qui identifie de manière unique tous les liens puis filtrer le DOM par un nom de classe
+
+
+* quelques notes sur le protocole web
+	- protocole web = http
+	- requêtes: GET (récupérer une info), POST (envoyer de l'info. ex: carte bancaire)
+	- status code: réponses du server. Successful = 2XX par exemple. 404 = not found
