@@ -1,0 +1,1586 @@
+  <!DOCTYPE html><html lang="fr" data-cast-api-enabled="true"><head><script>var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},span: {},info: {}});},tick: function(l, t, n) {ytcsi.gt(n).tick[l] = t || +new Date();},span: function(l, s, n) {ytcsi.gt(n).span[l] = (typeof s == 'number') ? s :+new Date() - ytcsi.data_.tick[l];},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;},setStart: function(s, t, n) {ytcsi.info('yt_sts', s, n);ytcsi.tick('_start', t, n);}};(function(w, d) {ytcsi.perf = w.performance || w.mozPerformance ||w.msPerformance || w.webkitPerformance;ytcsi.setStart('dhs', ytcsi.perf ? ytcsi.perf.timing.responseStart : null);var isPrerender = (d.visibilityState || d.webkitVisibilityState) == 'prerender';var vName = d.webkitVisibilityState ? 'webkitvisibilitychange' : 'visibilitychange';if (isPrerender) {ytcsi.info('prerender', 1);var startTick = function() {ytcsi.setStart('dhs');d.removeEventListener(vName, startTick);};d.addEventListener(vName, startTick, false);}if (d.addEventListener) {d.addEventListener(vName, function() {ytcsi.tick('vc');}, false);}})(window, document);</script>  <script>
+    try {window.ytbuffer = {};ytbuffer.handleClick = function(e) {var element = e.target || e.srcElement;while (element.parentElement) {if (/(^| )yt-can-buffer( |$)/.test(element.className)) {window.ytbuffer = {bufferedClick: e};element.className += ' yt-is-buffered';break;}element = element.parentElement;}};if (document.addEventListener) {document.addEventListener('click', ytbuffer.handleClick);} else {document.attachEvent('onclick', ytbuffer.handleClick);}} catch(e) {}
+    (function(){var b={d:"content-snap-width-1",g:"content-snap-width-2",j:"content-snap-width-3"};function f(){var a=[],c;for(c in b)a.push(b[c]);return a}function g(a){var c=f().concat(["guide-pinned","show-guide"]),d=c.length,e=[];a.replace(/\S+/g,function(a){for(var k=0;k<d;k++)if(a==c[k])return;e.push(a)});return e};function l(a,c,d){var e=document.getElementsByTagName("html")[0],h=g(e.className);a&&1251<=(window.innerWidth||document.documentElement.clientWidth)&&(h.push("guide-pinned"),c&&h.push("show-guide"));d&&(d=(window.innerWidth||document.documentElement.clientWidth)-21-50,1251<=(window.innerWidth||document.documentElement.clientWidth)&&a&&c&&(d-=230),h.push(1262<=d?"content-snap-width-3":1056<=d?"content-snap-width-2":"content-snap-width-1"));e.className=h.join(" ")}
+var m=["yt","www","masthead","sizing","runBeforeBodyIsReady"],n=this;m[0]in n||!n.execScript||n.execScript("var "+m[0]);for(var p;m.length&&(p=m.shift());)m.length||void 0===l?n[p]?n=n[p]:n=n[p]={}:n[p]=l;})();
+yt.www.masthead.sizing.runBeforeBodyIsReady(true,true,false);
+  </script>
+
+
+
+        <script src="//s.ytimg.com/yts/jsbin/www-scheduler-vfldIREHe/www-scheduler.js" type="text/javascript" name="www-scheduler/www-scheduler"></script>
+
+
+  
+  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-core-vflY4V7zn.css" name="www-core">
+
+  
+
+    
+<title>Rihanna - YouTube</title><link rel="search" type="application/opensearchdescription+xml" href="http://www.youtube.com/opensearch?locale=fr_FR" title="Recherche de vidéos YouTube"><link rel="shortcut icon" href="https://s.ytimg.com/yts/img/favicon-vfldLzJxy.ico" type="image/x-icon">     <link rel="icon" href="//s.ytimg.com/yts/img/favicon_32-vflWoMFGx.png" sizes="32x32"><link rel="alternate" media="handheld" href="https://m.youtube.com/results?search_query=Rihanna"><link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.youtube.com/results?search_query=Rihanna"><meta name="description" content="Partagez vos vidéos avec vos amis, vos proches et le monde entier"><meta name="keywords" content="vidéo, partage, téléphone-appareil photo, visiophone, gratuit, envoi">  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-pageframe-vfllnW5Pq.css" name="www-pageframe">
+  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-guide-vflBOeeve.css" name="www-guide">
+      <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-results-vflXIHqoM.css" name="www-results">
+
+<style>.add-to-widget .create-playlist-item{height:auto;width:100%;text-align:left}</style><!-- Smart CSS Insertion --></head>
+    <body dir="ltr" class="  ltr       site-center-aligned site-as-giant-card guide-pinning-enabled appbar-hidden     not-nirvana-dogfood  not-yt-legacy-css  watch8    delayed-frame-styles-not-in  " id="body">
+
+  <div id="early-body">  <iframe id="pyv-iframe-search" style="display:none;" src=""></iframe><script>var yt = yt || {};yt.www = yt.www || {};yt.www.ads = yt.www.ads || {};yt.www.ads.pyvsearch = yt.www.ads.pyvsearch || {};yt.www.ads.pyvsearch.searchTopAdsFromAfc = null;yt.www.ads.pyvsearch.pageJsInit = false;yt.www.ads.pyvsearch.requestAfcAd = function() {var iframeContent = "  \u003cscript\u003e\n    (function() {\n      var called = false;\n      parent.yt.www.ads.pyvsearch.pyvSearchTopAfcCbkWrapper = function(ads) {\n        clearTimeout(parent.yt.www.ads.pyvsearch.cancelTimer);\n        if (called) {\n          return;\n        }\n        called = true;\n        if (parent.yt.www.ads.pyvsearch.pageJsInit) {\n          parent.yt.www.ads.pyvsearch.pyvSearchTopAfcCallback(ads);\n        } else {\n          parent.yt.www.ads.pyvsearch.searchTopAdsFromAfc = ads;\n        }\n      };\n    })();\n\n    window['google_ad_client'] = 'ca-pub-6219811747049371';\n    window['google_ad_block'] = '3';\n    window['google_max_num_ads'] = 2;\n    window['google_ad_output'] = 'js';\n    window['google_ad_type'] = 'text';\n    window['google_loeid'] = \"953600\";\n    window['google_only_pyv_ads'] = true;\n    window['google_page_url'] = parent.document.location.href;\n    window['google_ad_channel'] = \"PyvSearchAfcCpm+PyvWatchNoAdX+PyvSearchAfcNewTemplate+ytdevice_1\";\n    window['google_kw_type'] = 'broad';\n    window['google_kw'] = \"rihanna\";\n\n      window['google_language'] = \"fr\";\n\n\n\n    window['google_ad_request_done'] = parent.yt.www.ads.pyvsearch.pyvSearchTopAfcCbkWrapper;\n  \u003c\/script\u003e\n  \u003cscript s\u0072c=\"\/\/pagead2.googlesyndication.com\/pagead\/show_ads.js\"\u003e\u003c\/script\u003e\n";yt.www.ads.pyvsearch.adRequestStartTime = new Date().getTime();var frame = document.getElementById('pyv-iframe-search');var iframeDocument =frame.contentDocument || frame.contentWindow.document;iframeDocument.open();var content = '<!DOCTYPE html><html><head></head><body>' +iframeContent + '</body></html>';iframeDocument.write(content);iframeDocument.close();};yt.www.ads.pyvsearch.doAdsRequest = function() {if (window.ytcsi) {window.ytcsi.tick("resultspredclk", null, '');}clearTimeout(yt.www.ads.pyvsearch.timerId_);yt.www.ads.pyvsearch.timerId_ = setTimeout(yt.www.ads.pyvsearch.requestAfcAd, 5);yt.www.ads.pyvsearch.doAdsRequest = null;};yt.www.ads.pyvsearch.doAdsRequest();</script>
+  
+</div>
+  <div id="body-container"><form name="logoutForm" method="POST" action="/logout"><input type="hidden" name="action_logout" value="1"></form><div id="masthead-positioner">  
+  <div id="yt-masthead-container" class="clearfix yt-base-gutter"><div id="yt-masthead" class=""><div class="yt-masthead-logo-container ">    <a id="logo-container" href="/" title="Accueil YouTube" class="     spf-link 
+"><img id="logo" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Accueil YouTube"><span class="content-region">FR</span></a>
+  <div id="appbar-guide-button-container">
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-text yt-uix-button-empty yt-uix-button-has-icon appbar-guide-toggle appbar-guide-clickable-ancestor" type="button" onclick=";return false;" id="appbar-guide-button" aria-controls="appbar-guide-menu" aria-label="Guide"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-appbar-guide yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+    <div id="appbar-guide-button-notification-check" class="yt-valign">
+      <span class="appbar-guide-notification-icon yt-valign-content yt-sprite"></span>
+    </div>
+  </div>
+  <div id="appbar-main-guide-notification-container"></div>
+</div><div id="yt-masthead-signin"><span id="appbar-onebar-upload-group"><a href="//www.youtube.com/upload" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="feature=mhsb&amp;ei=zqdGVK3GGbKEiAaY9YC4Cg" id="upload-btn"><span class="yt-uix-button-content">Mettre en ligne </span></a></span><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary" type="button" onclick=";window.location.href=this.getAttribute(&#39;href&#39;);return false;" href="https://accounts.google.com/ServiceLogin?passive=true&amp;hl=fr&amp;uilel=3&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fnext%3D%252Fresults%253Fsearch_query%253DRihanna%26action_handle_signin%3Dtrue%26hl%3Dfr%26app%3Ddesktop%26feature%3Dsign_in_button&amp;service=youtube"><span class="yt-uix-button-content">Connexion </span></button></div><div id="yt-masthead-content"><form id="masthead-search" class="search-form consolidated-form" action="/results" onsubmit="if (_gel(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false;"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default search-btn-component search-button" type="submit" onclick="if (_gel(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false; _gel(&#39;masthead-search&#39;).submit(); return false;;return true;" dir="ltr" tabindex="2" id="search-btn"><span class="yt-uix-button-content">Rechercher </span></button><div id="masthead-search-terms" class="masthead-search-terms-border" dir="ltr"><label><input id="masthead-search-term" autocomplete="off"  class="search-term yt-uix-form-input-bidi" name="search_query" value="Rihanna" type="text" tabindex="1" title="Rechercher"></label></div></form></div></div></div>
+    <div id="masthead-appbar-container" class="clearfix"><div id="masthead-appbar"><div id="appbar-content" class=""></div></div></div>
+
+</div><div id="masthead-positioner-height-offset"></div><div id="page-container"><div id="page" class="  search  branded-page-v2-secondary-column-wide  no-flex clearfix"><div id="guide" class="yt-scrollbar">      <div id="appbar-guide-menu" class="appbar-menu appbar-guide-menu-layout appbar-guide-clickable-ancestor yt-uix-scroller" role="navigation">
+    <div id="guide-container" class="vve-check" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg&amp;ved=CDUQ_h4">
+        <div class="guide-module-content yt-scrollbar">
+    <ul class="guide-toplevel">
+            <li class="guide-section vve-check"
+    data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg&amp;ved=CDYQ5isoAA"
+    data-visibility-tracking="">
+    <div class="guide-item-container personal-item">
+      
+      <ul class="guide-user-links yt-uix-tdl yt-box" role="menu">
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="what_to_watch-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/"
+    title="Vidéos à regarder"
+    data-sessionlink="feature=g-system&amp;ei=zqdGVK3GGbKEiAaY9YC4Cg&amp;ved=CDcQtSwoAA"
+    data-visibility-tracking=""
+    data-external-id="what_to_watch"
+    data-serialized-endpoint="0qDduQEREg9GRXdoYXRfdG9fd2F0Y2g%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-what-to-watch-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            Vidéos à regarder
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+      </ul>
+    </div>
+      <hr class="guide-section-separator">
+  </li>
+
+            <li class="guide-section vve-check"
+    data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg&amp;ved=CDgQ5isoAQ"
+    data-visibility-tracking="">
+    <div class="guide-item-container personal-item">
+          <h3>
+      Le meilleur de YouTube
+    </h3>
+
+      <ul class="guide-user-links yt-uix-tdl yt-box" role="menu">
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCmzy72gDEpfXoFV9Xdtd0DQ-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UCmzy72gDEpfXoFV9Xdtd0DQ"
+    title="Populaire sur YouTube"
+    data-sessionlink="feature=g-channel&amp;ei=zqdGVK3GGbKEiAaY9YC4Cg&amp;ved=CDkQtSwoAA"
+    data-visibility-tracking=""
+    data-external-id="UCmzy72gDEpfXoFV9Xdtd0DQ"
+    data-serialized-endpoint="0qDduQEaEhhVQ216eTcyZ0RFcGZYb0ZWOVhkdGQwRFE%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">  
+  <span class="video-thumb  yt-thumb yt-thumb-20"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        <img alt="" aria-hidden="true" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/i/mzy72gDEpfXoFV9Xdtd0DQ/1.jpg" width="20"  height="20" >
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            Populaire sur YouTube
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UC-9-kyTW8ZkZNDHQJ6FgpwQ-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"
+    title="Musique"
+    data-sessionlink="feature=g-channel&amp;ei=zqdGVK3GGbKEiAaY9YC4Cg&amp;ved=CDoQtSwoAQ"
+    data-visibility-tracking=""
+    data-external-id="UC-9-kyTW8ZkZNDHQJ6FgpwQ"
+    data-serialized-endpoint="0qDduQEaEhhVQy05LWt5VFc4WmtaTkRIUUo2Rmdwd1E%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">  
+  <span class="video-thumb  yt-thumb yt-thumb-20"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        <img alt="" aria-hidden="true" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/i/-9-kyTW8ZkZNDHQJ6FgpwQ/1.jpg" width="20"  height="20" >
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            Musique
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCEgdi0XIXXZ-qJOFPf4JSKw-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UCEgdi0XIXXZ-qJOFPf4JSKw"
+    title="Sport"
+    data-sessionlink="feature=g-channel&amp;ei=zqdGVK3GGbKEiAaY9YC4Cg&amp;ved=CDsQtSwoAg"
+    data-visibility-tracking=""
+    data-external-id="UCEgdi0XIXXZ-qJOFPf4JSKw"
+    data-serialized-endpoint="0qDduQEaEhhVQ0VnZGkwWElYWFotcUpPRlBmNEpTS3c%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">  
+  <span class="video-thumb  yt-thumb yt-thumb-20"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        <img alt="" aria-hidden="true" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/i/Egdi0XIXXZ-qJOFPf4JSKw/1.jpg" width="20"  height="20" >
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            Sport
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCOpNcN46UbXVtpKMrmU4Abg-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UCOpNcN46UbXVtpKMrmU4Abg"
+    title="Jeux vidéo et autres"
+    data-sessionlink="feature=g-channel&amp;ei=zqdGVK3GGbKEiAaY9YC4Cg&amp;ved=CDwQtSwoAw"
+    data-visibility-tracking=""
+    data-external-id="UCOpNcN46UbXVtpKMrmU4Abg"
+    data-serialized-endpoint="0qDduQEaEhhVQ09wTmNONDZVYlhWdHBLTXJtVTRBYmc%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">  
+  <span class="video-thumb  yt-thumb yt-thumb-20"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        <img alt="" aria-hidden="true" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/i/OpNcN46UbXVtpKMrmU4Abg/1.jpg" width="20"  height="20" >
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            Jeux vidéo et autres
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UC-d6Tbxsl5BMljHJWxmjV8g-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UC-d6Tbxsl5BMljHJWxmjV8g"
+    title="Films"
+    data-sessionlink="feature=g-channel&amp;ei=zqdGVK3GGbKEiAaY9YC4Cg&amp;ved=CD0QtSwoBA"
+    data-visibility-tracking=""
+    data-external-id="UC-d6Tbxsl5BMljHJWxmjV8g"
+    data-serialized-endpoint="0qDduQEaEhhVQy1kNlRieHNsNUJNbGpISld4bWpWOGc%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">  
+  <span class="video-thumb  yt-thumb yt-thumb-20"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        <img alt="" aria-hidden="true" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="https://yt3.ggpht.com/-NkbQ52He-dI/AAAAAAAAAAI/AAAAAAAAAAA/5qPMgKp1dxk/s88-c-k-no/photo.jpg" width="20"  height="20" >
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            Films
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCpprdiXpqe_9ptggJJkHJWg-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UCpprdiXpqe_9ptggJJkHJWg"
+    title="Émissions TV"
+    data-sessionlink="feature=g-channel&amp;ei=zqdGVK3GGbKEiAaY9YC4Cg&amp;ved=CD4QtSwoBQ"
+    data-visibility-tracking=""
+    data-external-id="UCpprdiXpqe_9ptggJJkHJWg"
+    data-serialized-endpoint="0qDduQEaEhhVQ3BwcmRpWHBxZV85cHRnZ0pKa0hKV2c%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">  
+  <span class="video-thumb  yt-thumb yt-thumb-20"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        <img alt="" aria-hidden="true" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="https://yt3.ggpht.com/-qJOENyJEaMM/AAAAAAAAAAI/AAAAAAAAAAA/HSq_6hPBiVI/s88-c-k-no/photo.jpg" width="20"  height="20" >
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            Émissions TV
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+      </ul>
+    </div>
+      <hr class="guide-section-separator">
+  </li>
+
+            <li class="guide-section vve-check"
+    data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg&amp;ved=CD8Q5isoAg"
+    data-visibility-tracking="">
+    <div class="guide-item-container personal-item">
+      
+      <ul class="guide-user-links yt-uix-tdl yt-box" role="menu">
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="guide_builder-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/channels"
+    title="Parcourir les chaînes"
+    data-sessionlink="feature=g-manage&amp;ei=zqdGVK3GGbKEiAaY9YC4Cg&amp;ved=CEAQtSwoAA"
+    data-visibility-tracking=""
+    data-external-id="guide_builder"
+    data-serialized-endpoint="0qPduQECCAE%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-builder-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            Parcourir les chaînes
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+      </ul>
+    </div>
+      <hr class="guide-section-separator">
+  </li>
+
+            <li class="guide-section guide-header signup-promo ">
+    <p>
+      Connectez-vous maintenant pour consulter vos chaînes et les recommandations.
+    </p>
+    <div id="guide-builder-promo-buttons" class="signed-out clearfix">
+      <a href="https://accounts.google.com/ServiceLogin?passive=true&amp;hl=fr&amp;uilel=3&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fnext%3D%252Fresults%253Fsearch_query%253DRihanna%26action_handle_signin%3Dtrue%26hl%3Dfr%26app%3Ddesktop%26feature%3Dsign_in_promo&amp;service=youtube" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="yt-uix-button-content">Se connecter </span></a>
+    </div>
+  </li>
+
+    </ul>
+  </div>
+
+    </div>
+  </div>
+  <div id="appbar-guide-notifications" class="hid">
+        <div id="appbar-guide-notification-watch-later-video-added">
+    <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Ajoutée à la liste &quot;À regarder plus tard&quot;</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-watch-later-video-removed">
+    <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Supprimée des vidéos &quot;À regarder plus tard&quot;.</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-subscription">
+    <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Abonnement ajouté.</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-unsubscription">
+    <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Abonnement supprimé.</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-playlist-like">
+    <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Enregistrée dans Playlists.</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-playlist-unlike">
+    <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Supprimée de Playlists.</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-playlist-video-added">
+    <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Ajoutée à la playlist</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-playlist-video-removed">
+    <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Supprimée de la playlist</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-video-like">
+    <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Vidéo ajoutée aux vidéos que j&#39;ai aimées</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-video-unlike">
+    <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Vidéo supprimée des vidéos que j&#39;ai aimées</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-event-reminder-set">
+    <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Vous recevrez un rappel de la diffusion de cet événement.</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-event-reminder-removed">
+    <!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Rappel de l&#39;événement supprimé.</span></span></div>
+    -->
+  </div>
+
+
+  </div>
+  <div id="appbar-guide-item-templates" class="hid">
+        <div id="appbar-guide-item-template-playlist">
+      <!--
+          <li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="__URL__"
+    title="__TITLE__"
+    data-sessionlink="feature=g-playlists&amp;ei=zqdGVK3GGbKEiAaY9YC4Cg"
+    data-visibility-tracking=""
+    data-external-id="__ID__"
+    data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-playlists-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Enregistrée dans Playlists.">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+
+      -->
+    </div>
+    <div id="appbar-guide-item-template-mix">
+      <!--
+          <li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="__URL__"
+    title="__TITLE__"
+    data-sessionlink="feature=g-playlists&amp;ei=zqdGVK3GGbKEiAaY9YC4Cg"
+    data-visibility-tracking=""
+    data-external-id="__ID__"
+    data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-mix-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Enregistrée dans Playlists.">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+
+      -->
+    </div>
+    <div id="appbar-guide-item-template-channel">
+      <!--
+          <li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="__URL__"
+    title="__TITLE__"
+    data-sessionlink="feature=g-channel&amp;ei=zqdGVK3GGbKEiAaY9YC4Cg"
+    data-visibility-tracking=""
+    data-external-id="__ID__"
+    data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">  
+  <span class="video-thumb  yt-thumb yt-thumb-20"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        <img alt="" aria-hidden="true" src="__THUMBNAIL_URL__" width="20"  height="20" >
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Abonnement ajouté.">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+
+      -->
+    </div>
+
+  </div>
+
+</div><div class="alerts-wrapper"><div id="alerts" class="content-alignment">    <div class="yt-alert yt-alert-default yt-alert-info  " id="yt-lang-alert-container">  <div class="yt-alert-icon">
+    <span class="icon master-sprite yt-sprite"></span>
+  </div>
+<div class="yt-alert-content" role="alert">    <div class="yt-alert-message">
+            Sélectionnez votre langue.
+
+    </div>
+</div><div class="yt-alert-buttons"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" data-close-parent-class="yt-alert" aria-label="Fermer"><span class="yt-uix-button-content">Fermer </span></button></div><div class="yt-alert-panel ">  <div id="yt-lang-alert-content" class="clearfix">
+    <div class="yt-lang-alert-controls">
+      <a href="//support.google.com/youtube/bin/answer.py?answer=1738660&amp;hl=en">Learn more</a><br>
+        <a href="javascript:void(0)" onclick="yt.style.toggle('default-language-message', 'default-language-message-english'); return false;">View this message in English</a>
+    </div>
+    <div id="default-language-message">
+YouTube s'affiche actuellement en <strong>Français</strong>.
+Vous pouvez <a href="javascript:void(0)" onclick="yt.www.picker.displayLang();">modifier ce paramètre ci-dessous</a>.
+    </div>
+    <div id="default-language-message-english" class="hid">
+      You're viewing YouTube in <strong>French</strong>.
+        You can <a href="javascript:void(0)" onclick="yt.www.picker.displayLang();">change this preference below</a>.
+    </div>
+  </div>
+</div></div>
+
+</div></div><div id="header">  
+</div><div id="player" class="  off-screen  "><div id="theater-background" class="player-height"></div>  <div id="player-mole-container">
+
+    <div id="player-unavailable" class="  hid  ">
+      
+    </div>
+
+    <div id="player-api" class="player-width player-height off-screen-target player-api"></div>
+        <script>if (window.ytcsi) {window.ytcsi.tick("cfg", null, '');}</script>
+    <script>var ytplayer = ytplayer || {};ytplayer.config = {"assets": {"js": "\/\/s.ytimg.com\/yts\/jsbin\/html5player-fr_FR-vflHqUXpY\/html5player.js", "css": "\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflmKgkRO.css", "html": "\/html5_player_template"}, "url_v9as2": "https:\/\/s.ytimg.com\/yts\/swfbin\/player-vfl_fZpxQ\/cps.swf", "params": {"allowfullscreen": "true", "allowscriptaccess": "always", "bgcolor": "#000000"}, "url_v8": "https:\/\/s.ytimg.com\/yts\/swfbin\/player-vfl_fZpxQ\/cps.swf", "messages": {"quicktime_fallback": "Adobe\u00a0Flash\u00a0Player ou QuickTime sont n\u00e9cessaires pour la lecture de vid\u00e9os. \u003ca href=\"http:\/\/get.adobe.com\/flashplayer\/\"\u003eT\u00e9l\u00e9charger la derni\u00e8re version de Flash\u00a0Player\u003c\/a\u003e \u003ca href=\"http:\/\/www.apple.com\/quicktime\/download\/\"\u003eT\u00e9l\u00e9charger la derni\u00e8re version de QuickTime\u003c\/a\u003e", "player_fallback": "Adobe\u00a0Flash\u00a0Player ou un navigateur compatible avec HTML5 sont n\u00e9cessaires pour la lecture de vid\u00e9os. \u003ca href=\"http:\/\/get.adobe.com\/flashplayer\/\"\u003eT\u00e9l\u00e9charger la derni\u00e8re version de Flash\u00a0Player\u003c\/a\u003e \u003ca href=\"\/html5\"\u003eEn savoir plus sur l'installation d'un navigateur compatible avec HTML5\u003c\/a\u003e"}, "html5": false, "min_version": "8.0.0", "attrs": {"id": "movie_player"}, "url": "https:\/\/s.ytimg.com\/yts\/swfbin\/player-vfl_fZpxQ\/watch_as3.swf", "args": {"host_language": "fr", "enablejsapi": 1, "hl": "fr_FR", "ssl": "1", "cr": "FR", "fexp": "927622,930666,930672,931983,932404,934030,947209,952302,953600", "autoplay": "0"}, "sts": 16363};ytplayer.load = function() {yt.player.Application.create("player-api", ytplayer.config);ytplayer.config.loaded = true;};</script>
+
+
+      <div id="watch-queue-mole" class="video-mole mole-collapsed hid"><div id="watch-queue" class="watch-playlist"><div class="main-content"><div class="watch-queue-header"><div class="watch-queue-info"><div class="watch-queue-info-icon"><span class="tv-queue-list-icon yt-sprite"></span></div><h3 class="watch-queue-title">Liste de vidéos à visionner</h3><h3 class="tv-queue-title">File d&#39;attente TV</h3><span class="tv-queue-details"></span></div><div class="watch-queue-control-bar control-bar-button"><div class="watch-queue-mole-info"><div class="watch-queue-control-bar-icon"><span class="watch-queue-icon yt-sprite"></span></div><div class="watch-queue-title-container"><span class="watch-queue-count"></span><span class="watch-queue-title">Liste de vidéos à visionner</span><span class="tv-queue-title">File d&#39;attente TV</span></div></div>  <span class="dark-overflow-action-menu">
+    
+    
+    <button class="flip control-bar-button yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant="" aria-label="Actions pour la file d&#39;attente"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" role="menu" aria-haspopup="true" style="display: none;"><li role="menuitem"><span data-action="remove-all" class="watch-queue-menu-choice overflow-menu-choice yt-uix-button-menu-item" onclick=";return false;" >Tout supprimer</span></li><li role="menuitem"><span data-action="disconnect" class="watch-queue-menu-choice overflow-menu-choice yt-uix-button-menu-item" onclick=";return false;" >Dissocier</span></li></ul></button>
+  </span>
+  <div class="watch-queue-controls">
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button prev-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Vidéo précédente"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-prev yt-sprite" aria-label="Vidéo précédente" title="Vidéo précédente"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button play-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Lire"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-play yt-sprite" aria-label="Lire" title="Lire"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button pause-watch-queue-button yt-uix-button-opacity yt-uix-tooltip hid yt-uix-tooltip" type="button" onclick=";return false;" title="Mettre en pause"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-pause yt-sprite" aria-label="Mettre en pause" title="Mettre en pause"></span></span></button>
+
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button next-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" type="button" onclick=";return false;" title="Vidéo suivante"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-next yt-sprite" aria-label="Vidéo suivante" title="Vidéo suivante"></span></span></button>
+  </div>
+</div></div><div class="watch-queue-items-container yt-scrollbar-dark yt-scrollbar"><ol class="watch-queue-items-list playlist-videos-list yt-uix-scroller" data-scroll-action="yt.www.watchqueue.loadThumbnails">  
+  <p class="yt-spinner ">
+      
+  <span class="yt-spinner-img  yt-sprite" aria-label="Icône de chargement" title="Icône de chargement"></span>
+
+    <span class="yt-spinner-message">
+Chargement…
+    </span>
+  </p>
+</ol></div></div>  <div class="hid">
+    <div id="watch-queue-title-msg">
+Liste de vidéos à visionner
+    </div>
+
+    <div id="tv-queue-title-msg">
+File d'attente TV
+    </div>
+
+    <div id="watch-queue-count-msg">
+__count__/__total__
+    </div>
+
+    <div id="watch-queue-loading-template">
+      <!--
+          
+  <p class="yt-spinner ">
+      
+  <span class="yt-spinner-img  yt-sprite" aria-label="Icône de chargement" title="Icône de chargement"></span>
+
+    <span class="yt-spinner-message">
+Chargement…
+    </span>
+  </p>
+
+      -->
+    </div>
+  </div>
+</div></div>
+  </div>
+
+  <div class="clear"></div>
+</div>
+<div id="content" class="  content-alignment  
+">  
+
+
+
+  <div class="branded-page-v2-container branded-page-base-bold-titles branded-page-v2-container-flex-width" >
+
+    <div class="branded-page-v2-col-container">
+      <div class="branded-page-v2-col-container-inner">
+        <div class="branded-page-v2-primary-col">
+          <div class="   yt-card  clearfix">
+                <div class="branded-page-v2-primary-col-header-container branded-page-v2-primary-column-content">
+      
+    </div>
+  <div class="branded-page-v2-body branded-page-v2-primary-column-content" id="">
+          
+  
+    <noscript>
+      <div class="yt-alert yt-alert-default yt-alert-error  ">  <div class="yt-alert-icon">
+    <span class="icon master-sprite yt-sprite"></span>
+  </div>
+<div class="yt-alert-content" role="alert">    <div class="yt-alert-message">
+            Bonjour. JavaScript semble être désactivé. Veuillez l&#39;activer pour afficher correctement les résultats de recherche.
+    </div>
+</div><div class="yt-alert-buttons"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" data-close-parent-class="yt-alert" aria-label="Fermer"><span class="yt-uix-button-content">Fermer </span></button></div></div>
+
+  </noscript>
+
+
+  <div class="search-header yt-uix-expander yt-uix-expander-collapsed">
+      <div class="filter-top">
+    <div class="filter-bar-container">
+      <div class="filter-button-container">
+        <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default filter-button yt-uix-expander-head" type="button" onclick=";return false;" data-button-menu-id="some-nonexistent-menu" data-button-action="" data-button-toggle="true" aria-label="Filtres de recherche"><span class="yt-uix-button-content">Filtres </span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+      </div>
+      <div class="filter-crumb-spacer"></div>
+      <p class="num-results"><strong>27 600 000</strong> résultats environ</p>
+    </div>
+  </div>
+
+    <div id="filter-dropdown" class="yt-uix-expander-body"><div class="filter-col"><h4 class="filter-col-title">Date d&#39;ajout</h4><ul><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=hour&amp;lclk=hour&amp;search_query=rihanna" title="Rechercher rihanna, Last hour" aria-label="Filtre : &quot;Dernière heure&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">Dernière heure</span></a>
+</li><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=today&amp;lclk=today&amp;search_query=rihanna" title="Rechercher rihanna, Today" aria-label="Filtre : &quot;Aujourd&amp;#39;hui&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">Aujourd&#39;hui</span></a>
+</li><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=week&amp;lclk=week&amp;search_query=rihanna" title="Rechercher rihanna, This week" aria-label="Filtre : &quot;Cette semaine&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">Cette semaine</span></a>
+</li><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=month&amp;lclk=month&amp;search_query=rihanna" title="Rechercher rihanna, This month" aria-label="Filtre : &quot;Ce mois-ci&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">Ce mois-ci</span></a>
+</li><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=year&amp;lclk=year&amp;search_query=rihanna" title="Rechercher rihanna, This year" aria-label="Filtre : &quot;Cette année&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">Cette année</span></a>
+</li></ul></div><div class="filter-col"><h4 class="filter-col-title">Type de résultat</h4><ul><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=video&amp;lclk=video&amp;search_query=rihanna" title="Rechercher rihanna, Video" aria-label="Filtre : &quot;Vidéo&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">Vidéo</span></a>
+</li><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=channel&amp;lclk=channel&amp;search_query=rihanna" title="Rechercher rihanna, Channel" aria-label="Filtre : &quot;Chaîne&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">Chaîne</span></a>
+</li><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=playlist&amp;lclk=playlist&amp;search_query=rihanna" title="Rechercher rihanna, Playlist" aria-label="Filtre : &quot;Playlist&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">Playlist</span></a>
+</li><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=movie&amp;lclk=movie&amp;search_query=rihanna" title="Rechercher rihanna, Movie" aria-label="Filtre : &quot;Film&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">Film</span></a>
+</li><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=show&amp;lclk=show&amp;search_query=rihanna" title="Rechercher rihanna, Show" aria-label="Filtre : &quot;Émission&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">Émission</span></a>
+</li></ul></div><div class="filter-col"><h4 class="filter-col-title">Durée</h4><ul><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=short&amp;lclk=short&amp;search_query=rihanna" title="Rechercher rihanna, Short (~4 minutes)" aria-label="Filtre : &quot;Courtes (4 minutes environ)&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">Courtes (4 minutes environ)</span></a>
+</li><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=long&amp;lclk=long&amp;search_query=rihanna" title="Rechercher rihanna, Long (20~ minutes)" aria-label="Filtre : &quot;Longues (20 minutes environ)&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">Longues (20 minutes environ)</span></a>
+</li></ul></div><div class="filter-col"><h4 class="filter-col-title">Fonctionnalités</h4><ul><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=hd&amp;lclk=hd&amp;search_query=rihanna" title="Rechercher rihanna, HD (high definition)" aria-label="Filtre : &quot;HD (Haute définition)&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">HD (Haute définition)</span></a>
+</li><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=cc&amp;lclk=cc&amp;search_query=rihanna" title="Rechercher rihanna, CC (closed caption)" aria-label="Filtre : &quot;CC (sous-titres)&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">CC (sous-titres)</span></a>
+</li><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=creativecommons&amp;lclk=creativecommons&amp;search_query=rihanna" title="Rechercher rihanna, Creative Commons" aria-label="Filtre : &quot;Creative Commons&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">Creative Commons</span></a>
+</li><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=3d&amp;lclk=3d&amp;search_query=rihanna" title="Rechercher rihanna, 3D" aria-label="Filtre : &quot;3D&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">3D</span></a>
+</li><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=live&amp;lclk=live&amp;search_query=rihanna" title="Rechercher rihanna, Live" aria-label="Filtre : &quot;En direct&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">En direct</span></a>
+</li><li>
+  <a class="filter  spf-link  yt-uix-sessionlink" href="/results?filters=purchased&amp;lclk=purchased&amp;search_query=rihanna" title="Rechercher rihanna, Purchased" aria-label="Filtre : &quot;Acheté&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text filter-ghost">Acheté</span></a>
+</li></ul></div><div class="filter-col"><h4 class="filter-col-title">Trier par</h4><ul><li>
+
+  <span class="filter filter-sort  spf-link  filter-selected"  title="Pertinence" if#><span class="filter-text" aria-label="Filtre activé : Pertinence">Pertinence</span></span>
+</li><li>
+
+  <a class="filter filter-sort  spf-link  yt-uix-sessionlink" href="/results?search_sort=video_date_uploaded&amp;search_query=Rihanna" title="Date d&#39;ajout" aria-label="Tri avec le paramètre &quot;Date d&amp;#39;ajout&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text ">Date d&#39;ajout</span></a>
+</li><li>
+
+  <a class="filter filter-sort  spf-link  yt-uix-sessionlink" href="/results?search_sort=video_view_count&amp;search_query=Rihanna" title="Nombre de vues" aria-label="Tri avec le paramètre &quot;Nombre de vues&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text ">Nombre de vues</span></a>
+</li><li>
+
+  <a class="filter filter-sort  spf-link  yt-uix-sessionlink" href="/results?search_sort=video_avg_rating&amp;search_query=Rihanna" title="Avis" aria-label="Tri avec le paramètre &quot;Avis&quot;" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg"><span class="filter-text ">Avis</span></a>
+</li></ul></div></div>
+  </div>
+  <div id="results">
+    
+
+      <div class="pyv-afc-ads-container spf-nolink yt-section-hover-container"><div class="pyv-afc-ads-inner"><div class="pyv-afc-ads-video-template"><!--  
+
+
+
+
+
+    <div class="yt-lockup clearfix yt-uix-tile yt-lockup-video yt-lockup-tile"
+      data-context-item-id="__video_id__"
+  >
+      <div class="yt-lockup-dismissable">
+          <div class="yt-lockup-thumbnail"
+  >
+      <a href="__url__" class="ux-thumb-wrap yt-uix-sessionlink contains-addto  spf-link "  data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg">  
+  <span class="video-thumb  yt-thumb yt-thumb-185"
+    >
+    <span class="yt-thumb-default">
+      <span class="yt-thumb-clip">
+        <img alt="" aria-hidden="true" src="__thumbnail_url__" width="185"  >
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+    <span class="video-time">__length_seconds__</span>
+  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="__video_id__">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="__video_id__">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="__video_id__"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="__video_id__"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a>
+
+  </div>
+  <div class="yt-lockup-content">
+        <h3 class="yt-lockup-title"><a class="yt-uix-sessionlink yt-uix-tile-link  spf-link  yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr" title="__title__" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg" href="__url__">__title__</a></h3>
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+<li><span class="yt-badge ad-badge-byline yt-badge-ad" >Annonce</span>
+de <a href="__channel_url__" class="yt-uix-sessionlink yt-user-name  spf-link " data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg" dir="ltr">__channel_name__</a></li><li>__views__ vues</li>    </ul>
+  </div>
+
+
+      <div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" >
+        __second_line__<br />__third_line__
+    </div>
+
+
+  
+
+  
+
+  </div>
+
+      </div>
+      <div class="yt-lockup-notifications-container"></div>
+    
+  </div>
+
+--></div><div class="pyv-afc-ads-channel-template"><!--  
+
+
+
+
+    <div class="yt-lockup clearfix yt-uix-tile yt-lockup-channel yt-lockup-tile"
+  >
+        <div class="yt-lockup-thumbnail"
+  >
+      <a href="__url__" class="ux-thumb-wrap yt-uix-sessionlink  spf-link " data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg">  
+  <span class="video-thumb  yt-thumb yt-thumb-104"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        <img alt="" aria-hidden="true" src="__thumbnail_url__" width="104"  height="104" >
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+</a>
+
+  </div>
+  <div class="yt-lockup-content">
+      <h3 class="yt-lockup-title"><a class="yt-uix-sessionlink yt-uix-tile-link  spf-link  yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr" title="__title__" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg" href="__url__">__title__</a></h3>
+<div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li><span class="yt-badge ad-badge-byline yt-badge-ad" >Annonce</span>
+de <a href="__channel_url__" class="yt-uix-sessionlink yt-user-name  spf-link " data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg" dir="ltr">__channel_name__</a></li></ul></div>    <div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">
+        __second_line__<br />__third_line__
+    </div>
+<div class="yt-lockup-badges"><ul class="item-badge-line"><li class="yt-lockup-badge-item"><span class="yt-badge " >CHAÎNE</span></li></ul></div>
+  </div>
+
+    
+  </div>
+
+--></div><div class="pyv-mute-template"><!--<div class="ads-mute-survey"><span class="ads-mute-check"></span><b>__mute_gone__</b> __mute_question__<div class="ads-mute-undo">__mute_undo__</div></div>--></div></div>  
+  <div class="yt-uix-clickcard ad-info-container">
+    <span class="yt-uix-clickcard-target " data-position="bottomleft" data-orientation="vertical">
+      <span class="ad-info-icon"></span>
+    </span>
+    <div class="yt-uix-clickcard-content">
+<p>Accédez aux <a href="http://www.google.com/settings/ads" target="_top">Paramètres des annonces</a> de Google pour en savoir plus sur le ciblage des annonces et sur la désactivation de la personnalisation des annonces</p>.
+    </div>
+  </div>
+</div>
+
+
+      
+<ol id="section-list" class="section-list">
+<li>
+<ol class="item-section">
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-channel vve-check clearfix yt-uix-tile" data-visibility-tracking="CDMQ2jAYACITCK3llfCxvsECFTICwgodmDoApyj0JA=="><div class="yt-lockup-thumbnail"><a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CDMQ2jAYACITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A"><div class="yt-thumb video-thumb"><img src="https://yt3.ggpht.com/-7iKcy1xQesU/AAAAAAAAAAI/AAAAAAAAAAA/AqQs92Q0Y8w/s176-c-k-no/photo.jpg" width="104" height="104"/></div></a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/user/RihannaVEVO" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CDMQ2jAYACITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" title="RihannaVEVO" dir="ltr">RihannaVEVO</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CDMQ2jAYACITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>Dernière activité : il y a 4 jours</li><li>82 vidéos</li></ul></div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item" ><span class="yt-badge " >Chaîne</span></li></ul> <span class=" yt-uix-button-subscription-container"><button class="yt-can-buffer yt-uix-button yt-uix-button-size-default yt-uix-subscription-button yt-uix-button-has-icon yt-uix-button-subscribe-unbranded" role="button" type="button" aria-role="button" aria-busy="false" onclick="return false" aria-live="polite" data-style-type="unbranded" data-channel-external-id="UC2xskkQVFEpLcGFnNSLQY0A" data-sessionlink="itct=CDQQmysiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQyBnNlYXJjaA" data-href="https://accounts.google.com/ServiceLogin?passive=true&amp;hl=en&amp;uilel=3&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Fnext%3D%252Fchannel%252FUC2xskkQVFEpLcGFnNSLQY0A%26action_handle_signin%3Dtrue%26continue_action%3DQUFFLUhqa29XTFh4cDBjbmhHOHN6dTlhSjVpUV9nbFZhd3xBQ3Jtc0ttTEZBdFdWc29Cb1Yxb3FDTFlrUjVGRVBLTEdqcEh2SzRuXy1HVXpIYlZUQ3hFSnNNQ2xwVXlOazA0WGtGZVlkTlJvTEEzQ2NsMjhtNHFJNUk1dDlPOVltb3pVTFcyb3BTdUtHdW92Zk5Kem1CNVRLR0NqVzZ5aUU3U3NDTC1rX084dTYwSmRwaTh3U0J5bFYycWdQRjBYVlpDbl9zR3g5UnQ5UG16ckg3ZWhCWlQ4aXRSa0R1Rjd2ZTFYZ05YdG53dW5CYlRuZmd1bmotZm9TeGlSYUlmckZMTUFR%26app%3Ddesktop%26hl%3Den%26feature%3Dsubscribe&amp;service=youtube"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-subscribe yt-sprite"></span></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="S&#39;abonner">S&#39;abonner</span><span class="subscribed-label" aria-label="Annuler">Abonné</span><span class="unsubscribe-label" aria-label="Annuler">Annuler</span></span></button><span class="yt-subscription-button-subscriber-count-unbranded-horizontal" title="14 774 595" tabindex="0">14 774 595</span></span> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="lWA2pjMjpBs" data-visibility-tracking="CDIQ3DAYASITCK3llfCxvsECFTICwgodmDoApyj0JECbyI6Z49SNsJUB"><div class="yt-lockup-thumbnail"><a href="/watch?v=lWA2pjMjpBs" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDIQ3DAYASITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="//i.ytimg.com/vi/lWA2pjMjpBs/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">4:43</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="lWA2pjMjpBs">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="lWA2pjMjpBs">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="lWA2pjMjpBs"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="lWA2pjMjpBs"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=lWA2pjMjpBs" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDIQ3DAYASITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - Diamonds" dir="ltr">Rihanna - Diamonds</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CDIQ3DAYASITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 1 an</li><li>485 529 035 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Pre-order new album Unapologetic, out worldwide Monday, November 19: <a href="http://smarturl.it/UnapologeticDlx" target="_blank" title="http://smarturl.it/UnapologeticDlx" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://smarturl.it/UnapologeticDlx</a> Music video by ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item" ><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="ehcVomMexkY" data-visibility-tracking="CDEQ3DAYAiITCK3llfCxvsECFTICwgodmDoApyj0JEDGjPuYprTFi3o="><div class="yt-lockup-thumbnail"><a href="/watch?v=ehcVomMexkY" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDEQ3DAYAiITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="//i.ytimg.com/vi/ehcVomMexkY/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">3:17</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="ehcVomMexkY">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="ehcVomMexkY">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="ehcVomMexkY"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="ehcVomMexkY"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=ehcVomMexkY" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDEQ3DAYAiITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - Pour It Up (Explicit)" dir="ltr">Rihanna - Pour It Up (Explicit)</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CDEQ3DAYAiITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 1 an</li><li>138 302 822 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Download &quot;Pour It Up&quot; from Unapologetic on iTunes: <a href="http://smarturl.it/UnapologeticDlx" target="_blank" title="http://smarturl.it/UnapologeticDlx" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://smarturl.it/UnapologeticDlx</a> Music video by <b>Rihanna</b> performing Pour It ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item" ><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="sEhy-RXkNo0" data-visibility-tracking="CDAQ3DAYAyITCK3llfCxvsECFTICwgodmDoApyj0JECN7ZCvkd-cpLAB"><div class="yt-lockup-thumbnail"><a href="/watch?v=sEhy-RXkNo0" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDAQ3DAYAyITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="//i.ytimg.com/vi/sEhy-RXkNo0/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">5:41</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="sEhy-RXkNo0">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="sEhy-RXkNo0">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="sEhy-RXkNo0"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="sEhy-RXkNo0"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=sEhy-RXkNo0" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDAQ3DAYAyITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - Man Down" dir="ltr">Rihanna - Man Down</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CDAQ3DAYAyITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 3 ans</li><li>288 093 649 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Music video by <b>Rihanna</b> performing Man Down. © 2011 Island Def Jam.</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item" ><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="JF8BRvqGCNs" data-visibility-tracking="CC8Q3DAYBCITCK3llfCxvsECFTICwgodmDoApyj0JEDbkZjU76jAryQ="><div class="yt-lockup-thumbnail"><a href="/watch?v=JF8BRvqGCNs" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CC8Q3DAYBCITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="//i.ytimg.com/vi/JF8BRvqGCNs/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">4:08</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="JF8BRvqGCNs">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="JF8BRvqGCNs">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="JF8BRvqGCNs"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="JF8BRvqGCNs"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=JF8BRvqGCNs" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CC8Q3DAYBCITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - Stay ft. Mikky Ekko" dir="ltr">Rihanna - Stay ft. Mikky Ekko</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CC8Q3DAYBCITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 1 an</li><li>321 391 057 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Download &quot;Stay&quot; from Unapologetic now: <a href="http://smarturl.it/UnapologeticDlx" target="_blank" title="http://smarturl.it/UnapologeticDlx" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://smarturl.it/UnapologeticDlx</a> Music video by <b>Rihanna</b> performing Stay ft. Mikky Ekko ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item" ><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="HBxt_v0WF6Y" data-visibility-tracking="CC4Q3DAYBSITCK3llfCxvsECFTICwgodmDoApyj0JECmr9jo77-bjhw="><div class="yt-lockup-thumbnail"><a href="/watch?v=HBxt_v0WF6Y" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CC4Q3DAYBSITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="//i.ytimg.com/vi/HBxt_v0WF6Y/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">4:15</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="HBxt_v0WF6Y">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="HBxt_v0WF6Y">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="HBxt_v0WF6Y"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="HBxt_v0WF6Y"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=HBxt_v0WF6Y" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CC4Q3DAYBSITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - Where Have You Been" dir="ltr">Rihanna - Where Have You Been</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CC4Q3DAYBSITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 2 ans</li><li>274 336 857 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Buy on iTunes: <a href="http://www.Smarturl.it/TTT" target="_blank" title="http://www.Smarturl.it/TTT" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://www.Smarturl.it/TTT</a> Amazon: <a href="http://idj.to/svJVGM" target="_blank" title="http://idj.to/svJVGM" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://idj.to/svJVGM</a> Music video by <b>Rihanna</b> performing Where Have You Been ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item" ><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="tg00YEETFzg" data-visibility-tracking="CC0Q3DAYBiITCK3llfCxvsECFTICwgodmDoApyj0JEC4rsyIhIzNhrYB"><div class="yt-lockup-thumbnail"><a href="/watch?v=tg00YEETFzg" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CC0Q3DAYBiITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/tg00YEETFzg/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">4:36</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="tg00YEETFzg">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="tg00YEETFzg">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="tg00YEETFzg"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="tg00YEETFzg"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=tg00YEETFzg" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CC0Q3DAYBiITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - We Found Love ft. Calvin Harris" dir="ltr">Rihanna - We Found Love ft. Calvin Harris</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CC0Q3DAYBiITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 3 ans</li><li>392 759 415 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Buy on iTunes - <a href="http://idj.to/iWfndL" target="_blank" title="http://idj.to/iWfndL" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://idj.to/iWfndL</a> #VEVOCertified on Jan 5, 2012. <a href="http://www.youtube.com/vevocertified" target="_blank" title="http://www.youtube.com/vevocertified" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://www.youtube.com/vevocertified</a>.</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item" ><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="rp4UwPZfRis" data-visibility-tracking="CCwQ3DAYByITCK3llfCxvsECFTICwgodmDoApyj0JECrjP2yj5iFz64B"><div class="yt-lockup-thumbnail"><a href="/watch?v=rp4UwPZfRis" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCwQ3DAYByITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/rp4UwPZfRis/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">4:56</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="rp4UwPZfRis">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="rp4UwPZfRis">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="rp4UwPZfRis"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="rp4UwPZfRis"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=rp4UwPZfRis" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCwQ3DAYByITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - Unfaithful" dir="ltr">Rihanna - Unfaithful</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CCwQ3DAYByITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 4 ans</li><li>194 905 000 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Music video by <b>Rihanna</b> performing Unfaithful. (C) 2006 The Island Def Jam Music Group #VEVOCertified on Feb. 15, 2012.</div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="b-3BI9AspYc" data-visibility-tracking="CCsQ3DAYCCITCK3llfCxvsECFTICwgodmDoApyj0JECHy7KBvaTw9m8="><div class="yt-lockup-thumbnail"><a href="/watch?v=b-3BI9AspYc" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCsQ3DAYCCITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/b-3BI9AspYc/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">4:09</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="b-3BI9AspYc">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="b-3BI9AspYc">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="b-3BI9AspYc"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="b-3BI9AspYc"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=b-3BI9AspYc" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCsQ3DAYCCITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - What Now (Official)" dir="ltr">Rihanna - What Now (Official)</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CCsQ3DAYCCITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 11 mois</li><li>120 314 145 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Download <b>Rihanna&#39;s</b> &quot;What Now&quot; from Unapologetic, available now: <a href="http://smarturl.it/iwhatnow" target="_blank" title="http://smarturl.it/iwhatnow" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://smarturl.it/iwhatnow</a> Music video by <b>Rihanna</b> ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item" ><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="Zh0g9hnKQsU" data-visibility-tracking="CCoQ3DAYCSITCK3llfCxvsECFTICwgodmDoApyj0JEDFhanO4Z7IjmY="><div class="yt-lockup-thumbnail"><a href="/watch?v=Zh0g9hnKQsU" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCoQ3DAYCSITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/Zh0g9hnKQsU/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">3:59</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="Zh0g9hnKQsU">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="Zh0g9hnKQsU">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="Zh0g9hnKQsU"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="Zh0g9hnKQsU"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=Zh0g9hnKQsU" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCoQ3DAYCSITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - Half Of Me (Official Video)" dir="ltr">Rihanna - Half Of Me (Official Video)</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/TheEndOfTheWorld2013" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CCoQ3DAYCSITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UCdWwPRBD9m_HGErUiqFfu8w" data-name="">Team Rihanna</a></li><li>il y a 1 mois</li><li>75 814 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Download &quot;Half Of Me&quot; from Unapologetic on iTunes: <a href="http://smarturl.it/UnapologeticDlx" target="_blank" title="http://smarturl.it/UnapologeticDlx" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://smarturl.it/UnapologeticDlx</a> Music video by <b>Rihanna</b> performing Half Of </div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item" ><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="pa14VNsdSYM" data-visibility-tracking="CCkQ3DAYCiITCK3llfCxvsECFTICwgodmDoApyj0JECDk_XYzYre1qUB"><div class="yt-lockup-thumbnail"><a href="/watch?v=pa14VNsdSYM" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCkQ3DAYCiITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/pa14VNsdSYM/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">4:11</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="pa14VNsdSYM">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="pa14VNsdSYM">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="pa14VNsdSYM"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="pa14VNsdSYM"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=pa14VNsdSYM" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCkQ3DAYCiITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - Only Girl (In The World)" dir="ltr">Rihanna - Only Girl (In The World)</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CCkQ3DAYCiITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 4 ans</li><li>354 296 657 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Music video by <b>Rihanna</b> performing Only Girl (In The World). (C) 2010 The Island Def Jam Music Group #VEVOCertified on ...</div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="ZQ2nCGawrSY" data-visibility-tracking="CCgQ3DAYCyITCK3llfCxvsECFTICwgodmDoApyj0JECm2sK1huHphmU="><div class="yt-lockup-thumbnail"><a href="/watch?v=ZQ2nCGawrSY" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCgQ3DAYCyITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/ZQ2nCGawrSY/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">4:24</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="ZQ2nCGawrSY">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="ZQ2nCGawrSY">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="ZQ2nCGawrSY"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="ZQ2nCGawrSY"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=ZQ2nCGawrSY" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCgQ3DAYCyITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - Russian Roulette" dir="ltr">Rihanna - Russian Roulette</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CCgQ3DAYCyITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 4 ans</li><li>136 708 268 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Music video by <b>Rihanna</b> performing Russian Roulette. (C) 2009 The Island Def Jam Music Group.</div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="Oe4Ic7fHWf8" data-visibility-tracking="CCcQ3DAYDCITCK3llfCxvsECFTICwgodmDoApyj0JED_s52-u46C9zk="><div class="yt-lockup-thumbnail"><a href="/watch?v=Oe4Ic7fHWf8" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCcQ3DAYDCITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/Oe4Ic7fHWf8/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">4:09</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="Oe4Ic7fHWf8">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="Oe4Ic7fHWf8">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="Oe4Ic7fHWf8"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="Oe4Ic7fHWf8"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=Oe4Ic7fHWf8" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCcQ3DAYDCITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - Te Amo" dir="ltr">Rihanna - Te Amo</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CCcQ3DAYDCITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 4 ans</li><li>88 919 250 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Music video by <b>Rihanna</b> performing Te Amo. (C) 2010 The Island Def Jam Music Group.</div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="e82VE8UtW8A" data-visibility-tracking="CCYQ3DAYDSITCK3llfCxvsECFTICwgodmDoApyj0JEDAt7WpvKLl5ns="><div class="yt-lockup-thumbnail"><a href="/watch?v=e82VE8UtW8A" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCYQ3DAYDSITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/e82VE8UtW8A/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">3:46</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="e82VE8UtW8A">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="e82VE8UtW8A">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="e82VE8UtW8A"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="e82VE8UtW8A"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=e82VE8UtW8A" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCYQ3DAYDSITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - Rude Boy" dir="ltr">Rihanna - Rude Boy</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CCYQ3DAYDSITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 4 ans</li><li>281 338 835 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Music video by <b>Rihanna</b> performing Rude Boy. (C) 2010 The Island Def Jam Music Group #VEVOCertified on September 27, ...</div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="CvBfHwUxHIk" data-visibility-tracking="CCUQ3DAYDiITCK3llfCxvsECFTICwgodmDoApyj0JECJucSp8OOX-Ao="><div class="yt-lockup-thumbnail"><a href="/watch?v=CvBfHwUxHIk" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCUQ3DAYDiITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/CvBfHwUxHIk/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">4:14</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="CvBfHwUxHIk">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="CvBfHwUxHIk">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="CvBfHwUxHIk"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="CvBfHwUxHIk"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=CvBfHwUxHIk" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCUQ3DAYDiITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - Umbrella (Orange Version) ft. JAY-Z" dir="ltr">Rihanna - Umbrella (Orange Version) ft. JAY-Z</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CCUQ3DAYDiITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 4 ans</li><li>146 284 935 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Music video by <b>Rihanna</b> performing Umbrella. (C) 2007 The Island Def Jam Music Group.</div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="yd8jh9QYfEs" data-visibility-tracking="CCQQ3DAYDyITCK3llfCxvsECFTICwgodmDoApyj0JEDL-OGg_fDI78kB"><div class="yt-lockup-thumbnail"><a href="/watch?v=yd8jh9QYfEs" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCQQ3DAYDyITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/yd8jh9QYfEs/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">3:54</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="yd8jh9QYfEs">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="yd8jh9QYfEs">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="yd8jh9QYfEs"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="yd8jh9QYfEs"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=yd8jh9QYfEs" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCQQ3DAYDyITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - Don&#39;t Stop The Music" dir="ltr">Rihanna - Don&#39;t Stop The Music</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CCQQ3DAYDyITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 4 ans</li><li>215 286 663 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Music video by <b>Rihanna</b> performing Don&#39;t Stop The Music. (C) 2007 The Island Def Jam Music Group.</div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="KdS6HFQ_LUc" data-visibility-tracking="CCMQ3DAYECITCK3llfCxvsECFTICwgodmDoApyj0JEDH2vyhxcOu6ik="><div class="yt-lockup-thumbnail"><a href="/watch?v=KdS6HFQ_LUc" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCMQ3DAYECITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/KdS6HFQ_LUc/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">4:04</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="KdS6HFQ_LUc">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="KdS6HFQ_LUc">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="KdS6HFQ_LUc"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="KdS6HFQ_LUc"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=KdS6HFQ_LUc" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCMQ3DAYECITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - S&amp;M" dir="ltr">Rihanna - S&amp;M</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/RihannaVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CCMQ3DAYECITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC2xskkQVFEpLcGFnNSLQY0A" data-name="">RihannaVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 3 ans</li><li>57 040 533 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Music video by <b>Rihanna</b> performing S&amp;M. (C) 2010 The Island Def Jam Music Group.</div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="o3mP3mJDL2k" data-visibility-tracking="CCIQ3DAYESITCK3llfCxvsECFTICwgodmDoApyj0JEDp3oyS5vvjvKMB"><div class="yt-lockup-thumbnail"><a href="/watch?v=o3mP3mJDL2k" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCIQ3DAYESITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/o3mP3mJDL2k/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">3:26</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="o3mP3mJDL2k">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="o3mP3mJDL2k">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="o3mP3mJDL2k"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="o3mP3mJDL2k"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=o3mP3mJDL2k" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCIQ3DAYESITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Shakira - Can&#39;t Remember to Forget You ft. Rihanna" dir="ltr">Shakira - Can&#39;t Remember to Forget You ft. Rihanna</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/shakiraVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CCIQ3DAYESITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UCGnjeahCJW1AF34HBmQTJ-Q" data-name="">shakiraVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 8 mois</li><li>415 285 758 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Download Shakira&#39;s self-titled album on iTunes: <a href="http://smarturl.it/ShakiraiTunes?IQid=yt" target="_blank" title="http://smarturl.it/ShakiraiTunes?IQid=yt" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://smarturl.it/ShakiraiTunes?IQid=yt</a> Buy Shakira&#39;s self-titled album on Target: ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item" ><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="vM7O7WkGGv0" data-visibility-tracking="CCEQ3DAYEiITCK3llfCxvsECFTICwgodmDoApyj0JED9tZjI1t2z57wB"><div class="yt-lockup-thumbnail"><a href="/watch?v=vM7O7WkGGv0" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCEQ3DAYEiITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/vM7O7WkGGv0/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">4:42</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="vM7O7WkGGv0">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="vM7O7WkGGv0">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="vM7O7WkGGv0"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="vM7O7WkGGv0"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=vM7O7WkGGv0" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCEQ3DAYEiITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Rihanna - Rehab ft. Justin Timberlake (Subtitulado Al Español) Video Official VEVO" dir="ltr">Rihanna - Rehab ft. Justin Timberlake (Subtitulado Al Español) Video Official VEVO</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/MarioBeckeOfficial" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CCEQ3DAYEiITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC0GYSFMlWCxcEAokz717Rtw" data-name="">MarioBeckeOfficial</a></li><li>il y a 9 mois</li><li>50 753 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr"><b>Rihanna</b> - Rehab ft. Justin Timberlake (Subtitulado Al Español) Video Official VEVO <b>Rihanna</b> - Rehab ft. Justin Timberlake (Lyrics ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item" ><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix yt-uix-tile" data-context-item-id="EHkozMIXZ8w" data-visibility-tracking="CCAQ3DAYEyITCK3llfCxvsECFTICwgodmDoApyj0JEDMz92QzJnKvBA="><div class="yt-lockup-thumbnail"><a href="/watch?v=EHkozMIXZ8w" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCAQ3DAYEyITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ"><div class="yt-thumb video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/EHkozMIXZ8w/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">5:19</span>  <span class="thumb-menu dark-overflow-action-menu video-actions">
+    <button class="yt-uix-button-reverse flip addto-watch-queue-menu spf-nolink hide-until-delayloaded yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" type="button"  role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-dark-overflow-action-menu yt-sprite"></span></span><span class="yt-uix-button-arrow yt-sprite"></span><ul class="watch-queue-thumb-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu" style="display: none;">    <li role="menuitem">
+      <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-next" onclick=";return false;"  data-video-ids="EHkozMIXZ8w">
+        <span class="yt-uix-button-icon-wrapper">
+          <span class="addto-watch-queue-play-next-icon yt-valign-container yt-sprite"></span>
+        </span>
+Regarder ensuite
+      </span>
+    </li>
+  <li role="menuitem">
+    <span class="overflow-menu-choice addto-watch-queue-menu-choice yt-uix-button-menu-item" data-action="play-now" onclick=";return false;"  data-video-ids="EHkozMIXZ8w">
+      <span class="yt-uix-button-icon-wrapper">
+        <span class="addto-watch-queue-play-now-icon yt-valign-container yt-sprite"></span>
+      </span>
+Regarder maintenant
+    </span>
+  </li>
+</ul></button>
+  </span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="À regarder plus tard" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="EHkozMIXZ8w"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="À regarder plus tard" title="À regarder plus tard"></span></span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button addto-queue-button video-actions spf-nolink hide-until-delayloaded addto-tv-queue-button yt-uix-tooltip" type="button" onclick=";return false;" title="File d&#39;attente TV" data-style="tv-queue" data-video-ids="EHkozMIXZ8w"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite" aria-label="File d&#39;attente TV" title="File d&#39;attente TV"></span></span></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=EHkozMIXZ8w" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCAQ3DAYEyITCK3llfCxvsECFTICwgodmDoApyj0JFIHUmloYW5uYQ" title="Eminem - The Monster (Explicit) ft. Rihanna" dir="ltr">Eminem - The Monster (Explicit) ft. Rihanna</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>de <a href="/user/EminemVEVO" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CCAQ3DAYEyITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UC20vb-R_px4CguHzzBPhoyQ" data-name="">EminemVEVO</a>&nbsp;<span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" aria-label="Validé" title="Validé"></span></li><li>il y a 10 mois</li><li>226 152 048 vues</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Download Eminem&#39;s &#39;MMLP2&#39; Album on iTunes now:<a href="http://smarturl.it/MMLP2" target="_blank" title="http://smarturl.it/MMLP2" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://smarturl.it/MMLP2</a> Music video by Eminem ft. <b>Rihanna</b> &quot;The Monster&quot; ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item" ><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+</ol>
+</li>
+</ol>
+
+
+  </div>
+
+
+  
+
+    <div class="yt-uix-pager search-pager branded-page-box spf-link " role="navigation">
+
+          
+<a href="/results?search_query=Rihanna&amp;page=1" class="yt-uix-button  yt-uix-pager-button yt-uix-button-toggled yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg" data-link-type="num" data-page="1" aria-label="Accéder à la page 1"><span class="yt-uix-button-content">1 </span></a>
+          
+<a href="/results?search_query=Rihanna&amp;page=2" class="yt-uix-button  yt-uix-pager-button yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg" data-link-type="num" data-page="2" aria-label="Accéder à la page 2"><span class="yt-uix-button-content">2 </span></a>
+          
+<a href="/results?search_query=Rihanna&amp;page=3" class="yt-uix-button  yt-uix-pager-button yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg" data-link-type="num" data-page="3" aria-label="Accéder à la page 3"><span class="yt-uix-button-content">3 </span></a>
+          
+<a href="/results?search_query=Rihanna&amp;page=4" class="yt-uix-button  yt-uix-pager-button yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg" data-link-type="num" data-page="4" aria-label="Accéder à la page 4"><span class="yt-uix-button-content">4 </span></a>
+          
+<a href="/results?search_query=Rihanna&amp;page=5" class="yt-uix-button  yt-uix-pager-button yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg" data-link-type="num" data-page="5" aria-label="Accéder à la page 5"><span class="yt-uix-button-content">5 </span></a>
+          
+<a href="/results?search_query=Rihanna&amp;page=6" class="yt-uix-button  yt-uix-pager-button yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg" data-link-type="num" data-page="6" aria-label="Accéder à la page 6"><span class="yt-uix-button-content">6 </span></a>
+          
+<a href="/results?search_query=Rihanna&amp;page=7" class="yt-uix-button  yt-uix-pager-button yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg" data-link-type="num" data-page="7" aria-label="Accéder à la page 7"><span class="yt-uix-button-content">7 </span></a>
+
+        
+<a href="/results?search_query=Rihanna&amp;page=2" class="yt-uix-button  yt-uix-pager-button yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=zqdGVK3GGbKEiAaY9YC4Cg" data-link-type="next" data-page="2"><span class="yt-uix-button-content">Suivant » </span></a>
+    </div>
+
+
+
+  </div>
+
+          </div>
+        </div>
+          <div class="branded-page-v2-secondary-col">
+                <div id="search-secondary-col-contents">
+      
+        <div class="watch-card watch-card-rhs yt-card"><div class="watch-card-title"><div><a href="/channel/UCvWtix2TtWGe9kffqnwdaMw" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-sessionlink="itct=CAMQzi4YACITCK3llfCxvsECFTICwgodmDoApyj0JA" data-ytid="UCvWtix2TtWGe9kffqnwdaMw">Rihanna</a></div><div class="watch-card-meta"><ul><li>Musique</li></ul></div></div><a href="/watch?v=HBxt_v0WF6Y&amp;list=RDHCcKFGe8NCO2M" class="watch-card-collage yt-uix-sessionlink     spf-link " data-sessionlink="itct=CB0Q9ysiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQyCm1peC1zZWFyY2g" aria-label="Mix YouTube"><div class="watch-card-collage-lhs"><div class="yt-lockup-thumbnail"><div class="yt-thumb video-thumb"><img src="//i.ytimg.com/i/vWtix2TtWGe9kffqnwdaMw/mq1.jpg" width="150" height="150"/></div></div></div><div class="watch-card-collage-rhs"><div class="yt-lockup-thumbnail"><div class="yt-thumb video-thumb"><img src="//i.ytimg.com/vi/tg00YEETFzg/mqdefault.jpg" width="150" height="84"/></div></div><div class="yt-lockup-thumbnail"><div class="yt-thumb video-thumb"><img src="//i.ytimg.com/vi/U0CGsw6h60k/mqdefault.jpg" width="150" height="84"/></div></div></div><div class="watch-card-playall yt-valign"><span class="watch-card-playall-halo yt-valign-container"><span class="watch-card-playall-button"><span class="watch-card-playall-content">Mix YouTube</span></span></span></div></a><ul class="yt-uix-tabs yt-uix-expander-collapsed "><li class="yt-uix-tabs-tab yt-uix-tabs-selected" data-uix-tabs-target-id="watch-card-tab0" title="Top des titres"><span>Top des titres</span></li><li class="yt-uix-tabs-tab" data-uix-tabs-target-id="watch-card-tab1" title="Albums"><span>Albums</span></li></ul><div class="yt-uix-expander-collapsed yt-uix-expander"><div id="watch-card-tab0" class="watch-card-table "><table class="watch-card-list"><tr><td class="watch-card-main-col" title="Diamonds" colspan="2"><a href="/watch?v=lWA2pjMjpBs&amp;list=AL94UKMTqg-9CD5K_8PpjlHWkQaHooDx3B" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBgQnDQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Diamonds</a></td><td class="watch-card-data-col">4:43</td></tr><tr><td class="watch-card-main-col" title="What&#39;s My Name?" colspan="2"><a href="/watch?v=U0CGsw6h60k&amp;list=AL94UKMTqg-9CD5K_8PpjlHWkQaHooDx3B" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBcQnDQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">What&#39;s My Name?</a></td><td class="watch-card-data-col">4:24</td></tr><tr><td class="watch-card-main-col" title="We Found Love" colspan="2"><a href="/watch?v=tg00YEETFzg&amp;list=AL94UKMTqg-9CD5K_8PpjlHWkQaHooDx3B" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBYQnDQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">We Found Love</a></td><td class="watch-card-data-col">4:36</td></tr><tr><td class="watch-card-main-col" title="Only Girl in the World" colspan="2"><a href="/watch?v=pa14VNsdSYM&amp;list=AL94UKMTqg-9CD5K_8PpjlHWkQaHooDx3B" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBUQnDQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Only Girl in the World</a></td><td class="watch-card-data-col">4:11</td></tr><tr><td class="watch-card-main-col" title="Stay" colspan="2"><a href="/watch?v=JF8BRvqGCNs&amp;list=AL94UKMTqg-9CD5K_8PpjlHWkQaHooDx3B" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBQQnDQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Stay</a></td><td class="watch-card-data-col">4:08</td></tr><tr><td class="watch-card-main-col" title="Man Down" colspan="2"><a href="/watch?v=sEhy-RXkNo0&amp;list=AL94UKMTqg-9CD5K_8PpjlHWkQaHooDx3B" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBMQnDQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Man Down</a></td><td class="watch-card-data-col">5:41</td></tr><tr><td class="watch-card-main-col" title="Rude Boy" colspan="2"><a href="/watch?v=e82VE8UtW8A&amp;list=AL94UKMTqg-9CD5K_8PpjlHWkQaHooDx3B" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBIQnDQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Rude Boy</a></td><td class="watch-card-data-col">3:46</td></tr><tr><td class="watch-card-main-col" title="Where Have You Been" colspan="2"><a href="/watch?v=HBxt_v0WF6Y&amp;list=AL94UKMTqg-9CD5K_8PpjlHWkQaHooDx3B" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBEQnDQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Where Have You Been</a></td><td class="watch-card-data-col">4:15</td></tr><tr><td class="watch-card-main-col" title="Don&#39;t Stop the Music" colspan="2"><a href="/watch?v=yd8jh9QYfEs&amp;list=AL94UKMTqg-9CD5K_8PpjlHWkQaHooDx3B" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBAQnDQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Don&#39;t Stop the Music</a></td><td class="watch-card-data-col">3:54</td></tr><tr><td class="watch-card-main-col" title="Unfaithful" colspan="2"><a href="/watch?v=rp4UwPZfRis&amp;list=AL94UKMTqg-9CD5K_8PpjlHWkQaHooDx3B" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CA8QnDQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Unfaithful</a></td><td class="watch-card-data-col">4:56</td></tr><tr class="watch-card-view-all-row"><td colspan="3"><a href="/playlist?list=AL94UKMTqg-9CD5K_8PpjlHWkQaHooDx3B" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CA4QmzQYACITCK3llfCxvsECFTICwgodmDoApyj0JA">Tout afficher</a></td></tr></table></div><div id="watch-card-tab1" class="watch-card-table hid"><table class="watch-card-list"><tr><td class="watch-card-content-col" title="Unapologetic" colspan="2"><a href="/playlist?list=ALGLx1orRGw4WpI71ojYFkbfSLY_STuuot&amp;playnext=1" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CA0QmjQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Unapologetic</a></td><td class="watch-card-data-col">2012</td></tr><tr><td class="watch-card-content-col" title="Talk That Talk" colspan="2"><a href="/playlist?list=ALGLx1orRGw4XfzFqwIpRnjdudy8kRM9XJ&amp;playnext=1" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CAwQmjQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Talk That Talk</a></td><td class="watch-card-data-col">2011</td></tr><tr><td class="watch-card-content-col" title="Loud" colspan="2"><a href="/playlist?list=ALGLx1orRGw4VpMN6g0isyXO-aXcqAdeN_&amp;playnext=1" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CAsQmjQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Loud</a></td><td class="watch-card-data-col">2010</td></tr><tr><td class="watch-card-content-col" title="Rated R" colspan="2"><a href="/playlist?list=ALNb4maWNoT6QAdiF9MocpO7ZcnjEXDedh&amp;playnext=1" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CAoQmjQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Rated R</a></td><td class="watch-card-data-col">2009</td></tr><tr><td class="watch-card-content-col" title="Good Girl Gone Bad" colspan="2"><a href="/playlist?list=ALNb4maWNoT6QEuZJHDLfxfK7Uwue2d5_b&amp;playnext=1" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CAkQmjQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Good Girl Gone Bad</a></td><td class="watch-card-data-col">2007</td></tr><tr><td class="watch-card-content-col" title="A Girl like Me" colspan="2"><a href="/playlist?list=ALBTKoXRg38BDuk5VHYIAhT17PVb7yHpvm&amp;playnext=1" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CAgQmjQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">A Girl like Me</a></td><td class="watch-card-data-col">2006</td></tr><tr><td class="watch-card-content-col" title="Music of the Sun" colspan="2"><a href="/playlist?list=ALBTKoXRg38BB5bAa1QtOm5NtyKdvz6pqT&amp;playnext=1" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CAcQmjQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Music of the Sun</a></td><td class="watch-card-data-col">2005</td></tr><tr><td class="watch-card-content-col" title="Ses 4 Premiers Albums" colspan="2"><a href="/playlist?list=ALGLx1orRGw4WMGGarjtNpbdfihMbWZD4V&amp;playnext=1" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CAYQmjQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">Ses 4 Premiers Albums</a></td><td class="watch-card-data-col">2011</td></tr><tr><td class="watch-card-content-col" title="3 CD Collector&#39;s Set" colspan="2"><a href="/playlist?list=ALNb4maWNoT6QkPynsW0fiBIBtK3TPWn8R&amp;playnext=1" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CAUQmjQiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ" dir="ltr">3 CD Collector&#39;s Set</a></td><td class="watch-card-data-col">2009</td></tr></table></div></div><div class="watch-card-section clearfix"><h3>Artistes similaires</h3><div class="watch-card-lockup-container"><div class="watch-card-mini-lockup"><a href="/results?q=Britney+Spears" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBwQ-isiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ"><div class="yt-lockup-thumbnail"><div class="yt-thumb video-thumb"><img src="//i.ytimg.com/i/IOdfgVAkc_8rxhRAz9WRDw/mq1.jpg" width="80" height="80"/></div></div><span class="yt-ui-ellipsis yt-ui-ellipsis-3">Britney Spears</span></a></div><div class="watch-card-mini-lockup"><a href="/results?q=Beyonc%C3%A9+Knowles" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBsQ-isiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ"><div class="yt-lockup-thumbnail"><div class="yt-thumb video-thumb"><img src="//i.ytimg.com/i/oPQ_TWm8JZ5nJv4a5BzSWA/mq1.jpg" width="80" height="80"/></div></div><span class="yt-ui-ellipsis yt-ui-ellipsis-3">Beyoncé Knowles</span></a></div><div class="watch-card-mini-lockup"><a href="/results?q=Christina+Aguilera" class=" yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBoQ-isiEwit5ZXwsb7BAhUyAsIKHZg6AKco9CQ"><div class="yt-lockup-thumbnail"><div class="yt-thumb video-thumb"><img src="//i.ytimg.com/i/uRNYM6vrIAL-e4RUX26cPg/mq1.jpg" width="80" height="80"/></div></div><span class="yt-ui-ellipsis yt-ui-ellipsis-3">Christina Aguilera</span></a></div></div></div></div>
+              
+  
+    
+
+
+  <div id="ad_creative_1" class="ad-div " style="z-index: 1">
+    <div id="ad_creative_div_1"></div>
+    <script>(function() {function tagMpuIframe() {var containerEl = document.getElementById('ad_creative_div_1');if (!containerEl) {return;}var iframeEl = document.createElement('iframe');var iframeSrc = 'https://ad.doubleclick.net/N4061/adi/com.ytsrc.undef/default;sz=300x250;tile=1;ssl=1;dc_yt=1;kga=-1;kgg=-1;klg=fr;kmyd=ad_creative_1;ytexp=953600;ord=' +Math.floor(Math.random() * 10000000000000000) +'?';iframeEl.id = 'ad_creative_iframe_1';iframeEl.width = '300';iframeEl.height = '250';iframeEl.style.cssText = 'z-index:1;';iframeEl.scrolling = 'no';iframeEl.frameBorder = '0';containerEl.appendChild(iframeEl);iframeEl.src = iframeSrc;}tagMpuIframe();})();</script>
+      <div style="font-size: 10px; padding-top: 3px;" class="alignC grayText">
+          <a href="/t/ads_preferences">
+Publicité
+          </a>
+      </div>
+<script>(function() {if (1193 > document.documentElement.clientWidth) {var adIframe = document.getElementById('ad_creative_iframe_1');adIframe.parentNode.removeChild(adIframe);}})();</script>  </div>
+
+
+    </div>
+
+          </div>
+      </div>
+    </div>
+  </div>
+</div></div></div></div>  <div id="footer-container" class="yt-base-gutter"><div id="footer"><div id="footer-main"><div id="footer-logo"><a href="/" title="Accueil YouTube"><span class="footer-logo-icon yt-sprite"></span></a></div>  <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon" type="button" onclick=";return false;" id="yt-picker-language-button" data-picker-key="language" data-picker-position="footer" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-button-toggle="true"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-language yt-sprite"></span></span><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Langue :
+  </span>
+  Français
+ </span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-country-button" data-picker-key="country" data-picker-position="footer" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Pays :
+  </span>
+  France
+ </span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-safetymode-button" data-picker-key="safetymode" data-picker-position="footer" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Sécurité :
+  </span>
+désactivée
+ </span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+  </ul>
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon yt-uix-button-reverse yt-google-help-link inq-no-click " type="button" onclick=";return false;" data-ghelp-tracking-param="" id="google-help" data-ghelp-anchor="google-help"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-questionmark yt-sprite"></span></span><span class="yt-uix-button-content">Aide
+ </span></button>
+      <div id="yt-picker-language-footer" class="yt-picker" style="display: none">
+      
+  <p class="yt-spinner ">
+      
+  <span class="yt-spinner-img  yt-sprite" aria-label="Icône de chargement" title="Icône de chargement"></span>
+
+    <span class="yt-spinner-message">
+Chargement…
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-country-footer" class="yt-picker" style="display: none">
+      
+  <p class="yt-spinner ">
+      
+  <span class="yt-spinner-img  yt-sprite" aria-label="Icône de chargement" title="Icône de chargement"></span>
+
+    <span class="yt-spinner-message">
+Chargement…
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-safetymode-footer" class="yt-picker" style="display: none">
+      
+  <p class="yt-spinner ">
+      
+  <span class="yt-spinner-img  yt-sprite" aria-label="Icône de chargement" title="Icône de chargement"></span>
+
+    <span class="yt-spinner-message">
+Chargement…
+    </span>
+  </p>
+
+  </div>
+
+</div><div id="footer-links"><ul id="footer-links-primary">  <li><a href="//www.youtube.com/yt/about/fr/">À propos</a></li>
+  <li><a href="//www.youtube.com/yt/press/fr/">Presse et blogs</a></li>
+  <li><a href="//www.youtube.com/yt/copyright/fr/">Droits d'auteur</a></li>
+  <li><a href="//www.youtube.com/yt/creators/fr/">Créateurs et partenaires</a></li>
+  <li><a href="//www.youtube.com/yt/advertise/fr/">Publicité</a></li>
+  <li><a href="//www.youtube.com/yt/dev/fr/">Développeurs</a></li>
+  <li><a href="https://plus.google.com/+youtube" dir="ltr">+YouTube</a></li>
+</ul><ul id="footer-links-secondary">  <li><a href="/t/terms">Conditions d'utilisation</a></li>
+  <li><a href="https://www.google.fr/intl/fr/policies/privacy/">Confidentialité</a></li>
+  <li><a href="//www.youtube.com/yt/policyandsafety/fr/">
+Règles et sécurité
+  </a></li>
+  <li><a href="//support.google.com/youtube/?hl=fr" onclick="return yt.www.feedback.start(59);" class="reportbug">Votre avis</a></li>
+  <li><a href="/testtube">Découvrez les nouveautés !</a></li>
+  <li></li>
+</ul></div></div></div>
+
+
+      <div class="yt-dialog hid " role="dialog" id="feed-privacy-lb">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+                
+  <p class="yt-spinner yt-dialog-waiting-content">
+      
+  <span class="yt-spinner-img  yt-sprite" aria-label="Icône de chargement" title="Icône de chargement"></span>
+
+    <span class="yt-spinner-message">
+Chargement…
+    </span>
+  </p>
+
+
+          </div>
+          <div class="yt-dialog-content">
+              <div id="feed-privacy-dialog">
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div class="yt-dialog-working-overlay"></div>
+  <div class="yt-dialog-working-bubble">
+      
+  <p class="yt-spinner yt-dialog-waiting-content">
+      
+  <span class="yt-spinner-img  yt-sprite" aria-label="Icône de chargement" title="Icône de chargement"></span>
+
+    <span class="yt-spinner-message">
+        Opération en cours…
+    </span>
+  </p>
+
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="hid">    <div id="shared-addto-watch-later-login" class="hid">
+      <a href="https://accounts.google.com/ServiceLogin?passive=true&hl=fr&uilel=3&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fnext%3D%252Fresults%253Fsearch_query%253DRihanna%26action_handle_signin%3Dtrue%26hl%3Dfr%26app%3Ddesktop%26feature%3Dplaylist&service=youtube" class="sign-in-link">Connectez-vous</a> pour ajouter cette vidéo à la liste "À regarder plus tard".
+
+    </div>
+  <div id="yt-uix-videoactionmenu-menu" class="yt-ui-menu-content">
+      <div class="hide-on-create-pl-panel">
+    <h3>
+Ajouter à
+    </h3>
+  </div>
+  <div class="add-to-widget">
+  </div>
+
+  </div>
+</div>    <script>var ytspf = ytspf || {};ytspf.enabled = true;ytspf.config = {'reload-identifier': 'spfreload'};ytspf.config['navigate-limit'] = 20;ytspf.config['navigate-lifetime'] = 64800000;</script>
+  <script src="//s.ytimg.com/yts/jsbin/spf-vflecgS6B/spf.js" type="text/javascript" name="spf/spf"></script>
+  <script src="//s.ytimg.com/yts/jsbin/www-en_US-vflV64A7h/base.js" name="www/base"></script>
+<script>spf.script.path({'www/': '//s.ytimg.com/yts/jsbin/www-en_US-vflV64A7h/'});var ytdepmap = {"www/base": null, "www/common": "www/base", "www/watch": "www/common", "www/videomanager": "www/common", "www/subscriptionmanager": "www/common", "www/results_starwars": "www/common", "www/results_star_trek": "www/common", "www/results": "www/common", "www/results_harlemshake": "www/common", "www/promo_join_network": "www/common", "www/legomap": "www/common", "www/innertube": "www/common", "www/feed": "www/common", "www/experiments": "www/common", "www/downloadreports": "www/common", "www/dashboard": "www/common", "www/channels": "www/common", "www/channels_accountupload": "www/common", "www/watch_webdrivertorso": "www/watch", "www/watch_videoshelf": "www/watch", "www/watch_transcript": "www/watch", "www/watch_speedyg": "www/watch", "www/watch_promos": "www/watch", "www/watch_missilecommand": "www/watch", "www/watch_live": "www/watch", "www/watch_editor": "www/watch", "www/watch_edit": "www/watch", "www/watch_commentsrealtime": "www/watch", "www/watch_commentsmoderation": "www/watch", "www/watch_autoplayrenderer": "www/watch", "www/vm_coverrevshare": "www/videomanager", "www/my_videos": "www/videomanager", "www/innertube_watchnext": "www/innertube", "www/ct_advancedsearch": "www/videomanager", "www/channels_edit": "www/channels"};spf.script.declare(ytdepmap);</script><script>if (window.ytcsi) {window.ytcsi.tick("je", null, '');}</script>        <script src="//s.ytimg.com/yts/jsbin/www-search-ads-vflozg2GI/www-search-ads.js" type="text/javascript" name="www-search-ads/www-search-ads"></script>
+
+
+
+  <script>
+        yt.setConfig({
+      'JS_PAGE_MODULES': [
+          'www/results',
+          ''
+      ],
+      'TIMING_REPORT_ON_UNLOAD': true,
+      'SPF_PREFETCH': false,
+      'SPF_PREFETCH_MAX': 0,
+      'SPF_PREBUFFER': false,
+      'SPF_PREBUFFER_MAX': 0
+    });
+
+
+      yt.www.ads.pyvsearch.pageJsInit = true;
+      if (yt.www.ads.pyvsearch.searchTopAdsFromAfc) {
+        yt.www.ads.pyvsearch.pyvSearchTopAfcCallback(yt.www.ads.pyvsearch.searchTopAdsFromAfc);
+      }
+      yt.setConfig('TIMING_WAIT', ['ol', 'afc']);
+
+
+
+
+
+      yt.setConfig({
+    'GUIDED_HELP_LOCALE': "fr_FR",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+
+  </script>
+<script>yt.setConfig({'EVENT_ID': "zqdGVK3GGbKEiAaY9YC4Cg",'PAGE_NAME': "results",'LOGGED_IN': false,'SESSION_INDEX': null,'FORMATS_FILE_SIZE_JS': ["%s\u00a0octets", "%s\u00a0Ko", "%s\u00a0Mo", "%s\u00a0Go", "%s\u00a0To"],'DELEGATED_SESSION_ID': null,'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_HINT_PARAMS': "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.KwIvRkfGX7A.O\/m=__features__\/rt=j\/d=1\/rs=AItRSTNmvqVLq4wDo3h0-A67z6XE8bcv2g",'GAPI_LOCALE': "fr_FR",'ONE_PICK_URL': "",'UNIVERSAL_HOVERCARDS': true,'VISITOR_DATA': "CgtkVHR4bENyWmxLUQ%3D%3D",'APIARY_HOST': "",'APIARY_HOST_FIRSTPARTY': "",'INNERTUBE_CONTEXT_HL': "fr",'INNERTUBE_CONTEXT_GL': "FR",'INNERTUBE_CONTEXT_CLIENT_VERSION': "20141015",'INNERTUBE_API_KEY': "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",'INNERTUBE_API_VERSION': "v1",'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'PAGEFRAME_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-pageframe-vflrqP6oZ\/www-pageframe.js",'JS_COMMON_MODULE': "\/\/s.ytimg.com\/yts\/jsbin\/www-en_US-vflV64A7h\/common.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-pageframedelayloaded-vflcdZ124.css",'PREFETCH_CSS_RESOURCES' : ["\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflmKgkRO.css",''         ],'PREFETCH_JS_RESOURCES': [''         ],'SAFETY_MODE_PENDING': false,'I18N_PLURAL_RULES': function(n) { return ((0 <= n && n <= 2) && (n != 2)) ? 'one' : 'other'; },'LOCAL_DATE_TIME_CONFIG': {"weekendRange": [6, 5], "months": ["janvier", "f\u00e9vrier", "mars", "avril", "mai", "juin", "juillet", "ao\u00fbt", "septembre", "octobre", "novembre", "d\u00e9cembre"], "formatLongDate": "d MMMM yyyy H:mm", "firstWeekCutoffDay": 3, "formatShortDate": "d MMM yyyy", "formatLongDateOnly": "d MMMM yyyy", "dateFormats": ["d MMMM yyyy H:mm", "d MMMM yyyy", "d MMM yyyy", "d MMM yyyy"], "weekdays": ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"], "formatWeekdayShortTime": "EE H:mm", "firstDayOfWeek": 0, "shortMonths": ["janv.", "f\u00e9vr.", "mars", "avr.", "mai", "juin", "juil.", "ao\u00fbt", "sept.", "oct.", "nov.", "d\u00e9c."], "shortWeekdays": ["dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."], "amPms": null},'PAGE_CL': 78111610,'PAGE_BUILD_TIMESTAMP': "Mon Oct 20 13:43:42 2014 (1413837822)",'VARIANTS_CHECKSUM': "f2af43635a4f8a9de603f091c0840069",'PLAYER_PERSISTENCE_REFACTOR': true,'MDX_ENABLE_CASTV2': true,'MDX_ENABLE_QUEUE': true,'USE_THUMBNAIL_DELAY_LOADER_V2': true,'FEEDBACK_BUCKET_ID': "Search",'FEEDBACK_LOCALE_LANGUAGE': "fr",'FEEDBACK_LOCALE_EXTRAS': {"logged_in": false, "is_partner": "", "guide_subs": "NA", "is_branded": "", "accept_language": null, "experiments": "902030,902408,911435,911436,911507,912714,912719,912725,912811,912813,912909,913308,913309,916928,916929,918119,918121,919388,919389,920609,921603,922804,922809,922810,923024,923363,925011,925018,927006,927622,927626,927881,929243,929507,929509,929820,929940,929943,929947,930008,930666,930672,930812,930819,931339,931341,931943,931983,931990,931991,932404,934030,934032,935707,936211,937217,937422,937424,937506,937507,937512,937805,937817,937912,938302,938530,938639,938703,938705,939201,939976,940641,940918,940936,941412,941414,941819,942302,942606,943301,943407,943410,943912,944702,945121,945401,946803,947204,947209,947503,949001,949004,949601,950303,951601,952302,953600,955201,957901"}});  yt.setConfig({
+    'GUIDED_HELP_LOCALE': "fr_FR",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+yt.setConfig('SPF_SEARCH_BOX', true);yt.setMsg({'ADDTO_WATCH_LATER': "\u00c0 regarder plus tard",'ADDTO_WATCH_LATER_ADDED': "Ajout\u00e9e",'ADDTO_WATCH_LATER_ERROR': "Erreur",'ADDTO_WATCH_QUEUE': "Liste de vid\u00e9os \u00e0 visionner",'ADDTO_WATCH_QUEUE_ADDED': "Ajout\u00e9e",'ADDTO_WATCH_QUEUE_ERROR': "Erreur",'ADDTO_TV_QUEUE': "File d'attente TV",'MASTHEAD_NOTIFICATIONS_LABEL': {"case1": "1\u00a0notification non lue.", "case0": "Aucune notification non lue.", "one": "#\u00a0notification non lue.", "other": "#\u00a0notifications non lues."}});    yt.setConfig({
+    'XSRF_TOKEN': "QUFFLUhqbi1hYjkzLUMyR09pVkxLNkNNYUhsMVdyaXllUXxBQ3Jtc0ttOHRscGNPc1hDaWlNaGp6SHpPU3lNTlpKeTVCb21aenQ0cVJmcExxMEhWSl95c3V0VnNSbXcxUzZ6bHBnSnhDZkxqQVpqRVljckFJWXFWbmlCZjkxRHE0aG1XekhNX2xMQWJCU0hURDF0MHZmX2Z4REpzREh1emlHRmxOSXVUaEdPa1F5S0VWcDUzeU83WFhTOTJSSlpmNDhpU3c=",
+    'XSRF_REDIRECT_TOKEN': "OYi0QO4WLXQJxgqu4_oRVzgVZlh8MTQxNDAwMzAyM0AxNDEzOTE2NjIz",
+    'XSRF_FIELD_NAME': "session_token"
+  });
+
+  yt.setConfig('FEED_PRIVACY_CSS_URL', "\/\/s.ytimg.com\/yts\/cssbin\/www-feedprivacydialog-vflVmPWcw.css");
+
+  yt.setConfig('FEED_PRIVACY_LIGHTBOX_ENABLED', true);
+yt.setConfig({'SBOX_JS_URL': "\/\/s.ytimg.com\/yts\/jsbin\/www-searchbox-vflnZRPXq\/www-searchbox.js",'SBOX_SETTINGS': {"PSUGGEST_TOKEN": null, "PQ": "Rihanna", "REQUEST_DOMAIN": "fr", "SESSION_INDEX": null, "EXPERIMENT_ID": -1, "HAS_ON_SCREEN_KEYBOARD": false, "REQUEST_LANGUAGE": "fr"},'SBOX_LABELS': {"SUGGESTION_DISMISSED_LABEL": "Suggestion ignor\u00e9e.", "SUGGESTION_DISMISS_LABEL": "Ignorer"}});  yt.setConfig({
+    'YPC_LOADER_ENABLED': true,
+    'YPC_LOADER_CONFIGS': "\/ypc_config_ajax",
+    'YPC_LOADER_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-ypc-vflGcDrt2\/www-ypc.js",
+    'YPC_LOADER_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-ypc-vfleprY9g.css",
+    'YPC_LOADER_CALLBACKS': ['yt.www.ypc.checkout.init', 'yt.www.ypc.subscription.init'],
+    'YPC_SIGNIN_URL': "https:\/\/accounts.google.com\/ServiceLogin?passive=true\u0026hl=fr\u0026uilel=3\u0026continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Fnext%3D%252F%26action_handle_signin%3Dtrue%26hl%3Dfr%26app%3Ddesktop\u0026service=youtube"
+  });
+  yt.setConfig('GOOGLE_HELP_CONTEXT', "search_results");
+ytcsi.span('st', 662);yt.setConfig({'TIMING_ACTION': "results",'TIMING_INFO': {"ei": "zqdGVK3GGbKEiAaY9YC4Cg", "yt_spf": 0, "e": "927622,930666,930672,931983,932404,934030,947209,952302,953600", "yt_li": 0, "yt_lt": "cold"}});  yt.setConfig({
+    'XSRF_TOKEN': "QUFFLUhqbi1hYjkzLUMyR09pVkxLNkNNYUhsMVdyaXllUXxBQ3Jtc0ttOHRscGNPc1hDaWlNaGp6SHpPU3lNTlpKeTVCb21aenQ0cVJmcExxMEhWSl95c3V0VnNSbXcxUzZ6bHBnSnhDZkxqQVpqRVljckFJWXFWbmlCZjkxRHE0aG1XekhNX2xMQWJCU0hURDF0MHZmX2Z4REpzREh1emlHRmxOSXVUaEdPa1F5S0VWcDUzeU83WFhTOTJSSlpmNDhpU3c=",
+    'XSRF_REDIRECT_TOKEN': "OYi0QO4WLXQJxgqu4_oRVzgVZlh8MTQxNDAwMzAyM0AxNDEzOTE2NjIz",
+    'XSRF_FIELD_NAME': "session_token"
+  });
+  yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 0);
+if (window.ytcsi) {window.ytcsi.tick("jl", null, '');}</script>
+<!-- Smart JS Insertion --></body></html>
+
