@@ -1,4 +1,4 @@
-""" This exercise returns info from users in ycombinator.com """
+""" This exercise returns info from finances Paris """
 # -*- coding: iso-8859-15 -*-
 import requests
 from bs4 import BeautifulSoup
@@ -14,22 +14,7 @@ def getSoupFromUrl(url):
         print 'Request failed', url
         return None
 
-
-
-def getUsersFromY():
-	soup = getSoupFromUrl('https://news.ycombinator.com/')
-	balises_td = soup.find_all("td", class_="subtext")
-	users=[]
-	for balise in balises_td:
-		aa = balise.text.split()
-		#print aa
-		if aa[2]=='by':
-			user = aa[3]
-			users.append(user)
-	#print "Users are: " + str(users)
-	users.sort()
-	return users
-
+# Returns 
 def getComptes(year):
 	urlBase = 'http://alize2.finances.gouv.fr/communes/eneuro/detail.php?icom=056&dep=075&type=BPS&param=5&exercice='
 	urlToCook = urlBase + str(year)
@@ -52,6 +37,7 @@ def getComptes(year):
 	rowIds=[i-(rowst+rowskip) for i in [5,9,16,21]]
 	print "Résultats consolidés pour la ville de Paris (exercice "+str(year)+")"
 	print data.irow(rowIds)
+	return None
 
 
 for year in [2010, 2011, 2012, 2013]:
