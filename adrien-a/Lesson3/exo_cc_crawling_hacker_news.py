@@ -40,7 +40,7 @@ for link in links :
 # Pour chaque user on recupere son carma 
 users = []
 for link in userLinks : 
-	userSoup = getSoupFromUrl(link)
+	userSoup = getSoupFromUrl(userlinks[0])
 	try:
 		username = userSoup.find_all('td', text='user:')[0].parent.select("td:nth-of-type(2)")[0].string
 		karma = userSoup.find_all('td', text='karma:')[0].parent.select("td:nth-of-type(2)")[0].string
