@@ -47,7 +47,8 @@ def getPeopleFromGit():
 
 def getDataFromGit(login):
     
-    r = requests.get('https://api.github.com/users/'+login+'/repos',auth=('christianBGD', 'T&l&c0m'))
+    #r = requests.get('https://api.github.com/users/'+login+'/repos',auth=('christianBGD', 'XXXXXXX'))
+    r = requests.get('https://api.github.com/users/'+login+'/repos')
     
     if(r.ok):
         repoItems = json.loads(r.text or r.content)
