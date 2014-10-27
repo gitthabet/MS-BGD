@@ -54,3 +54,4 @@ data =  getListeContributeur()
 data = Series(data)
 data.sort(axis=1,ascending=False)
 print data
+data.to_csv("Florian_Riche_results.csv")
