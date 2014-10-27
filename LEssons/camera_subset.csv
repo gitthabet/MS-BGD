@@ -1,0 +1,1040 @@
+;Model;Max resolution
+0;STRING;DOUBLE
+1;Agfa ePhoto 1280;1024.0
+2;Agfa ePhoto 1680;1280.0
+3;Agfa ePhoto CL18;640.0
+4;Agfa ePhoto CL30;1152.0
+5;Agfa ePhoto CL30 Clik!;1152.0
+6;Agfa ePhoto CL45;1600.0
+7;Agfa ePhoto CL50;1280.0
+8;Canon PowerShot 350;640.0
+9;Canon PowerShot 600;832.0
+10;Canon PowerShot A10;1280.0
+11;Canon PowerShot A100;1280.0
+12;Canon PowerShot A20;1600.0
+13;Canon PowerShot A200;1600.0
+14;Canon PowerShot A30;1280.0
+15;Canon PowerShot A300;2048.0
+16;Canon PowerShot A310;2048.0
+17;Canon PowerShot A40;1600.0
+18;Canon PowerShot A400;2048.0
+19;Canon PowerShot A410;2048.0
+20;Canon PowerShot A420;2272.0
+21;Canon PowerShot A430;2272.0
+22;Canon PowerShot A450;2592.0
+23;Canon PowerShot A460;2592.0
+24;Canon PowerShot A5;1024.0
+25;Canon PowerShot A50;1280.0
+26;Canon PowerShot A510;2048.0
+27;Canon PowerShot A520;2272.0
+28;Canon PowerShot A530;2592.0
+29;Canon PowerShot A540;2816.0
+30;Canon PowerShot A550;3072.0
+31;Canon PowerShot A560;3072.0
+32;Canon PowerShot A570 IS;3072.0
+33;Canon PowerShot A5 Zoom;1024.0
+34;Canon PowerShot A60;1600.0
+35;Canon PowerShot A610;2592.0
+36;Canon PowerShot A620;3072.0
+37;Canon PowerShot A630;3264.0
+38;Canon PowerShot A640;3648.0
+39;Canon PowerShot A650 IS;4000.0
+40;Canon PowerShot A70;2048.0
+41;Canon PowerShot A700;2816.0
+42;Canon PowerShot A710 IS;3072.0
+43;Canon PowerShot A720 IS;3264.0
+44;Canon PowerShot A75;2048.0
+45;Canon PowerShot A80;2272.0
+46;Canon PowerShot A85;2272.0
+47;Canon PowerShot A95;2592.0
+48;Canon EOS 10D;3072.0
+49;Canon EOS-1D;2464.0
+50;Canon EOS-1D Mark II;3504.0
+51;Canon EOS-1D Mark III;3888.0
+52;Canon EOS-1D Mark II N;3504.0
+53;Canon EOS-1Ds;4064.0
+54;Canon EOS-1Ds Mark II;4992.0
+55;Canon EOS-1Ds Mark III;5616.0
+56;Canon EOS 20D;3504.0
+57;Canon EOS 20Da;3504.0
+58;Canon EOS 300D / Digital Rebel;3072.0
+59;Canon EOS 30D;3504.0
+60;Canon EOS 350D / Digital Rebel XT;3456.0
+61;Canon EOS 400D / Digital Rebel XTi;3888.0
+62;Canon EOS 40D;3888.0
+63;Canon EOS 5D;4368.0
+64;Canon EOS D30;2160.0
+65;Canon EOS D60;3072.0
+66;Canon PowerShot G1;2048.0
+67;Canon PowerShot G2;2272.0
+68;Canon PowerShot G3;2272.0
+69;Canon PowerShot G5;2592.0
+70;Canon PowerShot G6;3072.0
+71;Canon PowerShot G7;3648.0
+72;Canon PowerShot G9;4000.0
+73;Canon PowerShot Pro1;3264.0
+74;Canon PowerShot Pro70;1536.0
+75;Canon PowerShot Pro90 IS;1856.0
+76;Canon PowerShot S10;1600.0
+77;Canon PowerShot S100;1600.0
+78;Canon PowerShot S110;1600.0
+79;Canon PowerShot S1 IS;2048.0
+80;Canon PowerShot S20;2048.0
+81;Canon PowerShot S200;1600.0
+82;Canon PowerShot S230;2048.0
+83;Canon PowerShot S2 IS;2592.0
+84;Canon PowerShot S30;2048.0
+85;Canon PowerShot S300;1600.0
+86;Canon PowerShot S330;1600.0
+87;Canon PowerShot S3 IS;2816.0
+88;Canon PowerShot S40;2272.0
+89;Canon PowerShot S400;2272.0
+90;Canon PowerShot S410;2272.0
+91;Canon PowerShot S45;2272.0
+92;Canon PowerShot S50;2592.0
+93;Canon PowerShot S500;2592.0
+94;Canon PowerShot S5 IS;3264.0
+95;Canon PowerShot S60;2592.0
+96;Canon PowerShot S70;3072.0
+97;Canon PowerShot S80;3264.0
+98;Canon PowerShot SD10;2272.0
+99;Canon PowerShot SD100;2048.0
+100;Canon PowerShot SD1000;3072.0
+101;Canon PowerShot SD110;2048.0
+102;Canon PowerShot SD20;2592.0
+103;Canon PowerShot SD200;2048.0
+104;Canon PowerShot SD30;2592.0
+105;Canon PowerShot SD300;2272.0
+106;Canon PowerShot SD40;3072.0
+107;Canon PowerShot SD400;2592.0
+108;Canon PowerShot SD430 Wireless;2592.0
+109;Canon PowerShot SD450;2592.0
+110;Canon PowerShot SD500;3072.0
+111;Canon PowerShot SD550;3072.0
+112;Canon PowerShot SD600;2816.0
+113;Canon PowerShot SD630;2816.0
+114;Canon PowerShot SD700 IS;2816.0
+115;Canon PowerShot SD750;3072.0
+116;Canon PowerShot SD800 IS;3072.0
+117;Canon PowerShot SD850 IS;3264.0
+118;Canon PowerShot SD870 IS;3264.0
+119;Canon PowerShot SD900;3648.0
+120;Canon PowerShot SD950 IS;4000.0
+121;Canon PowerShot SX100 IS;3264.0
+122;Canon PowerShot TX1;3072.0
+123;Casio Exilim EX-P505;2560.0
+124;Casio Exilim EX-P600;2816.0
+125;Casio Exilim EX-P700;3072.0
+126;Casio Exilim EX-S100;2048.0
+127;Casio Exilim EX-S20;1600.0
+128;Casio Exilim EX-S3;2048.0
+129;Casio Exilim EX-S500;2560.0
+130;Casio Exilim EX-S600;2816.0
+131;Casio Exilim EX-S600d;2816.0
+132;Casio Exilim EX-S880;3264.0
+133;Casio Exilim EX-V7;3072.0
+134;Casio Exilim EX-V8;3264.0
+135;Casio Exilim EX-Z10;2560.0
+136;Casio Exilim EX-Z1000;3648.0
+137;Casio Exilim EX-Z1050;3648.0
+138;Casio Exilim EX-Z1080;3648.0
+139;Casio Exilim EX-Z110;2816.0
+140;Casio Exilim EX-Z120;3072.0
+141;Casio Exilim EX-Z1200 SR;4000.0
+142;Casio Exilim EX-Z3;2048.0
+143;Casio Exilim EX-Z30;2048.0
+144;Casio Exilim EX-Z4;2304.0
+145;Casio Exilim EX-Z40;2304.0
+146;Casio Exilim EX-Z5;2560.0
+147;Casio Exilim EX-Z50;2560.0
+148;Casio Exilim EX-Z500;2560.0
+149;Casio Exilim EX-Z55;2560.0
+150;Casio Exilim EX-Z57;2560.0
+151;Casio Exilim EX-Z60;2816.0
+152;Casio Exilim EX-Z70;3072.0
+153;Casio Exilim EX-Z700;3072.0
+154;Casio Exilim EX-Z75;3072.0
+155;Casio Exilim EX-Z750;3072.0
+156;Casio Exilim EX-Z77;3072.0
+157;Casio Exilim EX-S770;3072.0
+158;Casio Exilim EX-Z850;3264.0
+159;Casio GV-10;1280.0
+160;Casio GV-20;1600.0
+161;Casio QV-2000UX;1600.0
+162;Casio QV-2100;1600.0
+163;Casio QV-2300UX;1600.0
+164;Casio QV-2400UX;1600.0
+165;Casio QV-2800UX;1600.0
+166;Casio QV-2900UX;1600.0
+167;Casio QV-3EX;2048.0
+168;Casio QV-300;640.0
+169;Casio QV-3000EX;2048.0
+170;Casio QV-3500EX;2048.0
+171;Casio QV-4000;2240.0
+172;Casio QV-5000SX;1280.0
+173;Casio QV-5500SX;1280.0
+174;Casio QV-5700;2560.0
+175;Casio QV-700;640.0
+176;Casio QV-7000SX;1280.0
+177;Casio QV-770;640.0
+178;Casio QV-8000SX;1280.0
+179;Casio QV-R3;2048.0
+180;Casio QV-R4;2304.0
+181;Casio QV-R40;2304.0
+182;Casio QV-R41;2304.0
+183;Casio QV-R51;2560.0
+184;Casio QV-R61;2816.0
+185;Casio QV-R62;2816.0
+186;Contax N Digital;3040.0
+187;Contax TVS Digital;2560.0
+188;Epson PhotoPC 800;1600.0
+189;Epson PhotoPC 850 Zoom;1600.0
+190;Epson PhotoPC L-500V;2560.0
+191;Epson PhotoPC 3000 Zoom;2048.0
+192;Epson PhotoPC 3100 Zoom;2048.0
+193;Epson PhotoPC 500;640.0
+194;Epson PhotoPC 550;640.0
+195;Epson PhotoPC 600;1024.0
+196;Epson PhotoPC 650;1152.0
+197;Epson PhotoPC 700;1280.0
+198;Epson PhotoPC 750 Zoom;1280.0
+199;Epson PhotoPC L-300;2048.0
+200;Epson PhotoPC L-400;2304.0
+201;Epson PhotoPC L-410;2304.0
+202;Epson R-D1;3008.0
+203;Fujifilm FinePix 40i;2400.0
+204;Fujifilm FinePix 50i;2400.0
+205;Fujifilm DS-260HD;1280.0
+206;Fujifilm DS-300;1280.0
+207;Fujifilm FinePix 1300;1280.0
+208;Fujifilm FinePix 2300;1600.0
+209;Fujifilm FinePix 2400 Zoom;1600.0
+210;Fujifilm FinePix 2600 Zoom;1600.0
+211;Fujifilm FinePix 2650;1600.0
+212;Fujifilm FinePix 2800 Zoom;1600.0
+213;Fujifilm Finepix 30i;1600.0
+214;Fujifilm FinePix 3800;2048.0
+215;Fujifilm FinePix 4800 Zoom;2400.0
+216;Fujifilm FinePix 4900 Zoom;2400.0
+217;Fujifilm FinePix 6800 Zoom;2832.0
+218;Fujifilm FinePix 6900 Zoom;2832.0
+219;Fujifilm FinePix A101;1280.0
+220;Fujifilm FinePix A120;2016.0
+221;Fujifilm FinePix A200;1600.0
+222;Fujifilm FinePix A201;1600.0
+223;Fujifilm FinePix A203;1600.0
+224;Fujifilm FinePix A205 Zoom;1600.0
+225;Fujifilm FinePix A210 Zoom;2048.0
+226;Fujifilm FinePix A303;2048.0
+227;Fujifilm FinePix A310 Zoom;2816.0
+228;Fujifilm FinePix A330;2016.0
+229;Fujifilm FinePix A340;2272.0
+230;Fujifilm FinePix A345 Zoom;2304.0
+231;Fujifilm FinePix A350 Zoom;2592.0
+232;Fujifilm FinePix A400 Zoom;2303.0
+233;Fujifilm FinePix A500 Zoom;2592.0
+234;Fujifilm FinePix A600 Zoom;2848.0
+235;Fujifilm FinePix A610;2848.0
+236;Fujifilm FinePix A800;3296.0
+237;Fujifilm FinePix A820;3296.0
+238;Fujifilm FinePix A900;3488.0
+239;Fujifilm FinePix A920;3488.0
+240;Fujifilm FinePix E500 Zoom;2304.0
+241;Fujifilm FinePix E510 Zoom;2592.0
+242;Fujifilm FinePix E550 Zoom;4048.0
+243;Fujifilm FinePix E900 Zoom;3488.0
+244;Fujifilm FinePix F10 Zoom;2848.0
+245;Fujifilm FinePix F11 Zoom;2848.0
+246;Fujifilm FinePix F20 Zoom;2848.0
+247;Fujifilm FinePix F30 Zoom;2848.0
+248;Fujifilm FinePix F31 fd;2848.0
+249;Fujifilm FinePix F401 Zoom;2304.0
+250;Fujifilm FinePix F402;2304.0
+251;Fujifilm FinePix F40 fd;3296.0
+252;Fujifilm FinePix F410 Zoom;2816.0
+253;Fujifilm FinePix F420 Zoom;2816.0
+254;Fujifilm FinePix F440 Zoom;2304.0
+255;Fujifilm FinePix F450 Zoom;2592.0
+256;Fujifilm FinePix F455 Zoom;2592.0
+257;Fujifilm FinePix F470 Zoom;2816.0
+258;Fujifilm FinePix F480 Zoom;3264.0
+259;Fujifilm FinePix F50 fd;4000.0
+260;Fujifilm FinePix F601Z;2832.0
+261;Fujifilm FinePix F610;4048.0
+262;Fujifilm FinePix F650 Zoom;2816.0
+263;Fujifilm FinePix F700;2832.0
+264;Fujifilm FinePix F710;2832.0
+265;Fujifilm FinePix F810 Zoom;4048.0
+266;Fujifilm FinePix IS-1;3488.0
+267;Fujifilm FinePix M603;2832.0
+268;Fujifilm FinePix S20 Pro;2832.0
+269;Fujifilm FinePix S3000 Z;2048.0
+270;Fujifilm FinePix S3500 Zoom;2272.0
+271;Fujifilm FinePix S5000 Z;2816.0
+272;Fujifilm FinePix S5100 Zoom;2272.0
+273;Fujifilm FinePix S5200 Zoom;2592.0
+274;Fujifilm FinePix S5700 Zoom;3072.0
+275;Fujifilm FinePix S6000 fd;2848.0
+276;Fujifilm FinePix S602Z;2832.0
+277;Fujifilm FinePix S602Z Pro;2832.0
+278;Fujifilm FinePix S7000 Z;4048.0
+279;Fujifilm FinePix S8000 fd;3264.0
+280;Fujifilm FinePix S9000 Z;3488.0
+281;Fujifilm FinePix S9100;3488.0
+282;Fujifilm FinePix V10 Zoom;2592.0
+283;Fujifilm FinePix Z1;2592.0
+284;Fujifilm FinePix Z10  fd;3072.0
+285;Fujifilm FinePix Z2;2592.0
+286;Fujifilm FinePix Z3;2592.0
+287;Fujifilm FinePix IS Pro;4256.0
+288;Fujifilm MX-1200;1280.0
+289;Fujifilm MX-1400;1280.0
+290;Fujifilm MX-1500;1280.0
+291;Fujifilm MX-1700;1280.0
+292;Fujifilm MX-2700;1800.0
+293;Fujifilm MX-2900 Zoom;1800.0
+294;Fujifilm FinePix 4700 Zoom;2400.0
+295;Fujifilm MX-500;1280.0
+296;Fujifilm MX-600 Zoom;1280.0
+297;Fujifilm MX-700;1280.0
+298;Fujifilm FinePix S1 Pro;3040.0
+299;Fujifilm FinePix S2 Pro;4256.0
+300;Fujifilm FinePix S3 Pro;4256.0
+301;Fujifilm FinePix S5 Pro;4256.0
+302;HP Photosmart 320;1632.0
+303;HP Photosmart 435;2048.0
+304;HP Photosmart 620;1632.0
+305;HP Photosmart 635;1636.0
+306;HP Photosmart 715;2048.0
+307;HP Photosmart 720;2048.0
+308;HP Photosmart 735;2080.0
+309;HP Photosmart 812;2272.0
+310;HP Photosmart 850;2272.0
+311;HP Photosmart 935;2608.0
+312;HP Photosmart 945;2608.0
+313;HP Photosmart C20;1152.0
+314;HP Photosmart C200;1152.0
+315;HP Photosmart C215;1280.0
+316;HP Photosmart C30;1152.0
+317;HP Photosmart C315;1600.0
+318;HP Photosmart C500;1600.0
+319;HP Photosmart C618;1600.0
+320;HP Photosmart C912;1600.0
+321;HP Photosmart E317;2560.0
+322;HP Photosmart E327;2560.0
+323;HP Photosmart E337;2576.0
+324;HP Photosmart M22;2320.0
+325;HP Photosmart M23;2320.0
+326;HP Photosmart M307;2080.0
+327;HP Photosmart M407;2320.0
+328;HP Photosmart M417;2576.0
+329;HP Photosmart M425;2576.0
+330;HP Photosmart M437;2576.0
+331;HP Photosmart M517;2576.0
+332;HP Photosmart M525;2800.0
+333;HP Photosmart M527;2800.0
+334;HP Photosmart M537;2848.0
+335;HP Photosmart Mz67;3264.0
+336;HP Photosmart R507;2320.0
+337;HP Photosmart R607;2320.0
+338;HP Photosmart R707;2608.0
+339;HP Photosmart R717;2864.0
+340;HP Photosmart R725;2864.0
+341;HP Photosmart R727;2864.0
+342;HP Photosmart R742;3096.0
+343;HP Photosmart R817;2592.0
+344;HP Photosmart R818;2592.0
+345;HP Photosmart R837;3112.0
+346;HP Photosmart R927;3296.0
+347;HP Photosmart R937;3298.0
+348;JVC GC-QX3HD;2032.0
+349;JVC GC-QX5HD;2032.0
+350;Kodak C300;2096.0
+351;Kodak C310;2336.0
+352;Kodak C330;2336.0
+353;Kodak C340;2576.0
+354;Kodak C360;2690.0
+355;Kodak C433;2304.0
+356;Kodak C513;2572.0
+357;Kodak C533;2576.0
+358;Kodak C613;2848.0
+359;Kodak C643;2848.0
+360;Kodak C653;2848.0
+361;Kodak C663;2832.0
+362;Kodak C743;3072.0
+363;Kodak C763;3072.0
+364;Kodak C875;3264.0
+365;Kodak CX4200;1632.0
+366;Kodak CX4230;1632.0
+367;Kodak CX4300;2080.0
+368;Kodak CX6200;1632.0
+369;Kodak CX6230;1632.0
+370;Kodak CX6330;2032.0
+371;Kodak CX7220;0.0
+372;Kodak CX7300;2096.0
+373;Kodak CX7330;2032.0
+374;Kodak CX7430;2408.0
+375;Kodak CX7530;2560.0
+376;Kodak DC200;1152.0
+377;Kodak DC200 plus;1152.0
+378;Kodak DC210 plus;1152.0
+379;Kodak DC215;1152.0
+380;Kodak DC220;1152.0
+381;Kodak DC240;1280.0
+382;Kodak DC260;1536.0
+383;Kodak DC265;1536.0
+384;Kodak DC280;1760.0
+385;Kodak DC290;1792.0
+386;Kodak DC3200;1152.0
+387;Kodak DC3400;1760.0
+388;Kodak DC3800;1760.0
+389;Kodak DC4800;2160.0
+390;Kodak DC5000;1760.0
+391;Kodak DCS 14n;4536.0
+392;Kodak DCS315;1520.0
+393;Kodak DCS330;2008.0
+394;Kodak DCS420;1524.0
+395;Kodak DCS460;3060.0
+396;Kodak DCS520;1728.0
+397;Kodak DCS560;3040.0
+398;Kodak DCS620;1728.0
+399;Kodak DCS620x;1728.0
+400;Kodak DCS660;3040.0
+401;Kodak DCS720x;1728.0
+402;Kodak DCS760;3032.0
+403;Kodak DCS SLR/c;4500.0
+404;Kodak DCS SLR/n;4500.0
+405;Kodak DX3215;1280.0
+406;Kodak DX3500;1800.0
+407;Kodak DX3600;1800.0
+408;Kodak DX3700;2160.0
+409;Kodak DX3900;2160.0
+410;Kodak DX4330;2160.0
+411;Kodak DX4530;2580.0
+412;Kodak DX4900;2448.0
+413;Kodak DX6340;2032.0
+414;Kodak DX6440;2304.0
+415;Kodak DX6490;2304.0
+416;Kodak DX7440;2304.0
+417;Kodak DX7590;2576.0
+418;Kodak DX7630;2872.0
+419;Kodak Easyshare One;2304.0
+420;Kodak LS420;1752.0
+421;Kodak LS443;2448.0
+422;Kodak LS633;2041.0
+423;Kodak LS743;2304.0
+424;Kodak LS753;2569.0
+425;Kodak LS755;2592.0
+426;Kodak M753;3056.0
+427;Kodak M853;3296.0
+428;Kodak M873;3264.0
+429;Kodak M883;3280.0
+430;Kodak mc3;640.0
+431;Kodak P712;3072.0
+432;Kodak P850;2592.0
+433;Kodak P880;3264.0
+434;Kodak V1003;3648.0
+435;Kodak V530;2569.0
+436;Kodak V550;2569.0
+437;Kodak V570;2569.0
+438;Kodak V610;2832.0
+439;Kodak V705;3072.0
+440;Kodak V803;3264.0
+441;Kodak Z1275;4000.0
+442;Kodak Z612;2848.0
+443;Kodak Z650;2848.0
+444;Kodak Z700;2304.0
+445;Kodak Z710;3072.0
+446;Kodak Z712;3072.0
+447;Kodak Z730;2576.0
+448;Kodak Z740;2576.0
+449;Kodak Z7590;2576.0
+450;Kodak Z760;2872.0
+451;Kodak Z885;3264.0
+452;Kyocera Finecam 3300;2048.0
+453;Kyocera Finecam L30;2048.0
+454;Kyocera Finecam L3V;2048.0
+455;Kyocera Finecam L4V;2304.0
+456;Kyocera Finecam M400R;2272.0
+457;Kyocera Finecam M410R;2272.0
+458;Kyocera Finecam S3;2048.0
+459;Kyocera Finecam S3L;2048.0
+460;Kyocera Finecam S3R;2048.0
+461;Kyocera Finecam S3x;2048.0
+462;Kyocera Finecam S4;2272.0
+463;Kyocera Finecam S5;2560.0
+464;Kyocera Finecam S5R;2560.0
+465;Kyocera Finecam SL300R;2048.0
+466;Kyocera Finecam SL400R;2272.0
+467;Leica C-LUX 1;2816.0
+468;Leica Digilux;1280.0
+469;Leica Digilux 1;2240.0
+470;Leica Digilux 2;2560.0
+471;Leica Digilux 3;3136.0
+472;Leica Digilux 4.3;2400.0
+473;Leica Digilux Zoom;1280.0
+474;Leica D-LUX 2;3840.0
+475;Leica D-LUX 3;4224.0
+476;Leica M8;3936.0
+477;Leica V-LUX 1;3648.0
+478;Nikon Coolpix 100;512.0
+479;Nikon Coolpix 2000;1632.0
+480;Nikon Coolpix 2100;1600.0
+481;Nikon Coolpix 2200;1600.0
+482;Nikon Coolpix 2500;1600.0
+483;Nikon Coolpix 300;640.0
+484;Nikon Coolpix 3100;2048.0
+485;Nikon Coolpix 3200;2048.0
+486;Nikon Coolpix 3500;2048.0
+487;Nikon Coolpix 3700;2048.0
+488;Nikon Coolpix 4100;2288.0
+489;Nikon Coolpix 4200;2272.0
+490;Nikon Coolpix 4300;2272.0
+491;Nikon Coolpix 4500;2272.0
+492;Nikon Coolpix 4600;2288.0
+493;Nikon Coolpix 4800;2288.0
+494;Nikon Coolpix 5000;2560.0
+495;Nikon Coolpix 5200;2592.0
+496;Nikon Coolpix 5400;2592.0
+497;Nikon Coolpix 5600;2592.0
+498;Nikon Coolpix 5700;2560.0
+499;Nikon Coolpix 5900;2592.0
+500;Nikon Coolpix 600;1024.0
+501;Nikon Coolpix 700;1600.0
+502;Nikon Coolpix 7600;3072.0
+503;Nikon Coolpix 775;1600.0
+504;Nikon Coolpix 7900;3072.0
+505;Nikon Coolpix 800;1600.0
+506;Nikon Coolpix 8400;3264.0
+507;Nikon Coolpix 8700;3264.0
+508;Nikon Coolpix 880;2048.0
+509;Nikon Coolpix 8800;3264.0
+510;Nikon Coolpix 885;2048.0
+511;Nikon Coolpix 900;1280.0
+512;Nikon Coolpix 900S;1280.0
+513;Nikon Coolpix 950;1600.0
+514;Nikon Coolpix 990;2048.0
+515;Nikon Coolpix 995;2048.0
+516;Nikon Coolpix L1;2816.0
+517;Nikon Coolpix L10;2560.0
+518;Nikon Coolpix L11;2816.0
+519;Nikon Coolpix L12;3072.0
+520;Nikon Coolpix L14;3072.0
+521;Nikon Coolpix L15;3264.0
+522;Nikon Coolpix L2;2816.0
+523;Nikon Coolpix L3;2592.0
+524;Nikon Coolpix L4;2272.0
+525;Nikon Coolpix L5;3072.0
+526;Nikon Coolpix L6;2816.0
+527;Nikon Coolpix P1;3264.0
+528;Nikon Coolpix P2;2592.0
+529;Nikon Coolpix P3;3264.0
+530;Nikon Coolpix P4;3264.0
+531;Nikon Coolpix P50;3264.0
+532;Nikon Coolpix P5000;3648.0
+533;Nikon Coolpix P5100;4000.0
+534;Nikon Coolpix S1;2592.0
+535;Nikon Coolpix S10;2816.0
+536;Nikon Coolpix S2;2592.0
+537;Nikon Coolpix S200;3072.0
+538;Nikon Coolpix S3;2816.0
+539;Nikon Coolpix S4;2816.0
+540;Nikon Coolpix S5;2816.0
+541;Nikon Coolpix S50;3072.0
+542;Nikon Coolpix S500;3072.0
+543;Nikon Coolpix S50c;3072.0
+544;Nikon Coolpix S51;3264.0
+545;Nikon Coolpix S510;3264.0
+546;Nikon Coolpix S51c;3264.0
+547;Nikon Coolpix S6;2816.0
+548;Nikon Coolpix S7c;3072.0
+549;Nikon Coolpix S9;2816.0
+550;Nikon Coolpix SQ;2016.0
+551;Nikon D1;2000.0
+552;Nikon D100;3008.0
+553;Nikon D1H;2000.0
+554;Nikon D1X;3008.0
+555;Nikon D200;3872.0
+556;Nikon D2H;2464.0
+557;Nikon D2Hs;2464.0
+558;Nikon D2X;4288.0
+559;Nikon D2Xs;4288.0
+560;Nikon D3;4256.0
+561;Nikon D300;4288.0
+562;Nikon D40;3008.0
+563;Nikon D40X;3872.0
+564;Nikon D50;3008.0
+565;Nikon D70;3008.0
+566;Nikon D70s;3008.0
+567;Nikon D80;3872.0
+568;Olympus C-1;1280.0
+569;Olympus D-370;1280.0
+570;Olympus D-380;1600.0
+571;Olympus D-150Z;1280.0
+572;Olympus C-2;1600.0
+573;Olympus C-2000 Zoom;1600.0
+574;Olympus D-510 Zoom;1600.0
+575;Olympus C-2020 Zoom;1600.0
+576;Olympus C-2040 Zoom;1600.0
+577;Olympus C-21;1600.0
+578;Olympus C-2100 UZ;1600.0
+579;Olympus C-2500 L;1712.0
+580;Olympus C-3000 Zoom;2048.0
+581;Olympus C-300 Zoom;1984.0
+582;Olympus C-3020 Zoom;2048.0
+583;Olympus C-3030 Zoom;2048.0
+584;Olympus C-3040 Zoom;2048.0
+585;Olympus C-4000 Zoom;2288.0
+586;Olympus C-4040 Zoom;2272.0
+587;Olympus D-40 Zoom;2272.0
+588;Olympus C-5000 Zoom;2560.0
+589;Olympus C-5050 Zoom;2560.0
+590;Olympus C-5060 Zoom;2592.0
+591;Olympus C-50 Zoom;2560.0
+592;Olympus C-5500 Sport Zoom;2592.0
+593;Olympus C-60 Zoom;2816.0
+594;Olympus C-7000 Zoom;3072.0
+595;Olympus C-700 UZ;1600.0
+596;Olympus C-7070 Wide Zoom;3072.0
+597;Olympus C-720 UZ;1984.0
+598;Olympus C-730 UZ;2048.0
+599;Olympus C-740 UZ;2048.0
+600;Olympus C-750 UZ;2288.0
+601;Olympus C-765 UZ;2288.0
+602;Olympus C-770 UZ;2288.0
+603;Olympus C-8080 Wide Zoom;3264.0
+604;Olympus D-200L;640.0
+605;Olympus D-300L;1024.0
+606;Olympus D-340L;1280.0
+607;Olympus D-340R;1280.0
+608;Olympus D-360L;1280.0
+609;Olympus D-390;1600.0
+610;Olympus D-395;2048.0
+611;Olympus D-400 Zoom;1280.0
+612;Olympus D-425;2288.0
+613;Olympus D-435;2592.0
+614;Olympus D-450 Zoom;1280.0
+615;Olympus D-460 Zoom;1280.0
+616;Olympus D-490 Zoom;1600.0
+617;Olympus D-500L;1024.0
+618;Olympus D-520 Zoom;1600.0
+619;Olympus D-535 Zoom;2048.0
+620;Olympus D-540 Zoom;2048.0
+621;Olympus D-545 Zoom;2288.0
+622;Olympus D-560 Zoom;2048.0
+623;Olympus D-580 Zoom;2288.0
+624;Olympus D-595 Zoom;2560.0
+625;Olympus D-600L;1280.0
+626;Olympus D-620L;1280.0
+627;Olympus D-630 Zoom;2560.0
+628;Olympus E-1;2560.0
+629;Olympus E-10;2240.0
+630;Olympus E-100 RS;1368.0
+631;Olympus E-20;2560.0
+632;Olympus E-3;3648.0
+633;Olympus E-300;3264.0
+634;Olympus E-330;3136.0
+635;Olympus E-400;3648.0
+636;Olympus E-410;3648.0
+637;Olympus E-500;3264.0
+638;Olympus E-510;3648.0
+639;Olympus FE-100;2272.0
+640;Olympus FE-110;2560.0
+641;Olympus FE-115;2560.0
+642;Olympus FE-120;2816.0
+643;Olympus FE-130;2592.0
+644;Olympus FE-140;2816.0
+645;Olympus FE-150;2560.0
+646;Olympus FE-170;2816.0
+647;Olympus FE-180;2816.0
+648;Olympus FE-190;2816.0
+649;Olympus FE-200;2816.0
+650;Olympus FE-210;3072.0
+651;Olympus FE-230;3072.0
+652;Olympus FE-240;3072.0
+653;Olympus FE-250;3264.0
+654;Olympus FE-270;3072.0
+655;Olympus FE-280;3264.0
+656;Olympus FE-290;3072.0
+657;Olympus FE-300;4000.0
+658;Olympus IR-300;2560.0
+659;Olympus Stylus 300 ;2048.0
+660;Olympus Stylus 400 ;2272.0
+661;Olympus SP-310;3072.0
+662;Olympus SP-320;3072.0
+663;Olympus SP-350;3264.0
+664;Olympus SP-500 UZ;2816.0
+665;Olympus SP-510 UZ;3072.0
+666;Olympus SP-550 UZ;3072.0
+667;Olympus SP-560 UZ;3264.0
+668;Olympus SP-700;2816.0
+669;Olympus Stylus 1000;3648.0
+670;Olympus Stylus 1200;4000.0
+671;Olympus Stylus 410 ;2272.0
+672;Olympus Stylus 500 ;2560.0
+673;Olympus Stylus 600 ;2816.0
+674;Olympus Stylus 700 ;3072.0
+675;Olympus Stylus 720 SW ;3072.0
+676;Olympus Stylus 725 SW;3072.0
+677;Olympus Stylus 730;3072.0
+678;Olympus Stylus 740;3072.0
+679;Olympus Stylus 750;3072.0
+680;Olympus Stylus 760;3072.0
+681;Olympus Stylus 770 SW;3072.0
+682;Olympus Stylus 780;3072.0
+683;Olympus Stylus 790 SW;3072.0
+684;Olympus Stylus 800 ;3264.0
+685;Olympus Stylus 810 ;3264.0
+686;Olympus Stylus 820;3264.0
+687;Olympus Stylus 830;3248.0
+688;Olympus Stylus Verve ;2272.0
+689;Olympus Stylus Verve  S;2560.0
+690;Panasonic Lumix DMC-F7;1600.0
+691;Panasonic Lumix DMC-FX01;2816.0
+692;Panasonic Lumix DMC-FX07;3072.0
+693;Panasonic Lumix DMC-FX1;2048.0
+694;Panasonic Lumix DMC-FX10;2816.0
+695;Panasonic Lumix DMC-FX100;4000.0
+696;Panasonic Lumix DMC-FX12;3072.0
+697;Panasonic Lumix DMC-FX2;2304.0
+698;Panasonic Lumix DMC-FX3;2816.0
+699;Panasonic Lumix DMC-FX30;3072.0
+700;Panasonic Lumix DMC-FX33;3264.0
+701;Panasonic Lumix DMC-FX5;2304.0
+702;Panasonic Lumix DMC-FX50;3072.0
+703;Panasonic Lumix DMC-FX55;3264.0
+704;Panasonic Lumix DMC-FX7;2560.0
+705;Panasonic Lumix DMC-FX8;2560.0
+706;Panasonic Lumix DMC-FX9;2816.0
+707;Panasonic Lumix DMC-FZ1;1600.0
+708;Panasonic Lumix DMC-FZ10;2304.0
+709;Panasonic Lumix DMC-FZ18;3264.0
+710;Panasonic Lumix DMC-FZ2;1600.0
+711;Panasonic Lumix DMC-FZ20;2560.0
+712;Panasonic Lumix DMC-FZ3;2016.0
+713;Panasonic Lumix DMC-FZ30;3264.0
+714;Panasonic Lumix DMC-FZ4;2304.0
+715;Panasonic Lumix DMC-FZ5;2560.0
+716;Panasonic Lumix DMC-FZ50;3648.0
+717;Panasonic Lumix DMC-FZ7;2816.0
+718;Panasonic Lumix DMC-FZ8;3072.0
+719;Panasonic Lumix DMC-L1;3136.0
+720;Panasonic Lumix DMC-L10;3648.0
+721;Panasonic Lumix DMC-LC1;2560.0
+722;Panasonic Lumix DMC-LC20;1600.0
+723;Panasonic Lumix DMC-LC33;2048.0
+724;Panasonic Lumix DMC-LC40;2240.0
+725;Panasonic Lumix DMC-LC43;2304.0
+726;Panasonic Lumix DMC-LC5;2240.0
+727;Panasonic Lumix DMC-LC50;2048.0
+728;Panasonic Lumix DMC-LC70;2304.0
+729;Panasonic Lumix DMC-LC80;2560.0
+730;Panasonic Lumix DMC-LS1;2304.0
+731;Panasonic Lumix DMC-LS2;2560.0
+732;Panasonic Lumix DMC-LS60;2816.0
+733;Panasonic Lumix DMC-LS75;3072.0
+734;Panasonic Lumix DMC-LX1;3840.0
+735;Panasonic Lumix DMC-LX2;4224.0
+736;Panasonic Lumix DMC-LZ1;2304.0
+737;Panasonic Lumix DMC-LZ2;2560.0
+738;Panasonic Lumix DMC-LZ3;2560.0
+739;Panasonic Lumix DMC-LZ5;2816.0
+740;Panasonic Lumix DMC-LZ6;3072.0
+741;Panasonic Lumix DMC-LZ7;3072.0
+742;Panasonic Lumix DMC-TZ1;2560.0
+743;Panasonic Lumix DMC-TZ2;2816.0
+744;Panasonic Lumix DMC-TZ3;3072.0
+745;Pentax EI-100;1280.0
+746;Pentax EI-200;1600.0
+747;Pentax EI-2000;1600.0
+748;Pentax *ist D;3008.0
+749;Pentax *ist DL;3008.0
+750;Pentax *ist DL2;3008.0
+751;Pentax *ist DS;3008.0
+752;Pentax *ist DS2;3008.0
+753;Pentax K100D;3008.0
+754;Pentax K100D Super;3008.0
+755;Pentax K10D;3872.0
+756;Pentax K110D;3008.0
+757;Pentax Optio 230;1600.0
+758;Pentax Optio 30;2048.0
+759;Pentax Optio 330;2048.0
+760;Pentax Optio 330GS;2048.0
+761;Pentax Optio 330RS;2048.0
+762;Pentax Optio 33L;2048.0
+763;Pentax Optio 33LF;2048.0
+764;Pentax Optio 33WR;2048.0
+765;Pentax Optio 430;2240.0
+766;Pentax Optio 430RS;2240.0
+767;Pentax Optio 43WR;2288.0
+768;Pentax Optio 450;2288.0
+769;Pentax Optio 50;2560.0
+770;Pentax Optio 550;2592.0
+771;Pentax Optio 555;2592.0
+772;Pentax Optio 60;2848.0
+773;Pentax Optio 750Z;3056.0
+774;Pentax Optio A10;3264.0
+775;Pentax Optio A20;3648.0
+776;Pentax Optio A30;3648.0
+777;Pentax Optio E10;2816.0
+778;Pentax Optio E20;2816.0
+779;Pentax Optio E30;3072.0
+780;Pentax Optio E40;3264.0
+781;Pentax Optio M10;2816.0
+782;Pentax Optio M20;3072.0
+783;Pentax Optio M30;3072.0
+784;Pentax Optio M40;3264.0
+785;Pentax Optio MX4;2304.0
+786;Pentax Optio S;2048.0
+787;Pentax Optio S10;3648.0
+788;Pentax Optio S30;2048.0
+789;Pentax Optio S4;2304.0
+790;Pentax Optio S40;2304.0
+791;Pentax Optio S45;2304.0
+792;Pentax Optio S4i;2304.0
+793;Pentax Optio S50;2560.0
+794;Pentax Optio S55;2560.0
+795;Pentax Optio S5i;2560.0
+796;Pentax Optio S5n;2560.0
+797;Pentax Optio S5z;2560.0
+798;Pentax Optio S6;2816.0
+799;Pentax Optio S60;2816.0
+800;Pentax Optio S7;3072.0
+801;Pentax Optio SV;2560.0
+802;Pentax Optio SVi;2560.0
+803;Pentax Optio T10;2816.0
+804;Pentax Optio T20;3072.0
+805;Pentax Optio T30;3072.0
+806;Pentax Optio W10;2816.0
+807;Pentax Optio W20;3072.0
+808;Pentax Optio W30;3072.0
+809;Pentax Optio WP;2560.0
+810;Pentax Optio WPi;2816.0
+811;Pentax Optio X;2560.0
+812;Pentax Optio Z10;3264.0
+813;Ricoh Caplio 500G;3264.0
+814;Ricoh Caplio R1V;2560.0
+815;Ricoh Caplio R2;2560.0
+816;Ricoh Caplio R3;2560.0
+817;Ricoh Caplio R30;2560.0
+818;Ricoh Caplio R4;2816.0
+819;Ricoh Caplio R40;2816.0
+820;Ricoh Caplio R5;3072.0
+821;Ricoh Caplio R6;3072.0
+822;Ricoh Caplio R7;3264.0
+823;Ricoh Caplio RR530;2560.0
+824;Ricoh Caplio RR630;2816.0
+825;Ricoh Caplio G3;2048.0
+826;Ricoh GR Digital;3264.0
+827;Ricoh Caplio GX100;3648.0
+828;Ricoh Caplio GX8;3264.0
+829;Ricoh RDC-200G;1792.0
+830;Ricoh RDC-4300;1280.0
+831;Ricoh RDC-5000;1792.0
+832;Ricoh RDC-5300;1792.0
+833;Ricoh RDC-6000;1600.0
+834;Ricoh RDC-7;2048.0
+835;Ricoh RDC-i500;2048.0
+836;Ricoh RDC-i700;2048.0
+837;Ricoh Caplio RR1;2272.0
+838;Ricoh Caplio RX;2048.0
+839;Samsung Digimax A50;2592.0
+840;Samsung Digimax A502;2592.0
+841;Samsung Digimax A55W;2592.0
+842;Samsung Digimax 130;1280.0
+843;Samsung Digimax 202;1600.0
+844;Samsung Digimax 230;1600.0
+845;Samsung Digimax 250;1600.0
+846;Samsung Digimax 301;2048.0
+847;Samsung Digimax 350SE;2048.0
+848;Samsung Digimax 370;2048.0
+849;Samsung Digimax 401;2048.0
+850;Samsung Digimax 410;2272.0
+851;Samsung Digimax 430;2272.0
+852;Samsung Digimax 530;2592.0
+853;Samsung Digimax V4;2272.0
+854;Samsung GX-10;3872.0
+855;Samsung GX-1L;3008.0
+856;Samsung GX-1S;3008.0
+857;Samsung Digimax i5;2595.0
+858;Samsung Digimax i6;2816.0
+859;Samsung i7;3072.0
+860;Samsung i70;3072.0
+861;Samsung i85;3264.0
+862;Samsung L83T;3264.0
+863;Samsung L700;3072.0
+864;Samsung L73;3072.0
+865;Samsung L730;3264.0
+866;Samsung L74 Wide;3072.0
+867;Samsung L77;3072.0
+868;Samsung L830;3264.0
+869;Samsung NV10;3648.0
+870;Samsung NV11;3648.0
+871;Samsung NV15;3648.0
+872;Samsung NV20;4000.0
+873;Samsung NV3;3072.0
+874;Samsung NV7 OPS;3072.0
+875;Samsung NV8;3264.0
+876;Samsung Pro815;3264.0
+877;Samsung S1030;3648.0
+878;Samsung S1050;3648.0
+879;Samsung S630;2816.0
+880;Samsung S730;3072.0
+881;Samsung S830;3264.0
+882;Samsung S85;3264.0
+883;Samsung S850;3264.0
+884;Samsung Digimax U-CA 3;2048.0
+885;Samsung Digimax U-CA 4;2272.0
+886;Samsung Digimax U-CA 401;2272.0
+887;Samsung Digimax V40;2272.0
+888;Samsung Digimax V5;2592.0
+889;Samsung Digimax V50;2592.0
+890;Samsung Digimax V6;2816.0
+891;Samsung Digimax V700;3072.0
+892;Samsung Digimax V800;3264.0
+893;Sanyo DSC-AZ1;2288.0
+894;Sanyo DSC-J1;2048.0
+895;Sanyo DSC-S1;2048.0
+896;Sanyo Xacti DSC-S3;2048.0
+897;Sanyo Xacti DSC-S4;2288.0
+898;Sanyo DSC-MZ1;1600.0
+899;Sanyo VPC-X350;1024.0
+900;Sanyo VPC-Z400;1280.0
+901;Sigma DP1;2640.0
+902;Sigma SD10;2268.0
+903;Sigma SD14;2640.0
+904;Sigma SD9;2268.0
+905;Sony Mavica FD-91;1024.0
+906;Sony Mavica CD1000;1600.0
+907;Sony Mavica CD200;1600.0
+908;Sony Mavica CD250;1600.0
+909;Sony Mavica CD300;2048.0
+910;Sony Mavica CD350;2048.0
+911;Sony Mavica CD400;2272.0
+912;Sony Mavica CD500;2592.0
+913;Sony DSC-D700;1344.0
+914;Sony DSC-D770;1344.0
+915;Sony DSC-F505;1600.0
+916;Sony DSC-F505V;1856.0
+917;Sony DSC-F55;1600.0
+918;Sony DSC-F55V;1856.0
+919;Sony DSC-F707;2560.0
+920;Sony DSC-F717;2560.0
+921;Sony DSC-F828;3264.0
+922;Sony DSC-F88;2592.0
+923;Sony DSC-G1;2816.0
+924;Sony DSC-H1;2592.0
+925;Sony DSC-H2;2816.0
+926;Sony DSC-H3;3264.0
+927;Sony DSC-H5;3072.0
+928;Sony DSC-H7;3264.0
+929;Sony DSC-H9;3264.0
+930;Sony DSC-L1;2304.0
+931;Sony DSC-M1;2592.0
+932;Sony DSC-M2;2592.0
+933;Sony DSC-N1;3264.0
+934;Sony DSC-N2;3264.0
+935;Sony DSC-P1;2048.0
+936;Sony DSC-P10;2592.0
+937;Sony DSC-P100;2592.0
+938;Sony DSC-P150;3072.0
+939;Sony DSC-P2;1600.0
+940;Sony DSC-P20;1216.0
+941;Sony DSC-P200;3072.0
+942;Sony DSC-P3;1920.0
+943;Sony DSC-P30;1280.0
+944;Sony DSC-P31;1600.0
+945;Sony DSC-P32;2048.0
+946;Sony DSC-P41;2272.0
+947;Sony DSC-P5;2048.0
+948;Sony DSC-P50;1600.0
+949;Sony DSC-P51;1600.0
+950;Sony DSC-P52;2048.0
+951;Sony DSC-P7;2048.0
+952;Sony DSC-P71;2048.0
+953;Sony DSC-P72;2048.0
+954;Sony DSC-P73;2272.0
+955;Sony DSC-P8;2048.0
+956;Sony DSC-P9;2272.0
+957;Sony DSC-P92;2592.0
+958;Sony DSC-P93;2592.0
+959;Sony DSC-R1;3888.0
+960;Sony DSC-S30;1280.0
+961;Sony DSC-S40;2304.0
+962;Sony DSC-S50;1600.0
+963;Sony DSC-S60;2304.0
+964;Sony DSC-S600;2816.0
+965;Sony DSC-S650;3072.0
+966;Sony DSC-S70;2048.0
+967;Sony DSC-S700;3072.0
+968;Sony DSC-S75;2048.0
+969;Sony DSC-S800;3264.0
+970;Sony DSC-S85;2272.0
+971;Sony DSC-S90;2304.0
+972;Sony DSC-T1;2592.0
+973;Sony DSC-T10;3072.0
+974;Sony DSC-T100;3264.0
+975;Sony DSC-T11;2592.0
+976;Sony DSC-T20;3264.0
+977;Sony DSC-T200;3264.0
+978;Sony DSC-T3;2592.0
+979;Sony DSC-T30;3072.0
+980;Sony DSC-T33;2592.0
+981;Sony DSC-T5;2592.0
+982;Sony DSC-T50;3072.0
+983;Sony DSC-T7;2592.0
+984;Sony DSC-T9;2816.0
+985;Sony DSC-U10;1280.0
+986;Sony DSC-U20;1632.0
+987;Sony DSC-U30;1632.0
+988;Sony DSC-U40;1632.0
+989;Sony DSC-U50;1632.0
+990;Sony DSC-U60;1632.0
+991;Sony DSC-V1;2592.0
+992;Sony DSC-V3;3072.0
+993;Sony DSC-W1;2592.0
+994;Sony DSC-W100;3264.0
+995;Sony DSC-W200;4000.0
+996;Sony DSC-W30;2816.0
+997;Sony DSC-W35;3072.0
+998;Sony DSC-W5;2592.0
+999;Sony DSC-W50;2816.0
+1000;Sony DSC-W55;3072.0
+1001;Sony DSC-W7;3072.0
+1002;Sony DSC-W70;3072.0
+1003;Sony DSC-W80;3072.0
+1004;Sony DSC-W90;3254.0
+1005;Sony DSLR-A100;3872.0
+1006;Sony DSLR-A700;4272.0
+1007;Sony Mavica FD-100;1280.0
+1008;Sony Mavica FD-200;1600.0
+1009;Sony Mavica FD-71;640.0
+1010;Sony Mavica FD-73;640.0
+1011;Sony Mavica FD-75;640.0
+1012;Sony Mavica FD-81;1024.0
+1013;Sony Mavica FD-83;1024.0
+1014;Sony Mavica FD-85;1280.0
+1015;Sony Mavica FD-87;1280.0
+1016;Sony Mavica FD-88;1280.0
+1017;Sony Mavica FD-90;1280.0
+1018;Sony Mavica FD-92;1472.0
+1019;Sony Mavica FD-95;1600.0
+1020;Sony Mavica FD-97;1600.0
+1021;Toshiba PDR-3310;2048.0
+1022;Toshiba PDR-3330;2048.0
+1023;Toshiba PDR-4300;2400.0
+1024;Toshiba PDR-5300;2560.0
+1025;Toshiba PDR-M1;1280.0
+1026;Toshiba PDR-M11;1280.0
+1027;Toshiba PDR-M21;1600.0
+1028;Toshiba PDR-M25;1729.0
+1029;Toshiba PDR-M3;1280.0
+1030;Toshiba PDR-M4;1600.0
+1031;Toshiba PDR-M5;1600.0
+1032;Toshiba PDR-M60;1792.0
+1033;Toshiba PDR-M61;1792.0
+1034;Toshiba PDR-M65;2048.0
+1035;Toshiba PDR-M70;2048.0
+1036;Toshiba PDR-M71;2048.0
+1037;Toshiba PDR-M81;2400.0
+1038;Toshiba PDR-T10;1600.0
