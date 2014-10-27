@@ -57,7 +57,7 @@ def main():
   password = raw_input('password : ')
   contributorsList = getTopContributors('https://gist.github.com/paulmillr/2657075')
   contributorsRanking = dict()
-  for contributorName in contributorsList[] :
+  for contributorName in contributorsList:
     averageStars = getContributorStars(password, 'https://api.github.com/users/'+contributorName+'/repos?page=1&per_page=100', 'https://api.github.com/users/'+contributorName+'/repos?page=2&per_page=100')
     contributorsRanking.update({contributorName : averageStars})
   contributorsRanking = sorted(contributorsRanking.iteritems(), reverse=True, key=operator.itemgetter(1))
