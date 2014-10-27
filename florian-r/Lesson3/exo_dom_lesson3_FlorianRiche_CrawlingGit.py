@@ -11,6 +11,8 @@ import json
 from bs4 import BeautifulSoup
 from pandas import Series
 
+import getpass
+
 def getListeContributeur():
     url= 'https://gist.github.com/paulmillr/2657075/'
     page= requests.get(url)
@@ -20,9 +22,12 @@ def getListeContributeur():
     #print table
     noms = table.select('a[href*="https://github.com/"]')
     requete = requests.get('https://api.github.com')
+    name= raw_input('user name :')
+    password = raw_input('password :')
+    print ' Crawling...'
     for nom in noms:
                 requete = requests.get('https://api.github.com/users/'+nom.text+"/repos",auth=
-                HTTPBasicAuth('florianriche', 'Ang49100!'))
+                HTTPBasicAuth(name, password))
     #            print json.dumps(requete.json)
                 
                 Repositories =  json.loads(requete.text)
