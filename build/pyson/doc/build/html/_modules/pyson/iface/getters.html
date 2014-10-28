@@ -1,0 +1,324 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>pyson.iface.getters &mdash; pyson v0.2 documentation</title>
+    <link rel="stylesheet" href="../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '0.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <link rel="top" title="pyson v0.2 documentation" href="../../../index.html" />
+    <link rel="up" title="Module code" href="../../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../../../np-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../../index.html">pyson v0.2 documentation</a> &raquo;</li>
+          <li><a href="../../index.html" accesskey="U">Module code</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <h1>Source code for pyson.iface.getters</h1><div class="highlight"><pre>
+<span class="sd">r&#39;&#39;&#39;</span>
+<span class="sd">JSON Paths</span>
+<span class="sd">==========</span>
+
+<span class="sd">JSON-like structures can be represented by combinations between dictionaries </span>
+<span class="sd">and lists, with simple immutable types in its nodes. Given the JSON-like </span>
+<span class="sd">structure</span>
+
+<span class="sd">&gt;&gt;&gt; obj = { &quot;store&quot;: {\</span>
+<span class="sd">...     &quot;book&quot;: [ </span>
+<span class="sd">...       { &quot;category&quot;: &quot;reference&quot;,</span>
+<span class="sd">...         &quot;author&quot;: &quot;Nigel Rees&quot;,</span>
+<span class="sd">...         &quot;title&quot;: &quot;Sayings of the Century&quot;,</span>
+<span class="sd">...         &quot;discount price&quot;: 8.95</span>
+<span class="sd">...       },</span>
+<span class="sd">...       { &quot;category&quot;: &quot;fiction&quot;,</span>
+<span class="sd">...         &quot;author.name&quot;: &quot;Evelyn&quot;,</span>
+<span class="sd">...         &quot;title&quot;: &quot;Sword of Honour&quot;,</span>
+<span class="sd">...         &quot;price&quot;: 12.99</span>
+<span class="sd">...       }</span>
+<span class="sd">...     ]</span>
+<span class="sd">...   }</span>
+<span class="sd">... }</span>
+
+<span class="sd">Each datum can be addressed by its corresponding address. For example, the </span>
+<span class="sd">author &quot;Nigel Rees&quot; can be found under &quot;store&quot;, and is the &quot;author&quot; key in the</span>
+<span class="sd">first &quot;book&quot;. This address can be represented by a list of the key and indices </span>
+<span class="sd">used to access this information in the data structure, i.e.,   </span>
+<span class="sd">``[&#39;store&#39;, &#39;book&#39;, 0, &#39;author&#39;]``. Additionally, these paths can be </span>
+<span class="sd">represented by strings, using the notation ``&#39;$.store.book.0.author&#39;``, in </span>
+<span class="sd">which ``$`` represents the root node. </span>
+
+<span class="sd">The `as_path` and `as_str_path` functions can convert between the string and </span>
+<span class="sd">list representations of these addresses</span>
+
+<span class="sd">&gt;&gt;&gt; as_path(&#39;$.store.book.0.author&#39;)</span>
+<span class="sd">[&#39;store&#39;, &#39;book&#39;, 0, &#39;author&#39;]</span>
+
+<span class="sd">The items can be accessed uniformly using the `getitem` function using the</span>
+<span class="sd">string or list notations to represent paths.</span>
+
+<span class="sd">&gt;&gt;&gt; getitem(obj, &#39;$.store.book.0.author&#39;)</span>
+<span class="sd">&#39;Nigel Rees&#39;</span>
+
+<span class="sd">There is no requirement that the items in a path list should be strings or </span>
+<span class="sd">integers. In fact, they can be anything and it is up to the container structures</span>
+<span class="sd">to support them or not. String paths are more restrictive in which only strings</span>
+<span class="sd">and integers are allowed. This is more conformant with the JSON spec. </span>
+
+<span class="sd">String keys can be enclosed by quotation marks in order to represent more</span>
+<span class="sd">complicated values, as in</span>
+<span class="sd">  </span>
+<span class="sd">&gt;&gt;&gt; getitem(obj, &#39;$.store.book.0.&quot;discount price&quot;&#39;)</span>
+<span class="sd">8.95</span>
+
+<span class="sd">One can also test if a given node exists</span>
+
+<span class="sd">&gt;&gt;&gt; haspath(obj, &#39;$.store.10.&quot;number of viewers&quot;&#39;)</span>
+<span class="sd">False</span>
+
+<span class="sd">Notes</span>
+<span class="sd">-----</span>
+
+<span class="sd">This standard is vaguely based on the notation defined at</span>
+<span class="sd">http://goessner.net/articles/JsonPath/.</span>
+
+<span class="sd">Doctests</span>
+<span class="sd">--------</span>
+
+<span class="sd">(Probably this should go to a test module...)</span>
+<span class="sd">Converting complicated list paths to string paths</span>
+
+<span class="sd">&gt;&gt;&gt; as_str_path([&#39;foo&#39;, 1, &#39;bar&#39;])</span>
+<span class="sd">u&#39;$.foo.1.bar&#39;</span>
+
+<span class="sd">&gt;&gt;&gt; as_str_path([&#39;my root&#39;, 0, &#39;she said: &quot;yeah!&quot;&#39;])</span>
+<span class="sd">u&#39;$.&quot;my root&quot;.0.&quot;she said: \\&quot;yeah!\\&quot;&quot;&#39;</span>
+
+<span class="sd">API Documentation</span>
+<span class="sd">-----------------</span>
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="kn">from</span> <span class="nn">pyson.iface.exceptions</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">import</span> <span class="nn">re</span>
+
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span> <span class="s">&#39;getitem&#39;</span><span class="p">,</span> <span class="s">&#39;haspath&#39;</span><span class="p">,</span> <span class="s">&#39;as_path&#39;</span><span class="p">,</span> <span class="s">&#39;as_str_path&#39;</span> <span class="p">]</span>
+
+<span class="c"># Matches alphanumeric names or strings similar to those defined in </span>
+<span class="c"># tokenize.String </span>
+<span class="n">RE_PATH_NODE</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span>
+    <span class="sd">r&#39;&#39;&#39;^[ ]*(?P&lt;name&gt;[a-zA-Z]\w*)|(?P&lt;int&gt;-?\d+)|(?P&lt;str1&gt;&#39;[^\n&#39;\\]*(?:\\.[^\n&#39;\\]*)*&#39;)|(?P&lt;str2&gt;&quot;[^\n&quot;\\]*(?:\\.[^\n&quot;\\]*)*&quot;)[ ]*([.]|$)&#39;&#39;&#39;</span><span class="p">)</span>
+
+<span class="c"># Matches valid variable names</span>
+<span class="n">RE_NAME</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s">r&#39;^[a-zA-Z]\w*$&#39;</span><span class="p">)</span>
+
+<div class="viewcode-block" id="as_path"><a class="viewcode-back" href="../../../iface.html#pyson.iface.getters.as_path">[docs]</a><span class="k">def</span> <span class="nf">as_path</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Convert a string that represents a JSON path into a tuple.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="p">(</span><span class="nb">tuple</span><span class="p">,</span> <span class="nb">list</span><span class="p">)):</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+
+    <span class="c"># Remove dollar sign</span>
+    <span class="k">if</span> <span class="n">path</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s">&#39;$.&#39;</span><span class="p">):</span>
+        <span class="n">pattern</span> <span class="o">=</span> <span class="n">path</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">pre</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">new_path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">partition</span><span class="p">(</span><span class="s">&#39;.&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">pre</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="o">==</span> <span class="s">&#39;$&#39;</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s">&quot;invalid path &#39;</span><span class="si">%s</span><span class="s">&#39;, must start with &#39;$.&#39;&quot;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">pattern</span> <span class="o">=</span> <span class="n">new_path</span><span class="o">.</span><span class="n">lstrip</span><span class="p">()</span>
+
+    <span class="c"># List that accumulates path nodes</span>
+    <span class="n">path_nodes</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">_i</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">1000</span><span class="p">):</span>
+        <span class="n">m</span> <span class="o">=</span> <span class="n">RE_PATH_NODE</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">pattern</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">m</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">pattern</span><span class="p">:</span>
+                <span class="n">converted</span> <span class="o">=</span> <span class="s">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">path_nodes</span><span class="p">)</span>
+                <span class="n">msg</span> <span class="o">=</span> <span class="s">&quot;&#39;Invalid path: (</span><span class="si">%s</span><span class="s">, ???) from &#39;</span><span class="si">%s</span><span class="s">&#39;&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">converted</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">break</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">groups</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">groupdict</span><span class="p">()</span>
+
+            <span class="c"># Choose action depending on the type of match</span>
+            <span class="k">if</span> <span class="n">groups</span><span class="p">[</span><span class="s">&#39;name&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+                <span class="n">path_nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">groups</span><span class="p">[</span><span class="s">&#39;name&#39;</span><span class="p">])</span>
+
+            <span class="k">elif</span> <span class="n">groups</span><span class="p">[</span><span class="s">&#39;int&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+                <span class="n">path_nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">groups</span><span class="p">[</span><span class="s">&#39;int&#39;</span><span class="p">]))</span>
+
+            <span class="k">elif</span> <span class="n">groups</span><span class="p">[</span><span class="s">&#39;str1&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+                <span class="n">aux</span> <span class="o">=</span> <span class="n">groups</span><span class="p">[</span><span class="s">&#39;str1&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+                <span class="n">path_nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">aux</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\\</span><span class="s">&#39;&quot;</span><span class="p">,</span> <span class="s">&quot;&#39;&quot;</span><span class="p">))</span>
+
+            <span class="k">elif</span> <span class="n">groups</span><span class="p">[</span><span class="s">&#39;str2&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+                <span class="n">aux</span> <span class="o">=</span> <span class="n">groups</span><span class="p">[</span><span class="s">&#39;str2&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+                <span class="n">path_nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">aux</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;</span><span class="se">\\</span><span class="s">&quot;&#39;</span><span class="p">,</span> <span class="s">&#39;&quot;&#39;</span><span class="p">))</span>
+
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">RuntimeError</span>
+
+            <span class="n">pattern</span> <span class="o">=</span> <span class="n">pattern</span><span class="p">[</span><span class="n">m</span><span class="o">.</span><span class="n">end</span><span class="p">():]</span><span class="o">.</span><span class="n">lstrip</span><span class="p">()</span><span class="o">.</span><span class="n">lstrip</span><span class="p">(</span><span class="s">&#39;.&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s">&#39;Maximum number of nodes reached: 1000&#39;</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">path_nodes</span>
+</div>
+<div class="viewcode-block" id="getitem"><a class="viewcode-back" href="../../../iface.html#pyson.iface.getters.getitem">[docs]</a><span class="k">def</span> <span class="nf">getitem</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">DEFAULT</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return the value in a given JSON path of &#39;obj&#39;. </span>
+<span class="sd">    </span>
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    obj : JSON-like object </span>
+<span class="sd">        JSON structure (list-like or dictionary-like)   </span>
+<span class="sd">    path : str, iterable</span>
+<span class="sd">        The path can be a string of the form ``&quot;$.child.toys.0&quot;`` or an </span>
+<span class="sd">        iterable that expands to ``[&#39;child&#39;, &#39;toys&#39;, 0]``</span>
+<span class="sd">    default</span>
+<span class="sd">        Return this value if `obj` does possess the desired path node. </span>
+<span class="sd">    </span>
+<span class="sd">    Raises</span>
+<span class="sd">    ------</span>
+<span class="sd">    KeyIndexError</span>
+<span class="sd">        If path is not present in `obj&#39;.</span>
+<span class="sd">        </span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">curr_idx</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">curr_obj</span> <span class="o">=</span> <span class="n">obj</span>
+    <span class="n">path</span> <span class="o">=</span> <span class="n">as_path</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">path</span><span class="p">:</span>
+            <span class="n">curr_obj</span> <span class="o">=</span> <span class="n">curr_obj</span><span class="p">[</span><span class="n">k</span><span class="p">]</span>
+            <span class="n">curr_idx</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">return</span> <span class="n">curr_obj</span>
+    <span class="k">except</span> <span class="p">(</span><span class="ne">KeyError</span><span class="p">,</span> <span class="ne">IndexError</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">default</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">DEFAULT</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">default</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">base</span> <span class="o">=</span> <span class="n">path</span><span class="p">[:</span><span class="n">curr_idx</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">base</span><span class="p">:</span>
+                <span class="n">full_path</span> <span class="o">=</span> <span class="n">as_str_path</span><span class="p">(</span><span class="n">base</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">full_path</span> <span class="o">=</span> <span class="s">&#39;root node&#39;</span>
+            <span class="k">raise</span> <span class="n">IndexKeyError</span><span class="p">(</span><span class="s">&quot;key does not exist at </span><span class="si">%s</span><span class="s">: &#39;</span><span class="si">%s</span><span class="s">&#39;&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">full_path</span><span class="p">,</span> <span class="n">k</span><span class="p">))</span>
+</div>
+<div class="viewcode-block" id="as_str_path"><a class="viewcode-back" href="../../../iface.html#pyson.iface.getters.as_str_path">[docs]</a><span class="k">def</span> <span class="nf">as_str_path</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;Represents a given &#39;path&#39; as a valid query string&#39;&#39;&#39;</span>
+
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="nb">basestring</span><span class="p">):</span>
+        <span class="c">#TODO: validate string</span>
+        <span class="k">return</span> <span class="n">path</span>
+
+    <span class="n">nodes</span> <span class="o">=</span> <span class="p">[</span><span class="s">u&#39;$&#39;</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">path</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="nb">basestring</span><span class="p">):</span>
+            <span class="n">node</span> <span class="o">=</span> <span class="nb">unicode</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">RE_NAME</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">node</span><span class="p">):</span>
+                <span class="n">node</span> <span class="o">=</span> <span class="n">node</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;&quot;&#39;</span><span class="p">,</span> <span class="s">&#39;</span><span class="se">\\</span><span class="s">&quot;&#39;</span><span class="p">)</span>
+                <span class="n">node</span> <span class="o">=</span> <span class="s">u&#39;&quot;</span><span class="si">%s</span><span class="s">&quot;&#39;</span> <span class="o">%</span> <span class="n">node</span>
+            <span class="n">nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
+            <span class="n">nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">node</span><span class="p">))</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s">&quot;invalid path element of type </span><span class="si">%s</span><span class="s">; only int&#39;s and str&#39;s are accepted&quot;</span> <span class="o">%</span> <span class="nb">type</span><span class="p">(</span><span class="n">node</span><span class="p">))</span>
+
+    <span class="k">return</span> <span class="s">u&#39;.&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">nodes</span><span class="p">)</span>
+</div>
+<div class="viewcode-block" id="haspath"><a class="viewcode-back" href="../../../iface.html#pyson.iface.getters.haspath">[docs]</a><span class="k">def</span> <span class="nf">haspath</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">path</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Return True if ``obj`` has a value associated with the given ``path``.  </span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">_aux_value</span> <span class="o">=</span> <span class="n">getitem</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">True</span>
+    <span class="k">except</span> <span class="n">IndexKeyError</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">False</span>
+</div>
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">doctest</span>
+    <span class="n">doctest</span><span class="o">.</span><span class="n">testmod</span><span class="p">(</span><span class="n">optionflags</span><span class="o">=</span><span class="n">doctest</span><span class="o">.</span><span class="n">REPORT_ONLY_FIRST_FAILURE</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../../../np-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../../index.html">pyson v0.2 documentation</a> &raquo;</li>
+          <li><a href="../../index.html" >Module code</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Fábio Macêdo Mendes.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.7.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+=====================
+Basic JSON structures
+=====================
+
+JSON_ stands for *JavaScript Object Notation*, is a lightweight file format used
+to define structured data. As the name implies, JSON was modeled after the 
+JavaScript syntax and it represents its most common data types. A valid JSON 
+file is also a valid JavaScript source, and in a lot of cases, it is also a 
+valid Python source. 
+
+Conceptually, JSON represents data structures as combinations of mappings, 
+sequences and atomic types such as strings and numbers. The present library is 
+designed to manipulate these generic data structures, and **not** JSON data per-se. 
+Of course, the inspiration is in the JSON file format, and there is support for 
+serialization and de-serialization to/from JSON. If you want, PYSON may stand
+for *Python Structures Object Notation*
+
+That said, most functions in this library manipulate generic structures 
+organized around mappings and sequence containers. These usually will be 
+Python's dicts and lists, but similar types are also supported. Optionally, 
+more strict JSON-like rules can be enforced; e.g., in JSON, the root element 
+must be a dictionary, dictionary keys are always (unicode) strings, and values
+must be strings, ints, floats, bools or NULL (the JavaScript equivalent to 
+Python's None).
+
+.. _JSON: http://json.org/
+
+.. automodule:: pyson.iface.getters
+   :members:
+
+.. automodule:: pyson.iface.setters
+   :members: 
+
+.. automodule:: pyson.iface.iterators
+   :members:
+   
