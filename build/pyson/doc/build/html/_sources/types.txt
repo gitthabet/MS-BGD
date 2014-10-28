@@ -1,0 +1,183 @@
+===========
+Data  Types
+===========
+
+JSON recognize a few data types based on native JavaScript types. Besides 
+dictionaries and lists (which in JavaScript are named "objects" and "arrays"),
+few non-container types are allowed. These types, and the corresponding Python
+objects are listed bellow:
+
+   +---------------+-------------------+
+   | JSON          | Python            |
+   +===============+===================+
+   | object        | dict              |
+   +---------------+-------------------+
+   | array         | list              |
+   +---------------+-------------------+
+   | string        | unicode           |
+   +---------------+-------------------+
+   | number (int)  | int, long         |
+   +---------------+-------------------+
+   | number (real) | decimal.Decimal   |
+   +---------------+-------------------+
+   | true          | True              |
+   +---------------+-------------------+
+   | false         | False             |
+   +---------------+-------------------+
+   | null          | None              |
+   +---------------+-------------------+
+
+Strict adherence to JSON spec imposes limitations on the values allowed for 
+some Python types:
+
+	- The root element of a JSON object must be a dictionary. 
+	- Dictionary keys must be strings. 
+	- Special numbers, NaN, -inf, +inf are not allowed.
+
+These restrictions are not always enforced in many JSON parsers. They are not 
+even limitations inherent of JavaScript, as the language support all of these 
+features. A very common (but unsafe) method of evaluating JSON is to execute it 
+directly in the JavaScript interpreter. Hence, most JSON parsers support at 
+least a few non-JSON JavaScript features, that reproduces this behavior in a 
+saner way.
+
+:mod:`pyson` may work with many different levels of JSON compliance. It can go 
+from objects that are strictly identical JSON objects to objects that have no
+defined JSON representation. The library works with the notion of a *json 
+level*, which describes the level of compliance of a given data structure to 
+the JSON spec.
+ 
+JSON Type Level
+---------------
+
+JSON compliance can be enforced independently both in the types and the values 
+of each object in a JSON structure. 
+
+Type Level 0
+~~~~~~~~~~~~
+
+The most strict level of type compliance guarantees that after applying the 
+default JSON deserializer to the result of the default JSON serializer, one 
+obtains exactly the original object. This is the reason why we chose 
+`decimal.Decimal` instead of `float`to represent JSON's real numbers: rounding 
+errors can make the serialization non-invertible and dependent on machine 
+architecture. Only objects in the table #? are allowed at this level.
+
+Type Level 1
+~~~~~~~~~~~~
+
+The next level of compliance requires that a serialization/deserialization 
+transformation will yield equivalent, but not necessarily identical objects, 
+in most cases. The equivalence is evaluated in the sense of Python's ``==``
+operator and is only required to hold in a "most cases" basis: e.g., ``str`` 
+objects are *almost always* equivalent to ``unicode``, as  is ``float`` to 
+``Decimal``, and so on. Subtypes of JSON level 0 and level 1 types are also 
+JSON level 1 types. A few common types with similar semantics to the original
+level 0 types were also added to the list.
+
+   +---------------+--------------------------------------+
+   | JSON          | JSON Level 1                         |
+   +===============+======================================+
+   | object        | collections.Mapping                  | 
+   +---------------+--------------------------------------+
+   | array         | tuple, collections.Sequence,         |
+   +---------------+--------------------------------------+
+   | string        | basestr, str                         |
+   +---------------+--------------------------------------+
+   | number (int)  | numpy.integer                        |
+   +---------------+--------------------------------------+
+   | number (real) | float, numpy.float                   |
+   +---------------+--------------------------------------+
+   | boolean       | numpy.bool                           |
+   +---------------+--------------------------------------+
+   | null          |                                      |
+   +---------------+--------------------------------------+
+
+Type Level 2
+~~~~~~~~~~~~
+
+The next level of JSON compliance allows for a one-way serialization to some 
+JSON type. Types in this level can produce JSON types, but usually is hard
+to reconstruct them from JSON. 
+
+   +---------------+--------------------------------------+
+   | JSON          | JSON Level 2                         |
+   +===============+======================================+
+   | object        |                                      | 
+   +---------------+--------------------------------------+
+   | array         | iterators                            |
+   +---------------+--------------------------------------+
+   | string        | file/buffer protocol                 |
+   +---------------+--------------------------------------+
+   | number (int)  |                                      |
+   +---------------+--------------------------------------+
+   | number (real) |                                      |
+   +---------------+--------------------------------------+
+   | boolean       |                                      |
+   +---------------+--------------------------------------+
+   | null          |                                      |
+   +---------------+--------------------------------------+
+
+Type Level 3
+~~~~~~~~~~~~
+
+This level of JSON compatibility is reserved for objects that supports a one or
+two way conversion to JSON. Objects that implements ``_to_json_()`` and 
+``_from_json_()`` methods can also define (de)serialization routines. There is
+also support for defining functions to implement (de)serializators to 
+*ad hoc* types. These facilities are treated in the section 
+`JSON conversion to arbitrary types`. 
+
+
+Type Level 4
+~~~~~~~~~~~~
+ 
+This is a very broad category that supports many Python objects using a custom
+(de)serializer based on Python's Pickle protocol. This looses interoperability
+with other languages, but can handle automatically many Python types. 
+ 
+
+Type Level 5
+~~~~~~~~~~~~
+
+The last level of JSON compatibility is reserved for objects that have no 
+degree of compatibility with JSON at all, e.g., unnamed functions (lambda's). 
+
+
+Internal description of data types
+----------------------------------
+
+Internally, each type that can be queried for its JSON type is associated with
+a numerical value that describes important characteristics of that type. This
+value is interpreted as a bit mask that contains a few fields:
+
+  - JSON ``type_level`` (3 bits)
+  	  Interpreted as a numerical value that represents the JSON level of the 
+  	  type (from 0 to 4)
+  - JSON ``type_descr`` (4 bits)
+      Numerical value to each JSON type: 
+        0) ``object``
+        1) ``array``
+        2) ``string``
+        3) ``int``
+        4) ``real``
+        5) ``boolean``
+        6) ``null``
+        7) ``generic_value``
+        8) ``non_json``
+  - JSON ``is_container`` (1 bit)
+      True if object is of JSON type ``object`` or ``array``.
+  - JSON ``is_value`` (1 bit)
+      True if object is a valid non-container JSON type.
+  - JSON ``is_number`` (1 bit)
+      True if object is of JSON type ``real`` or ``int``.
+
+The function :function:`tt_bitmask` creates the appropriate numerical code
+from the given ``type_level`` and ``type_descr`` values.
+       	    
+.. automodule:: pyson.types.type_masks
+   :members:
+
+
+
+
