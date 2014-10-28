@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import json
 import numpy as np
 import operator
+import csv
 
 """ Class to use utils functions """
 class Util:
@@ -70,7 +71,7 @@ class GitHubApi:
 
 
 def main():
-    contributorsNumber = 10
+    contributorsNumber = 256
     contributorsPagesInfo = 2
     userPassword = raw_input('password : ')
 
@@ -96,10 +97,15 @@ def main():
     contributorsRank = sorted(contributorsRank.iteritems(),
                               reverse=True,
                               key=operator.itemgetter(1))
-    print '\nRanking :'
-    # Display the result
-    for key, value in contributorsRank:
-        print str(value) + " : " + key
+    with open('eggs.csv', 'wb') as csvfile:
+        spamwriter = csv.writer(csvfile, delimiter=' ',
+                            quotechar=';', quoting=csv.QUOTE_MINIMAL)
+        print '\nRanking :'
+        spamwriter.writerow('rank' + ' ' + 'username')
+        # Display the result
+        for key, value in contributorsRank:
+            print str(value) + " : " + key
+            spamwriter.writerow(str(value) + ' ' + key)
 
 
 # Launch the program

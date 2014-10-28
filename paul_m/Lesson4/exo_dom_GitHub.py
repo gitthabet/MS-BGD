@@ -4,9 +4,8 @@ import json
 import operator
 import requests
 from bs4 import BeautifulSoup
+from requests.auth import HTTPBasicAuth
 import math
-
-GitHub_API='1e954a1242e3e3b342f26e3b070fe3b68436734f'
 
 def getSoupFromUrl(url):
 	result =requests.get(url)
@@ -31,12 +30,10 @@ def main():
 	for balise_tr in balises_tr:
 		GitHub_MoreActive_Users[balise_tr.select("td:nth-of-type(1)")[0].text.split(" ")[0].strip()]=0
 
-	#PB: HTTPSConnectionPool(host='%20api.github.com', port=443): 
-	#Max retries exceeded
 	#--------------------API
 	#On interroge via l'API de GitHub:
 	for user in GitHub_MoreActive_Users.keys():
-		req=requests.get('https:// api.github.com/users/'+user+'/repos')
+		req=requests.get('https://api.github.com/users/'+user+'/repos', auth=('pmochkovitch','MP'))
 		json_user=json.loads(req.text)
 		GitHub_MoreActive_Users[user]=GetMeanStars(json_user)
 	

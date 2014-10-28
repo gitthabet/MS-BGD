@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import json
 import numpy as np
 import operator
+import csv
 
 
 # Returns a soup object from a given url
@@ -33,18 +34,18 @@ def getTopContributors(url):
    
     return contributorsList
 
-def getContributorStars(url1, url2):
+def getContributorStars(password, url1, url2):
 	
 	starsList =[]
 	
-	req=requests.get (url1, auth=('yjanvier', '##########'))
+	req=requests.get (url1, auth=('yjanvier', password))
 	
 	reposDictionnaryList = json.loads(req.content)
 	
 	for reposDictionnary in reposDictionnaryList:
 		starsList.append(reposDictionnary.get('stargazers_count'))
 	
-	req=requests.get (url2, auth=('yjanvier', '##########'))
+	req=requests.get (url2, auth=('yjanvier', password))
 	
 	reposDictionnaryList = json.loads(req.content)
 	
@@ -53,14 +54,19 @@ def getContributorStars(url1, url2):
 	return np.mean(starsList)
     	
 def main():
-   	contributorsList = getTopContributors('https://gist.github.com/paulmillr/2657075')
-   	contributorsRanking = dict()
-   	for contributorName in contributorsList :
-   		averageStars = getContributorStars('https://api.github.com/users/'+contributorName+'/repos?page=1&per_page=100', 'https://api.github.com/users/'+contributorName+'/repos?page=2&per_page=100')
-   		contributorsRanking.update({contributorName : averageStars})
-   	contributorsRanking = sorted(contributorsRanking.iteritems(), reverse=True, key=operator.itemgetter(1))
-   	for key, value in contributorsRanking:
-   		print key + " : " + str(value) + "\n"
+  password = raw_input('password : ')
+  contributorsList = getTopContributors('https://gist.github.com/paulmillr/2657075')
+  contributorsRanking = dict()
+  for contributorName in contributorsList:
+    averageStars = getContributorStars(password, 'https://api.github.com/users/'+contributorName+'/repos?page=1&per_page=100', 'https://api.github.com/users/'+contributorName+'/repos?page=2&per_page=100')
+    contributorsRanking.update({contributorName : averageStars})
+  contributorsRanking = sorted(contributorsRanking.iteritems(), reverse=True, key=operator.itemgetter(1))
+  with open('Githubranking.csv', 'wb') as csvfile:
+    spamwriter = csv.writer(csvfile, delimiter=' ',quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    for key, value in contributorsRanking:
+      print key + " : " + str(value) + "\n"
+      spamwriter.writerow(key + " : " + str(value))
+
 
 if __name__ == "__main__":
     main()
