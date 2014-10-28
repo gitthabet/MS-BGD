@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Oct 16 20:28:26 2014
+Created on Sun Oct 26 14:48:32 2014
 
-@author: christian
-
-De http://alize2.finances.gouv.fr/communes/eneuro/detail.php?icom=056&dep=075&type=BPS&param=5&exercice=2013
-récupérer les données A,B,C et D sur les colonnes Euros par habitant et par strate.
+@author: Sarra
 """
+
 import requests
 from bs4 import BeautifulSoup
 import re
