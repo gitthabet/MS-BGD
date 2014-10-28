@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import re
 import json
 import numpy as np
+import pandas as pd
 
 
 # Donne l'objet soup correspondant à l'url spécifiée
@@ -82,3 +83,8 @@ sortedData = sorted( stargazersCountOfTopUsers, key = lambda userDict : userDict
 print '\n\nAffichage de la liste totale triée : \n\n' 
 for userObject in sortedData : 
 	print 'User : ' + userObject['user'] + ' => nombre moyen de stars : ' + str(userObject['meanOfStars'])
+
+# Ecriture en csv 
+dataForCsv = pd.DataFrame(sortedData, columns=['meanOfStars', 'user'])
+dataForCsv = dataForCsv[['user', 'meanOfStars']]
+dataForCsv.to_csv('topUsersStagazersCount.csv')
