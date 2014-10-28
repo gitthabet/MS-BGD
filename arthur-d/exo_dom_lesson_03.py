@@ -3,6 +3,7 @@
 import requests, re
 from bs4 import BeautifulSoup
 from github import Github
+import numpy as np
 
 def getKey(item):
 	return item[1]
@@ -17,20 +18,15 @@ def get_etoiles_user(full_name):
 	g = Github("Jaffeur", "********")
 	user = re.split("\s", full_name)[0]
 	repos_list = g.get_user(user).get_repos()
-	tot = 0
-	n = 0
+	list_star = []
 	for repo in repos_list:
-		n += 1
-		tot += repo.stargazers_count
-	if n == 0:
-		return 0
-	else:
-		return tot/n
+		list_star.append(repo.stargazers_count)
+	return np.mean(list_star)
 	
 
 def main():
 	#session git hub
-	g = Github("Jaffeur", "S45tBuE4")
+	g = Github("Jaffeur", "********")
 
 	r = requests.get("https://gist.github.com/paulmillr/2657075")
 	if r.status_code == 200:
