@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import sys
-import csv
+from pandas import Series
 
 #Fonction de téléchargement
 def get_page(url):
@@ -39,6 +39,7 @@ for ligne in lignes:
 users = sorted(users, key=lambda x:x[-1], reverse=True)
 
 #Generation du fichier csv
+import csv
 myfile = open('resultats.csv', 'w')
 wr = csv.writer(myfile, delimiter=';')
 for user in users:
