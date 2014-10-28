@@ -1,0 +1,23 @@
+* API = Application Programming Interface
+Le schéma le plus classique est la REST API
+https://dev.twitter.com/rest/public
+
+* On va aller chercher les pages par les requêtes GET et POST
+il ya d'autres termes (=verb) qui sont liés à d'autres protocoles
+http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html
+
+* 2 grands formats: JSON et XML
+JSON: fonctionne un peu comme un dictionnaire (clé, valeur)
+
+* Doc API twitter:
+	- rate limited: est-ce que l'on peut aspirer tout ce que l'on veut? (ex: 15 requêtes par minute)
+
+* Pour passer des paramètres dans une requête
+
+* IFTTT/zapier
+
+* JSONView: addon chrome
+
+* POSTMAN: permet de simuler depuis le navigateur, des requêtes
+
+* pandas: librairie très importante à connaître! (pandas rattrappe r et tout son environneent le rend supérieur)

@@ -22,7 +22,8 @@ balises_td=result.find_all("td",class_='subtext')
 
 for balise_td in balises_td:
 	balises_a=balise_td.find_all("a")
-	hackers.append(balises_a[0].text)
+	if len(balises_a)!=0:
+		hackers.append(balises_a[0].text)
 
 Ha={}
 for hacker in hackers[:3]:
