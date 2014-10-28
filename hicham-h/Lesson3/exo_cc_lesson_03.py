@@ -40,7 +40,7 @@ for origin in origins:
                     for leg in legs:
                         distance = leg['distance']
 #                       distance en km
-                        result[i][j] = distance['value']/1000
+                        result[i][j] += distance['value']/1000
 #       Incrementation de l'indice de colonne
         j += 1
 #   Incrementation de l'indice de colonne
