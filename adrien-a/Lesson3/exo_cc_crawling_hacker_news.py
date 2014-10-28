@@ -1,54 +1,47 @@
 # -*- coding: utf-8 -*-
 
-import html5lib
+import json
+import operator
 import requests
 from bs4 import BeautifulSoup
+import math
 
-# Donne l'objet soup correspondant à l'url spécifiée
-def getSoupFromUrl(url) :
-	webPage = requests.get(url)
-	if webPage.status_code != 200 :
-		print "Failure of the request on web page : " + url
+GitHub_API='1e954a1242e3e3b342f26e3b070fe3b68436734f'
 
-	return BeautifulSoup(webPage.text, 'html5lib')
+def getSoupFromUrl(url):
+	result =requests.get(url)
+	if result.status_code == 200:
+		return BeautifulSoup(result.text)
+	else:
+		print 'Request failed with ',url
 
+def GetMeanStars(json_user):
+	sum=0
+	for i in range(len(json_user)):
+		sum=sum+json_user[i]['stargazers_count']
+	return sum/len(json_user)
 
+def main():
+	#--------------------CRAWLING
+	#On récupère la liste des users dans le dictionnaire GitHub_MoreActive_Users:
+	GitHub_MoreActive_Users={}
+	url="https://gist.github.com/paulmillr/2657075"
+	result=getSoupFromUrl(url)
+	balises_tr=result.find_all("tr")
+	for balise_tr in balises_tr:
+		GitHub_MoreActive_Users[balise_tr.select("td:nth-of-type(1)")[0].text.split(" ")[0].strip()]=0
 
-# Obtention de la liste des liens utilisateurs de la page 1 
-soup = getSoupFromUrl('https://news.ycombinator.com/')
-a = soup.find_all('a')
-linksPage1 = [ link.get('href') for link in a ]
-
-# Obtention de la liste des liens utilisateurs de la page 2 
-soup = getSoupFromUrl('https://news.ycombinator.com/news?p=2')
-a = soup.find_all('a')
-linksPage2 = [ link.get('href') for link in a ]
-
-# Obtention de la liste des liens utilisateurs de la page 3 
-soup = getSoupFromUrl('https://news.ycombinator.com/news?p=3')
-a = soup.find_all('a')
-linksPage3 = [ link.get('href') for link in a ]
-
-links = linksPage1 + linksPage2 + linksPage3
-
-userLinks = []
-
-for link in links : 
-	if link.find('user') != -1 and link.find('blog') == -1 :
-				userLinks.append('https://news.ycombinator.com/' + link)
-
-# Pour chaque user on recupere son carma 
-users = []
-for link in userLinks : 
-	userSoup = getSoupFromUrl(userlinks[0])
-	try:
-		username = userSoup.find_all('td', text='user:')[0].parent.select("td:nth-of-type(2)")[0].string
-		karma = userSoup.find_all('td', text='karma:')[0].parent.select("td:nth-of-type(2)")[0].string
-		users.append( {'username': username, 'karma': karma} )
-	except Exception, e:
-		print 'Page inaccessible : ' + link
+	#PB: HTTPSConnectionPool(host='%20api.github.com', port=443): 
+	#Max retries exceeded
+	#--------------------API
+	#On interroge via l'API de GitHub:
+	for user in GitHub_MoreActive_Users.keys():
+		req=requests.get('https:// api.github.com/users/'+user+'/repos')
+		json_user=json.loads(req.text)
+		GitHub_MoreActive_Users[user]=GetMeanStars(json_user)
 	
+	#On trie le dictionnaire
+	print sorted(GitHub_MoreActive_Users.iteritems(), reverse=True, key=operator.itemgetter(1))
 
-print '\n\nListe des users avec leur karma :\n'
-print users
-
+if __name__ == "__main__":
+    main()
