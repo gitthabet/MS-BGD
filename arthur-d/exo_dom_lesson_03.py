@@ -14,7 +14,7 @@ def sort_contrib(C):
 
 
 def get_etoiles_user(full_name):
-	g = Github("Jaffeur", "S45tBuE4")
+	g = Github("Jaffeur", "********")
 	user = re.split("\s", full_name)[0]
 	repos_list = g.get_user(user).get_repos()
 	tot = 0
