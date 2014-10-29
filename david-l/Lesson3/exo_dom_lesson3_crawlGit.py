@@ -1,4 +1,4 @@
-""" This exercise returns info from users in ycombinator.com """
+""" Exercice crawl GitHub """
 # -*- coding: utf-8 -*-
 import requests
 from bs4 import BeautifulSoup
