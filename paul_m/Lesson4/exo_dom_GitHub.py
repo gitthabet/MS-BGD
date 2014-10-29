@@ -18,6 +18,7 @@ def GetMeanStars(json_user):
 	sum=0
 	for i in range(len(json_user)):
 		sum=sum+json_user[i]['stargazers_count']
+	#np.mean(json_user[:]['stargazers_count'])
 	return sum/len(json_user)
 
 def main():
