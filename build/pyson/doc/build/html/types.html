@@ -1,0 +1,371 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Data Types &mdash; pyson v0.2 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="pyson v0.2 documentation" href="index.html" />
+    <link rel="prev" title="Basic JSON structures" href="iface.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="np-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="iface.html" title="Basic JSON structures"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">pyson v0.2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="data-types">
+<h1>Data  Types<a class="headerlink" href="#data-types" title="Permalink to this headline">¶</a></h1>
+<p>JSON recognize a few data types based on native JavaScript types. Besides
+dictionaries and lists (which in JavaScript are named &#8220;objects&#8221; and &#8220;arrays&#8221;),
+few non-container types are allowed. These types, and the corresponding Python
+objects are listed bellow:</p>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="44%" />
+<col width="56%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">JSON</th>
+<th class="head">Python</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>object</td>
+<td>dict</td>
+</tr>
+<tr><td>array</td>
+<td>list</td>
+</tr>
+<tr><td>string</td>
+<td>unicode</td>
+</tr>
+<tr><td>number (int)</td>
+<td>int, long</td>
+</tr>
+<tr><td>number (real)</td>
+<td>decimal.Decimal</td>
+</tr>
+<tr><td>true</td>
+<td>True</td>
+</tr>
+<tr><td>false</td>
+<td>False</td>
+</tr>
+<tr><td>null</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>Strict adherence to JSON spec imposes limitations on the values allowed for
+some Python types:</p>
+<blockquote>
+<div><ul class="simple">
+<li>The root element of a JSON object must be a dictionary.</li>
+<li>Dictionary keys must be strings.</li>
+<li>Special numbers, NaN, -inf, +inf are not allowed.</li>
+</ul>
+</div></blockquote>
+<p>These restrictions are not always enforced in many JSON parsers. They are not
+even limitations inherent of JavaScript, as the language support all of these
+features. A very common (but unsafe) method of evaluating JSON is to execute it
+directly in the JavaScript interpreter. Hence, most JSON parsers support at
+least a few non-JSON JavaScript features, that reproduces this behavior in a
+saner way.</p>
+<p><tt class="xref py py-mod docutils literal"><span class="pre">pyson</span></tt> may work with many different levels of JSON compliance. It can go
+from objects that are strictly identical JSON objects to objects that have no
+defined JSON representation. The library works with the notion of a <em>json
+level</em>, which describes the level of compliance of a given data structure to
+the JSON spec.</p>
+<div class="section" id="json-type-level">
+<h2>JSON Type Level<a class="headerlink" href="#json-type-level" title="Permalink to this headline">¶</a></h2>
+<p>JSON compliance can be enforced independently both in the types and the values
+of each object in a JSON structure.</p>
+<div class="section" id="type-level-0">
+<h3>Type Level 0<a class="headerlink" href="#type-level-0" title="Permalink to this headline">¶</a></h3>
+<p>The most strict level of type compliance guarantees that after applying the
+default JSON deserializer to the result of the default JSON serializer, one
+obtains exactly the original object. This is the reason why we chose
+<cite>decimal.Decimal</cite> instead of <a href="#id1"><span class="problematic" id="id2">`</span></a>float`to represent JSON&#8217;s real numbers: rounding
+errors can make the serialization non-invertible and dependent on machine
+architecture. Only objects in the table #? are allowed at this level.</p>
+</div>
+<div class="section" id="type-level-1">
+<h3>Type Level 1<a class="headerlink" href="#type-level-1" title="Permalink to this headline">¶</a></h3>
+<p>The next level of compliance requires that a serialization/deserialization
+transformation will yield equivalent, but not necessarily identical objects,
+in most cases. The equivalence is evaluated in the sense of Python&#8217;s <tt class="docutils literal"><span class="pre">==</span></tt>
+operator and is only required to hold in a &#8220;most cases&#8221; basis: e.g., <tt class="docutils literal"><span class="pre">str</span></tt>
+objects are <em>almost always</em> equivalent to <tt class="docutils literal"><span class="pre">unicode</span></tt>, as  is <tt class="docutils literal"><span class="pre">float</span></tt> to
+<tt class="docutils literal"><span class="pre">Decimal</span></tt>, and so on. Subtypes of JSON level 0 and level 1 types are also
+JSON level 1 types. A few common types with similar semantics to the original
+level 0 types were also added to the list.</p>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">JSON</th>
+<th class="head">JSON Level 1</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>object</td>
+<td>collections.Mapping</td>
+</tr>
+<tr><td>array</td>
+<td>tuple, collections.Sequence,</td>
+</tr>
+<tr><td>string</td>
+<td>basestr, str</td>
+</tr>
+<tr><td>number (int)</td>
+<td>numpy.integer</td>
+</tr>
+<tr><td>number (real)</td>
+<td>float, numpy.float</td>
+</tr>
+<tr><td>boolean</td>
+<td>numpy.bool</td>
+</tr>
+<tr><td>null</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="type-level-2">
+<h3>Type Level 2<a class="headerlink" href="#type-level-2" title="Permalink to this headline">¶</a></h3>
+<p>The next level of JSON compliance allows for a one-way serialization to some
+JSON type. Types in this level can produce JSON types, but usually is hard
+to reconstruct them from JSON.</p>
+<blockquote>
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">JSON</th>
+<th class="head">JSON Level 2</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>object</td>
+<td>&nbsp;</td>
+</tr>
+<tr><td>array</td>
+<td>iterators</td>
+</tr>
+<tr><td>string</td>
+<td>file/buffer protocol</td>
+</tr>
+<tr><td>number (int)</td>
+<td>&nbsp;</td>
+</tr>
+<tr><td>number (real)</td>
+<td>&nbsp;</td>
+</tr>
+<tr><td>boolean</td>
+<td>&nbsp;</td>
+</tr>
+<tr><td>null</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="type-level-3">
+<h3>Type Level 3<a class="headerlink" href="#type-level-3" title="Permalink to this headline">¶</a></h3>
+<p>This level of JSON compatibility is reserved for objects that supports a one or
+two way conversion to JSON. Objects that implements <tt class="docutils literal"><span class="pre">_to_json_()</span></tt> and
+<tt class="docutils literal"><span class="pre">_from_json_()</span></tt> methods can also define (de)serialization routines. There is
+also support for defining functions to implement (de)serializators to
+<em>ad hoc</em> types. These facilities are treated in the section
+<cite>JSON conversion to arbitrary types</cite>.</p>
+</div>
+<div class="section" id="type-level-4">
+<h3>Type Level 4<a class="headerlink" href="#type-level-4" title="Permalink to this headline">¶</a></h3>
+<p>This is a very broad category that supports many Python objects using a custom
+(de)serializer based on Python&#8217;s Pickle protocol. This looses interoperability
+with other languages, but can handle automatically many Python types.</p>
+</div>
+<div class="section" id="type-level-5">
+<h3>Type Level 5<a class="headerlink" href="#type-level-5" title="Permalink to this headline">¶</a></h3>
+<p>The last level of JSON compatibility is reserved for objects that have no
+degree of compatibility with JSON at all, e.g., unnamed functions (lambda&#8217;s).</p>
+</div>
+</div>
+<div class="section" id="internal-description-of-data-types">
+<h2>Internal description of data types<a class="headerlink" href="#internal-description-of-data-types" title="Permalink to this headline">¶</a></h2>
+<p>Internally, each type that can be queried for its JSON type is associated with
+a numerical value that describes important characteristics of that type. This
+value is interpreted as a bit mask that contains a few fields:</p>
+<blockquote>
+<div><ul>
+<li><dl class="first docutils">
+<dt>JSON <tt class="docutils literal"><span class="pre">type_level</span></tt> (3 bits)</dt>
+<dd><p class="first last">Interpreted as a numerical value that represents the JSON level of the
+type (from 0 to 4)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>JSON <tt class="docutils literal"><span class="pre">type_descr</span></tt> (4 bits)</dt>
+<dd><dl class="first last docutils">
+<dt>Numerical value to each JSON type:</dt>
+<dd><ol class="first last arabic simple" start="0">
+<li><tt class="docutils literal"><span class="pre">object</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">array</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">string</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">int</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">real</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">boolean</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">null</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">generic_value</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">non_json</span></tt></li>
+</ol>
+</dd>
+</dl>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>JSON <tt class="docutils literal"><span class="pre">is_container</span></tt> (1 bit)</dt>
+<dd><p class="first last">True if object is of JSON type <tt class="docutils literal"><span class="pre">object</span></tt> or <tt class="docutils literal"><span class="pre">array</span></tt>.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>JSON <tt class="docutils literal"><span class="pre">is_value</span></tt> (1 bit)</dt>
+<dd><p class="first last">True if object is a valid non-container JSON type.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>JSON <tt class="docutils literal"><span class="pre">is_number</span></tt> (1 bit)</dt>
+<dd><p class="first last">True if object is of JSON type <tt class="docutils literal"><span class="pre">real</span></tt> or <tt class="docutils literal"><span class="pre">int</span></tt>.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+<p>The function <a href="#id3"><span class="problematic" id="id4">:function:`tt_bitmask`</span></a> creates the appropriate numerical code
+from the given <tt class="docutils literal"><span class="pre">type_level</span></tt> and <tt class="docutils literal"><span class="pre">type_descr</span></tt> values.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Data  Types</a><ul>
+<li><a class="reference internal" href="#json-type-level">JSON Type Level</a><ul>
+<li><a class="reference internal" href="#type-level-0">Type Level 0</a></li>
+<li><a class="reference internal" href="#type-level-1">Type Level 1</a></li>
+<li><a class="reference internal" href="#type-level-2">Type Level 2</a></li>
+<li><a class="reference internal" href="#type-level-3">Type Level 3</a></li>
+<li><a class="reference internal" href="#type-level-4">Type Level 4</a></li>
+<li><a class="reference internal" href="#type-level-5">Type Level 5</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#internal-description-of-data-types">Internal description of data types</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="iface.html"
+                        title="previous chapter">Basic JSON structures</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/types.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="np-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="iface.html" title="Basic JSON structures"
+             >previous</a> |</li>
+        <li><a href="index.html">pyson v0.2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Fábio Macêdo Mendes.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.7.
+    </div>
+  </body>
+</html>

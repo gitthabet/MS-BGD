@@ -1,0 +1,319 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>pyson.iface.setters &mdash; pyson v0.2 documentation</title>
+    <link rel="stylesheet" href="../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '0.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <link rel="top" title="pyson v0.2 documentation" href="../../../index.html" />
+    <link rel="up" title="Module code" href="../../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../../../np-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../../index.html">pyson v0.2 documentation</a> &raquo;</li>
+          <li><a href="../../index.html" accesskey="U">Module code</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <h1>Source code for pyson.iface.setters</h1><div class="highlight"><pre>
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">Setting values</span>
+<span class="sd">==============</span>
+
+<span class="sd">There are many different functions that, similarly to `getitem`, provide the</span>
+<span class="sd">write functionality to JSON structures using paths directly.   </span>
+
+<span class="sd">There are many similar functions that differ in the way they handle non-existing</span>
+<span class="sd">nodes and in the way they distinguish behavior in mappings and sequences </span>
+<span class="sd">structures.</span>
+
+<span class="sd">The differences can be illustrated in the following example. Consider the </span>
+<span class="sd">structure</span>
+
+<span class="sd">&gt;&gt;&gt; obj = {&#39;foo&#39;: [0, 1, 2]}</span>
+
+<span class="sd">The most simple function that manipultes ``obj`` is `updateitem`. This function</span>
+<span class="sd">replaces the value of an existing path element and raises an error if the </span>
+<span class="sd">given path does not exist.</span>
+
+<span class="sd">&gt;&gt;&gt; updateitem(obj, &#39;$.foo.0&#39;, &#39;zero&#39;); obj</span>
+<span class="sd">{&#39;foo&#39;: [&#39;zero&#39;, 1, 2]}</span>
+
+<span class="sd">&gt;&gt;&gt; updateitem(obj, &#39;$.bar.0&#39;, &#39;zero&#39;)</span>
+<span class="sd">Traceback (most recent call last):</span>
+<span class="sd">...</span>
+<span class="sd">IndexKeyError: u&#39;$.bar.0 is empty&#39;</span>
+
+<span class="sd">A less restrictive version is the `setitem` function, which emulates python&#39;s</span>
+<span class="sd">default behavior of key insertion in dictionaries and lists. It creates new</span>
+<span class="sd">keys in dictionaries, but does not try to fill up lists in any circunstance.</span>
+
+<span class="sd">&gt;&gt;&gt; obj = {}</span>
+<span class="sd">&gt;&gt;&gt; setitem(obj, &#39;$.spam.ham.eggs&#39;, &#39;ham or spam?&#39;); obj</span>
+<span class="sd">{&#39;spam&#39;: {&#39;ham&#39;: {&#39;eggs&#39;: &#39;ham or spam?&#39;}}}</span>
+
+
+<span class="sd">API Documentation</span>
+<span class="sd">-----------------</span>
+
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="kn">from</span> <span class="nn">pyson.iface.getters</span> <span class="kn">import</span> <span class="n">haspath</span><span class="p">,</span> <span class="n">as_path</span><span class="p">,</span> <span class="n">as_str_path</span><span class="p">,</span> <span class="n">getitem</span>
+<span class="kn">from</span> <span class="nn">pyson.iface.exceptions</span> <span class="kn">import</span> <span class="n">IndexKeyError</span>
+<span class="kn">from</span> <span class="nn">pyson.types</span> <span class="kn">import</span> <span class="n">is_object</span>
+
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span> <span class="s">&#39;updateitem&#39;</span><span class="p">,</span> <span class="s">&#39;setitem&#39;</span><span class="p">,</span> <span class="s">&#39;writeitem&#39;</span> <span class="p">]</span>
+
+<div class="viewcode-block" id="updateitem"><a class="viewcode-back" href="../../../iface.html#pyson.iface.setters.updateitem">[docs]</a><span class="k">def</span> <span class="nf">updateitem</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Updates ``obj``&#39;s ``path`` node to given ``value``. </span>
+<span class="sd">    </span>
+<span class="sd">    Raises</span>
+<span class="sd">    ------</span>
+<span class="sd">    IndexKeyError</span>
+<span class="sd">        If the node is empty.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">path</span> <span class="o">=</span> <span class="n">as_path</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">haspath</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">path</span><span class="p">):</span>
+        <span class="n">obj</span> <span class="o">=</span> <span class="n">getitem</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">path</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">obj</span><span class="p">[</span><span class="n">path</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> <span class="o">=</span> <span class="n">value</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="n">IndexKeyError</span><span class="p">(</span><span class="s">&#39;</span><span class="si">%s</span><span class="s"> is empty&#39;</span> <span class="o">%</span> <span class="n">as_str_path</span><span class="p">(</span><span class="n">path</span><span class="p">))</span>
+</div>
+<div class="viewcode-block" id="setitem"><a class="viewcode-back" href="../../../iface.html#pyson.iface.setters.setitem">[docs]</a><span class="k">def</span> <span class="nf">setitem</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">newmap</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Updates ``obj``&#39;s ``path`` node to given ``value``. Recursively creates </span>
+<span class="sd">    and updates new keys for mapping containers. </span>
+<span class="sd">    </span>
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    obj : JSON-like</span>
+<span class="sd">        JSON-like structure.</span>
+<span class="sd">    path : str or list path</span>
+<span class="sd">        Any valid JSON path.</span>
+<span class="sd">    value : object</span>
+<span class="sd">        Any value to be assigned to the given path node.</span>
+<span class="sd">    newmap : callable</span>
+<span class="sd">        Factory function for creating new mappings. By default it tries to use</span>
+<span class="sd">        the same type as the innermost dictionary. This function, called</span>
+<span class="sd">        with no arguments, should return a new dictionary-like object.</span>
+
+<span class="sd">    Raises</span>
+<span class="sd">    ------</span>
+<span class="sd">    IndexKeyError</span>
+<span class="sd">        If a node in a sequence container is empty. </span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="n">path</span> <span class="o">=</span> <span class="n">as_path</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+    <span class="n">curr_obj</span> <span class="o">=</span> <span class="n">obj</span>
+
+    <span class="c"># Find the first empty node</span>
+    <span class="n">idx</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">objs</span> <span class="o">=</span> <span class="p">[</span><span class="n">obj</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">path</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">curr_obj</span> <span class="o">=</span> <span class="n">curr_obj</span><span class="p">[</span><span class="n">node</span><span class="p">]</span>
+            <span class="n">objs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">curr_obj</span><span class="p">)</span>
+            <span class="n">idx</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+            <span class="n">break_node</span> <span class="o">=</span> <span class="n">node</span>
+            <span class="n">break_obj</span> <span class="o">=</span> <span class="n">curr_obj</span>
+            <span class="k">break</span>
+        <span class="k">except</span> <span class="ne">IndexError</span><span class="p">:</span>
+            <span class="n">path</span> <span class="o">=</span> <span class="n">as_str_path</span><span class="p">(</span><span class="n">path</span><span class="p">[:</span><span class="n">idx</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])</span>
+            <span class="k">raise</span> <span class="n">IndexKeyError</span><span class="p">(</span><span class="s">&#39;empty node </span><span class="si">%s</span><span class="s"> in sequence.&#39;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c"># There is no empty node: assign value</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">curr_obj</span><span class="p">[</span><span class="n">path</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> <span class="o">=</span> <span class="n">value</span>
+            <span class="k">return</span>
+        <span class="k">except</span> <span class="ne">IndexError</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">IndexKeyError</span><span class="p">(</span><span class="s">&#39;empty node </span><span class="si">%s</span><span class="s"> in sequence.&#39;</span> <span class="o">%</span> <span class="n">as_str_path</span><span class="p">(</span><span class="n">path</span><span class="p">))</span>
+
+    <span class="c"># An empty node was found: inspect the missing structures</span>
+    <span class="n">empty_path</span> <span class="o">=</span> <span class="n">path</span><span class="p">[</span><span class="n">idx</span><span class="p">:]</span>
+
+    <span class="c"># Asserts that no integer index exists for the new nodes: it only fills</span>
+    <span class="c"># new dictionaries </span>
+    <span class="n">empty_tt</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">type</span><span class="p">,</span> <span class="n">empty_path</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">int</span> <span class="ow">in</span> <span class="n">empty_tt</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="n">IndexKeyError</span><span class="p">(</span><span class="s">&#39;attempt to create sequence&#39;</span><span class="p">)</span>
+
+    <span class="c"># Obtain the factory function for creating new mappings</span>
+    <span class="k">if</span> <span class="n">newmap</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">objs</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">obj</span> <span class="ow">in</span> <span class="n">objs</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">is_object</span><span class="p">(</span><span class="n">obj</span><span class="p">):</span>
+                <span class="n">newmap</span> <span class="o">=</span> <span class="nb">type</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
+                <span class="k">break</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">newmap</span> <span class="o">=</span> <span class="nb">dict</span>
+
+    <span class="c"># Fill dictionary values</span>
+    <span class="n">curr</span> <span class="o">=</span> <span class="n">empty</span> <span class="o">=</span> <span class="n">newmap</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">empty_path</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+        <span class="n">curr</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="n">newmap</span><span class="p">()</span>
+        <span class="n">curr</span> <span class="o">=</span> <span class="n">curr</span><span class="p">[</span><span class="n">node</span><span class="p">]</span>
+    <span class="n">curr</span><span class="p">[</span><span class="n">empty_path</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="c"># Commit new dictionary to &#39;obj&#39;</span>
+    <span class="n">break_obj</span><span class="p">[</span><span class="n">break_node</span><span class="p">]</span> <span class="o">=</span> <span class="n">empty</span>
+</div>
+<div class="viewcode-block" id="writeitem"><a class="viewcode-back" href="../../../iface.html#pyson.iface.setters.writeitem">[docs]</a><span class="k">def</span> <span class="nf">writeitem</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="n">newmap</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">newseq</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">newitem</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    In most cases, it behaves like the __setitem__ iterface:</span>
+<span class="sd">    </span>
+<span class="sd">        setitem(obj, key, value) &lt;==&gt; obj[key] = value. </span>
+<span class="sd">    </span>
+<span class="sd">    The two optional arguments &#39;fill&#39; and &#39;fill_value&#39; defines how list-like </span>
+<span class="sd">    sequences are handled if &#39;key&#39; is an invalid index. </span>
+<span class="sd">    </span>
+<span class="sd">    If &#39;fill&#39; is True (default) and key == len(obj), thus indices are [0, 1, </span>
+<span class="sd">    ..., len(obj) - 1],  &#39;value&#39; is appended to the end of the list. This </span>
+<span class="sd">    behavior creates the new entry that is equivalent to &#39;obj[key] == value&#39;.</span>
+<span class="sd">    </span>
+<span class="sd">    If &#39;fill&#39; is True and key &gt; len(obj), the function checks if the user </span>
+<span class="sd">    had defined the &#39;fill_value&#39; argument. The list is then filled with this </span>
+<span class="sd">    value until the obj[key] is reached, and finally value is appended to the </span>
+<span class="sd">    list.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="c">#TODO: support completion in array objects</span>
+    <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+
+    <span class="n">path</span> <span class="o">=</span> <span class="n">as_path</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+    <span class="n">curr_obj</span> <span class="o">=</span> <span class="n">obj</span>
+
+    <span class="c"># Find the first empty node</span>
+    <span class="n">idx</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">objs</span> <span class="o">=</span> <span class="p">[</span><span class="n">obj</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">path</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">curr_obj</span> <span class="o">=</span> <span class="n">curr_obj</span><span class="p">[</span><span class="n">node</span><span class="p">]</span>
+            <span class="n">objs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">curr_obj</span><span class="p">)</span>
+            <span class="n">idx</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+            <span class="n">break_node</span> <span class="o">=</span> <span class="n">node</span>
+            <span class="n">break_obj</span> <span class="o">=</span> <span class="n">curr_obj</span>
+            <span class="k">break</span>
+        <span class="k">except</span> <span class="ne">IndexError</span><span class="p">:</span>
+            <span class="n">path</span> <span class="o">=</span> <span class="n">as_str_path</span><span class="p">(</span><span class="n">path</span><span class="p">[:</span><span class="n">idx</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])</span>
+            <span class="k">raise</span> <span class="n">IndexKeyError</span><span class="p">(</span><span class="s">&#39;empty node </span><span class="si">%s</span><span class="s"> in sequence.&#39;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c"># There is no empty node: assign value</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">curr_obj</span><span class="p">[</span><span class="n">path</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> <span class="o">=</span> <span class="n">value</span>
+            <span class="k">return</span>
+        <span class="k">except</span> <span class="ne">IndexError</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">IndexKeyError</span><span class="p">(</span><span class="s">&#39;empty node </span><span class="si">%s</span><span class="s"> in sequence.&#39;</span> <span class="o">%</span> <span class="n">as_str_path</span><span class="p">(</span><span class="n">path</span><span class="p">))</span>
+
+    <span class="c"># An empty node was found: inspect the missing structures</span>
+    <span class="n">empty_path</span> <span class="o">=</span> <span class="n">path</span><span class="p">[</span><span class="n">idx</span><span class="p">:]</span>
+
+    <span class="c"># Asserts that no integer index exists for the new nodes: it only fills</span>
+    <span class="c"># new dictionaries </span>
+    <span class="n">empty_tt</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="nb">type</span><span class="p">,</span> <span class="n">empty_path</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">int</span> <span class="ow">in</span> <span class="n">empty_tt</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="n">IndexKeyError</span><span class="p">(</span><span class="s">&#39;attempt to create sequence&#39;</span><span class="p">)</span>
+
+    <span class="c"># Obtain the factory function for creating new mappings</span>
+    <span class="k">if</span> <span class="n">newmap</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">objs</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">obj</span> <span class="ow">in</span> <span class="n">objs</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">is_object</span><span class="p">(</span><span class="n">obj</span><span class="p">):</span>
+                <span class="n">newmap</span> <span class="o">=</span> <span class="nb">type</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
+                <span class="k">break</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">newmap</span> <span class="o">=</span> <span class="nb">dict</span>
+
+    <span class="c"># Fill dictionary values</span>
+    <span class="n">curr</span> <span class="o">=</span> <span class="n">empty</span> <span class="o">=</span> <span class="n">newmap</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">empty_path</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+        <span class="n">curr</span><span class="p">[</span><span class="n">node</span><span class="p">]</span> <span class="o">=</span> <span class="n">newmap</span><span class="p">()</span>
+        <span class="n">curr</span> <span class="o">=</span> <span class="n">curr</span><span class="p">[</span><span class="n">node</span><span class="p">]</span>
+    <span class="n">curr</span><span class="p">[</span><span class="n">empty_path</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> <span class="o">=</span> <span class="n">value</span>
+
+    <span class="c"># Commit new dictionary to &#39;obj&#39;</span>
+    <span class="n">break_obj</span><span class="p">[</span><span class="n">break_node</span><span class="p">]</span> <span class="o">=</span> <span class="n">empty</span>
+</div>
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">doctest</span>
+    <span class="n">doctest</span><span class="o">.</span><span class="n">testmod</span><span class="p">(</span><span class="n">optionflags</span><span class="o">=</span><span class="n">doctest</span><span class="o">.</span><span class="n">REPORT_ONLY_FIRST_FAILURE</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../../../np-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../../index.html">pyson v0.2 documentation</a> &raquo;</li>
+          <li><a href="../../index.html" >Module code</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Fábio Macêdo Mendes.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.7.
+    </div>
+  </body>
+</html>

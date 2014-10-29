@@ -1,0 +1,246 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>pyson.iface.iterators &mdash; pyson v0.2 documentation</title>
+    <link rel="stylesheet" href="../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '0.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <link rel="top" title="pyson v0.2 documentation" href="../../../index.html" />
+    <link rel="up" title="Module code" href="../../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../../../np-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../../index.html">pyson v0.2 documentation</a> &raquo;</li>
+          <li><a href="../../index.html" accesskey="U">Module code</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <h1>Source code for pyson.iface.iterators</h1><div class="highlight"><pre>
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span> <span class="s">&#39;iteritems&#39;</span><span class="p">,</span> <span class="s">&#39;itervalues&#39;</span><span class="p">,</span> <span class="s">&#39;iterkeys&#39;</span><span class="p">,</span> <span class="s">&#39;listitems&#39;</span><span class="p">,</span> <span class="s">&#39;listvalues&#39;</span><span class="p">,</span>
+            <span class="s">&#39;listkeys&#39;</span><span class="p">]</span>
+
+<div class="viewcode-block" id="iteritems"><a class="viewcode-back" href="../../../iface.html#pyson.iface.iterators.iteritems">[docs]</a><span class="k">def</span> <span class="nf">iteritems</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">anyiter</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Iterate over all pairs of (key, obj[key]) in obj. </span>
+<span class="sd">    </span>
+<span class="sd">    If &#39;obj&#39; is a mapping, iteritems(obj) is equivalent obj.iteritems(). If it </span>
+<span class="sd">    is a sequence, iteritems(obj) behaves similarly to enumerate(obj).</span>
+<span class="sd">    </span>
+<span class="sd">    Arguments</span>
+<span class="sd">    ---------</span>
+<span class="sd">    </span>
+<span class="sd">    obj : any container object (mapping or sequence)</span>
+<span class="sd">        Object to be iterated</span>
+<span class="sd">    anyiter : bool</span>
+<span class="sd">        If &#39;obj&#39; is iterable but does not support indexing (e.g., an iterator </span>
+<span class="sd">        or a set object), the default behavior is to raise a TypeError. If </span>
+<span class="sd">        &#39;anyiter&#39; is True, this function works similarly to the enumerate(obj) </span>
+<span class="sd">        for these objects.</span>
+<span class="sd">    </span>
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    </span>
+<span class="sd">    Supports lists and dicts</span>
+<span class="sd">    </span>
+<span class="sd">    &gt;&gt;&gt; list(iteritems([1,2])); list(iteritems({&#39;foo&#39;: &#39;bar&#39;})) </span>
+<span class="sd">    [(0, 1), (1, 2)]</span>
+<span class="sd">    [(&#39;foo&#39;, &#39;bar&#39;)]</span>
+<span class="sd">    </span>
+<span class="sd">    Sequence types such as strings are also supported.</span>
+
+<span class="sd">    &gt;&gt;&gt; list(iteritems(&#39;foo&#39;))</span>
+<span class="sd">    [(0, &#39;f&#39;), (1, &#39;o&#39;), (2, &#39;o&#39;)]</span>
+<span class="sd">    </span>
+<span class="sd">    The default behavior is to raise an error if &#39;obj&#39; does not support </span>
+<span class="sd">    indexing.</span>
+<span class="sd">    </span>
+<span class="sd">    &gt;&gt;&gt; iteritems(set())</span>
+<span class="sd">    Traceback (most recent call last):</span>
+<span class="sd">    ...</span>
+<span class="sd">    TypeError: object of type &lt;type &#39;set&#39;&gt; is not supported</span>
+<span class="sd">    </span>
+<span class="sd">    If &#39;obj&#39; is iterable, this behavior can be overridden by setting anyiter to</span>
+<span class="sd">    True. In this case, the object is treated as a sequence.</span>
+<span class="sd">    </span>
+<span class="sd">    &gt;&gt;&gt; list(iteritems(set([1, 2]), anyiter=True))</span>
+<span class="sd">    [(0, 1), (1, 2)]</span>
+<span class="sd">    </span>
+<span class="sd">    See also</span>
+<span class="sd">    --------</span>
+<span class="sd">    </span>
+<span class="sd">    listitems()  --- return a list of all key/values of &#39;obj&#39;</span>
+<span class="sd">    iterkeys()   --- iterate over all keys/indices of &#39;obj&#39;</span>
+<span class="sd">    itervalues() --- iterate over all values of &#39;obj&#39;.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+
+    <span class="c">#</span>
+    <span class="c"># The dict _ITERITEMS_FUNCS caches iterator factory functions for each type</span>
+    <span class="c"># There are three types of expansion:</span>
+    <span class="c"># </span>
+    <span class="c">#     1) iteritems(obj) &lt;==&gt; obj.iteritems()</span>
+    <span class="c">#     2) iteritems(obj) &lt;==&gt; obj.items() # Python 3</span>
+    <span class="c">#     3) iteritems(obj) &lt;==&gt; enumerate(obj)</span>
+    <span class="c">#     4) iteritems(obj) ---- raises TypeError (obj do not support </span>
+    <span class="c">#                                              __getitem__ and iteration)</span>
+    <span class="c">#</span>
+    <span class="c"># ITERITEM_TYPES returns a function that creates the corresponding iterator,</span>
+    <span class="c"># or None if object is not supported.</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">tt</span> <span class="o">=</span> <span class="nb">type</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
+        <span class="n">iterfunc</span> <span class="o">=</span> <span class="n">_ITERITEMS_FUNCS</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span>
+    <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+        <span class="c"># Checks if object is in black list of anyiter </span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">iterfunc</span> <span class="o">=</span> <span class="n">_ITERITEMS_ANYITER</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span>
+        <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+            <span class="c"># Discovers to which category the object belongs to</span>
+            <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">tt</span><span class="p">,</span> <span class="s">&#39;iteritems&#39;</span><span class="p">):</span>
+                <span class="n">iterfunc</span> <span class="o">=</span> <span class="n">_ITERITEMS_FUNCS</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span> <span class="o">=</span> <span class="n">tt</span><span class="o">.</span><span class="n">iteritems</span>
+            <span class="k">elif</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">tt</span><span class="p">,</span> <span class="s">&#39;items&#39;</span><span class="p">):</span>
+                <span class="n">iterfunc</span> <span class="o">=</span> <span class="n">_ITERITEMS_FUNCS</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span> <span class="o">=</span> <span class="n">tt</span><span class="o">.</span><span class="n">items</span>
+            <span class="c"># Sequence protocol</span>
+            <span class="k">elif</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">tt</span><span class="p">,</span> <span class="s">&#39;__getitem__&#39;</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">tt</span><span class="p">,</span> <span class="s">&#39;__len__&#39;</span><span class="p">):</span>
+                <span class="n">iterfunc</span> <span class="o">=</span> <span class="n">_ITERITEMS_FUNCS</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span> <span class="o">=</span> <span class="nb">enumerate</span>
+            <span class="c"># Generic iterator protocol</span>
+            <span class="k">elif</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">tt</span><span class="p">,</span> <span class="s">&#39;__iter__&#39;</span><span class="p">):</span>
+                <span class="n">iterfunc</span> <span class="o">=</span> <span class="n">_ITERITEMS_ANYITER</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span> <span class="o">=</span> <span class="nb">enumerate</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">anyiter</span><span class="p">:</span>
+                    <span class="n">iterfunc</span> <span class="o">=</span> <span class="bp">None</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">iterfunc</span> <span class="o">=</span> <span class="n">_ITERITEMS_ANYITER</span><span class="p">[</span><span class="n">tt</span><span class="p">]</span> <span class="o">=</span> <span class="bp">None</span>
+        <span class="k">finally</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">iterfunc</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s">&#39;object of type </span><span class="si">%s</span><span class="s"> is not supported&#39;</span> <span class="o">%</span> <span class="nb">type</span><span class="p">(</span><span class="n">obj</span><span class="p">))</span>
+    <span class="c"># Return iterator</span>
+    <span class="k">return</span> <span class="n">iterfunc</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
+
+<span class="c"># Utility functions / variables used by iteritems() ----------------------------</span></div>
+<span class="n">_ITERITEMS_FUNCS</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">_ITERITEMS_ANYITER</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="c"># Functions based on iteritems() -----------------------------------------------</span>
+<div class="viewcode-block" id="itervalues"><a class="viewcode-back" href="../../../iface.html#pyson.iface.iterators.itervalues">[docs]</a><span class="k">def</span> <span class="nf">itervalues</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">anyiter</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Iterate over all values of &#39;obj&#39;.</span>
+<span class="sd">    </span>
+<span class="sd">    See also</span>
+<span class="sd">    --------</span>
+<span class="sd">    </span>
+<span class="sd">    listvalues() --- return a list with all values of &#39;obj&#39;.</span>
+<span class="sd">    iteritems()  --- iterate over (key, obj[key]) pairs</span>
+<span class="sd">    iterkeys()   --- iterate over all keys/indices of &#39;obj&#39;</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">anyiter</span><span class="p">):</span>
+        <span class="k">yield</span> <span class="n">v</span>
+</div>
+<div class="viewcode-block" id="iterkeys"><a class="viewcode-back" href="../../../iface.html#pyson.iface.iterators.iterkeys">[docs]</a><span class="k">def</span> <span class="nf">iterkeys</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">anyiter</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Iterate over all keys/indices of &#39;obj&#39;</span>
+<span class="sd">    </span>
+<span class="sd">    See also</span>
+<span class="sd">    --------</span>
+<span class="sd">    </span>
+<span class="sd">    listkeys()   --- return a list of all keys/indices of &#39;obj&#39;</span>
+<span class="sd">    iteritems()  --- iterate over (key, obj[key]) pairs</span>
+<span class="sd">    itervalues() --- iterate over all values of &#39;obj&#39;.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">_</span><span class="p">)</span> <span class="ow">in</span> <span class="n">iteritems</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">anyiter</span><span class="p">):</span>
+        <span class="k">yield</span> <span class="n">k</span>
+</div>
+<div class="viewcode-block" id="listitems"><a class="viewcode-back" href="../../../iface.html#pyson.iface.iterators.listitems">[docs]</a><span class="k">def</span> <span class="nf">listitems</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">anyiter</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;Version of iteritems that returns a list instead of an iterator.&#39;&#39;&#39;</span>
+
+    <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">iteritems</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">anyiter</span><span class="p">))</span>
+</div>
+<div class="viewcode-block" id="listvalues"><a class="viewcode-back" href="../../../iface.html#pyson.iface.iterators.listvalues">[docs]</a><span class="k">def</span> <span class="nf">listvalues</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">anyiter</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;Version of itervalues that returns a list instead of an iterator.&#39;&#39;&#39;</span>
+
+    <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">itervalues</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">anyiter</span><span class="p">))</span>
+</div>
+<div class="viewcode-block" id="listkeys"><a class="viewcode-back" href="../../../iface.html#pyson.iface.iterators.listkeys">[docs]</a><span class="k">def</span> <span class="nf">listkeys</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">anyiter</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;Version of iterkeys that returns a list instead of an iterator.&#39;&#39;&#39;</span>
+
+    <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">iterkeys</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">anyiter</span><span class="p">))</span>
+</div>
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">doctest</span>
+    <span class="n">doctest</span><span class="o">.</span><span class="n">testmod</span><span class="p">(</span><span class="n">optionflags</span><span class="o">=</span><span class="n">doctest</span><span class="o">.</span><span class="n">REPORT_ONLY_FIRST_FAILURE</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../../../np-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../../index.html">pyson v0.2 documentation</a> &raquo;</li>
+          <li><a href="../../index.html" >Module code</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Fábio Macêdo Mendes.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.7.
+    </div>
+  </body>
+</html>

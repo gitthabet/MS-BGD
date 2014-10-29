@@ -1,0 +1,472 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Basic JSON structures &mdash; pyson v0.2 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="pyson v0.2 documentation" href="index.html" />
+    <link rel="next" title="Data Types" href="types.html" />
+    <link rel="prev" title="Welcome to pyson’s documentation!" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="np-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="types.html" title="Data Types"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to pyson’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">pyson v0.2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="basic-json-structures">
+<h1>Basic JSON structures<a class="headerlink" href="#basic-json-structures" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="http://json.org/">JSON</a> stands for <em>JavaScript Object Notation</em>, is a lightweight file format used
+to define structured data. As the name implies, JSON was modeled after the
+JavaScript syntax and it represents its most common data types. A valid JSON
+file is also a valid JavaScript source, and in a lot of cases, it is also a
+valid Python source.</p>
+<p>Conceptually, JSON represents data structures as combinations of mappings,
+sequences and atomic types such as strings and numbers. The present library is
+designed to manipulate these generic data structures, and <strong>not</strong> JSON data per-se.
+Of course, the inspiration is in the JSON file format, and there is support for
+serialization and de-serialization to/from JSON. If you want, PYSON may stand
+for <em>Python Structures Object Notation</em></p>
+<p>That said, most functions in this library manipulate generic structures
+organized around mappings and sequence containers. These usually will be
+Python&#8217;s dicts and lists, but similar types are also supported. Optionally,
+more strict JSON-like rules can be enforced; e.g., in JSON, the root element
+must be a dictionary, dictionary keys are always (unicode) strings, and values
+must be strings, ints, floats, bools or NULL (the JavaScript equivalent to
+Python&#8217;s None).</p>
+<span class="target" id="module-pyson.iface.getters"></span><div class="section" id="json-paths">
+<h2>JSON Paths<a class="headerlink" href="#json-paths" title="Permalink to this headline">¶</a></h2>
+<p>JSON-like structures can be represented by combinations between dictionaries 
+and lists, with simple immutable types in its nodes. Given the JSON-like 
+structure</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">obj</span> <span class="o">=</span> <span class="p">{</span> <span class="s">&quot;store&quot;</span><span class="p">:</span> <span class="p">{</span>\
+<span class="gp">... </span>    <span class="s">&quot;book&quot;</span><span class="p">:</span> <span class="p">[</span> 
+<span class="gp">... </span>      <span class="p">{</span> <span class="s">&quot;category&quot;</span><span class="p">:</span> <span class="s">&quot;reference&quot;</span><span class="p">,</span>
+<span class="gp">... </span>        <span class="s">&quot;author&quot;</span><span class="p">:</span> <span class="s">&quot;Nigel Rees&quot;</span><span class="p">,</span>
+<span class="gp">... </span>        <span class="s">&quot;title&quot;</span><span class="p">:</span> <span class="s">&quot;Sayings of the Century&quot;</span><span class="p">,</span>
+<span class="gp">... </span>        <span class="s">&quot;discount price&quot;</span><span class="p">:</span> <span class="mf">8.95</span>
+<span class="gp">... </span>      <span class="p">},</span>
+<span class="gp">... </span>      <span class="p">{</span> <span class="s">&quot;category&quot;</span><span class="p">:</span> <span class="s">&quot;fiction&quot;</span><span class="p">,</span>
+<span class="gp">... </span>        <span class="s">&quot;author.name&quot;</span><span class="p">:</span> <span class="s">&quot;Evelyn&quot;</span><span class="p">,</span>
+<span class="gp">... </span>        <span class="s">&quot;title&quot;</span><span class="p">:</span> <span class="s">&quot;Sword of Honour&quot;</span><span class="p">,</span>
+<span class="gp">... </span>        <span class="s">&quot;price&quot;</span><span class="p">:</span> <span class="mf">12.99</span>
+<span class="gp">... </span>      <span class="p">}</span>
+<span class="gp">... </span>    <span class="p">]</span>
+<span class="gp">... </span>  <span class="p">}</span>
+<span class="gp">... </span><span class="p">}</span>
+</pre></div>
+</div>
+<p>Each datum can be addressed by its corresponding address. For example, the 
+author &#8220;Nigel Rees&#8221; can be found under &#8220;store&#8221;, and is the &#8220;author&#8221; key in the
+first &#8220;book&#8221;. This address can be represented by a list of the key and indices 
+used to access this information in the data structure, i.e.,   
+<tt class="docutils literal"><span class="pre">['store',</span> <span class="pre">'book',</span> <span class="pre">0,</span> <span class="pre">'author']</span></tt>. Additionally, these paths can be 
+represented by strings, using the notation <tt class="docutils literal"><span class="pre">'$.store.book.0.author'</span></tt>, in 
+which <tt class="docutils literal"><span class="pre">$</span></tt> represents the root node.</p>
+<p>The <cite>as_path</cite> and <cite>as_str_path</cite> functions can convert between the string and 
+list representations of these addresses</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">as_path</span><span class="p">(</span><span class="s">&#39;$.store.book.0.author&#39;</span><span class="p">)</span>
+<span class="go">[&#39;store&#39;, &#39;book&#39;, 0, &#39;author&#39;]</span>
+</pre></div>
+</div>
+<p>The items can be accessed uniformly using the <cite>getitem</cite> function using the
+string or list notations to represent paths.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">getitem</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="s">&#39;$.store.book.0.author&#39;</span><span class="p">)</span>
+<span class="go">&#39;Nigel Rees&#39;</span>
+</pre></div>
+</div>
+<p>There is no requirement that the items in a path list should be strings or 
+integers. In fact, they can be anything and it is up to the container structures
+to support them or not. String paths are more restrictive in which only strings
+and integers are allowed. This is more conformant with the JSON spec.</p>
+<p>String keys can be enclosed by quotation marks in order to represent more
+complicated values, as in</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">getitem</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="s">&#39;$.store.book.0.&quot;discount price&quot;&#39;</span><span class="p">)</span>
+<span class="go">8.95</span>
+</pre></div>
+</div>
+<p>One can also test if a given node exists</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">haspath</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="s">&#39;$.store.10.&quot;number of viewers&quot;&#39;</span><span class="p">)</span>
+<span class="go">False</span>
+</pre></div>
+</div>
+<div class="section" id="notes">
+<h3>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h3>
+<p>This standard is vaguely based on the notation defined at
+<a class="reference external" href="http://goessner.net/articles/JsonPath/">http://goessner.net/articles/JsonPath/</a>.</p>
+</div>
+<div class="section" id="doctests">
+<h3>Doctests<a class="headerlink" href="#doctests" title="Permalink to this headline">¶</a></h3>
+<p>(Probably this should go to a test module...)
+Converting complicated list paths to string paths</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">as_str_path</span><span class="p">([</span><span class="s">&#39;foo&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="s">&#39;bar&#39;</span><span class="p">])</span>
+<span class="go">u&#39;$.foo.1.bar&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">as_str_path</span><span class="p">([</span><span class="s">&#39;my root&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="s">&#39;she said: &quot;yeah!&quot;&#39;</span><span class="p">])</span>
+<span class="go">u&#39;$.&quot;my root&quot;.0.&quot;she said: \\&quot;yeah!\\&quot;&quot;&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="api-documentation">
+<h3>API Documentation<a class="headerlink" href="#api-documentation" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="pyson.iface.getters.getitem">
+<tt class="descname">getitem</tt><big>(</big><em>obj</em>, <em>path</em>, <em>default=DEFAULT</em><big>)</big><a class="reference internal" href="_modules/pyson/iface/getters.html#getitem"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyson.iface.getters.getitem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the value in a given JSON path of &#8216;obj&#8217;.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameters :</th><td class="field-body"><p class="first"><strong>obj</strong> : JSON-like object</p>
+<blockquote>
+<div><p>JSON structure (list-like or dictionary-like)</p>
+</div></blockquote>
+<p><strong>path</strong> : str, iterable</p>
+<blockquote>
+<div><p>The path can be a string of the form <tt class="docutils literal"><span class="pre">&quot;$.child.toys.0&quot;</span></tt> or an 
+iterable that expands to <tt class="docutils literal"><span class="pre">['child',</span> <span class="pre">'toys',</span> <span class="pre">0]</span></tt></p>
+</div></blockquote>
+<p><strong>default</strong> :</p>
+<blockquote>
+<div><p>Return this value if <cite>obj</cite> does possess the desired path node.</p>
+</div></blockquote>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Raises :</th><td class="field-body"><p class="first"><strong>KeyIndexError</strong> :</p>
+<blockquote class="last">
+<div><p>If path is not present in <a href="#id1"><span class="problematic" id="id2">`</span></a>obj&#8217;.</p>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="pyson.iface.getters.haspath">
+<tt class="descname">haspath</tt><big>(</big><em>obj</em>, <em>path</em><big>)</big><a class="reference internal" href="_modules/pyson/iface/getters.html#haspath"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyson.iface.getters.haspath" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return True if <tt class="docutils literal"><span class="pre">obj</span></tt> has a value associated with the given <tt class="docutils literal"><span class="pre">path</span></tt>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="pyson.iface.getters.as_path">
+<tt class="descname">as_path</tt><big>(</big><em>path</em><big>)</big><a class="reference internal" href="_modules/pyson/iface/getters.html#as_path"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyson.iface.getters.as_path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert a string that represents a JSON path into a tuple.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="pyson.iface.getters.as_str_path">
+<tt class="descname">as_str_path</tt><big>(</big><em>path</em><big>)</big><a class="reference internal" href="_modules/pyson/iface/getters.html#as_str_path"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyson.iface.getters.as_str_path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Represents a given &#8216;path&#8217; as a valid query string</p>
+</dd></dl>
+
+</div>
+</div>
+<span class="target" id="module-pyson.iface.setters"></span><div class="section" id="setting-values">
+<h2>Setting values<a class="headerlink" href="#setting-values" title="Permalink to this headline">¶</a></h2>
+<p>There are many different functions that, similarly to <cite>getitem</cite>, provide the
+write functionality to JSON structures using paths directly.</p>
+<p>There are many similar functions that differ in the way they handle non-existing
+nodes and in the way they distinguish behavior in mappings and sequences 
+structures.</p>
+<p>The differences can be illustrated in the following example. Consider the 
+structure</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">obj</span> <span class="o">=</span> <span class="p">{</span><span class="s">&#39;foo&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]}</span>
+</pre></div>
+</div>
+<p>The most simple function that manipultes <tt class="docutils literal"><span class="pre">obj</span></tt> is <cite>updateitem</cite>. This function
+replaces the value of an existing path element and raises an error if the 
+given path does not exist.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">updateitem</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="s">&#39;$.foo.0&#39;</span><span class="p">,</span> <span class="s">&#39;zero&#39;</span><span class="p">);</span> <span class="n">obj</span>
+<span class="go">{&#39;foo&#39;: [&#39;zero&#39;, 1, 2]}</span>
+</pre></div>
+</div>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">updateitem</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="s">&#39;$.bar.0&#39;</span><span class="p">,</span> <span class="s">&#39;zero&#39;</span><span class="p">)</span>
+<span class="gt">Traceback (most recent call last):</span>
+<span class="c">...</span>
+<span class="gr">IndexKeyError</span>: <span class="n">u&#39;$.bar.0 is empty&#39;</span>
+</pre></div>
+</div>
+<p>A less restrictive version is the <cite>setitem</cite> function, which emulates python&#8217;s
+default behavior of key insertion in dictionaries and lists. It creates new
+keys in dictionaries, but does not try to fill up lists in any circunstance.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">obj</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">setitem</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="s">&#39;$.spam.ham.eggs&#39;</span><span class="p">,</span> <span class="s">&#39;ham or spam?&#39;</span><span class="p">);</span> <span class="n">obj</span>
+<span class="go">{&#39;spam&#39;: {&#39;ham&#39;: {&#39;eggs&#39;: &#39;ham or spam?&#39;}}}</span>
+</pre></div>
+</div>
+<div class="section" id="id3">
+<h3>API Documentation<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<dl class="function">
+<dt id="pyson.iface.setters.updateitem">
+<tt class="descname">updateitem</tt><big>(</big><em>obj</em>, <em>path</em>, <em>value</em><big>)</big><a class="reference internal" href="_modules/pyson/iface/setters.html#updateitem"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyson.iface.setters.updateitem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates <tt class="docutils literal"><span class="pre">obj</span></tt>&#8216;s <tt class="docutils literal"><span class="pre">path</span></tt> node to given <tt class="docutils literal"><span class="pre">value</span></tt>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Raises :</th><td class="field-body"><p class="first"><strong>IndexKeyError</strong> :</p>
+<blockquote class="last">
+<div><p>If the node is empty.</p>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="pyson.iface.setters.setitem">
+<tt class="descname">setitem</tt><big>(</big><em>obj</em>, <em>path</em>, <em>value</em>, <em>newmap=None</em><big>)</big><a class="reference internal" href="_modules/pyson/iface/setters.html#setitem"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyson.iface.setters.setitem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates <tt class="docutils literal"><span class="pre">obj</span></tt>&#8216;s <tt class="docutils literal"><span class="pre">path</span></tt> node to given <tt class="docutils literal"><span class="pre">value</span></tt>. Recursively creates 
+and updates new keys for mapping containers.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameters :</th><td class="field-body"><p class="first"><strong>obj</strong> : JSON-like</p>
+<blockquote>
+<div><p>JSON-like structure.</p>
+</div></blockquote>
+<p><strong>path</strong> : str or list path</p>
+<blockquote>
+<div><p>Any valid JSON path.</p>
+</div></blockquote>
+<p><strong>value</strong> : object</p>
+<blockquote>
+<div><p>Any value to be assigned to the given path node.</p>
+</div></blockquote>
+<p><strong>newmap</strong> : callable</p>
+<blockquote>
+<div><p>Factory function for creating new mappings. By default it tries to use
+the same type as the innermost dictionary. This function, called
+with no arguments, should return a new dictionary-like object.</p>
+</div></blockquote>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Raises :</th><td class="field-body"><p class="first"><strong>IndexKeyError</strong> :</p>
+<blockquote class="last">
+<div><p>If a node in a sequence container is empty.</p>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="pyson.iface.setters.writeitem">
+<tt class="descname">writeitem</tt><big>(</big><em>obj</em>, <em>path</em>, <em>value</em>, <em>newmap=None</em>, <em>newseq=None</em>, <em>newitem=None</em><big>)</big><a class="reference internal" href="_modules/pyson/iface/setters.html#writeitem"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyson.iface.setters.writeitem" title="Permalink to this definition">¶</a></dt>
+<dd><p>In most cases, it behaves like the __setitem__ iterface:</p>
+<blockquote>
+<div>setitem(obj, key, value) &lt;==&gt; obj[key] = value.</div></blockquote>
+<p>The two optional arguments &#8216;fill&#8217; and &#8216;fill_value&#8217; defines how list-like 
+sequences are handled if &#8216;key&#8217; is an invalid index.</p>
+<p>If &#8216;fill&#8217; is True (default) and key == len(obj), thus indices are [0, 1, 
+..., len(obj) - 1],  &#8216;value&#8217; is appended to the end of the list. This 
+behavior creates the new entry that is equivalent to &#8216;obj[key] == value&#8217;.</p>
+<p>If &#8216;fill&#8217; is True and key &gt; len(obj), the function checks if the user 
+had defined the &#8216;fill_value&#8217; argument. The list is then filled with this 
+value until the obj[key] is reached, and finally value is appended to the 
+list.</p>
+</dd></dl>
+
+</div>
+</div>
+<span class="target" id="module-pyson.iface.iterators"></span><dl class="function">
+<dt id="pyson.iface.iterators.iteritems">
+<tt class="descname">iteritems</tt><big>(</big><em>obj</em>, <em>anyiter=False</em><big>)</big><a class="reference internal" href="_modules/pyson/iface/iterators.html#iteritems"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyson.iface.iterators.iteritems" title="Permalink to this definition">¶</a></dt>
+<dd><p>Iterate over all pairs of (key, obj[key]) in obj.</p>
+<p>If &#8216;obj&#8217; is a mapping, iteritems(obj) is equivalent obj.iteritems(). If it 
+is a sequence, iteritems(obj) behaves similarly to enumerate(obj).</p>
+<div class="admonition-see-also admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference internal" href="#pyson.iface.iterators.listitems" title="pyson.iface.iterators.listitems"><tt class="xref py py-obj docutils literal"><span class="pre">listitems</span></tt></a>, <a class="reference internal" href="#pyson.iface.iterators.iterkeys" title="pyson.iface.iterators.iterkeys"><tt class="xref py py-obj docutils literal"><span class="pre">iterkeys</span></tt></a>, <a class="reference internal" href="#pyson.iface.iterators.itervalues" title="pyson.iface.iterators.itervalues"><tt class="xref py py-obj docutils literal"><span class="pre">itervalues</span></tt></a></p>
+</div>
+<p class="rubric">Examples</p>
+<p>Supports lists and dicts</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span><span class="n">iteritems</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]));</span> <span class="nb">list</span><span class="p">(</span><span class="n">iteritems</span><span class="p">({</span><span class="s">&#39;foo&#39;</span><span class="p">:</span> <span class="s">&#39;bar&#39;</span><span class="p">}))</span> 
+<span class="go">[(0, 1), (1, 2)]</span>
+<span class="go">[(&#39;foo&#39;, &#39;bar&#39;)]</span>
+</pre></div>
+</div>
+<p>Sequence types such as strings are also supported.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span><span class="n">iteritems</span><span class="p">(</span><span class="s">&#39;foo&#39;</span><span class="p">))</span>
+<span class="go">[(0, &#39;f&#39;), (1, &#39;o&#39;), (2, &#39;o&#39;)]</span>
+</pre></div>
+</div>
+<p>The default behavior is to raise an error if &#8216;obj&#8217; does not support 
+indexing.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">iteritems</span><span class="p">(</span><span class="nb">set</span><span class="p">())</span>
+<span class="gt">Traceback (most recent call last):</span>
+<span class="c">...</span>
+<span class="gr">TypeError</span>: <span class="n">object of type &lt;type &#39;set&#39;&gt; is not supported</span>
+</pre></div>
+</div>
+<p>If &#8216;obj&#8217; is iterable, this behavior can be overridden by setting anyiter to
+True. In this case, the object is treated as a sequence.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span><span class="n">iteritems</span><span class="p">(</span><span class="nb">set</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]),</span> <span class="n">anyiter</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+<span class="go">[(0, 1), (1, 2)]</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="pyson.iface.iterators.itervalues">
+<tt class="descname">itervalues</tt><big>(</big><em>obj</em>, <em>anyiter=False</em><big>)</big><a class="reference internal" href="_modules/pyson/iface/iterators.html#itervalues"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyson.iface.iterators.itervalues" title="Permalink to this definition">¶</a></dt>
+<dd><p>Iterate over all values of &#8216;obj&#8217;.</p>
+<div class="admonition-see-also admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference internal" href="#pyson.iface.iterators.listvalues" title="pyson.iface.iterators.listvalues"><tt class="xref py py-obj docutils literal"><span class="pre">listvalues</span></tt></a>, <a class="reference internal" href="#pyson.iface.iterators.iteritems" title="pyson.iface.iterators.iteritems"><tt class="xref py py-obj docutils literal"><span class="pre">iteritems</span></tt></a>, <tt class="xref py py-obj docutils literal"><span class="pre">obj</span></tt>, <a class="reference internal" href="#pyson.iface.iterators.iterkeys" title="pyson.iface.iterators.iterkeys"><tt class="xref py py-obj docutils literal"><span class="pre">iterkeys</span></tt></a></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="pyson.iface.iterators.iterkeys">
+<tt class="descname">iterkeys</tt><big>(</big><em>obj</em>, <em>anyiter=False</em><big>)</big><a class="reference internal" href="_modules/pyson/iface/iterators.html#iterkeys"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyson.iface.iterators.iterkeys" title="Permalink to this definition">¶</a></dt>
+<dd><p>Iterate over all keys/indices of &#8216;obj&#8217;</p>
+<div class="admonition-see-also admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference internal" href="#pyson.iface.iterators.listkeys" title="pyson.iface.iterators.listkeys"><tt class="xref py py-obj docutils literal"><span class="pre">listkeys</span></tt></a>, <a class="reference internal" href="#pyson.iface.iterators.iteritems" title="pyson.iface.iterators.iteritems"><tt class="xref py py-obj docutils literal"><span class="pre">iteritems</span></tt></a>, <tt class="xref py py-obj docutils literal"><span class="pre">obj</span></tt>, <a class="reference internal" href="#pyson.iface.iterators.itervalues" title="pyson.iface.iterators.itervalues"><tt class="xref py py-obj docutils literal"><span class="pre">itervalues</span></tt></a></p>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="pyson.iface.iterators.listitems">
+<tt class="descname">listitems</tt><big>(</big><em>obj</em>, <em>anyiter=False</em><big>)</big><a class="reference internal" href="_modules/pyson/iface/iterators.html#listitems"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyson.iface.iterators.listitems" title="Permalink to this definition">¶</a></dt>
+<dd><p>Version of iteritems that returns a list instead of an iterator.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="pyson.iface.iterators.listvalues">
+<tt class="descname">listvalues</tt><big>(</big><em>obj</em>, <em>anyiter=False</em><big>)</big><a class="reference internal" href="_modules/pyson/iface/iterators.html#listvalues"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyson.iface.iterators.listvalues" title="Permalink to this definition">¶</a></dt>
+<dd><p>Version of itervalues that returns a list instead of an iterator.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="pyson.iface.iterators.listkeys">
+<tt class="descname">listkeys</tt><big>(</big><em>obj</em>, <em>anyiter=False</em><big>)</big><a class="reference internal" href="_modules/pyson/iface/iterators.html#listkeys"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pyson.iface.iterators.listkeys" title="Permalink to this definition">¶</a></dt>
+<dd><p>Version of iterkeys that returns a list instead of an iterator.</p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Basic JSON structures</a><ul>
+<li><a class="reference internal" href="#json-paths">JSON Paths</a><ul>
+<li><a class="reference internal" href="#notes">Notes</a></li>
+<li><a class="reference internal" href="#doctests">Doctests</a></li>
+<li><a class="reference internal" href="#api-documentation">API Documentation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#setting-values">Setting values</a><ul>
+<li><a class="reference internal" href="#id3">API Documentation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to pyson&#8217;s documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="types.html"
+                        title="next chapter">Data  Types</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/iface.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="np-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="types.html" title="Data Types"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to pyson’s documentation!"
+             >previous</a> |</li>
+        <li><a href="index.html">pyson v0.2 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Fábio Macêdo Mendes.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.7.
+    </div>
+  </body>
+</html>

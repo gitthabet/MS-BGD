@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pyson
+Version: 0.2
+Summary: Maniplates JSON-like structures consisting of dictionaries and lists.
+Home-page: code.google.com/p/py-pyson
+Author: Fábio Macêdo Mendes
+Author-email: fabiomacedomendes@gmail.com
+License: UNKNOWN
+Description: pyson is a Python library for manipulating JSON-like data structures. It has support for schemas and validation, searching and querying, differences, iteration over JSON-like structures, and more
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries
+Requires: simplejson
+Requires: propertylib
