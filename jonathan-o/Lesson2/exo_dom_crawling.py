@@ -1,18 +1,30 @@
+# -*- coding: utf-8 -*-
+
+"""
+
+Created on Oct 30 2014
+    
+@author: Ohayon
+
+"""
+
 import requests
-# html5lib parser de meilleur qualite
 import html5lib
 from bs4 import BeautifulSoup
 
-
+##############################################################################################
 # Returns a soup object from a given url
+
 def getSoupFromUrl(url):
     result = requests.get(url)
     if result.status_code == 200:
-        #print 'Request succesful'
         return BeautifulSoup(result.text,"html5lib")
     else:
         print 'Request failed', url
         return None
+
+##############################################################################################
+# getAllMetricsforArtist
 
 def getAllMetricsForArtist(artist):
     soupYoutube = getSoupFromUrl('https://www.youtube.com/results?search_query='+artist)

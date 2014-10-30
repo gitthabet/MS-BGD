@@ -1,32 +1,46 @@
+# -*- coding: utf-8 -*-
+
+"""
+
+Created on Oct 26 2014
+    
+@author: Ohayon
+
+"""
+
 import requests
-# html5lib parser de meilleur qualite
 import html5lib
 import unicodedata
 from bs4 import BeautifulSoup
 import json
 
-
+##############################################################################################
+# Some String manipulation functions
 
 def between(myString, start, stop):
   beg = myString.index(start) + len(start)
   end = myString.index(stop, beg)
   return myString[beg:end]
+
 def before(myString,Symbol):
     end = myString.index(Symbol)
     return myString[0:end]  
 
-
+##############################################################################################
 # Returns a soup object from a given url
+
 def getSoupFromUrl(url):
     result = requests.get(url)
     if result.status_code == 200:
-        #print 'Request succesful'
         return BeautifulSoup(result.text,"html5lib")
     else:
         print 'Request failed', url
         return None
 
-""" getUsersLinks recupere les liens et les users des 256 plus actifs de GitHub """
+
+##############################################################################################
+# getUsersLinks recupere les liens et les users des 256 plus actifs de GitHub 
+
 def getUsersReferences():
     soupYoutube = getSoupFromUrl('https://gist.github.com/paulmillr/2657075')
     balises_a = soupYoutube.find_all("table", cellspacing="0")
@@ -45,6 +59,9 @@ def getUsersReferences():
         Users_dict[str(User_name)]=References
         print User_name, References
     return Users_dict
+
+##############################################################################################
+# addUsersRepositoryAPI recupere les repositories pour un user de GitHub 
 
 def addUsersRepositoryAPI(Users_dict):
     new_User_dict = Users_dict
@@ -71,12 +88,10 @@ def addUsersRepositoryAPI(Users_dict):
                 size +=1
             if(len(repoItem) == 0):
                     break
-        
         new_User_dict[user]['Repository'] = Repo_dict
         new_User_dict[user]['Star_count_total'] = total
         new_User_dict[user]['Repository_size'] = size
     return new_User_dict
-    #   print Users_dict[user]['Link']
 
         
 

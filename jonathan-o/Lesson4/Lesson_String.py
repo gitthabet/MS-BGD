@@ -63,4 +63,10 @@ df.index = df.index.map(lambda x : 'donnees '+ str(x))  #renome les indexs
 
 print df
 
+#pd.get_dummies
+
+#value_counts() taille pour chaque groupe. 
+
+#unique() liste des groupes.
+
 #df.columns.rename  renome les colonnes

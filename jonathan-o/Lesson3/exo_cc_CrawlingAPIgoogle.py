@@ -25,11 +25,10 @@ def getAPIcity(city_a,city_b):
    r = requests.get(link)
    if(r.ok):
         repoItem = json.loads(r.text)
-        print repoItem
-   return repoItem['rows'][0]['elements'][0]['distance']['value'] 
+   return repoItem['rows'][:]['elements'][:]['distance']['value'] 
 
 
 
-
+list_city = ['Caen','Paris','Lyon','Grenoble','Montpellier']
         
-getAPIcity('Caen','Paris')
+print getAPIcity(list_city,list_city)
