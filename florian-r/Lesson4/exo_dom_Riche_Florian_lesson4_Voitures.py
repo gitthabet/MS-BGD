@@ -29,12 +29,12 @@ def Main():
     Regions = NormalizeRegions(Regions)
     Search_model = NormalizeQuery('Renault CAPTUR')
     Results=[]
+    getVersionsEtArgus()
     page = getPageResult(Regions[0],Search_model)
-#    for region in Regions:
-#        page = getPageResult(region,Search_model)
-#        getDataCurrentPage(page)
-#    getVersionsEtArgus()
-    Results = Results +  ParcoursPages(page)
+    for region in Regions:
+        page = getPageResult(region,Search_model)
+        getDataCurrentPage(page)
+        Results = Results +  ParcoursPages(page)
    
     print Results 
 #    print page
@@ -47,6 +47,7 @@ def ParcoursPages(page):
     DatasPages = []    
     DatasPages = DatasPages + getDataCurrentPage(page)
     next_page = getNextPage(page)
+#    print "next page" 
     if next_page:
         DatasPages=DatasPages+ParcoursPages(next_page)
     return DatasPages
@@ -97,12 +98,12 @@ def getDataCurrentPage(page):
     cars = getCars(page)
 #    print cars
     dataPage = []
-    resultP =  getDataForCar(cars[0])
-    dataPage.append(resultP)
+    for car in cars:
+            resultP =  getDataForCar(car)
+            dataPage.append(resultP)
     return dataPage
 #
-#    for car in cars:
-#            getDataForCar(car)
+#    
     
 #Retrieve the informations for a car from its page
 def getDataForCar(car):
@@ -142,9 +143,11 @@ def getDataForCar(car):
 #Giving the description text, retrieves the phone number of the seller
 def getPhoneInText(text):
 #    print text
-    regex= re.compile("\b0\d{9}|\b0\d((-|.)\d{2}){4}")
-    phone = regex.findall(text)
-    print phone
+    regex= re.compile("0\d{9}|0\d((-|.)\d{2}){4}")
+    phone = regex.search(text)
+    if phone :
+        phone = phone.group(0)
+#    print phone
     return phone
     
     
