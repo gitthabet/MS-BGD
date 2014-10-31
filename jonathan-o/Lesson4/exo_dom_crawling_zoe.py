@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 
 """
-
 Created on Thu Oct 30 2014
     
 @author: Ohayon
-
 """
 
 import requests
