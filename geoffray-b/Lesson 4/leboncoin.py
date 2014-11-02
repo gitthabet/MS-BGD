@@ -9,6 +9,8 @@ import pandas as pd
 import re
 import unicodedata as ucd
 
+# Returns a soup object from a given url
+
 def getSoupFromUrl(url):
 	result = requests.get(url)
 	if result.status_code == 200:
@@ -17,9 +19,13 @@ def getSoupFromUrl(url):
 		print 'Request failed', url
 		return None
 
+# Get normal form of string and encode in ascii
+
+def getUniString(string):
+	return ucd.normalize('NFKD',string).encode('utf-8','ignore')	
+
 
 # Returns the coordinates using google geoloc API
-
 
 def getCoordinates(city):
 	
@@ -43,11 +49,10 @@ def getSellerPhone(desc):
 	phone = regex.search(desc)
 	if phone :
 		phone = phone.group(0)
-	
 	return phone
 
 # Get the number of items for sale, evaluate the number of pages knowing that 35 links is max/page
-def getItemPages(soup):
+def getTotalPages(soup):
 	
 	balise = soup.select('ul li span + span')[0].text
 	tab= balise.split()
@@ -57,14 +62,30 @@ def getItemPages(soup):
 	
 	return nbpages
 
-# Get normal form of string and encode in ascii
-def getUniString(string):
-	return ucd.normalize('NFKD',string).encode('ascii','ignore')	
 
+# Get item's links from search in a given region
 
+def getItemlinks(region,search):
+	soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/offres/'+region+'/?q='+ search)
+	pages = getTotalPages(soup)
+	links=[]
 
+	for i in range(1,pages):
+		soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/offres/'+region+'/?o='+ str(i) + '&q='+ search)
+		listItem = soup.find('div', class_="list-lbc")
+		urlItem = listItem.find_all('a')
+		links += [getUniString(link.get('href'))for link in urlItem]
+	return links
 
-soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/offres/ile_de_france/?o=1&q=Renault%20Captur')
-num = getItemPages(soup)
-print num
+def getCarInfo(url):
+	
+	soup = getSoupFromUrl(url)
+	
+	
+
+#soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/offres/ile_de_france/?o=1&q=Renault%20Captur')
+
+liens = []
+liens = getItemlinks('ile_de_france','Renault%20Captur')
+print liens[3]
 
