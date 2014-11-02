@@ -49,14 +49,15 @@ def getSoupFromUrl(url):
 def getdataonsell(regions,search):
     dataframe=[]
     for region in regions:
+        # for each region, go fetch the links
         links = getleboncoinlinks(region,search)
         for link in links:
+            #for each link, go fetch all info from soup
             soup = getSoupFromUrl(link)
             sell_info = getinfoonsell(soup)
-            if len(sell_info) == 7:
-                user_info = getinfoonuser(soup)
-                number,type_of_car = getinfofromdesc(soup,sell_info[5])
-                dataframe.append(user_info + number + sell_info[0:5] + type_of_car + [sell_info[6]])
+            user_info = getinfoonuser(soup)
+            number,type_of_car = getinfofromdesc(soup,sell_info[5])
+            dataframe.append(user_info + number + sell_info[0:5] + type_of_car + [sell_info[6]])
     return dataframe
 
 
@@ -65,6 +66,7 @@ def getdataonsell(regions,search):
 
 def getleboncoinlinks(region,search):
     soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/offres/'+region+'/?q='+ search)
+    # find the number of pages from the soup
     pages = getnumberofsales(soup)
     links=[]
     for i in range(0,pages):
@@ -72,9 +74,8 @@ def getleboncoinlinks(region,search):
         balises_td = soup.find_all('div', class_="list-lbc")
         balises_a = balises_td[0].find_all('a')
         links += [balise.get('href') for balise in balises_a]
-
-    clean_links = cleaninglink(links)
-    return clean_links
+    
+    return links
 
 ##############################################################################################
 # getnumberofsales return the number of pages form the soup
@@ -87,20 +88,6 @@ def getnumberofsales(soup):
     return num_pages
 
 
-##############################################################################################
-# getnumberofsales return the number of pages form the soup
-
-def cleaninglink(links):
-    cleaner = re.compile('((?:http|https)(?::\\/{2}[\\w]+)(?:[\\/|\\.]?)'+\
-                            '(?:leboncoin\\.fr\\/voitures\\/)(\\d+)(?:[^\\s"]*))' )
-    clean_links =[]
-    for link in links:
-        clean_link = cleaner.search(str(link)) 
-        if clean_link:
-            clean_links.append(clean_link.group(1))
-    return clean_links
-
-
 
 ##############################################################################################
 # getinfoonsell return the information on the car from soup
@@ -109,11 +96,13 @@ def getinfoonsell(soup):
     #find the info on the sell
     balises_info = soup.select('tr th + td')
     sell_info = [normalize(balise.parent.text).replace('\n','').replace('\t','').replace(' ','') for balise in balises_info]
+    # create a dictionnary from the header info of sale
     dico_sell_info = {}
     for i in range(0,len(sell_info)):
         split = sell_info[i].split(':')
         dico_sell_info[split[0]] = split[1]
 
+    # parse the dictionnary to fill a formated list of info
     clean_sell_info = []
     if 'Marque' in dico_sell_info:
         clean_sell_info.append(dico_sell_info['Marque'])
@@ -139,6 +128,8 @@ def getinfoonsell(soup):
         clean_sell_info.append(dico_sell_info['Carburant'])
     else:
         clean_sell_info.append('')
+
+    # create a format of style 'City,+Codepostal,+France to feed in the googleAPI later on
     if 'Ville' in dico_sell_info:
         tmp = dico_sell_info['Ville'] + ',+'
     else:
@@ -147,8 +138,9 @@ def getinfoonsell(soup):
         tmp = tmp + dico_sell_info['Codepostal'] +',+'
     else:
         tmp = tmp + ''
-
     clean_sell_info.append(tmp+ 'France')
+
+
     return clean_sell_info
 
 ##############################################################################################
@@ -164,6 +156,7 @@ def getinfoonuser(soup):
         if info.strip() != '':
             user_info.append(info.strip())
 
+    #Determine the type of seller from header info
     if 'PRO VEHICULES' in user_info[0].upper():
         clean_user_info = []
         clean_user_info.append(user_info[1])
@@ -198,6 +191,10 @@ def getinfofromdesc(soup,fuel):
 
     return number,type_of_car
 
+
+##############################################################################################
+# findcartypeindesc determine from desc and title the type of the car
+
 def findcartypeindesc(desc,fuel):
 
     list_of_type = ['ARIZONA','INTENS','ZEN','BUSINESS','LIFE']
@@ -206,6 +203,8 @@ def findcartypeindesc(desc,fuel):
     comp120 = re.compile('((120)(\D{1})(CH))')
 
     find_car = ''
+    
+    # divide in two type Diesel and Essence and find the model and additionnal info
     if 'DIESEL' in fuel.upper():
         if 'ENERGY' in desc.upper():
             find_car=' ECO2'
@@ -230,6 +229,8 @@ def findcartypeindesc(desc,fuel):
 
     return find_car
 
+##############################################################################################
+# findnumberindesc search for number in desc and title
 
 def findnumberindesc(desc):
     search_number = re.compile('((\D{1}0\d{9}\D{1})|(\D{1}0\d{1})(\W{1})(\d{2})(\W{1})(\d{2})(\W{1})(\d{2})(\W{1})(\d{2}\D{1}))')
@@ -254,5 +255,7 @@ Regions = ['provence_alpes_cote_d_azur','ile_de_france','aquitaine']
 Search = 'captur+renault'
 
 dataframe = getdataonsell(Regions,Search)
+
 df=DataFrame(dataframe,columns = ['User_Name','IsaPro?','Number','Manufacturer','Model','Sell_Price','Year','KM','Type','City'])
+
 df.to_csv('leboncoin.csv')    
