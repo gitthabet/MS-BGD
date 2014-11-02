@@ -12,15 +12,8 @@ def getSoupFromUrl(url):
 	else:
 		print 'Request failed with ',url
 
-def GetMeanStars(json_user):
-	sum=0
-	for i in range(len(json_user)):
-		sum=sum+json_user[i]['stargazers_count']
-	return sum/len(json_user)
-
 def main():
 	#--------------------CRAWLING
-	#On récupère la liste des users dans le dictionnaire GitHub_MoreActive_Users:
 	Villes=['Caen','Paris','Marseille','Lyon','Lille']
 	Distances={}
 	for origin in Villes:

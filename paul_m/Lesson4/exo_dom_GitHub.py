@@ -4,7 +4,6 @@ import json
 import operator
 import requests
 from bs4 import BeautifulSoup
-from requests.auth import HTTPBasicAuth
 import math
 
 def getSoupFromUrl(url):
@@ -12,12 +11,13 @@ def getSoupFromUrl(url):
 	if result.status_code == 200:
 		return BeautifulSoup(result.text)
 	else:
-		print 'Request failed with ',url
+		print 'Request failed with ',url 
 
 def GetMeanStars(json_user):
 	sum=0
 	for i in range(len(json_user)):
 		sum=sum+json_user[i]['stargazers_count']
+	#np.mean(json_user[:]['stargazers_count'])
 	return sum/len(json_user)
 
 def main():
