@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 token = 'AIzaSyD0Je91FF7XuGcaTwNqH4apLq86DaM7fWc'
-#key=token
 
 import html5lib
 import requests
@@ -21,10 +20,14 @@ def getSoupFromUrl(url) :
 	return BeautifulSoup(webPage.text, 'html5lib')
 
 # Retourne la distance entre deux villes (avec autoroute)
-def getDistanceBetweenTowns(departureTown, arrivalTown) :
+def getDistanceBetweenTowns(departureTown, arrivalTown, avoidHighways) :
 
 	# Construction de la bonne url
-	url = 'https://maps.googleapis.com/maps/api/directions/json?key='+token+'&origin=' + departureTown + '&destination=' + arrivalTown
+	if avoidHighways == True :
+		url = 'https://maps.googleapis.com/maps/api/directions/json?key='+token+'&origin=' + departureTown + '&destination=' + arrivalTown + '&avoid=highways'
+	else : 
+		url = 'https://maps.googleapis.com/maps/api/directions/json?key='+token+'&origin=' + departureTown + '&destination=' + arrivalTown
+	
 	soup = getSoupFromUrl(url)
 
 	# Conversion en Json puis extraction de la distance (en m)
@@ -35,7 +38,7 @@ def getDistanceBetweenTowns(departureTown, arrivalTown) :
 
 
 # Création de la matrice en mode DataFrame
-def createMatrixData(listOfTowns) :
+def createMatrixData(listOfTowns, avoidHighways) :
 
 	# Création d'une matrice vierge avec les bons indices et bonnes colonnes
 	nbTowns = len(listOfTowns)
@@ -45,11 +48,16 @@ def createMatrixData(listOfTowns) :
 	# Remplissage de la matrice 
 	for departureTown in listOfTowns : 
 		for arrivalTown in listOfTowns : 
-			matrixData[departureTown][arrivalTown] = getDistanceBetweenTowns(departureTown, arrivalTown)
+			matrixData[departureTown][arrivalTown] = getDistanceBetweenTowns(departureTown, arrivalTown, avoidHighways)
 	
 	return matrixData
 
-distance = getDistanceBetweenTowns('Paris', 'Paris')
-matrixData = createMatrixData( ['Caen', 'Paris', 'Marseille', 'Lyon', 'Lille'] )
-print matrixData
+matrixDataWithHighways = createMatrixData( ['Caen', 'Paris', 'Marseille', 'Lyon', 'Lille'], avoidHighways=False )
+matrixDataWithoutHighways = createMatrixData( ['Caen', 'Paris', 'Marseille', 'Lyon', 'Lille'], avoidHighways=True )
+
+print "\nMatrice des distances en autorisant les autoroutes :"
+print matrixDataWithHighways
+
+print "\nMatrice des distances sans les autoroutes :"
+print matrixDataWithoutHighways
 
