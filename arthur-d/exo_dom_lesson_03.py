@@ -5,29 +5,36 @@ from bs4 import BeautifulSoup
 from github import Github
 import numpy as np
 
+KEY_TOKEN = "3dd7d7655b6016ea7bbbf67a1f651326be493a47"
+
 def getKey(item):
 	return item[1]
 
 def sort_contrib(C):
+	print "sorting"
 	C2 = sorted(C, key=getKey)
 	for contrib in C2:
 		print contrib[0], " ", contrib[1]
 
 
 def get_etoiles_user(full_name):
-	g = Github("Jaffeur", "********")
-	user = re.split("\s", full_name)[0]
-	repos_list = g.get_user(user).get_repos()
-	list_star = []
-	for repo in repos_list:
-		list_star.append(repo.stargazers_count)
-	return np.mean(list_star)
+	m = 0
+	g = Github(KEY_TOKEN)
+	if g != None:
+		user = re.split("\s", full_name)[0]
+		print user, " :"
+		repos_list = g.get_user(user).get_repos()
+		list_star = []
+		for repo in repos_list:
+			list_star.append(repo.stargazers_count)
+		if len(list_star) > 0:
+			m = np.mean(list_star)
+	print m
+	return m
 	
 
 def main():
 	#session git hub
-	g = Github("Jaffeur", "********")
-
 	r = requests.get("https://gist.github.com/paulmillr/2657075")
 	if r.status_code == 200:
 		soup = BeautifulSoup(r.text)
