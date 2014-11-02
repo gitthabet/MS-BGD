@@ -49,9 +49,9 @@ def getArgusVal():
 	return Argus_val
 
 
-# get normal form of string and encode in ascii
+# get normal form of string and encode in utf-8
 def getUniString(string):
-	return ucd.normalize('NFKD',string).encode('ascii','ignore')
+	return ucd.normalize('NFKD',string).encode('utf-8','ignore')
 
 
 

@@ -19,7 +19,7 @@ def getSoupFromUrl(url):
 		print 'Request failed', url
 		return None
 
-# Get normal form of string and encode in ascii
+# Get normal form of string and encode in utf-8
 
 def getUniString(string):
 	return ucd.normalize('NFKD',string).encode('utf-8','ignore')	
@@ -39,19 +39,10 @@ def getCoordinates(city):
 		coordinate = [str(lat),str(lng)]
 		return coordinate
 	
-	
-
-# Try to find seller's number in description, always in pro , sometimes in private seller
-
-def getSellerPhone(desc):
-
-	regex= re.compile("((\+|00)33\s?|0)[1-9]([\s-.]?\d{2}){4}")
-	phone = regex.search(desc)
-	if phone :
-		phone = phone.group(0)
-	return phone
+######################################################################################################################
 
 # Get the number of items for sale, evaluate the number of pages knowing that 35 links is max/page
+
 def getTotalPages(soup):
 	
 	balise = soup.select('ul li span + span')[0].text
@@ -77,15 +68,49 @@ def getItemlinks(region,search):
 		links += [getUniString(link.get('href'))for link in urlItem]
 	return links
 
+
+######################################################################################################################	
+
+# Try to find seller's number in description, always in pro , sometimes in private seller
+
+def getSellerPhone(desc):
+
+	regex= re.compile("((\+|00)33\s?|0)[1-9]([\s-.]?\d{2}){4}")
+	phone = regex.search(desc)
+	print phone
+	# if phone :
+	# 	phone = phone.group(0)
+	# return phone
+
+def getSellerInfo(soup):
+	Seller =[]
+	sell=soup.find('div', class_="upload_by")
+	name=getUniString(sell.find('a').text)
+	print name
+	pro= getUniString(soup.find('span', class_="ad_pro").text)
+	
+	desc= getUniString(soup.find('div', class_="content").text)
+	#print desc
+	# phone=getSellerPhone('desc')
+	
+	return Seller.append([name, pro ,phone])
+
+
+
 def getCarInfo(url):
 	
 	soup = getSoupFromUrl(url)
-	
-	
+	price = getUniString(soup.find('span', class_="price").text)
+	print price
 
-#soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/offres/ile_de_france/?o=1&q=Renault%20Captur')
+	Infos = soup.select('.lbcParams.criterias table')
+	# test = Infos.find('th', text="Ann&eacute;e-mod&egrave;le :")
+	print Infos.find("th", text="Kilom&eacute;trage :").
 
-liens = []
-liens = getItemlinks('ile_de_france','Renault%20Captur')
-print liens[3]
+# soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/726730103.htm?ca=12_s')
+# getSellerInfo(soup)
+getCarInfo('http://www.leboncoin.fr/voitures/726736296.htm?ca=12_s')
+# liens = []
+# liens = getItemlinks('ile_de_france','Renault%20Captur')
+# print liens[3]
 
