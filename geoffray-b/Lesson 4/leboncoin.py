@@ -22,7 +22,7 @@ def getSoupFromUrl(url):
 # Get normal form of string and encode in utf-8
 
 def getUniString(string):
-	return ucd.normalize('NFKD',string).encode('utf-8','ignore')	
+	return ucd.normalize('NFKD',string).encode('ascii','ignore')	
 
 
 # Returns the coordinates using google geoloc API
@@ -73,43 +73,46 @@ def getItemlinks(region,search):
 
 # Try to find seller's number in description, always in pro , sometimes in private seller
 
-def getSellerPhone(desc):
-
-	regex= re.compile("((\+|00)33\s?|0)[1-9]([\s-.]?\d{2}){4}")
-	phone = regex.search(desc)
-	print phone
-	# if phone :
-	# 	phone = phone.group(0)
-	# return phone
-
 def getSellerInfo(soup):
 	Seller =[]
 	sell=soup.find('div', class_="upload_by")
 	name=getUniString(sell.find('a').text)
-	print name
+	#print name
+
 	pro= getUniString(soup.find('span', class_="ad_pro").text)
-	
+	if len(pro)>0:
+		pro ="Professionnel"
+	else:
+		pro ="Particulier"
+	#print pro
 	desc= getUniString(soup.find('div', class_="content").text)
-	#print desc
-	# phone=getSellerPhone('desc')
-	
+		
+	regex= re.compile(r"((\+|00)33\s?|0)[1-9]([\s\-\.]?\d{2}){4}")
+	phone = regex.search(desc)
+	if phone :
+	 	phone = phone.group(0)
+	#print phone
+
 	return Seller.append([name, pro ,phone])
 
 
 
-def getCarInfo(url):
+def getCarInfo(soup):
 	
-	soup = getSoupFromUrl(url)
 	price = getUniString(soup.find('span', class_="price").text)
 	print price
 
 	Infos = soup.select('.lbcParams.criterias table')
 	# test = Infos.find('th', text="Ann&eacute;e-mod&egrave;le :")
-	print Infos.find("th", text="Kilom&eacute;trage :").
+	print Infos #.find("th", text="Kilom&eacute;trage :")
 
-# soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/726730103.htm?ca=12_s')
-# getSellerInfo(soup)
-getCarInfo('http://www.leboncoin.fr/voitures/726736296.htm?ca=12_s')
+vendeur=[]
+soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/716161502.htm?ca=12_s')
+#print soup
+vendeur = getSellerInfo(soup)
+print vendeur
+#vendeur= getCarInfo(soup)
+# getCarInfo('http://www.leboncoin.fr/voitures/726736296.htm?ca=12_s')
 # liens = []
 # liens = getItemlinks('ile_de_france','Renault%20Captur')
 # print liens[3]
