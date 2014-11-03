@@ -24,7 +24,7 @@ def getSoupFromUrl(url):
 def getContributors():
     urlContributors = 'https://gist.github.com/paulmillr/2657075'
     tableContributors = getSoupFromUrl(urlContributors).find_all("tbody")
-    listContributors = []    
+    listContributors = []
     for i in range(1,257):
         userInfo = tableContributors[0].select("tr:nth-of-type("+str(i)+")")
         contributorName = userInfo[0].select("a:nth-of-type(1)")[0].text
