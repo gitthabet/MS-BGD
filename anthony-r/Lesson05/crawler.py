@@ -1,42 +1,10 @@
 import requests
+from captur import Captur
 from bs4 import BeautifulSoup
 import re
 
 
 url = "http://www.leboncoin.fr/voitures/offres/ile_de_france/?q=renault%20captur"
-
-# Recuperation du nombre de pages
-"""
-def retrieve_page_count(url):
-    page = requests.get(url).text
-    html = BeautifulSoup(page)
-    tag = html.find('ul',{'id' : 'paging'})
-    tag_class = tag['class'][1]
-    page_count = int(tag_class.split('-')[1])
-    return page_count
-
-
-def retrieve_item_list(url,page_number):
-
-    final_url = url + "&o=" + str(page_number)
-    page = requests.get(url).text
-    html = BeautifulSoup(page)
-    tags = html.find("div",class_="list-lbc")
-
-    links = tags.findAll("a")
-    urls = list()
-
-    for link in links:
-        urls.append(link['href'])
-    return urls
-
-
-pages = retrieve_page_count(url)
-
-for page in range(1,pages):
-    for link in retrieve_item_list(url,page):
-        print link
-"""
 
 class Crawler:
     def __init__(self,regions):
@@ -77,4 +45,11 @@ class Crawler:
 
 
 crawl = Crawler(["ile_de_france","aquitaine","provence_alpes_cote_d_azur"])
-print crawl.urls
+
+capturs = list()
+
+for craw in crawl.urls[:10]:
+    capturs.append(Captur(craw))
+
+for captur in capturs:
+    captur.describe()
