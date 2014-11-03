@@ -13,7 +13,7 @@ from pandas import Series, DataFrame
 
 
 url_part = 'http://www.leboncoin.fr/voitures/offres/ile_de_france/?q=renault+captur&f=p'
-
+API_KEY = 'AIzaSyCIjnHYw6D1Mn829dC09ep5k8VJKUJ5Iys'
 
 
 def getSoupFromUrl(url):
@@ -46,6 +46,27 @@ def get_data_lbc(region,pro_part):
 # <span class="price">18 890 €</span>
 #            prix = soup.find('span',class_="price")
 #            prix = (str(soup.find('span',class_="price")).split('>')[1]).split('€<')[0]
+                print soup.title
+                argus=None
+                tce_dci = ""
+                energy = ""
+                chev = ""
+                finition = ""
+                title=str(soup.title)
+                if "energy" in title.lower(): energy = "energy"
+#                print "energy : ", energy
+                if "tce" in title.lower(): tce_dci = "tce"
+                elif "dci" in title.lower(): tce_dci = "dci"
+                if "90" in title: chev="90"
+                elif "120" in title: chev="120"
+                if "arizona" in title.lower(): finition = "arizona"
+                elif "intens" in title.lower(): finition = "intens"
+                elif "zen" in title.lower(): finition = "zen"
+                elif "life" in title.lower() : finition = "life"
+                elif "business" in title.lower(): finition = "business"
+                modele_fin = tce_dci+" "+chev+" "+energy+" "+finition
+                print modele_fin
+
                 str_prix = str(soup.find('span',class_="price")).strip()
                 reg_prix = re.compile(r'\d{2} \d{3}')
                 prix = 0
@@ -85,14 +106,57 @@ def get_data_lbc(region,pro_part):
 
                
                 if marque == "Renault" and modele == "Captur":
-                    ligne_annonce = [prix,annee,ville,km,0,pro_part,0,'?',0,0]
+                    
+                    adresse = ville+', France'
+                    url_api_maps="https://maps.googleapis.com/maps/api/geocode/json?address="+adresse+"&key="+API_KEY
+                    results_api = requests.get(url_api_maps)
+                    johnny = results_api.json()
+                    lat = johnny['results'][0]['geometry']['location']['lat']
+                    lng = johnny['results'][0]['geometry']['location']['lng']
+ #                   print ville,lat,lng
+
+                    ligne_annonce = [prix,annee,ville,km,0,pro_part,argus,'?',lat,lng]
 #                    print ligne_annonce
 #                    data_captur.loc[len(data_captur)+1]=ligne_annonce
                     data_captur.loc[num_annonce]=ligne_annonce
 
 
 
+#Recherche de l'argus
+columns = ['annee','cote']
+index=['modele']
+data_argus = DataFrame(index=index,columns=columns)
 
+
+url = "http://www.lacentrale.fr/cote-voitures-renault-captur--2013-.html"
+soup = getSoupFromUrl(url)
+#print soup.title
+data_td = soup.find_all('td',class_="tdSD QuotMarque")
+#print data_td
+
+for data in data_td:
+    for link in data.find_all('a'):
+        print link.get('href')
+        url_detail = "http://www.lacentrale.fr/"+link.get('href')
+        soup_detail = getSoupFromUrl(url_detail)
+        titre = str(soup_detail.title)
+#        print titre
+        annee = titre[28:32]
+        modele = titre[37:len(titre)-13]
+        #modele=re.sub('$"S&S"', ' ', modele)
+        print modele
+
+        str_cote = str(soup_detail.find('span',class_="Result_Cote")).strip()
+        reg_cote = re.compile(r'\d{2} \d{3}')
+        cote = 0
+        if re.search(reg_cote,str_cote): cote = re.search(reg_cote,str_cote).group()
+#        print cote
+        ligne_cote = [annee,cote]
+        data_argus.loc[modele]=ligne_cote
+        
+
+print "=== ARGUS des CAPTUR : "
+print data_argus
 
 
 
@@ -114,7 +178,6 @@ for region in ['ile_de_france','aquitaine','provence_alpes_cote_d_azur']:
     get_data_lbc(region,pro_part)
 
 
-#            print(soup.prettify())
 
 print data_captur
 data_captur.to_csv('data_captur.csv',sep=',')

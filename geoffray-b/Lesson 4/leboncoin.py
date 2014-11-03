@@ -76,7 +76,7 @@ def getItemlinks(region,search):
 def getSellerInfo(soup):
 	Seller =[]
 	sell=soup.find('div', class_="upload_by")
-	name=getUniString(sell.find('a').text)
+	name=getUniString(sell.find('a').text).strip()
 	#print name
 
 	pro= getUniString(soup.find('span', class_="ad_pro").text)
@@ -93,38 +93,48 @@ def getSellerInfo(soup):
 	 	phone = phone.group(0)
 	#print phone
 
-	return Seller.append([name, pro ,phone])
-
+	Seller.append([name, pro ,phone])
+	return Seller
 
 
 def getCarInfo(soup):
 	
 	price = int(getUniString(soup.find('span', class_="price").text).replace(' ',''))
-	# print type(price)
-	# print price
 	Infos = soup.find('div', class_="lbcParams criterias").find_all("td")
-	#print type(Infos)
-	#print Infos
+	
 	manufacturer = Infos[0].text
 	model = Infos[1].text
 	year = Infos[2].text.strip()
-	#print year
 	mileage = Infos[3].text
-	#print mileage
 	energy = Infos[4].text
 	gear = Infos[5].text
 	
+	address = soup.find('div', class_="lbcParams withborder").find_all("td")
+	city= address[1].text
+	zipcode=address[2].text
+	
+	seller = []
+	seller = getSellerInfo(soup)
+
+	#coordinates= getCoordinates(city)
 	CarInfo=[]
-	return CarInfo.append([manufacturer,model,year,mileage,energy,gear])
+	CarInfo.append([manufacturer,model,year,mileage,energy,gear,city,zipcode,seller[0][0],seller[0][1],seller[0][2]])
+	return CarInfo
+
+#def getLeboncoin():
 
 
-vendeur=[]
+
+
+CarInfo=[]
 soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/716161502.htm?ca=12_s')
 #print soup
 # vendeur = getSellerInfo(soup)
 # print vendeur
 CarInfo= getCarInfo(soup)
-print vendeur
+lbcInfos= pd.DataFrame(CarInfo,columns = ['manufacturer','model','year','mileage','energy','gear','city','zipcode','name','type','phone'])
+print lbcInfos
+lbcInfos.to_csv('leboncoin.csv')
 # getCarInfo('http://www.leboncoin.fr/voitures/726736296.htm?ca=12_s')
 # liens = []
 #liens = getItemlinks('ile_de_france','Renault Captur')
