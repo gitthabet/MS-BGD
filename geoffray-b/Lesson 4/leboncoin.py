@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 
 import requests
 import html5lib
@@ -99,21 +99,34 @@ def getSellerInfo(soup):
 
 def getCarInfo(soup):
 	
-	price = getUniString(soup.find('span', class_="price").text)
-	print price
+	price = int(getUniString(soup.find('span', class_="price").text).replace(' ',''))
+	# print type(price)
+	# print price
+	Infos = soup.find('div', class_="lbcParams criterias").find_all("td")
+	#print type(Infos)
+	#print Infos
+	manufacturer = Infos[0].text
+	model = Infos[1].text
+	year = Infos[2].text.strip()
+	#print year
+	mileage = Infos[3].text
+	#print mileage
+	energy = Infos[4].text
+	gear = Infos[5].text
+	
+	CarInfo=[]
+	return CarInfo.append([manufacturer,model,year,mileage,energy,gear])
 
-	Infos = soup.select('.lbcParams.criterias table')
-	# test = Infos.find('th', text="Ann&eacute;e-mod&egrave;le :")
-	print Infos #.find("th", text="Kilom&eacute;trage :")
 
 vendeur=[]
 soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/716161502.htm?ca=12_s')
 #print soup
-vendeur = getSellerInfo(soup)
+# vendeur = getSellerInfo(soup)
+# print vendeur
+CarInfo= getCarInfo(soup)
 print vendeur
-#vendeur= getCarInfo(soup)
 # getCarInfo('http://www.leboncoin.fr/voitures/726736296.htm?ca=12_s')
 # liens = []
-# liens = getItemlinks('ile_de_france','Renault%20Captur')
-# print liens[3]
+#liens = getItemlinks('ile_de_france','Renault Captur')
+#print liens[3]
 
