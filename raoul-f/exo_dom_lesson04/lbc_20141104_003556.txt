@@ -1,0 +1,7 @@
+,Region,Ville,Version,Annee,Kilometrage,Prix,Telephone,Type Vendeur,Latitude,Longitude
+0,reunion,Saint-Gilles-les-Bains,,2014,10 KM,19 990 €,,Pro,-21.0538749,55.2286827
+1,reunion,Saint-André,,2013,11 500 KM,18 000 €,0692254561,Part,-20.963728,55.64726599999999
+2,reunion,Moufia,,2014,15 000 KM,20 500 €,,Part,-20.9106808,55.4831661
+3,reunion,Saint-André,,2013,5 000 KM,19 000 €,,Part,-20.963728,55.64726599999999
+4,reunion,Saint-Pierre,,2014,3 400 KM,19 800 €,,Part,-21.332838,55.471843
+5,reunion,Saint-Denis,,2014,8 000 KM,20 500 €,,Part,48.936181,2.357443
