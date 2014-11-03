@@ -128,7 +128,11 @@ def process(region, marque, modele, vendeur):
 #                print tel_img(tel_a.get('href').split(',')[1].strip()) 
             content = soup.find('div',class_='content').text
             tel = re.search(regex_tel,content)
-            result.append(tel.group(0) if tel!=None else "")
+            if tel != None:
+                tel = "0" + re.sub(regex_int,'',tel.group(0))
+            else:
+                tel = ""
+            result.append(tel)
             results.append(result)
             
 #   Resultats
@@ -154,10 +158,9 @@ def argus(base_url,rel_url,version):
             l = link.find('a',text=regex_carbu)
             if l!=None:
                 soup = get_page(base_url + "/" + str(l.get('href')))
-                res_div = soup.find('div',class_=regex_res)
-                if res_div != None:
-                    resultat = soup.find('div',class_=regex_res).text
-                    resultat = int(re.sub(regex_int,'',resultat))
+                res_span = soup.find('span',class_=regex_res)
+                if res_span != None:
+                    resultat = int(re.sub(regex_int,'',res_span.text))
                     break
     return resultat
     
