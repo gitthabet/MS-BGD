@@ -214,7 +214,7 @@ argus = getArgus('http://www.lacentrale.fr/cote-voitures-renault-captur--2013-.h
 regions=['ile_de_france','provence_alpes_cote_d_azur','aquitaine']
 leboncoin = []
 compare = []
-token_google = 'AIzaSyBhhoOIKEQRxakb1CocIKZBuqeSbbLEoUQ'
+token_google = ''
 
 for reg in range(0,len(regions)):
 
