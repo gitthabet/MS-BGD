@@ -52,8 +52,9 @@ for link in soup.find_all('a', attrs={'class' : 'standart'}):
     auto = autorization.text.split()[4]
 
     # get comm
-    #comm = re.search('(.*)commercialisation : (.*)\"', rr.text)   
+    comm = re.search('(.*)de commercialisation(.*)/', rr.text)   
+    comm2 = comm.group(2).split('<br/>')[0].replace(":","").strip()
     
-    res.append((name1+" "+name2,dosage,unite,galetruc,prix,tauxrembou+" %",auto))
+    res.append((name1+" "+name2,dosage,unite,galetruc,prix,tauxrembou+" %",str(auto),str(comm2)))
     
-    print res
+    #print res
