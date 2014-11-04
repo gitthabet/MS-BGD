@@ -186,7 +186,7 @@ def getAllCarVersionsArgus(brand, model) :
 	balisesA = [ td.select('a')[0] for td in tdContainers ]
 	links = ['http://www.lacentrale.fr/' + link.get("href") for link in balisesA]
 	models =  [link.text for link in balisesA]
-
+url = 'http://www.leboncoin.fr/voitures/offres/ile_de_france/?o=' +index+'&q=renault%20captur&f=c'
 	# Pour chaque lien on récupère le nom du modèle et son prix
 	argus = {}
 	for i in range(0, len(links)) :
