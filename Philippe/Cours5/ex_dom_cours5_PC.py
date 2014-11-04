@@ -73,14 +73,14 @@ def main():
 					ville = soupeAnnonce.find(text="Ville :").find_next().text
 					lat, longi = getCoordonneesGeographiques(ville)
 					kilometrageString = str(soupeAnnonce.find(text="Kilométrage :").find_next().text).replace(' ','')
-					nombreRegex = re.compile("[0-9]*")
+					nombreRegex = re.compile(r"[0-9]*")
 					expressions = nombreRegex.findall(kilometrageString)
 					if len(expressions) == 0:
 						kilometrage = -1
 					else:
 						kilometrage = int(expressions[0])
 					anneeString = str(soupeAnnonce.find(text="Année-modèle :").find_next().text).replace(' ','')
-					anneeRegexp = re.compile("201[3-4]")
+					anneeRegexp = re.compile(r"201[3-4]")
 					expressions = anneeRegexp.findall(anneeString)
 					if len(expressions) == 0:
 						annee = -1
@@ -90,7 +90,7 @@ def main():
 					# supprime espaces et retours à la ligne, et on cherche une expression regulière
 					description = soupeAnnonce.find(class_="AdviewContent").find(class_="content").text
 					description.replace(' ','').replace('\n','')
-					numTelRegexp = re.compile("0[1-9][0-9]{8}")
+					numTelRegexp = re.compile(r"0[1-9](( |-){0,1}[0-9]{2,2}){4,4}")
 					expressions = numTelRegexp.findall(description)
 					if len(expressions) == 0:
 						numeroTelephone = "ND"
@@ -101,11 +101,11 @@ def main():
 										+ numeroTelephone[8:10]
 					# Enfin on tâche d'identifier le modèle, uniquement pour les voitures de 2013
 					# (les autres ne figurent pas sur l'argus)
-					description = unicodedata.normalize('NFKD',soupeAnnonce.find(class_="AdviewContent").find(class_="content").text).lower
-					regexpType1 = re.compile("dci {0,1}90")
-					regexpType2 = re.compile("tce {0,1}120")
-					regexpType3 = re.compile("tce {0,1}90")
-					if len(regexpType1.findall(description)) > 0:
+					description = str(unicodedata.normalize('NFKD',soupeAnnonce.find(class_="AdviewContent").find(class_="content").text).encode('utf16')).lower
+					regexpType1 = re.compile(r"dci {0,1}90")
+					regexpType2 = re.compile(r"tce {0,1}120")
+					regexpType3 = re.compile(r"tce {0,1}90")
+					if regexpType1.search(description):
 						if description.find(' zen ') != -1:
 							typeVoiture = 15
 						elif description.find(' intens ') != -1:
@@ -129,7 +129,7 @@ def main():
 							typeVoiture = 7
 						else :
 							typeVoiture = -1
-					elif len(regexpType2.findall(description)) > 0:
+					elif regexpType2.search(description) > 0:
 						if description.find(' zen ') != -1:
 							typeVoiture = 6
 						elif description.find(' intens ') != -1:
@@ -138,7 +138,7 @@ def main():
 							typeVoiture = 4
 						else:
 							typeVoiture = -1
-					elif len(regexpType3.findall(description)) > 0:
+					elif regexpType3.search(description) > 0:
 						if description.find(' zen ') != -1:
 							typeVoiture = 3
 						elif description.find(' life ') != -1:

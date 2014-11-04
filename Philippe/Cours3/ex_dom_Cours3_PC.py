@@ -18,7 +18,7 @@ def getBeautifulSoupFromURL(URL):
 
 def getEtoilesContributeur(Id,motDePasse,contributeurGithub):
 	# Renvoie le nb moyen d'étoiles des dépots du contributeur
-	url = "https://api.github.com/users/" + contributeurGithub + "/starred/owner"
+	url = "https://api.github.com/users/" + contributeurGithub + "/starred"#/owner"
 	requete = requests.get(url, auth=(Id,motDePasse))
 	if requete.status_code != 200:
 		return 0.
@@ -52,7 +52,7 @@ def main():
 		Contributeur["lien"] = balise.select("td:nth-of-type(1) > a")[0].get("href")
 		Contributeur["etoiles"] = getEtoilesContributeur(githubID,githubMDP,Contributeur["id"])
 		tableContributeurs.append(Contributeur)
-	triContributeurs = sorted(tableContributeurs, key=lambda contrib: contrib["etoiles"])
+	triContributeurs = sorted(tableContributeurs, reverse=True, key=lambda contrib: contrib["etoiles"])
 	print "Classement des contributeurs de github par étoiles (moyenne sur les dépots):"
 	for Contributeur in triContributeurs:
 		print "   " + str(Contributeur["id"]) + " : " + str(Contributeur["etoiles"]) + " étoiles"
