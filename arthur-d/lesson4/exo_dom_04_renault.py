@@ -43,9 +43,11 @@ class Car:
 
 	#enregistrer dans fichier csv
 	def put_in_csv(self):
-		with open('cars.csv', 'w') as csvfile:
+		serie = Series([value for value in self.car_info.values()])
+		serie.to_csv('cars.csv', sep=',')
+		"""with open('cars.csv', 'a') as csvfile:
 			spamwriter = csv.writer(csvfile, delimiter=',',quotechar='|', quoting=csv.QUOTE_MINIMAL)
-			spamwriter.writerow([value for value in self.car_info.values()])
+			spamwriter.writerow([value for value in self.car_info.values()])"""
 
 """
 ===== Recherche de la côte argus =======
@@ -119,10 +121,10 @@ def get_info(link):
 					car.set_elem('tel', "".join([c for c in phone.group(0) if c in "1234567890"]))
 				else:
 					print ""
-		#côte argus
+		"""#côte argus
 		argus = get_argus(car)
 		argus  = int("".join([c for c in argus if c in "1234567890"]))
-		car.set_elem('argus', argus)
+		car.set_elem('argus', argus)"""
 
 		#put in csv file
 		car.put_in_csv()
