@@ -1,0 +1,957 @@
+In [378]: %run voitCompare.py
+Getting data for region ILE DE FRANCE
+Query contains 9 pages of results.
+++++++ Page =  1
+++++++ Page =  2
+++++++ Page =  3
+++++++ Page =  4
+++++++ Page =  5
+++++++ Page =  6
+++++++ Page =  7
+++++++ Page =  8
+++++++ Page =  9
+Item 1 of 286
+********** Warning: model = 4 500 km, moving on...
+Item 2 of 286
+Item 3 of 286
+***** Warning: could not find telephone, setting to empty
+Item 4 of 286
+***** Warning: could not find telephone, setting to empty
+Item 5 of 286
+Item 6 of 286
+********** Warning: model = 3008, moving on...
+Item 7 of 286
+Item 8 of 286
+Item 9 of 286
+***** Warning: could not find telephone, setting to empty
+Item 10 of 286
+Item 11 of 286
+Item 12 of 286
+Item 13 of 286
+Item 14 of 286
+Item 15 of 286
+Item 16 of 286
+Item 17 of 286
+Item 18 of 286
+Item 19 of 286
+Item 20 of 286
+Item 21 of 286
+Item 22 of 286
+Item 23 of 286
+Item 24 of 286
+Item 25 of 286
+Item 26 of 286
+Item 27 of 286
+Item 28 of 286
+Item 29 of 286
+********** Warning: model = juke, moving on...
+Item 30 of 286
+Item 31 of 286
+Item 32 of 286
+Item 33 of 286
+Item 34 of 286
+Item 35 of 286
+Item 36 of 286
+Item 37 of 286
+Item 38 of 286
+Item 39 of 286
+Item 40 of 286
+Item 41 of 286
+Item 42 of 286
+Item 43 of 286
+Item 44 of 286
+Item 45 of 286
+Item 46 of 286
+Item 47 of 286
+Item 48 of 286
+***** Warning: could not find telephone, setting to empty
+Item 49 of 286
+Item 50 of 286
+***** Warning: year = 2452 setting to None
+Item 51 of 286
+***** Warning: could not find telephone, setting to empty
+Item 52 of 286
+***** Warning: could not find telephone, setting to empty
+Item 53 of 286
+Item 54 of 286
+***** Warning: could not find telephone, setting to empty
+Item 55 of 286
+***** Warning: could not find telephone, setting to empty
+Item 56 of 286
+***** Warning: could not find telephone, setting to empty
+Item 57 of 286
+***** Warning: could not find telephone, setting to empty
+Item 58 of 286
+***** Warning: could not find telephone, setting to empty
+Item 59 of 286
+***** Warning: could not find telephone, setting to empty
+Item 60 of 286
+Item 61 of 286
+***** Warning: could not find telephone, setting to empty
+Item 62 of 286
+Item 63 of 286
+Item 64 of 286
+Item 65 of 286
+Item 66 of 286
+********** Warning: model = tiguan, moving on...
+Item 67 of 286
+Item 68 of 286
+Item 69 of 286
+Item 70 of 286
+Item 71 of 286
+********** Warning: model = scenic, moving on...
+Item 72 of 286
+Item 73 of 286
+Item 74 of 286
+Item 75 of 286
+Item 76 of 286
+***** Warning: could not find telephone, setting to empty
+Item 77 of 286
+Item 78 of 286
+Item 79 of 286
+***** Warning: could not find telephone, setting to empty
+Item 80 of 286
+***** Warning: could not find telephone, setting to empty
+Item 81 of 286
+***** Warning: could not find telephone, setting to empty
+Item 82 of 286
+***** Warning: could not find telephone, setting to empty
+Item 83 of 286
+Item 84 of 286
+***** Warning: could not find telephone, setting to empty
+Item 85 of 286
+Item 86 of 286
+Item 87 of 286
+Item 88 of 286
+Item 89 of 286
+********** Warning: model = 3008, moving on...
+Item 90 of 286
+Item 91 of 286
+Item 92 of 286
+***** Warning: could not find telephone, setting to empty
+Item 93 of 286
+***** Warning: could not find telephone, setting to empty
+Item 94 of 286
+Item 95 of 286
+***** Warning: could not find telephone, setting to empty
+Item 96 of 286
+***** Warning: could not find telephone, setting to empty
+Item 97 of 286
+********** Warning: model = scenic, moving on...
+Item 98 of 286
+***** Warning: could not find telephone, setting to empty
+Item 99 of 286
+********** Warning: model = note, moving on...
+Item 100 of 286
+***** Warning: could not find telephone, setting to empty
+Item 101 of 286
+Item 102 of 286
+Item 103 of 286
+Item 104 of 286
+Item 105 of 286
+***** Warning: could not find telephone, setting to empty
+Item 106 of 286
+Item 107 of 286
+Item 108 of 286
+Item 109 of 286
+***** Warning: could not find telephone, setting to empty
+Item 110 of 286
+***** Warning: could not find telephone, setting to empty
+Item 111 of 286
+***** Warning: could not find telephone, setting to empty
+Item 112 of 286
+Item 113 of 286
+Item 114 of 286
+Item 115 of 286
+Item 116 of 286
+Item 117 of 286
+Item 118 of 286
+Item 119 of 286
+Item 120 of 286
+Item 121 of 286
+Item 122 of 286
+Item 123 of 286
+Item 124 of 286
+Item 125 of 286
+Item 126 of 286
+Item 127 of 286
+Item 128 of 286
+***** Warning: could not find telephone, setting to empty
+Item 129 of 286
+********** Warning: model = qashqai, moving on...
+Item 130 of 286
+***** Warning: could not find telephone, setting to empty
+Item 131 of 286
+Item 132 of 286
+***** Warning: could not find telephone, setting to empty
+Item 133 of 286
+***** Warning: could not find telephone, setting to empty
+Item 134 of 286
+Item 135 of 286
+Item 136 of 286
+Item 137 of 286
+Item 138 of 286
+Item 139 of 286
+Item 140 of 286
+Item 141 of 286
+Item 142 of 286
+Item 143 of 286
+Item 144 of 286
+***** Warning: could not find telephone, setting to empty
+Item 145 of 286
+Item 146 of 286
+Item 147 of 286
+Item 148 of 286
+********** Warning: model = megane, moving on...
+Item 149 of 286
+Item 150 of 286
+Item 151 of 286
+Item 152 of 286
+Item 153 of 286
+Item 154 of 286
+********** Warning: model = cutback, moving on...
+Item 155 of 286
+Item 156 of 286
+Item 157 of 286
+Item 158 of 286
+***** Warning: could not find telephone, setting to empty
+Item 159 of 286
+Item 160 of 286
+***** Warning: could not find telephone, setting to empty
+Item 161 of 286
+***** Warning: could not find telephone, setting to empty
+Item 162 of 286
+***** Warning: could not find telephone, setting to empty
+Item 163 of 286
+Item 164 of 286
+***** Warning: could not find telephone, setting to empty
+Item 165 of 286
+Item 166 of 286
+Item 167 of 286
+***** Warning: could not find telephone, setting to empty
+Item 168 of 286
+Item 169 of 286
+Item 170 of 286
+Item 171 of 286
+***** Warning: could not find telephone, setting to empty
+Item 172 of 286
+***** Warning: could not find telephone, setting to empty
+Item 173 of 286
+***** Warning: could not find telephone, setting to empty
+Item 174 of 286
+***** Warning: could not find telephone, setting to empty
+Item 175 of 286
+Item 176 of 286
+********** Warning: model = juke, moving on...
+Item 177 of 286
+********** Warning: model = diesel, moving on...
+Item 178 of 286
+Item 179 of 286
+Item 180 of 286
+Item 181 of 286
+Item 182 of 286
+********** Warning: model = diesel, moving on...
+Item 183 of 286
+Item 184 of 286
+Item 185 of 286
+Item 186 of 286
+Item 187 of 286
+Item 188 of 286
+Item 189 of 286
+Item 190 of 286
+Item 191 of 286
+Item 192 of 286
+Item 193 of 286
+Item 194 of 286
+***** Warning: could not find telephone, setting to empty
+Item 195 of 286
+Item 196 of 286
+Item 197 of 286
+Item 198 of 286
+Item 199 of 286
+Item 200 of 286
+Item 201 of 286
+Item 202 of 286
+Item 203 of 286
+Item 204 of 286
+********** Warning: model = diesel, moving on...
+Item 205 of 286
+***** Warning: could not find telephone, setting to empty
+Item 206 of 286
+Item 207 of 286
+***** Warning: could not find telephone, setting to empty
+Item 208 of 286
+Item 209 of 286
+Item 210 of 286
+***** Warning: could not find telephone, setting to empty
+Item 211 of 286
+Item 212 of 286
+Item 213 of 286
+Item 214 of 286
+Item 215 of 286
+***** Warning: could not find telephone, setting to empty
+Item 216 of 286
+Item 217 of 286
+Item 218 of 286
+Item 219 of 286
+********** Warning: model = venga, moving on...
+Item 220 of 286
+Item 221 of 286
+***** Warning: could not find telephone, setting to empty
+Item 222 of 286
+***** Warning: could not find telephone, setting to empty
+Item 223 of 286
+********** Warning: model = diesel, moving on...
+Item 224 of 286
+***** Warning: could not find telephone, setting to empty
+Item 225 of 286
+********** Warning: model = clio, moving on...
+Item 226 of 286
+********** Warning: model = diesel, moving on...
+Item 227 of 286
+***** Warning: could not find telephone, setting to empty
+Item 228 of 286
+********** Warning: model = diesel, moving on...
+Item 229 of 286
+Item 230 of 286
+Item 231 of 286
+Item 232 of 286
+Item 233 of 286
+Item 234 of 286
+Item 235 of 286
+Item 236 of 286
+Item 237 of 286
+Item 238 of 286
+Item 239 of 286
+Item 240 of 286
+Item 241 of 286
+Item 242 of 286
+***** Warning: could not find telephone, setting to empty
+Item 243 of 286
+Item 244 of 286
+Item 245 of 286
+********** Warning: model = essence, moving on...
+Item 246 of 286
+Item 247 of 286
+********** Warning: model = essence, moving on...
+Item 248 of 286
+Item 249 of 286
+Item 250 of 286
+***** Warning: could not find telephone, setting to empty
+Item 251 of 286
+Item 252 of 286
+********** Warning: model = essence, moving on...
+Item 253 of 286
+Item 254 of 286
+Item 255 of 286
+Item 256 of 286
+********** Warning: model = essence, moving on...
+Item 257 of 286
+***** Warning: could not find telephone, setting to empty
+Item 258 of 286
+********** Warning: model = 207, moving on...
+Item 259 of 286
+Item 260 of 286
+********** Warning: model = diesel, moving on...
+Item 261 of 286
+Item 262 of 286
+***** Warning: could not find telephone, setting to empty
+Item 263 of 286
+***** Warning: could not find telephone, setting to empty
+Item 264 of 286
+***** Warning: could not find telephone, setting to empty
+Item 265 of 286
+Item 266 of 286
+Item 267 of 286
+***** Warning: could not find telephone, setting to empty
+Item 268 of 286
+Item 269 of 286
+Item 270 of 286
+Item 271 of 286
+***** Warning: could not find telephone, setting to empty
+Item 272 of 286
+Item 273 of 286
+***** Warning: could not find telephone, setting to empty
+Item 274 of 286
+Item 275 of 286
+***** Warning: could not find telephone, setting to empty
+Item 276 of 286
+Item 277 of 286
+***** Warning: could not find telephone, setting to empty
+Item 278 of 286
+***** Warning: could not find telephone, setting to empty
+Item 279 of 286
+Item 280 of 286
+Item 281 of 286
+Item 282 of 286
+********** Warning: model = essence, moving on...
+Item 283 of 286
+Item 284 of 286
+Item 285 of 286
+Item 286 of 286
+***** Warning: could not find telephone, setting to empty
+Getting data for region PROVENCE ALPES COTE D AZUR
+Query contains 7 pages of results.
+++++++ Page =  1
+++++++ Page =  2
+++++++ Page =  3
+++++++ Page =  4
+++++++ Page =  5
+++++++ Page =  6
+++++++ Page =  7
+Item 1 of 236
+Item 2 of 236
+Item 3 of 236
+***** Warning: could not find telephone, setting to empty
+Item 4 of 236
+***** Warning: could not find telephone, setting to empty
+Item 5 of 236
+***** Warning: could not find telephone, setting to empty
+Item 6 of 236
+Item 7 of 236
+Item 8 of 236
+Item 9 of 236
+Item 10 of 236
+***** Warning: could not find telephone, setting to empty
+Item 11 of 236
+********** Warning: model = juke, moving on...
+Item 12 of 236
+Item 13 of 236
+********** Warning: model = juke, moving on...
+Item 14 of 236
+Item 15 of 236
+Item 16 of 236
+Item 17 of 236
+Item 18 of 236
+Item 19 of 236
+********** Warning: model = juke, moving on...
+Item 20 of 236
+Item 21 of 236
+Item 22 of 236
+Item 23 of 236
+********** Warning: model = juke, moving on...
+Item 24 of 236
+********** Warning: model = juke, moving on...
+Item 25 of 236
+Item 26 of 236
+Item 27 of 236
+Item 28 of 236
+Item 29 of 236
+Item 30 of 236
+********** Warning: model = classe r, moving on...
+Item 31 of 236
+********** Warning: model = mini, moving on...
+Item 32 of 236
+Item 33 of 236
+Item 34 of 236
+********** Warning: model = juke, moving on...
+Item 35 of 236
+********** Warning: model = 300c, moving on...
+Item 36 of 236
+Item 37 of 236
+Item 38 of 236
+Item 39 of 236
+Item 40 of 236
+Item 41 of 236
+Item 42 of 236
+Item 43 of 236
+Item 44 of 236
+Item 45 of 236
+Item 46 of 236
+Item 47 of 236
+********** Warning: model = venga, moving on...
+Item 48 of 236
+********** Warning: model = juke, moving on...
+Item 49 of 236
+Item 50 of 236
+***** Warning: could not find telephone, setting to empty
+Item 51 of 236
+********** Warning: model = scenic, moving on...
+Item 52 of 236
+***** Warning: year = 2450 setting to None
+Item 53 of 236
+***** Warning: could not find telephone, setting to empty
+Item 54 of 236
+Item 55 of 236
+Item 56 of 236
+***** Warning: could not find telephone, setting to empty
+Item 57 of 236
+***** Warning: could not find telephone, setting to empty
+Item 58 of 236
+Item 59 of 236
+Item 60 of 236
+***** Warning: could not find telephone, setting to empty
+Item 61 of 236
+Item 62 of 236
+Item 63 of 236
+***** Warning: could not find telephone, setting to empty
+Item 64 of 236
+***** Warning: could not find telephone, setting to empty
+Item 65 of 236
+***** Warning: could not find telephone, setting to empty
+Item 66 of 236
+Item 67 of 236
+Item 68 of 236
+Item 69 of 236
+Item 70 of 236
+Item 71 of 236
+Item 72 of 236
+Item 73 of 236
+Item 74 of 236
+Item 75 of 236
+Item 76 of 236
+***** Warning: could not find telephone, setting to empty
+Item 77 of 236
+Item 78 of 236
+Item 79 of 236
+Item 80 of 236
+Item 81 of 236
+***** Warning: could not find telephone, setting to empty
+Item 82 of 236
+Item 83 of 236
+********** Warning: model = yeti, moving on...
+Item 84 of 236
+Item 85 of 236
+Item 86 of 236
+Item 87 of 236
+Item 88 of 236
+Item 89 of 236
+********** Warning: model = 88 900 km, moving on...
+Item 90 of 236
+********** Warning: model = fluence, moving on...
+Item 91 of 236
+********** Warning: model = qashqai, moving on...
+Item 92 of 236
+Item 93 of 236
+Item 94 of 236
+Item 95 of 236
+Item 96 of 236
+***** Warning: could not find telephone, setting to empty
+Item 97 of 236
+Item 98 of 236
+********** Warning: model = juke, moving on...
+Item 99 of 236
+********** Warning: model = duster, moving on...
+Item 100 of 236
+***** Warning: could not find telephone, setting to empty
+Item 101 of 236
+Item 102 of 236
+Item 103 of 236
+Item 104 of 236
+Item 105 of 236
+Item 106 of 236
+Item 107 of 236
+********** Warning: model = juke, moving on...
+Item 108 of 236
+Item 109 of 236
+***** Warning: could not find telephone, setting to empty
+Item 110 of 236
+********** Warning: model = c5, moving on...
+Item 111 of 236
+********** Warning: model = quattroporte, moving on...
+Item 112 of 236
+Item 113 of 236
+Item 114 of 236
+Item 115 of 236
+Item 116 of 236
+Item 117 of 236
+Item 118 of 236
+***** Warning: could not find telephone, setting to empty
+Item 119 of 236
+Item 120 of 236
+Item 121 of 236
+***** Warning: could not find telephone, setting to empty
+Item 122 of 236
+********** Warning: model = duster, moving on...
+Item 123 of 236
+***** Warning: could not find telephone, setting to empty
+Item 124 of 236
+Item 125 of 236
+Item 126 of 236
+********** Warning: model = clio, moving on...
+Item 127 of 236
+Item 128 of 236
+********** Warning: model = diesel, moving on...
+Item 129 of 236
+********** Warning: model = rav 4, moving on...
+Item 130 of 236
+***** Warning: could not find telephone, setting to empty
+Item 131 of 236
+********** Warning: model = trax, moving on...
+Item 132 of 236
+Item 133 of 236
+Item 134 of 236
+***** Warning: could not find telephone, setting to empty
+Item 135 of 236
+***** Warning: could not find telephone, setting to empty
+Item 136 of 236
+Item 137 of 236
+Item 138 of 236
+********** Warning: model = duster, moving on...
+Item 139 of 236
+Item 140 of 236
+Item 141 of 236
+Item 142 of 236
+Item 143 of 236
+Item 144 of 236
+Item 145 of 236
+Item 146 of 236
+***** Warning: could not find telephone, setting to empty
+Item 147 of 236
+Item 148 of 236
+Item 149 of 236
+***** Warning: could not find telephone, setting to empty
+Item 150 of 236
+***** Warning: could not find telephone, setting to empty
+Item 151 of 236
+Item 152 of 236
+Item 153 of 236
+********** Warning: model = essence, moving on...
+Item 154 of 236
+Item 155 of 236
+********** Warning: model = qashqai, moving on...
+Item 156 of 236
+Item 157 of 236
+***** Warning: could not find telephone, setting to empty
+Item 158 of 236
+***** Warning: could not find telephone, setting to empty
+Item 159 of 236
+***** Warning: could not find telephone, setting to empty
+Item 160 of 236
+********** Warning: model = asx, moving on...
+Item 161 of 236
+***** Warning: could not find telephone, setting to empty
+Item 162 of 236
+********** Warning: model = diesel, moving on...
+Item 163 of 236
+Item 164 of 236
+Item 165 of 236
+Item 166 of 236
+***** Warning: could not find telephone, setting to empty
+Item 167 of 236
+Item 168 of 236
+Item 169 of 236
+***** Warning: could not find telephone, setting to empty
+Item 170 of 236
+Item 171 of 236
+Item 172 of 236
+Item 173 of 236
+Item 174 of 236
+Item 175 of 236
+Item 176 of 236
+********** Warning: model = essence, moving on...
+Item 177 of 236
+Item 178 of 236
+***** Warning: could not find telephone, setting to empty
+Item 179 of 236
+Item 180 of 236
+***** Warning: could not find telephone, setting to empty
+Item 181 of 236
+Item 182 of 236
+Item 183 of 236
+Item 184 of 236
+Item 185 of 236
+Item 186 of 236
+Item 187 of 236
+Item 188 of 236
+Item 189 of 236
+***** Warning: could not find telephone, setting to empty
+Item 190 of 236
+***** Warning: could not find telephone, setting to empty
+Item 191 of 236
+Item 192 of 236
+Item 193 of 236
+********** Warning: model = essence, moving on...
+Item 194 of 236
+Item 195 of 236
+Item 196 of 236
+Item 197 of 236
+********** Warning: model = kangoo, moving on...
+Item 198 of 236
+***** Warning: could not find telephone, setting to empty
+Item 199 of 236
+***** Warning: could not find telephone, setting to empty
+Item 200 of 236
+Item 201 of 236
+********** Warning: model = diesel, moving on...
+Item 202 of 236
+***** Warning: could not find telephone, setting to empty
+Item 203 of 236
+Item 204 of 236
+***** Warning: could not find telephone, setting to empty
+Item 205 of 236
+Item 206 of 236
+***** Warning: could not find telephone, setting to empty
+Item 207 of 236
+********** Warning: model = juke, moving on...
+Item 208 of 236
+***** Warning: could not find telephone, setting to empty
+Item 209 of 236
+***** Warning: could not find telephone, setting to empty
+Item 210 of 236
+Item 211 of 236
+***** Warning: could not find telephone, setting to empty
+Item 212 of 236
+***** Warning: could not find telephone, setting to empty
+Item 213 of 236
+Item 214 of 236
+********** Warning: model = diesel, moving on...
+Item 215 of 236
+***** Warning: could not find telephone, setting to empty
+Item 216 of 236
+***** Warning: could not find telephone, setting to empty
+Item 217 of 236
+Item 218 of 236
+Item 219 of 236
+***** Warning: could not find telephone, setting to empty
+Item 220 of 236
+***** Warning: could not find telephone, setting to empty
+Item 221 of 236
+***** Warning: could not find telephone, setting to empty
+Item 222 of 236
+***** Warning: could not find telephone, setting to empty
+Item 223 of 236
+***** Warning: could not find telephone, setting to empty
+Item 224 of 236
+***** Warning: could not find telephone, setting to empty
+Item 225 of 236
+********** Warning: model = essence, moving on...
+Item 226 of 236
+***** Warning: could not find telephone, setting to empty
+Item 227 of 236
+Item 228 of 236
+***** Warning: could not find telephone, setting to empty
+Item 229 of 236
+Item 230 of 236
+Item 231 of 236
+Item 232 of 236
+***** Warning: could not find telephone, setting to empty
+Item 233 of 236
+***** Warning: could not find telephone, setting to empty
+Item 234 of 236
+***** Warning: could not find telephone, setting to empty
+Item 235 of 236
+********** Warning: model = 292 km, moving on...
+Item 236 of 236
+Getting data for region AQUITAINE
+Query contains 5 pages of results.
+++++++ Page =  1
+++++++ Page =  2
+++++++ Page =  3
+++++++ Page =  4
+++++++ Page =  5
+Item 1 of 154
+***** Warning: could not find telephone, setting to empty
+Item 2 of 154
+***** Warning: could not find telephone, setting to empty
+Item 3 of 154
+***** Warning: could not find telephone, setting to empty
+Item 4 of 154
+***** Warning: could not find telephone, setting to empty
+Item 5 of 154
+Item 6 of 154
+Item 7 of 154
+********** Warning: model = juke, moving on...
+Item 8 of 154
+Item 9 of 154
+Item 10 of 154
+********** Warning: model = panda, moving on...
+Item 11 of 154
+Item 12 of 154
+Item 13 of 154
+Item 14 of 154
+********** Warning: model = juke, moving on...
+Item 15 of 154
+Item 16 of 154
+Item 17 of 154
+********** Warning: model = trax, moving on...
+Item 18 of 154
+Item 19 of 154
+Item 20 of 154
+Item 21 of 154
+***** Warning: could not find telephone, setting to empty
+Item 22 of 154
+Item 23 of 154
+Item 24 of 154
+***** Warning: could not find telephone, setting to empty
+Item 25 of 154
+Item 26 of 154
+Item 27 of 154
+***** Warning: could not find telephone, setting to empty
+Item 28 of 154
+Item 29 of 154
+Item 30 of 154
+Item 31 of 154
+Item 32 of 154
+***** Warning: could not find telephone, setting to empty
+Item 33 of 154
+***** Warning: could not find telephone, setting to empty
+Item 34 of 154
+Item 35 of 154
+***** Warning: could not find telephone, setting to empty
+Item 36 of 154
+***** Warning: could not find telephone, setting to empty
+Item 37 of 154
+********** Warning: model = juke, moving on...
+Item 38 of 154
+***** Warning: could not find telephone, setting to empty
+Item 39 of 154
+Item 40 of 154
+Item 41 of 154
+***** Warning: could not find telephone, setting to empty
+Item 42 of 154
+********** Warning: model = qashqai, moving on...
+Item 43 of 154
+***** Warning: could not find telephone, setting to empty
+Item 44 of 154
+***** Warning: could not find telephone, setting to empty
+Item 45 of 154
+Item 46 of 154
+***** Warning: could not find telephone, setting to empty
+Item 47 of 154
+***** Warning: could not find telephone, setting to empty
+Item 48 of 154
+***** Warning: could not find telephone, setting to empty
+Item 49 of 154
+Item 50 of 154
+Item 51 of 154
+Item 52 of 154
+***** Warning: could not find telephone, setting to empty
+Item 53 of 154
+***** Warning: could not find telephone, setting to empty
+Item 54 of 154
+***** Warning: could not find telephone, setting to empty
+Item 55 of 154
+********** Warning: model = juke, moving on...
+Item 56 of 154
+***** Warning: could not find telephone, setting to empty
+Item 57 of 154
+Item 58 of 154
+Item 59 of 154
+Item 60 of 154
+Item 61 of 154
+Item 62 of 154
+***** Warning: could not find telephone, setting to empty
+Item 63 of 154
+***** Warning: could not find telephone, setting to empty
+Item 64 of 154
+Item 65 of 154
+********** Warning: model = ecosport, moving on...
+Item 66 of 154
+Item 67 of 154
+********** Warning: model = diesel, moving on...
+Item 68 of 154
+Item 69 of 154
+Item 70 of 154
+Item 71 of 154
+Item 72 of 154
+Item 73 of 154
+Item 74 of 154
+Item 75 of 154
+Item 76 of 154
+Item 77 of 154
+***** Warning: could not find telephone, setting to empty
+Item 78 of 154
+********** Warning: model = ix20, moving on...
+Item 79 of 154
+Item 80 of 154
+Item 81 of 154
+Item 82 of 154
+***** Warning: could not find telephone, setting to empty
+Item 83 of 154
+Item 84 of 154
+Item 85 of 154
+Item 86 of 154
+********** Warning: model = note, moving on...
+Item 87 of 154
+Item 88 of 154
+***** Warning: could not find telephone, setting to empty
+Item 89 of 154
+Item 90 of 154
+Item 91 of 154
+********** Warning: model = diesel, moving on...
+Item 92 of 154
+Item 93 of 154
+Item 94 of 154
+********** Warning: model = c4, moving on...
+Item 95 of 154
+Item 96 of 154
+Item 97 of 154
+********** Warning: model = tiguan, moving on...
+Item 98 of 154
+***** Warning: could not find telephone, setting to empty
+Item 99 of 154
+Item 100 of 154
+Item 101 of 154
+Item 102 of 154
+Item 103 of 154
+Item 104 of 154
+Item 105 of 154
+***** Warning: could not find telephone, setting to empty
+Item 106 of 154
+***** Warning: could not find telephone, setting to empty
+Item 107 of 154
+Item 108 of 154
+Item 109 of 154
+Item 110 of 154
+Item 111 of 154
+Item 112 of 154
+***** Warning: could not find telephone, setting to empty
+Item 113 of 154
+***** Warning: could not find telephone, setting to empty
+Item 114 of 154
+***** Warning: could not find telephone, setting to empty
+Item 115 of 154
+Item 116 of 154
+Item 117 of 154
+Item 118 of 154
+Item 119 of 154
+***** Warning: could not find telephone, setting to empty
+Item 120 of 154
+Item 121 of 154
+********** Warning: model = 5008, moving on...
+Item 122 of 154
+Item 123 of 154
+***** Warning: could not find telephone, setting to empty
+Item 124 of 154
+Item 125 of 154
+***** Warning: could not find telephone, setting to empty
+Item 126 of 154
+***** Warning: could not find telephone, setting to empty
+Item 127 of 154
+Item 128 of 154
+***** Warning: Error in postal code
+***** Warning: could not find telephone, setting to empty
+Item 129 of 154
+Item 130 of 154
+Item 131 of 154
+********** Warning: model = 2008, moving on...
+Item 132 of 154
+Item 133 of 154
+***** Warning: could not find telephone, setting to empty
+Item 134 of 154
+***** Warning: could not find telephone, setting to empty
+Item 135 of 154
+Item 136 of 154
+Item 137 of 154
+***** Warning: could not find telephone, setting to empty
+Item 138 of 154
+Item 139 of 154
+Item 140 of 154
+Item 141 of 154
+***** Warning: could not find telephone, setting to empty
+Item 142 of 154
+Item 143 of 154
+***** Warning: could not find telephone, setting to empty
+Item 144 of 154
+Item 145 of 154
+Item 146 of 154
+Item 147 of 154
+***** Warning: could not find telephone, setting to empty
+Item 148 of 154
+Item 149 of 154
+Item 150 of 154
+Item 151 of 154
+Item 152 of 154
+Item 153 of 154
+Item 154 of 154
