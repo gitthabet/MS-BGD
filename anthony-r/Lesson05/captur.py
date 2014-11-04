@@ -40,7 +40,10 @@ class Captur:
 
     def parse_owner_phone(self):
         """ We assume the phone number is in the description, please only use this method after having called parse_lbc_info"""
-        
+        pass
+
+    def get_model(self):
+        pass
 
     def describe(self):
         print self.title + ":"
