@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 
 import requests
 import html5lib
@@ -9,6 +9,8 @@ import pandas as pd
 import re
 import unicodedata as ucd
 
+# Returns a soup object from a given url
+
 def getSoupFromUrl(url):
 	result = requests.get(url)
 	if result.status_code == 200:
@@ -17,9 +19,13 @@ def getSoupFromUrl(url):
 		print 'Request failed', url
 		return None
 
+# Get normal form of string and encode in utf-8
+
+def getUniString(string):
+	return ucd.normalize('NFKD',string).encode('ascii','ignore')	
+
 
 # Returns the coordinates using google geoloc API
-
 
 def getCoordinates(city):
 	
@@ -33,21 +39,11 @@ def getCoordinates(city):
 		coordinate = [str(lat),str(lng)]
 		return coordinate
 	
-	
-
-# Try to find seller's number in description, always in pro , sometimes in private seller
-
-def getSellerPhone(desc):
-
-	regex= re.compile("((\+|00)33\s?|0)[1-9]([\s-.]?\d{2}){4}")
-	phone = regex.search(desc)
-	if phone :
-		phone = phone.group(0)
-	
-	return phone
+######################################################################################################################
 
 # Get the number of items for sale, evaluate the number of pages knowing that 35 links is max/page
-def getItemPages(soup):
+
+def getTotalPages(soup):
 	
 	balise = soup.select('ul li span + span')[0].text
 	tab= balise.split()
@@ -57,14 +53,90 @@ def getItemPages(soup):
 	
 	return nbpages
 
-# Get normal form of string and encode in ascii
-def getUniString(string):
-	return ucd.normalize('NFKD',string).encode('ascii','ignore')	
+
+# Get item's links from search in a given region
+
+def getItemlinks(region,search):
+	soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/offres/'+region+'/?q='+ search)
+	pages = getTotalPages(soup)
+	links=[]
+
+	for i in range(1,pages):
+		soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/offres/'+region+'/?o='+ str(i) + '&q='+ search)
+		listItem = soup.find('div', class_="list-lbc")
+		urlItem = listItem.find_all('a')
+		links += [getUniString(link.get('href'))for link in urlItem]
+	return links
+
+
+######################################################################################################################	
+
+# Try to find seller's number in description, always in pro , sometimes in private seller
+
+def getSellerInfo(soup):
+	Seller =[]
+	sell=soup.find('div', class_="upload_by")
+	name=getUniString(sell.find('a').text).strip()
+	#print name
+
+	pro= getUniString(soup.find('span', class_="ad_pro").text)
+	if len(pro)>0:
+		pro ="Professionnel"
+	else:
+		pro ="Particulier"
+	#print pro
+	desc= getUniString(soup.find('div', class_="content").text)
+		
+	regex= re.compile(r"((\+|00)33\s?|0)[1-9]([\s\-\.]?\d{2}){4}")
+	phone = regex.search(desc)
+	if phone :
+	 	phone = phone.group(0)
+	#print phone
+
+	Seller.append([name, pro ,phone])
+	return Seller
+
+
+def getCarInfo(soup):
+	
+	price = int(getUniString(soup.find('span', class_="price").text).replace(' ',''))
+	Infos = soup.find('div', class_="lbcParams criterias").find_all("td")
+	
+	manufacturer = Infos[0].text
+	model = Infos[1].text
+	year = Infos[2].text.strip()
+	mileage = Infos[3].text
+	energy = Infos[4].text
+	gear = Infos[5].text
+	
+	address = soup.find('div', class_="lbcParams withborder").find_all("td")
+	city= address[1].text
+	zipcode=address[2].text
+	
+	seller = []
+	seller = getSellerInfo(soup)
+
+	#coordinates= getCoordinates(city)
+	CarInfo=[]
+	CarInfo.append([manufacturer,model,year,mileage,energy,gear,city,zipcode,seller[0][0],seller[0][1],seller[0][2]])
+	return CarInfo
+
+#def getLeboncoin():
 
 
 
 
-soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/offres/ile_de_france/?o=1&q=Renault%20Captur')
-num = getItemPages(soup)
-print num
+CarInfo=[]
+soup = getSoupFromUrl('http://www.leboncoin.fr/voitures/716161502.htm?ca=12_s')
+#print soup
+# vendeur = getSellerInfo(soup)
+# print vendeur
+CarInfo= getCarInfo(soup)
+lbcInfos= pd.DataFrame(CarInfo,columns = ['manufacturer','model','year','mileage','energy','gear','city','zipcode','name','type','phone'])
+print lbcInfos
+lbcInfos.to_csv('leboncoin.csv')
+# getCarInfo('http://www.leboncoin.fr/voitures/726736296.htm?ca=12_s')
+# liens = []
+#liens = getItemlinks('ile_de_france','Renault Captur')
+#print liens[3]
 

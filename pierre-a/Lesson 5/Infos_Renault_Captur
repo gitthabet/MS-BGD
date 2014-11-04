@@ -1,0 +1,560 @@
+,Région,Modèle,Carburant,Kilométrage,Prix,Vendeur,Ville,Latitude,Longitude,ArgusComparison
+0,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,3714,19690,pro,Gap,44.559638,6.079758,+
+1,provence_alpes_cote_d_azur,  DCI 90 BUSINESS GPS,Diesel,22900,15990,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+2,provence_alpes_cote_d_azur,  DCI 90 ENERGY ECO2 INTENS S-S 4X2,Diesel,10000,18000,pro,Frejus,43.43315200000001,6.737034,+
+3,provence_alpes_cote_d_azur, INTENS TCE 90 - ECHANGE POSSIBLE,Essence,13400,14990,pro,Nice,43.7101728,7.261953200000001,+
+4,provence_alpes_cote_d_azur,  1.5 DCI 90 ENERGY S&S BUSINESS ECO2,Diesel,32020,14990,pro,LePontet,43.9591489,4.863830999999999,+
+5,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,6002,14800,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+6,provence_alpes_cote_d_azur,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10000,19300,pro,Vitrolles,43.45859799999999,5.249702999999999,+
+7,provence_alpes_cote_d_azur, TCE INTENS 2013 - 15500 KMS,Essence,15500,17100,pro,Frejus,43.43315200000001,6.737034,-
+8,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,18352,14800,pro,Hyeres,43.120541,6.128639,+
+9,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,11888,14800,pro,Nice,43.7101728,7.261953200000001,+
+10,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,13055,14800,pro,Marseille,43.296482,5.36978,+
+11,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,17078,14800,pro,Marignane,43.4212739,5.218332,+
+12,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,16046,14800,pro,Hyeres,43.120541,6.128639,+
+13,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,10773,14800,pro,Nice,43.7101728,7.261953200000001,+
+14,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,25313,13400,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+15,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,20078,14500,pro,Marignane,43.4212739,5.218332,+
+16,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,15948,14800,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+17,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,10241,14800,pro,Marignane,43.4212739,5.218332,+
+18,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,17147,14800,pro,Nice,43.7101728,7.261953200000001,+
+19,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,20087,13900,pro,Marignane,43.4212739,5.218332,+
+20,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,13268,14800,pro,Nice,43.7101728,7.261953200000001,+
+21,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,22466,13700,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+22,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,11841,14800,pro,Marseille,43.296482,5.36978,+
+23,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,9545,14800,pro,Nice,43.7101728,7.261953200000001,+
+24,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,16816,14800,pro,Cannes,43.552847,7.017369,+
+25,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,19206,14800,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+26,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,15998,14800,pro,Hyeres,43.120541,6.128639,+
+27,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,11200,14800,pro,Nice,43.7101728,7.261953200000001,+
+28,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,19000,14800,pro,Toulon,43.124228,5.928,+
+29,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,15798,14800,pro,Cavaillon,43.8366045,5.0407814,+
+30,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,18155,14800,pro,Cannes,43.552847,7.017369,+
+31,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,17190,14800,pro,Nice,43.7101728,7.261953200000001,+
+32,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,16357,14800,pro,Marignane,43.4212739,5.218332,+
+33,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,13785,14800,pro,Nice,43.7101728,7.261953200000001,+
+34,provence_alpes_cote_d_azur,  DCI 90 ENERGY INTENS S&S,Diesel,10,18990,pro,Miramas,43.588896,5.002136,+
+35,provence_alpes_cote_d_azur,  NEUF 1.5 DCI 90 INTENS ENERGY,Diesel,5,18990,pro,Roquebrune-sur-Argens,43.443408,6.637682,+
+36,provence_alpes_cote_d_azur,  INTENS DCI SUPER AFFAIRE,Diesel,14600,16900,pro,LaSeyne-sur-Mer,43.102976,5.878219,+
+37,provence_alpes_cote_d_azur,  DCI90 ENER. S/S SL H.H 0KM,Diesel,1,19990,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+38,provence_alpes_cote_d_azur, INTENS ENERGY DCI 90CH,Diesel,13500,16700,pro,Vitrolles,43.45859799999999,5.249702999999999,+
+39,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,19076,17490,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+40,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,19327,15490,pro,Arles,43.676647,4.6277769,+
+41,provence_alpes_cote_d_azur,  1.2 TCE 120 INTENS EDC,Essence,13000,16990,pro,Marseille,43.296482,5.36978,+
+42,provence_alpes_cote_d_azur,  INTENS 120 CV TCE,Essence,12020,16900,pro,Hyeres,43.120541,6.128639,+
+43,provence_alpes_cote_d_azur,  ZEN ENERGY DCI 90 ECO2,Diesel,10,20200,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+44,provence_alpes_cote_d_azur,  TCE 90 ENERGY ZEN S&S ECO2,Essence,16209,14990,pro,Avignon,43.94931700000001,4.805528,+
+45,provence_alpes_cote_d_azur,  INTENSE 1.5 DCI,Diesel,23000,17000,pro,Hyeres,43.120541,6.128639,+
+46,provence_alpes_cote_d_azur,  TCE 90 ENERGY S&S ECO2 ZEN,Essence,10,16990,pro,Cagnes-sur-Mer,43.663739,7.14882,+
+47,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,10,20990,pro,Cagnes-sur-Mer,43.663739,7.14882,+
+48,provence_alpes_cote_d_azur,  DCI 90 ENERGY ZEN,Diesel,19500,15800,pro,Hyeres,43.120541,6.128639,+
+49,provence_alpes_cote_d_azur, ,Diesel,9950,19500,pro,Toulon,43.124228,5.928,N/A
+50,provence_alpes_cote_d_azur, ,Diesel,26000,15900,pro,Ceyreste,43.221502,5.634811,N/A
+51,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,4363,19900,pro,Cannes,43.552847,7.017369,+
+52,provence_alpes_cote_d_azur,  1.5 DCI 90 INTENS ENERGY INTENS S S,Diesel,5,18490,pro,Draguignan,43.5377269,6.464993,+
+53,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,5026,17490,pro,Cagnes-sur-Mer,43.663739,7.14882,+
+54,provence_alpes_cote_d_azur,  DCI 90 ZEN EDC,Diesel,9,19500,pro,LaValette-du-Var,43.13824,5.987584399999999,+
+55,provence_alpes_cote_d_azur,  DCI 90 INTENS EDC,Diesel,4689,19790,pro,Marignane,43.4212739,5.218332,+
+56,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,17147,16890,pro,Marignane,43.4212739,5.218332,+
+57,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,19239,16990,pro,Vitrolles,43.45859799999999,5.249702999999999,+
+58,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,3251,18800,pro,Cannes,43.552847,7.017369,+
+59,provence_alpes_cote_d_azur, ,Diesel,22000,16100,pro,Coudoux,43.558086,5.251238,N/A
+60,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,11,18900,pro,Aubagne,43.2926781,5.5676425,+
+61,provence_alpes_cote_d_azur,  2013,Diesel,23000,15900,pro,Serres,41.090923,23.5413198,-
+62,provence_alpes_cote_d_azur,  DCI 90 ZEN EDC,Diesel,10891,18990,pro,Gap,44.559638,6.079758,+
+63,provence_alpes_cote_d_azur,  TCE 120 INTENS EDC,Essence,16769,18400,pro,LaValette-du-Var,43.13824,5.987584399999999,+
+64,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,25155,16200,pro,Aubagne,43.2926781,5.5676425,+
+65,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,6012,17600,pro,Cannes,43.552847,7.017369,+
+66,provence_alpes_cote_d_azur, TCE 120CH ZEN EDC,Essence,15,17890,pro,Draguignan,43.5377269,6.464993,-
+67,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,16527,16990,pro,Cagnes-sur-Mer,43.663739,7.14882,+
+68,provence_alpes_cote_d_azur,  1.5 DCI 90 INTENS ENERGY INTENS S S,Diesel,5,18490,pro,Draguignan,43.5377269,6.464993,+
+69,provence_alpes_cote_d_azur,  TCE 120 INTENS EDC,Essence,5,19590,pro,Roquebrune-sur-Argens,43.443408,6.637682,+
+70,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,40849,14700,pro,Marseille,43.296482,5.36978,+
+71,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,3985,17900,pro,Cannes,43.552847,7.017369,+
+72,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,3640,17900,pro,Cannes,43.552847,7.017369,+
+73,provence_alpes_cote_d_azur,  INTENSE,Essence,9954,17400,pro,Gap,44.559638,6.079758,+
+74,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,13576,17990,pro,Marignane,43.4212739,5.218332,+
+75,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,23259,16490,pro,Arles,43.676647,4.6277769,+
+76,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,29632,15990,pro,Manosque,43.835744,5.790916,+
+77,provence_alpes_cote_d_azur,  INTENSE DIESEL 2013,Diesel,28000,17990,pro,Rognonas,43.898503,4.803017,+
+78,provence_alpes_cote_d_azur,  TCE 90 ENERGY S&S ECO2 ZEN,Essence,9500,14990,pro,Avignon,43.94931700000001,4.805528,+
+79,provence_alpes_cote_d_azur,  DCI 90 ENERGY INTENS S&S GPS NEUF,Diesel,10,19780,pro,LaDestrousse,43.37687400000001,5.605345,+
+80,provence_alpes_cote_d_azur,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,11900,16900,pro,Avignon,43.94931700000001,4.805528,+
+81,provence_alpes_cote_d_azur,  TCE 120CH INTENS BOITE EDC,Essence,1222,19900,pro,Frejus,43.43315200000001,6.737034,+
+82,provence_alpes_cote_d_azur,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,300,19990,pro,Venelles,43.598546,5.4847245,+
+83,provence_alpes_cote_d_azur,  BUSINESS DCI 90 ENERGY BUSINESS,Diesel,9548,16500,pro,Carpentras,44.0555639,5.048722,+
+84,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,19279,16990,pro,Bollene,44.280508,4.748965999999999,+
+85,provence_alpes_cote_d_azur,  BUSINESS DCI 90 ENERGY BUSINESS,Diesel,9739,16100,pro,Bollene,44.280508,4.748965999999999,+
+86,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,26808,16900,pro,Cannes,43.552847,7.017369,+
+87,provence_alpes_cote_d_azur, ,Diesel,29000,14900,pro,Saint-Maximin-la-Sainte-Baume,43.452497,5.864004,N/A
+88,provence_alpes_cote_d_azur,  TCE 90 ENERGY S&S ECO2 INTENS,Essence,10,16700,pro,Orange,33.7877944,-117.8531119,+
+89,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,5219,17900,pro,Cannes,43.552847,7.017369,+
+90,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,18670,16990,pro,Cavaillon,43.8366045,5.0407814,+
+91,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,8210,17490,pro,Cagnes-sur-Mer,43.663739,7.14882,+
+92,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,5470,17900,pro,Salon-de-Provence,43.640199,5.097022,+
+93,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,4733,18300,pro,Cannes,43.552847,7.017369,+
+94,provence_alpes_cote_d_azur,  DCI 90 ECO2 BUSINESS ENERGY,Diesel,40860,15290,pro,Antibes,43.58041799999999,7.125102,+
+95,provence_alpes_cote_d_azur,  DCI 90 BUSINESS EDC,Diesel,18507,17490,pro,Cavaillon,43.8366045,5.0407814,+
+96,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,11852,17990,pro,Arles,43.676647,4.6277769,+
+97,provence_alpes_cote_d_azur,PLUSIEURS   DCI 90 INTENSE GPS NEUF,Diesel,10,18900,pro,Martigues,43.404811,5.053728,+
+98,provence_alpes_cote_d_azur, DCI 90 INTENS EDC NAVI EUROPE - PACK TECHNO,Diesel,10,21890,pro,Lancon-Provence,43.591912,5.126824,-
+99,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,18637,18500,pro,Salon-de-Provence,43.640199,5.097022,+
+100,provence_alpes_cote_d_azur,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,19900,pro,Vitrolles,43.45859799999999,5.249702999999999,+
+101,provence_alpes_cote_d_azur,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,18990,pro,Marignane,43.4212739,5.218332,+
+102,provence_alpes_cote_d_azur, ,Diesel,9800,15500,pro,Marseille,43.296482,5.36978,N/A
+103,provence_alpes_cote_d_azur, ,Diesel,17913,16200,pro,LaCiotat,43.17365299999999,5.605155,N/A
+104,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,4535,17800,pro,Aubagne,43.2926781,5.5676425,+
+105,provence_alpes_cote_d_azur,  DCI 90 INTENS EDC ECO2,Diesel,2400,20900,pro,Port-de-Bouc,43.405449,4.985931,+
+106,provence_alpes_cote_d_azur, ,Diesel,4500,19200,pro,Simiane-Collongue,43.429668,5.434832999999999,N/A
+107,provence_alpes_cote_d_azur, ,Diesel,28000,14500,pro,Fayence,43.624076,6.694103000000001,N/A
+108,provence_alpes_cote_d_azur,  TCE 120 ZEN EDC,Essence,7450,16500,pro,LaSeyne-sur-Mer,43.102976,5.878219,+
+109,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,41573,14990,pro,Avignon,43.94931700000001,4.805528,+
+110,provence_alpes_cote_d_azur,  TCE 90 ENERGY S&S ECO2 INTENS,Essence,1674,16990,pro,Marignane,43.4212739,5.218332,+
+111,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,20500,16990,pro,Cagnes-sur-Mer,43.663739,7.14882,+
+112,provence_alpes_cote_d_azur,  TCE 90 ENERGY INTENS S&S ECO2,Essence,24060,15900,pro,Gardanne,43.4525982,5.4717363,+
+113,provence_alpes_cote_d_azur,  1.5 DCI 90 ENERGY S&S BUSINESS ECO2,Diesel,24600,15790,pro,LePontet,43.9591489,4.863830999999999,+
+114,provence_alpes_cote_d_azur,  BUSINESS DCI 90 ENERGY BUSINESS,Diesel,21174,15900,pro,Orange,33.7877944,-117.8531119,+
+115,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,19485,16800,pro,Cannes,43.552847,7.017369,+
+116,provence_alpes_cote_d_azur,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,29757,15490,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+117,provence_alpes_cote_d_azur," "" BUSINESS ENERGY DCI 90CV ECO2 """,Diesel,18625,16990,pro,Antibes,43.58041799999999,7.125102,+
+118,provence_alpes_cote_d_azur,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,19372,17490,pro,Brignoles,43.40655,6.061186999999999,+
+119,provence_alpes_cote_d_azur,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,3795,17400,pro,Valreas,44.383724,4.989187,+
+120,provence_alpes_cote_d_azur,  ANNEE 2013,Diesel,10000,17000,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+121,provence_alpes_cote_d_azur, ,Diesel,28000,17500,pro,Saint-Chamas,43.550669,5.034508,N/A
+122,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,11003,17900,pro,LaValette-du-Var,43.13824,5.987584399999999,+
+123,provence_alpes_cote_d_azur,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,13500,17990,pro,Manosque,43.835744,5.790916,+
+124,provence_alpes_cote_d_azur,  TCE 90 ENERGY ZEN S&S ECO2,Essence,8254,15990,pro,Manosque,43.835744,5.790916,+
+125,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,17904,17700,pro,LaValette-du-Var,43.13824,5.987584399999999,+
+126,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,13998,16490,pro,Manosque,43.835744,5.790916,+
+127,provence_alpes_cote_d_azur,  DCI 90 INTENS,Diesel,30000,16900,pro,Gareoult,43.329229,6.045799,+
+128,provence_alpes_cote_d_azur, 1.5L DCI 90CH ZEN,Diesel,4250,16990,pro,Draguignan,43.5377269,6.464993,+
+129,provence_alpes_cote_d_azur,  1.5 DCI 90CV BUSINESS 2014,Diesel,16800,15850,pro,Nice,43.7101728,7.261953200000001,+
+130,provence_alpes_cote_d_azur, INTENS CTE 120,Essence,16000,17000,pro,Sainte-Maxime,43.310184,6.640482,+
+131,provence_alpes_cote_d_azur,  ,Diesel,9600,17500,pro,Marseille,43.296482,5.36978,N/A
+132,provence_alpes_cote_d_azur,  TCE 90 ENERGY ZEN S&S ECO2,Essence,11058,14990,pro,Draguignan,43.5377269,6.464993,+
+133,provence_alpes_cote_d_azur,  TCE 90 ENERGY ZEN S&S ECO2,Essence,3895,14900,pro,Mougins,43.6023319,7.006491,+
+134,provence_alpes_cote_d_azur,  DCI 90CH ENERGY ZEN,Diesel,11225,15990,pro,Frejus,43.43315200000001,6.737034,+
+135,provence_alpes_cote_d_azur,  INTENS DCI 90CV S&S ECO2,Diesel,40000,16000,pro,Lauris,43.746982,5.313600999999999,+
+136,provence_alpes_cote_d_azur,  TCE 120 ZEN EDC,Essence,3962,16890,pro,Marignane,43.4212739,5.218332,+
+137,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,5109,18290,pro,Cannes,43.552847,7.017369,+
+138,provence_alpes_cote_d_azur,  LIFE + 1.5 DCI 90 CH A - 15%,Diesel,10,16990,pro,Lancon-Provence,43.591912,5.126824,+
+139,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,5541,17899,pro,Cannes,43.552847,7.017369,+
+140,provence_alpes_cote_d_azur,  TCE 90 ENERGY ZEN S&S ECO2,Essence,4994,13900,pro,Nice,43.7101728,7.261953200000001,+
+141,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,7092,17900,pro,Avignon,43.94931700000001,4.805528,+
+142,provence_alpes_cote_d_azur,  TCE 90 ENERGY S&S ECO2 INTENS,Essence,11136,15990,pro,Vitrolles,43.45859799999999,5.249702999999999,+
+143,provence_alpes_cote_d_azur,  TCE 90 ENERGY S&S ECO2 ZEN,Diesel,5486,14990,pro,Manosque,43.835744,5.790916,+
+144,provence_alpes_cote_d_azur,  TCE 90 ENERGY INTENS S&S ECO2,Essence,18303,15990,pro,Arles,43.676647,4.6277769,+
+145,provence_alpes_cote_d_azur,  TCE 90 ZEN INTENS ECO2 S&S,Essence,24500,14800,pro,Marseille,43.296482,5.36978,+
+146,provence_alpes_cote_d_azur,  TCE 90 ENERGY INTENS S&S ECO2,Essence,2719,16490,pro,Draguignan,43.5377269,6.464993,+
+147,provence_alpes_cote_d_azur,  DCI 90 ENERGY INTENS,Diesel,10,18790,pro,LaGarde,45.132053,2.118956,+
+148,provence_alpes_cote_d_azur,  DCI 90 ZEN EDC,Diesel,3497,19490,pro,Cagnes-sur-Mer,43.663739,7.14882,+
+149,provence_alpes_cote_d_azur,E INTENS TCE 120,Essence,20400,17800,pro,LePuy-Sainte-Reparade,43.66283,5.435206,+
+150,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,29361,16490,pro,Cannes,43.552847,7.017369,+
+151,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,20598,17490,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+152,provence_alpes_cote_d_azur,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,18566,17890,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+153,provence_alpes_cote_d_azur,  TCE 90 ENERGY ZEN S&S ECO2,Essence,3333,15150,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+154,provence_alpes_cote_d_azur,  TCE 120 INTENS EDC,Essence,10,19790,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+155,provence_alpes_cote_d_azur,  ZEN ENERGY DCI 90 ECO2,Diesel,10,20200,pro,Aix-en-Provence,43.529742,5.447426999999999,+
+156,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,8900,17990,pro,Avignon,43.94931700000001,4.805528,+
+157,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,13306,17990,pro,Orange,33.7877944,-117.8531119,+
+158,provence_alpes_cote_d_azur,  INTENS ENERGY DCI90 ECO2 PACK TECHN,Diesel,17300,17300,pro,Fos-sur-Mer,43.43788199999999,4.945711,+
+159,provence_alpes_cote_d_azur,  INTENS DCI 90,Diesel,32000,16900,pro,Draguignan,43.5377269,6.464993,+
+160,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,25746,16990,pro,Brignoles,43.40655,6.061186999999999,+
+161,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,5,19900,pro,LaSeyne-sur-Mer,43.102976,5.878219,+
+162,provence_alpes_cote_d_azur,  TCE 90 ENERGY ZEN S&S ECO2,Essence,10,16900,pro,Cavaillon,43.8366045,5.0407814,+
+163,provence_alpes_cote_d_azur,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,23143,16490,pro,Manosque,43.835744,5.790916,+
+164,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,19612,16900,pro,Cannes,43.552847,7.017369,+
+165,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,20394,16900,pro,Salon-de-Provence,43.640199,5.097022,+
+166,provence_alpes_cote_d_azur, INTENS DCI 90,Diesel,6500,19500,pro,Marseille,43.296482,5.36978,+
+167,provence_alpes_cote_d_azur,  1.5 DCI 90 ZEN ENERGY PROCEDURE VE,Diesel,2000,8500,pro,Saint-Andiol,43.835465,4.944566,+
+168,provence_alpes_cote_d_azur,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,12758,17490,pro,Brignoles,43.40655,6.061186999999999,+
+169,provence_alpes_cote_d_azur,  1.5 DCI 90 ENERGY S&S BUSINESS ECO2,Diesel,27000,15500,pro,Marseille,43.296482,5.36978,+
+170,provence_alpes_cote_d_azur,  0.9 TCE 90 ENERGY S&S INTENS IVOIRE,Essence,7846,16000,pro,LaGarde,45.132053,2.118956,+
+171,provence_alpes_cote_d_azur,  DCI 90 ENERGY BUSINESS,Diesel,22786,16990,pro,Cagnes-sur-Mer,43.663739,7.14882,+
+172,provence_alpes_cote_d_azur,  NEUF ROUGE DCI 90 INTENS BVM5 FULL,Diesel,10,22490,pro,Cannes,43.552847,7.017369,+
+173,provence_alpes_cote_d_azur,  DCI 90 INTENS EDC,Diesel,7455,19790,pro,Marignane,43.4212739,5.218332,+
+174,provence_alpes_cote_d_azur,  DCI 90 CV ENERGY INTENS S&S GPS,Diesel,1500,19950,pro,Tarascon,43.80604400000001,4.65752,+
+175,provence_alpes_cote_d_azur, INTENS ENERGIE DCI 90 ECO2 /JUIN 2014,Diesel,6000,18700,pro,Simiane-Collongue,43.429668,5.434832999999999,+
+176,provence_alpes_cote_d_azur,  INTENS DIESEL NEUF,Diesel,2500,19200,pro,LeLavandou,43.138042,6.368436,+
+177,provence_alpes_cote_d_azur,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,5,19900,pro,LaSeyne-sur-Mer,43.102976,5.878219,+
+178,provence_alpes_cote_d_azur,  DCI 2013 ACCIDENTE,Diesel,39748,3900,pro,Rognac,43.487871,5.23463,+
+179,provence_alpes_cote_d_azur,  8000 KMS DCI 90 ENERGY BUSINESS 5P,Diesel,8000,17500,pro,LeCannet,43.57655099999999,7.019019999999999,-
+180,ile_de_france, INTENS TCE 90,Essence,4500,16700,pro,Carrieres-sous-Poissy,48.945484,2.037356,+
+181,ile_de_france,  1.5 DCI FAP ENERGY 90CH INTENS M/5,Diesel,10,19840,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+182,ile_de_france,  DCI / GTIE 1 AN VOIRE 2 ANS P&M,Diesel,14697,15200,pro,Massy,48.730756,2.27137,+
+183,ile_de_france,  DCI / GTIE 1 AN VOIRE 2 ANS P&M,Diesel,13799,14500,pro,Massy,48.730756,2.27137,+
+184,ile_de_france,  1.2 TCE 120CH INTENS EDC/6,Essence,10,19640,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+185,ile_de_france,  INTENS DCI 90 EDC,Diesel,10,20602,pro,Thiais,48.760344,2.387405,+
+186,ile_de_france,  INTENS TCE 90,Essence,10,17560,pro,Thiais,48.760344,2.387405,+
+187,ile_de_france, ,Essence,16000,11990,pro,Athis-Mons,48.7092979,2.38479,N/A
+188,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,21754,14500,pro,Paris,48.856614,2.3522219,+
+189,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,15269,14800,pro,Paris,48.856614,2.3522219,+
+190,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,14697,14800,pro,Orly,48.745193,2.401373,+
+191,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,28670,14200,pro,Paris,48.856614,2.3522219,+
+192,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,17370,14800,pro,Chessy,48.87846159999999,2.7657959,+
+193,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,20026,14500,pro,Malakoff,48.817275,2.2977599,+
+194,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,26412,13600,pro,Nanterre,48.892423,2.215331,+
+195,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,15069,14800,pro,Montigny-le-Bretonneux,48.7738734,2.0360157,+
+196,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,19247,14800,pro,Roissy-en-France,49.00363,2.516978,+
+197,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,11688,14700,pro,Orly,48.745193,2.401373,+
+198,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,20800,14500,pro,Pontoise,49.050966,2.100645,+
+199,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,28282,14200,pro,Roissy-en-France,49.00363,2.516978,+
+200,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,12561,14000,pro,Montigny-le-Bretonneux,48.7738734,2.0360157,+
+201,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,19211,14800,pro,LeBlanc-Mesnil,49.422514,1.1380996,+
+202,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,29060,14400,pro,LeBlanc-Mesnil,49.422514,1.1380996,+
+203,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,15892,14800,pro,Pontoise,49.050966,2.100645,+
+204,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,23398,13900,pro,Orly,48.745193,2.401373,+
+205,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,14571,14800,pro,Paris,48.856614,2.3522219,+
+206,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,15607,14800,pro,Montigny-le-Bretonneux,48.7738734,2.0360157,+
+207,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,19172,14800,pro,Orly,48.745193,2.401373,+
+208,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,16521,14800,pro,Roissy-en-France,49.00363,2.516978,+
+209,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,24018,14500,pro,Clichy,48.904526,2.304768,+
+210,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,23289,13900,pro,Colombes,48.9220615,2.2533313,+
+211,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,14000,14800,pro,Paris,48.856614,2.3522219,+
+212,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,29246,14200,pro,Montigny-le-Bretonneux,48.7738734,2.0360157,+
+213,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,20966,14500,pro,Clichy,48.904526,2.304768,+
+214,ile_de_france,  HELLY HANSEN DCI 90,Diesel,10,19900,pro,Thiais,48.760344,2.387405,+
+215,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,16351,14800,pro,Orly,48.745193,2.401373,+
+216,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,13461,14800,pro,Orly,48.745193,2.401373,+
+217,ile_de_france,  ZEN DCI 90 EDC+ STOCK PARIS-ORLY,Diesel,10,18789,pro,Thiais,48.760344,2.387405,+
+218,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,18108,14800,pro,Montigny-le-Bretonneux,48.7738734,2.0360157,+
+219,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,16596,15000,pro,LeBlanc-Mesnil,49.422514,1.1380996,+
+220,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,29000,13600,pro,Bobigny,48.908612,2.439712,+
+221,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,12409,14800,pro,Pontoise,49.050966,2.100645,+
+222,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,19707,14800,pro,Ivry-sur-Seine,48.813055,2.38822,+
+223,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,12870,14800,pro,Orly,48.745193,2.401373,+
+224,ile_de_france,  INTENS DCI 90 EDC,Diesel,10,20602,pro,Thiais,48.760344,2.387405,+
+225,ile_de_france,  INTENS ENERGY DCI 90 S&S CAMERA,Diesel,8900,17990,pro,Saint-Remy-les-Chevreuse,48.7025751,2.0696133,+
+226,ile_de_france,  DCI 90 ENERGY INTENS S&S,Diesel,10,18990,pro,Valenton,48.749736,2.459965,+
+227,ile_de_france,  DCI90 ENER. S/S SL H.H 0KM,Diesel,1,19990,pro,Paris,48.856614,2.3522219,+
+228,ile_de_france, ,Essence,16500,14000,pro,Levallois-Perret,48.89321700000001,2.287864,N/A
+229,ile_de_france, ZEN AVEC GPS,Essence,4000,15500,pro,Versailles,48.801408,2.130122,-
+230,ile_de_france,  TCE 120 INTENS EDC,Essence,20992,16590,pro,Vitry-sur-Seine,48.792001,2.39851,+
+231,ile_de_france,  1.5 DCI,Diesel,5000,18900,pro,Mantes-la-Jolie,48.989323,1.714958,+
+232,ile_de_france,  INTENS EDC 120 + CAMERA DE RECUL,Essence,10,20500,pro,Dourdan,48.529171,2.0152549,+
+233,ile_de_france,  INTENS DCI 90 AVEC CAMERA DE RECUL,Diesel,4058,18990,pro,Dourdan,48.529171,2.0152549,+
+234,ile_de_france,  INTENS DCI 90 CV ORANGE/IVOIRE 2014,Diesel,1800,20300,pro,Guyancourt,48.762895,2.075323,+
+235,ile_de_france,  DCI 90 INTENS CAMERA STOCK,Diesel,10,18490,pro,Maurepas,48.7623589,1.945326,+
+236,ile_de_france,  TCE 90 INTENS GARANTIE 4 ANS STOCK,Essence,10,17490,pro,Maurepas,48.7623589,1.945326,+
+237,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,7933,18490,pro,Vitry-sur-Seine,48.792001,2.39851,+
+238,ile_de_france, ,Diesel,5950,17900,pro,Saclay,48.73668,2.180034,N/A
+239,ile_de_france,  TCE 90 INTENS,Essence,21883,15900,pro,Joinville-le-Pont,48.821267,2.472043,+
+240,ile_de_france,  1.2 TCE 120CH INTENS EDC/6,Essence,10,19640,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+241,ile_de_france,  1.2 TCE 120CH INTENS EDC/6,Essence,10,19640,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+242,ile_de_france,  1.2 TCE 120CH INTENS EDC/6,Essence,10,19210,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+243,ile_de_france,  1.2 TCE 120CH INTENS EDC/6,Essence,4000,18870,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+244,ile_de_france,  1.2 TCE 120CH INTENS EDC/6,Essence,10,19640,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+245,ile_de_france,  1.2 TCE 120CH INTENS EDC/6,Essence,10,19640,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+246,ile_de_france,  DCI 90 INTENS EDC,Diesel,15000,20300,pro,Chelles,48.87753499999999,2.59016,+
+247,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,9900,19600,pro,Chelles,48.87753499999999,2.59016,+
+248,ile_de_france,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,15000,17800,pro,Chelles,48.87753499999999,2.59016,+
+249,ile_de_france,  1.2 TCE 120CH INTENS EDC/6,Essence,10,19640,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+250,ile_de_france,  1.2 TCE 120CH INTENS EDC/6,Essence,10,19440,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+251,ile_de_france,  1.2 TCE 120 INTENS EDC R,Essence,7400,17400,pro,Gentilly,48.8138999,2.344688,+
+252,ile_de_france,  TCE 120 INTENS EDC,Essence,7742,18900,pro,Chelles,48.87753499999999,2.59016,+
+253,ile_de_france,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,6999,18900,pro,Chelles,48.87753499999999,2.59016,+
+254,ile_de_france,  DCI 90 NEUF,Diesel,100,16390,pro,Saint-Jean-les-Deux-Jumeaux,48.9514039,3.018301,+
+255,ile_de_france,  BUSINESS DCI 90,Diesel,24200,16980,pro,Saint-Jean-les-Deux-Jumeaux,48.9514039,3.018301,+
+256,ile_de_france,  DCI 90 CV INTENS ECO2 NOIR GPS,Diesel,14900,15900,pro,Corbeil-Essonnes,48.6102599,2.474805,+
+257,ile_de_france,  INTENSE DCI 90CV,Diesel,9000,16990,pro,Etampes,48.43441600000001,2.16142,+
+258,ile_de_france,  TCE 90 ENERGY S&S ECO2 ZEN,Essence,10,17300,pro,Chatou,48.896391,2.160098,+
+259,ile_de_france,  1.5 DCI 90 ZEN ECO2,Diesel,20500,16300,pro,Bretigny-sur-Orge,48.611486,2.30604,+
+260,ile_de_france,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,3098,17700,pro,Samoreau,48.42345400000001,2.754079,+
+261,ile_de_france,  1.5 DCI 90 BUSINESS EDC,Diesel,18932,17880,pro,Montrouge,48.816363,2.317384,+
+262,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,17670,15990,pro,Paris,48.856614,2.3522219,+
+263,ile_de_france,  DCI 90 ENERGY BUSINESS,Diesel,22880,16790,pro,Boulogne-Billancourt,48.8396952,2.2399123,+
+264,ile_de_france,  TCE 120 INTENS EDC,Essence,10,19372,pro,Thiais,48.760344,2.387405,+
+265,ile_de_france,  TCE 90 ENERGY LIFE S&S ECO2,Essence,10,14800,pro,Paris,48.856614,2.3522219,+
+266,ile_de_france,  INTENS TCE 120 EDS,Essence,24500,16300,pro,Coulommiers,48.813071,3.083497,+
+267,ile_de_france,  1.5 DCI 90 INTENS EDC NEUVE,Diesel,11,20500,pro,Levallois-Perret,48.89321700000001,2.287864,+
+268,ile_de_france,  TCE 90 ENERGY INTENS S&S ECO2,Essence,5576,16500,pro,Paris,48.856614,2.3522219,+
+269,ile_de_france,  1.5 DCI 90 ENERGY S&S INTENS ECO2,Diesel,12150,15999,pro,Bois-Colombes,48.917402,2.269675,+
+270,ile_de_france,  ZEN IVOIRE TOIT NOIR TCE 90 ECO2,Essence,6700,15790,pro,Bois-d'Arcy,48.80598,2.022188,+
+271,ile_de_france, ,Essence,7600,18400,pro,Conflans-Sainte-Honorine,49.000275,2.09178,N/A
+272,ile_de_france,  ZEN 90 TCE,Essence,3000,15300,pro,Limay,48.992181,1.735384,+
+273,ile_de_france,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,21780,17480,pro,Orgeval,48.918524,1.96978,+
+274,ile_de_france,  1.5 DCI FAP ENERGY 90CH ZEN M/5,Diesel,7000,16970,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+275,ile_de_france,  0.9 TCE ENERGY 90CH INTENS M/5,Essence,1000,17240,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+276,ile_de_france,  INTENS DCI 90 EDC,Diesel,10,20602,pro,Thiais,48.760344,2.387405,+
+277,ile_de_france,  INTENS DCI 90,Diesel,5000,18800,pro,Ballancourt-sur-Essonne,48.524552,2.388169,+
+278,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,8949,17490,pro,Boulogne-Billancourt,48.8396952,2.2399123,+
+279,ile_de_france,  TCE 90 ENERGY ZEN S&S ECO2,Essence,6105,14390,pro,Brie-Comte-Robert,48.69122669999999,2.6103697,+
+280,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,3631,17990,pro,Boulogne-Billancourt,48.8396952,2.2399123,+
+281,ile_de_france,  INTENS ENERGY DCI 90 IVOIRE /NOIRE,Diesel,9000,18500,pro,Pontoise,49.050966,2.100645,+
+282,ile_de_france,  INTENS ENERGY DCI90 GRIS & ORANGE,Diesel,4500,17600,pro,Neauphle-le-Vieux,48.81474499999999,1.863168,+
+283,ile_de_france,  DCI 90 EDC INTENS NEUF,Diesel,5,19890,pro,Maurepas,48.7623589,1.945326,+
+284,ile_de_france,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,9500,17880,pro,LesPavillons-sous-Bois,48.90852,2.504403,+
+285,ile_de_france, ,Essence,1519,17900,pro,Noisiel,48.85478,2.628701,N/A
+286,ile_de_france,  1.5 DCI FAP ENERGY 90CH INTENS M/5,Diesel,10,19640,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+287,ile_de_france,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,2874,18990,pro,Argenteuil,48.9472096,2.2466847,+
+288,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN 5P,Diesel,1,18900,pro,Noisiel,48.85478,2.628701,+
+289,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,16728,15990,pro,Paris,48.856614,2.3522219,+
+290,ile_de_france,  TCE 90 ENERGY S&S ECO2 INTENS,Essence,6234,15980,pro,Melun,48.542105,2.6554,+
+291,ile_de_france,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,3365,17900,pro,Paris,48.856614,2.3522219,+
+292,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,11963,16900,pro,Conflans-Sainte-Honorine,49.000275,2.09178,+
+293,ile_de_france,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,5396,18390,pro,Boulogne-Billancourt,48.8396952,2.2399123,+
+294,ile_de_france, ,Diesel,2,19380,pro,Sartrouville,48.941106,2.158431,N/A
+295,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,16436,16490,pro,Paris,48.856614,2.3522219,+
+296,ile_de_france,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,624,18490,pro,Brie-Comte-Robert,48.69122669999999,2.6103697,+
+297,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,7987,17990,pro,Paris,48.856614,2.3522219,+
+298,ile_de_france,  INTENS DCI 90 EDC,Diesel,10,20602,pro,Thiais,48.760344,2.387405,+
+299,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,60,19990,pro,Coignieres,48.750285,1.916261,+
+300,ile_de_france,  1.5 DCI 90 CH INTENS BV AUTO EDC,Diesel,10300,18990,pro,Aulnay-sous-Bois,48.9412151,2.4970711,+
+301,ile_de_france,  SERIE LIMITEE ARIZONA JUIN 2014 DCI,Diesel,3900,19290,pro,Paris,48.856614,2.3522219,+
+302,ile_de_france,  TCE 120 ZEN EDC,Essence,3690,18290,pro,Montrouge,48.816363,2.317384,+
+303,ile_de_france,  TCE 120 INTENS EDC,Essence,9500,19190,pro,Limay,48.992181,1.735384,+
+304,ile_de_france, INTENS 120 EDC,Essence,4000,19000,pro,Savigny-sur-Orge,48.6851259,2.349282,+
+305,ile_de_france, ,Diesel,17280,15880,pro,Sartrouville,48.941106,2.158431,N/A
+306,ile_de_france,  DCI 90 INTENS EDC 5P,Diesel,1,20900,pro,Noisiel,48.85478,2.628701,+
+307,ile_de_france,  INTENS ENERGY DCI 90 OPTIONS,Diesel,3500,18900,pro,Villeneuve-Saint-Georges,48.7305769,2.447488,+
+308,ile_de_france,  DCI 90 ENERGY BUSINESS,Diesel,15898,16990,pro,Pantin,48.894533,2.40963,+
+309,ile_de_france,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,19700,16990,pro,Pontoise,49.050966,2.100645,+
+310,ile_de_france,  TCE 90 ENERGY S&S ECO2 ZEN,Essence,10,16890,pro,Brie-Comte-Robert,48.69122669999999,2.6103697,+
+311,ile_de_france,  INTENS DCI 90CV IVOIRE/NOIR,Diesel,1300,18400,pro,Breuillet,48.566131,2.17112,+
+312,ile_de_france,  DCI 90 ZEN EDC ECO2,Diesel,7,18990,pro,Thiais,48.760344,2.387405,+
+313,ile_de_france,  1.5 DCI FAP ENERGY 90CH INTENS M/5,Diesel,10,19640,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+314,ile_de_france,  1.5 DCI FAP ENERGY 90CH INTENS M/5,Diesel,10,19640,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+315,ile_de_france,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,9367,18290,pro,Montrouge,48.816363,2.317384,+
+316,ile_de_france,VOITURE SUV   INTENS 120 EDC,Essence,3500,18500,pro,Thoiry,48.865263,1.794903,+
+317,ile_de_france,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,25295,14980,pro,Creteil,48.790367,2.455572,+
+318,ile_de_france,  1.5 DCI 90 INTENS EDC,Diesel,2,19870,pro,Sartrouville,48.941106,2.158431,+
+319,ile_de_france,  TCE 90 ENERGY S&S ECO2 LIFE 5P,Essence,14958,14900,pro,Noisiel,48.85478,2.628701,+
+320,ile_de_france,  DCI 90 INTENS EDC,Diesel,50,20490,pro,Paris,48.856614,2.3522219,+
+321,ile_de_france,  1.5 DCI FAP ENERGY 90CH INTENS M/5,Diesel,10,19770,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+322,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,2410,19490,pro,LesUlis,48.6792779,2.16647,+
+323,ile_de_france,  TCE 90 ENERGY S&S ECO2 INTENS,Essence,7,17550,pro,Fresnes,48.757205,2.326243,+
+324,ile_de_france,  1.5 DCI FAP ENERGY 90CH INTENS M/5,Diesel,10,19770,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+325,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,19990,pro,Mareil-Marly,48.882174,2.076817,+
+326,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,19990,pro,Mareil-Marly,48.882174,2.076817,+
+327,ile_de_france,  1.5 DCI 90 BUSINESS S&S ECO2,Diesel,19420,15890,pro,Montrouge,48.816363,2.317384,+
+328,ile_de_france, INTENS ENERGY TCE 90 ECO 2,Essence,8200,16200,pro,Guerville,48.944263,1.735422,+
+329,ile_de_france,  1.5 DCI 90 BUSINESS S&S ECO2,Diesel,13396,16690,pro,Montrouge,48.816363,2.317384,+
+330,ile_de_france,  INTENS 1.5 DCI,Diesel,6400,18000,pro,Aubergenville,48.9591319,1.855891,+
+331,ile_de_france,  DCI 90 INTENS GARANTIE 4 ANS DISPO,Diesel,10,18490,pro,Maurepas,48.7623589,1.945326,+
+332,ile_de_france, COLLABORATEUR ,Diesel,8500,17500,pro,Mantes-la-Ville,48.978154,1.713371,+
+333,ile_de_france,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,16349,18290,pro,LesUlis,48.6792779,2.16647,+
+334,ile_de_france, INTENS ENERGY TCE 90 ECO2,Essence,6000,17200,pro,Vernouillet,48.973699,1.983023,+
+335,ile_de_france, ,Diesel,10,16990,pro,Clamart,48.799815,2.257289,N/A
+336,ile_de_france,  DCI 90 ENERGY BUSINESS,Diesel,16289,16690,pro,Pantin,48.894533,2.40963,+
+337,ile_de_france,  ZEN TCE90 + OPTIONS,Essence,6000,15500,pro,Plaisir,48.817223,1.949075,+
+338,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,19990,pro,LesPavillons-sous-Bois,48.90852,2.504403,+
+339,ile_de_france,  DCI 90 INTENS EDC,Diesel,7350,19690,pro,Paris,48.856614,2.3522219,+
+340,ile_de_france,  TCE 120 INTENS EDC,Essence,11400,17490,pro,Paris,48.856614,2.3522219,+
+341,ile_de_france,  DCI,Diesel,23000,16900,pro,Champagne-sur-Oise,49.136089,2.2350979,+
+342,ile_de_france, INTENS DCI 90 COLLABORATEUR ,Diesel,7500,16950,pro,Chapet,48.967085,1.933828,+
+343,ile_de_france,  INTENS TCE 120 EDC,Essence,15000,17500,pro,Ozoir-la-Ferriere,48.763827,2.671739,+
+344,ile_de_france,  TCE 90 ENERGY S&S ECO2 ZEN,Essence,8576,15450,pro,Fresnes,48.757205,2.326243,+
+345,ile_de_france,  INTENS EDC AUTO 90CH DCI R-LINK,Diesel,5500,20300,pro,Voisins-le-Bretonneux,48.7604611,2.0436886,+
+346,ile_de_france,  DCI,Diesel,23000,16000,pro,Mitry-Mory,48.98543,2.619156,+
+347,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,34608,14900,pro,LesUlis,48.6792779,2.16647,+
+348,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,35243,13990,pro,Trappes,48.776731,2.001844,+
+349,ile_de_france,  1.5 DCI 90 INTENS EDC,Diesel,2,20780,pro,Sartrouville,48.941106,2.158431,+
+350,ile_de_france,  DCI 90 ENERGY BUSINESS,Diesel,19414,16990,pro,Melun,48.542105,2.6554,+
+351,ile_de_france,  DCI 90 ENERGY BUSINESS,Diesel,21100,16290,pro,Beauchamp,49.01575099999999,2.191521,+
+352,ile_de_france,  DCI 90 INTENS EDC,Diesel,11440,18900,pro,Nanterre,48.892423,2.215331,+
+353,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,7200,17290,pro,Boulogne-Billancourt,48.8396952,2.2399123,+
+354,ile_de_france,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,1000,17390,pro,Creteil,48.790367,2.455572,+
+355,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,3256,18490,pro,Vitry-sur-Seine,48.792001,2.39851,+
+356,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,19980,16890,pro,Fontenay-sous-Bois,48.851542,2.475907,+
+357,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,7933,18490,pro,Vitry-sur-Seine,48.792001,2.39851,+
+358,ile_de_france,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,19092,16890,pro,Fontenay-sous-Bois,48.851542,2.475907,+
+359,ile_de_france,  TCE 90 ENERGY INTENS S&S ECO2,Essence,1500,17990,pro,Mareil-Marly,48.882174,2.076817,+
+360,ile_de_france,  DCI 90 BUSINESS EDC ECO2,Diesel,8500,18290,pro,Creteil,48.790367,2.455572,+
+361,ile_de_france,  1.5 DCI 90 BUSINESS S&S ECO2,Diesel,26145,15380,pro,Montrouge,48.816363,2.317384,+
+362,ile_de_france,  1.5 DCI 90 BUSINESS S&S ECO2,Diesel,20987,15850,pro,Montrouge,48.816363,2.317384,+
+363,ile_de_france, DCI 90 INTENS,Diesel,6000,19100,pro,Quincy-sous-Senart,48.671191,2.540747,-
+364,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,34808,16890,pro,Conflans-Sainte-Honorine,49.000275,2.09178,+
+365,ile_de_france,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,8634,17290,pro,Montrouge,48.816363,2.317384,+
+366,ile_de_france,  1.5 DCI 90 BUSINESS S&S ECO2,Diesel,22119,15670,pro,Montrouge,48.816363,2.317384,+
+367,ile_de_france,  1.5 DCI 90 BUSINESS S&S ECO2,Diesel,9508,16880,pro,Montrouge,48.816363,2.317384,+
+368,ile_de_france,  1.5 DCI 90 BUSINESS S&S ECO2,Diesel,20248,15850,pro,Montrouge,48.816363,2.317384,+
+369,ile_de_france,  1.5 DCI 90 BUSINESS S&S ECO2,Diesel,25972,15750,pro,Montrouge,48.816363,2.317384,+
+370,ile_de_france,  1.5 DCI 90 BUSINESS S&S ECO2,Diesel,20272,15850,pro,Montrouge,48.816363,2.317384,+
+371,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,6825,17800,pro,Meaux,48.9562018,2.8884657,+
+372,ile_de_france,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,18718,16900,pro,Noisiel,48.85478,2.628701,+
+373,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,6900,19900,pro,LaFerte-sous-Jouarre,48.95050699999999,3.130059,+
+374,ile_de_france,  INTENS TCE120,Essence,5000,18400,pro,Houdan,48.789808,1.601126,+
+375,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,1,17490,pro,LePort-Marly,48.88077699999999,2.110156,+
+376,ile_de_france,  DCI 90 ENERGY INTENS S&S R-LINK,Diesel,21000,15900,pro,Germigny-l'Eveque,48.993659,2.945494,+
+377,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,1,17490,pro,LePort-Marly,48.88077699999999,2.110156,+
+378,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,17490,pro,LePort-Marly,48.88077699999999,2.110156,+
+379,ile_de_france, INTENS ENERGY DCI 90,Diesel,9500,17000,pro,Magnanville,48.969534,1.68413,+
+380,ile_de_france,  1.5 DCI 90 INTENS EDC,Diesel,2,20780,pro,Sartrouville,48.941106,2.158431,+
+381,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN 5P,Diesel,10506,17490,pro,Noisiel,48.85478,2.628701,+
+382,ile_de_france,  1.5 DCI 90 BUSINESS S&S ECO2,Diesel,29723,14850,pro,Montrouge,48.816363,2.317384,+
+383,ile_de_france,  DCI 90 ENERGY BUSINESS,Diesel,8090,16985,pro,Orgeval,48.918524,1.96978,+
+384,ile_de_france,  0.9 TCE 90 ENERGY 5CV INTENS,Essence,9500,14990,pro,Saint-Maur-des-Fosses,48.8029439,2.485429,+
+385,ile_de_france, ,Diesel,100,19850,pro,LePerreux-sur-Marne,48.841386,2.504038,N/A
+386,ile_de_france, ,Essence,100,17990,pro,LePerreux-sur-Marne,48.841386,2.504038,N/A
+387,ile_de_france, ,Essence,100,17990,pro,LePerreux-sur-Marne,48.841386,2.504038,N/A
+388,ile_de_france, INTENS DCI 90CV,Diesel,6200,18700,pro,LePlessis-Robinson,48.780426,2.266257,+
+389,ile_de_france,  1.5 DCI 90 ENERGY S&S BUSINESS ECO2,Diesel,21500,16500,pro,Colombes,48.9220615,2.2533313,+
+390,ile_de_france,  INTENS EDC AUTO 90CH DCI R-LINK,Diesel,3880,20300,pro,Villepreux,48.8301019,2.005269,+
+391,ile_de_france,  INTENS DCI 90 CH CAMERA,Diesel,10,19990,pro,Boissise-le-Roi,48.526605,2.571664,+
+392,ile_de_france, INTENS ENERGY DCI 90,Diesel,15000,18000,pro,Saint-Remy-les-Chevreuse,48.7025751,2.0696133,+
+393,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN 5P,Diesel,2198,18900,pro,Noisiel,48.85478,2.628701,+
+394,ile_de_france, DCI INTENS NOIR/BLANC CAMERA RECUL,Diesel,9999,16690,pro,Saint-Remy-les-Chevreuse,48.7025751,2.0696133,-
+395,ile_de_france,  DCI 90 ZEN EDC 5P,Diesel,2244,19690,pro,Noisiel,48.85478,2.628701,+
+396,ile_de_france, ,Essence,10,19252,pro,Thiais,48.760344,2.387405,N/A
+397,ile_de_france,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,4896,16890,pro,Nanterre,48.892423,2.215331,+
+398,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10771,17900,pro,Chatou,48.896391,2.160098,+
+399,ile_de_france,  DCI 90 INTENS EDC,Diesel,4500,20490,pro,Brie-Comte-Robert,48.69122669999999,2.6103697,+
+400,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,8995,18980,pro,Brie-Comte-Robert,48.69122669999999,2.6103697,+
+401,ile_de_france,  DCI 90 ENERGY BUSINESS,Diesel,21050,16890,pro,Orgeval,48.918524,1.96978,+
+402,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,8360,17790,pro,Paris,48.856614,2.3522219,+
+403,ile_de_france,  TCE 90 ENERGY S&S ECO2 INTENS,Essence,5250,17490,pro,Paris,48.856614,2.3522219,+
+404,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,15,17900,pro,Villemomble,48.886727,2.505069,+
+405,ile_de_france,  INTENS TCE 90,Essence,10,17422,pro,Thiais,48.760344,2.387405,+
+406,ile_de_france,  INTENS DCI 90 EDC,Diesel,10,19720,pro,Thiais,48.760344,2.387405,+
+407,ile_de_france,  ZEN DCI 90 EDC,Diesel,10,18442,pro,Thiais,48.760344,2.387405,+
+408,ile_de_france,  INTENS TCE 120 EDC,Essence,10,18436,pro,Thiais,48.760344,2.387405,+
+409,ile_de_france,  INTENS TCE 120 EDC,Essence,18500,17730,pro,Nointel,49.37433,2.485642,+
+410,ile_de_france,  ZEN DCI 90,Diesel,10,18220,pro,Thiais,48.760344,2.387405,+
+411,ile_de_france,  INTENS DCI 90,Diesel,10,18664,pro,Thiais,48.760344,2.387405,+
+412,ile_de_france,  INTENS 90 TCE NEUVE,Essence,30,16900,pro,Sevran,48.93897,2.538716,+
+413,ile_de_france, ,Diesel,19900,15880,pro,Sartrouville,48.941106,2.158431,N/A
+414,ile_de_france,  TCE 90 ENERGY LIFE S&S ECO2,Essence,1320,14990,pro,Beauchamp,49.01575099999999,2.191521,+
+415,ile_de_france,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,8860,16900,pro,Beauchamp,49.01575099999999,2.191521,+
+416,ile_de_france,  DCI 90 ENERGY BUSINESS,Diesel,9360,16900,pro,Beauchamp,49.01575099999999,2.191521,+
+417,ile_de_france,  TCE 120 EDC INTENS,Essence,6950,18300,pro,Antony,48.759255,2.302553,+
+418,ile_de_france,  DCI 90 ENERGY BUSINESS,Diesel,17431,16980,pro,Melun,48.542105,2.6554,+
+419,ile_de_france,  TCE 120 INTENS EDC 5P,Essence,10131,18490,pro,Noisiel,48.85478,2.628701,+
+420,ile_de_france,  0.9 TCE ENERGY 90CH INTENS M/5,Essence,10,16970,pro,Isles-les-Villenoy,48.911358,2.8281139,+
+421,ile_de_france,  INTENS ENERGY DCI 90CH,Diesel,221,19990,pro,Boissise-le-Roi,48.526605,2.571664,+
+422,ile_de_france,  DCI 90 INTENS EDC,Diesel,17421,18680,pro,Brie-Comte-Robert,48.69122669999999,2.6103697,+
+423,ile_de_france,  TCE 120 ZEN EDC,Essence,9,18900,pro,Noisiel,48.85478,2.628701,+
+424,ile_de_france,VOITURE  ,Diesel,6500,18500,pro,Gargenville,48.991435,1.809326,+
+425,ile_de_france,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,185,19590,pro,Persan,49.152233,2.269571,+
+426,ile_de_france,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,18978,15790,pro,Argenteuil,48.9472096,2.2466847,+
+427,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,23788,15990,pro,Fresnes,48.757205,2.326243,+
+428,ile_de_france, ,Diesel,20411,18200,pro,LesClayes-sous-Bois,48.82342,1.976374,N/A
+429,ile_de_france,  INTENS EDC 90CH DCI R-LINK,Diesel,1000,16500,pro,Courbevoie,48.900552,2.25929,+
+430,ile_de_france, ,Essence,15500,15500,pro,Saint-Denis,48.936181,2.357443,N/A
+431,ile_de_france,  INTENS DCI 90,Diesel,10,19582,pro,Thiais,48.760344,2.387405,+
+432,ile_de_france,  DCI 90 ENERGY BUSINESS,Diesel,29177,14880,pro,Villebon-sur-Yvette,48.6964029,2.236654,+
+433,ile_de_france,  TCE 90,Essence,7800,16300,pro,Paris,48.856614,2.3522219,+
+434,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,41494,13900,pro,Trappes,48.776731,2.001844,+
+435,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,37929,13990,pro,Trappes,48.776731,2.001844,+
+436,ile_de_france,  DCI 90 ENERGY BUSINESS,Diesel,19852,16990,pro,Paris,48.856614,2.3522219,+
+437,ile_de_france,  TCE 90 INTENS,Essence,10000,16550,pro,Crosne,48.720171,2.461891,+
+438,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,40375,13990,pro,Trappes,48.776731,2.001844,+
+439,ile_de_france,  INTENS DCI90 /8800KM UNICOLORE NOIR,Diesel,8800,16800,pro,Epinay-sous-Senart,48.69305199999999,2.515825,+
+440,ile_de_france,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,3863,17890,pro,Paris,48.856614,2.3522219,+
+441,ile_de_france, ,Essence,2100,16200,pro,Rambouillet,48.643868,1.829079,N/A
+442,ile_de_france,  DCI 90 ENERGY BUSINESS,Diesel,18805,16490,pro,Paris,48.856614,2.3522219,+
+443,ile_de_france,  2014- 1.5DCI 90 ENERGY&INTENS ECO2,Diesel,19000,19000,pro,Elancourt,48.78290699999999,1.960077,-
+444,ile_de_france,  1.5 DCI 90 ENERGY S&S INTENS ECO2,Diesel,10,18600,pro,Levallois-Perret,48.89321700000001,2.287864,+
+445,aquitaine,  DCI 90 INTENS + OPTIONS 2014 5 KM,Diesel,5,18990,pro,Saint-Paul-les-Dax,43.724934,-1.051409,+
+446,aquitaine, 1.5 DCI INTENS NEUF PLUSIEURS COLORIS,Diesel,10,18690,pro,Tresses,44.847789,-0.4640499999999999,-
+447,aquitaine,  1.5 DCI 90CV INTENSE NEUVE,Diesel,10,17900,pro,Bidart,43.439236,-1.590062,+
+448,aquitaine,  DCI 90 ENERGY BUSINESS,Diesel,19993,16795,pro,Bergerac,44.853806,0.483392,+
+449,aquitaine,  DCI 90 INTENS EDC,Diesel,21048,16995,pro,Bergerac,44.853806,0.483392,+
+450,aquitaine,  DCI 90 INTENS GARANTIE,Diesel,11000,20490,pro,Merignac,44.8448769,-0.656358,+
+451,aquitaine,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,17084,17595,pro,Bergerac,44.853806,0.483392,+
+452,aquitaine,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,24353,14500,pro,Merignac,44.8448769,-0.656358,+
+453,aquitaine,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,18013,15000,pro,Merignac,44.8448769,-0.656358,+
+454,aquitaine,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,19520,14800,pro,Merignac,44.8448769,-0.656358,+
+455,aquitaine,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,18144,15000,pro,Uzein,43.399259,-0.432582,+
+456,aquitaine,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,22000,15200,pro,Merignac,44.8448769,-0.656358,+
+457,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,19390,pro,Lormont,44.880163,-0.523108,+
+458,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,19390,pro,Lormont,44.880163,-0.523108,+
+459,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,19390,pro,Lormont,44.880163,-0.523108,+
+460,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,19390,pro,Lormont,44.880163,-0.523108,+
+461,aquitaine, TCE 90 ENERGY ZEN,Essence,12000,13700,pro,Urrugne,43.362402,-1.700075,-
+462,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,19490,pro,Boe,44.159599,0.628594,+
+463,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,18990,pro,Lormont,44.880163,-0.523108,+
+464,aquitaine,  DCI 90CH ETAT NEUF,Diesel,38000,15500,pro,Mussidan,45.037085,0.364299,+
+465,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,19490,pro,Boe,44.159599,0.628594,+
+466,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,11000,18290,pro,Lormont,44.880163,-0.523108,+
+467,aquitaine,  INTENS ENERGY DCI 90 ECO2,Diesel,9500,17500,pro,Agen,44.203142,0.616363,+
+468,aquitaine,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,20850,15990,pro,Saint-Sever,43.759137,-0.574221,+
+469,aquitaine,  TCE 90CH ZEN 17000 KM,Essence,17000,13490,pro,Pau,43.2951,-0.370797,+
+470,aquitaine,  DCI 90 BUSINESS ECO2,Diesel,14768,16990,pro,Merignac,44.8448769,-0.656358,+
+471,aquitaine,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,23739,18590,pro,Mont-de-Marsan,43.893485,-0.4997819999999999,+
+472,aquitaine,  DCI INTENS EN STOCK,Diesel,10,19490,pro,Serignac-sur-Garonne,44.214076,0.484675,+
+473,aquitaine, ,Diesel,11000,15900,pro,Mugron,43.751052,-0.7487619999999999,N/A
+474,aquitaine,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,16157,18500,pro,Pessac,44.80583,-0.630386,+
+475,aquitaine,  1.5 DCI 90 ENERGY S&S INTENS ECO2,Diesel,10,19990,pro,Bordeaux,44.837789,-0.57918,+
+476,aquitaine,  0.9 TCE 90CV ZEN,Essence,14000,14990,pro,Bidart,43.439236,-1.590062,+
+477,aquitaine, ,Diesel,16000,17000,pro,Escource,44.163863,-1.0328679,N/A
+478,aquitaine,  TCE 90 ENERGY S&S ECO2 INTENS,Essence,3140,17490,pro,LeBouscat,44.7571681,-0.1400281,+
+479,aquitaine,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,21778,17490,pro,Bayonne,43.492949,-1.474841,+
+480,aquitaine, INTENS * DCI - 90 CV * ANNEE 2014,Diesel,19000,16990,pro,Latresne,44.7864205,-0.498324,+
+481,aquitaine, INTENS TCE 120 EDC 9206 KMS,Essence,9206,17490,pro,Eysines,44.885793,-0.6488149999999999,+
+482,aquitaine,  ESSENCE,Essence,12500,16500,pro,LeTeich,44.635606,-1.0208759,+
+483,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,3576,17795,pro,Bergerac,44.853806,0.483392,+
+484,aquitaine,  INTENS S&S 0.9 TCE 90CV NEUF,Essence,10,17290,pro,Bidart,43.439236,-1.590062,+
+485,aquitaine,  INTENSE 90 ESSENCE,Essence,8700,15900,pro,Pessac,44.80583,-0.630386,+
+486,aquitaine,AFFAIRE DU MOIS  ,Diesel,27000,16500,pro,Perigueux,45.184029,0.7211149,+
+487,aquitaine,  DCI 90 ENERGY BUSINESS,Diesel,29383,16500,pro,Pessac,44.80583,-0.630386,+
+488,aquitaine,  DCI 90 ENERGY BUSINESS,Diesel,20750,16490,pro,Lormont,44.880163,-0.523108,+
+489,aquitaine, ,Diesel,63000,14500,pro,Merignac,44.8448769,-0.656358,N/A
+490,aquitaine,  INTENS ENERGY DCI 90 ECO2,Diesel,21500,18290,pro,Biscarrosse,44.3946602,-1.164218,+
+491,aquitaine,  INTENS DCI 90 EDC ECO2,Diesel,8900,19490,pro,Biscarrosse,44.3946602,-1.164218,+
+492,aquitaine,  ENERGY BUSINESS GPS 13360 KMS,Diesel,13360,17200,pro,Salignac,45.01555399999999,-0.379659,+
+493,aquitaine,  1.5 DCI 90 ENERGY S&S BUSINESS ECO2,Diesel,18000,16590,pro,Mourenx,43.368262,-0.6205520000000001,+
+494,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,19290,pro,LaTeste-de-Buch,44.631077,-1.148224,+
+495,aquitaine,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,4633,18490,pro,Bayonne,43.492949,-1.474841,+
+496,aquitaine,  DCI 90 BUSINESS EDC,Diesel,19734,17595,pro,Bergerac,44.853806,0.483392,+
+497,aquitaine,  TCE 90 INTENS,Essence,17897,17490,pro,LaTeste-de-Buch,44.631077,-1.148224,+
+498,aquitaine,  DCI 90 ENERGY BUSINESS,Diesel,20116,16800,pro,Trelissac,45.196131,0.77911,+
+499,aquitaine,  INTENS ENERGY DCI 90 CH,Diesel,28830,15990,pro,Capbreton,43.637844,-1.420939,+
+500,aquitaine,  DCI 90 CV INTENS ECO2 NEUF,Diesel,10,18950,pro,LeHaillan,44.873167,-0.677914,+
+501,aquitaine,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,12377,16890,pro,Mont-de-Marsan,43.893485,-0.4997819999999999,+
+502,aquitaine,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,10541,15900,pro,Pessac,44.80583,-0.630386,+
+503,aquitaine,  INTENS 1.5DCI ENERGY 90CV S&S,Diesel,20,18690,pro,Bordeaux,44.837789,-0.57918,+
+504,aquitaine,  DCI 90 ENERGY BUSINESS S&S ECO2,Diesel,16492,16990,pro,Parentis-en-Born,44.35261999999999,-1.0729979,+
+505,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,18990,pro,Dax,43.708608,-1.051945,+
+506,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,10,18950,pro,Bayonne,43.492949,-1.474841,+
+507,aquitaine,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,17400,17490,pro,Merignac,44.8448769,-0.656358,+
+508,aquitaine,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,11470,16690,pro,Langon,44.555419,-0.245126,+
+509,aquitaine,  DCI 90 ENERGY BUSINESS,Diesel,19070,16590,pro,Langon,44.555419,-0.245126,+
+510,aquitaine,  TCE 120 ZEN EDC,Essence,5496,16991,pro,Lormont,44.880163,-0.523108,+
+511,aquitaine,  DCI 90 ENERGY BUSINESS,Diesel,19459,16490,pro,Dax,43.708608,-1.051945,+
+512,aquitaine,  DCI 90 ENERGY BUSINESS,Diesel,8650,17900,pro,Pau,43.2951,-0.370797,+
+513,aquitaine,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,4580,17890,pro,LeBouscat,44.7571681,-0.1400281,+
+514,aquitaine,  DCI 90 ENERGY SUREQUIPE PACK TECHNO,Diesel,17000,19400,pro,Port-Sainte-Foy-et-Ponchapt,44.84402799999999,0.210809,+
+515,aquitaine,  INTENSE TCE 90CV 2013,Essence,13000,14200,pro,Hendaye,43.359399,-1.766148,+
+516,aquitaine,  DCI 90 ENERGY BUSINESS,Diesel,19993,16795,pro,Bergerac,44.853806,0.483392,+
+517,aquitaine,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,7535,17990,pro,Villenave-d'Ornon,44.7799813,-0.5672574,+
+518,aquitaine,  ZEN ENERGY DCI,Diesel,13500,16190,pro,Leognan,44.727859,-0.59709,+
+519,aquitaine,  TCE 120 ZEN EDC,Essence,770,18590,pro,Lormont,44.880163,-0.523108,+
+520,aquitaine,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,10683,18500,pro,Pessac,44.80583,-0.630386,+
+521,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,25997,16990,pro,Orthez,43.48755999999999,-0.7739279,+
+522,aquitaine,  DCI 90 ENERGY S&S ECO2 ZEN,Diesel,16768,16500,pro,Pessac,44.80583,-0.630386,+
+523,aquitaine,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,50,18790,pro,Mouguerre,43.4669359,-1.415368,+
+524,aquitaine,  INTENS 1.5 DCI 90 ENERGY,Diesel,1190,19500,pro,Pau,43.2951,-0.370797,+
+525,aquitaine,  DCI 90 ENERGY BUSINESS,Diesel,24896,15500,pro,Pau,43.2951,-0.370797,+
+526,aquitaine,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,19500,18490,pro,Dax,43.708608,-1.051945,+
+527,aquitaine,  DCI 90 ENERGY BUSINESS,Diesel,21000,17990,pro,Dax,43.708608,-1.051945,+
+528,aquitaine,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,18500,18490,pro,Dax,43.708608,-1.051945,+
+529,aquitaine,  DCI 90 INTENS EDC,Diesel,6703,19800,pro,Trelissac,45.196131,0.77911,+
+530,aquitaine,  DCI 90 INTENS+CAMERA NEUF -18%STOCK,Diesel,1,18490,pro,Merignac,44.8448769,-0.656358,+
+531,aquitaine,  TCE 120 INTENS EDC,Essence,16670,17500,pro,Oloron-Sainte-Marie,43.194413,-0.6052919999999999,+
+532,aquitaine,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,12839,17890,pro,LeBouscat,44.7571681,-0.1400281,+
+533,aquitaine,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,22747,17890,pro,LeBouscat,44.7571681,-0.1400281,+
+534,aquitaine,  DCI 90 ENERGY BUSINESS,Diesel,20320,17300,pro,Oloron-Sainte-Marie,43.194413,-0.6052919999999999,+
+535,aquitaine,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,18193,17890,pro,LeBouscat,44.7571681,-0.1400281,+
+536,aquitaine,  TCE 90 ENERGY S&S ECO2 INTENS,Essence,14763,17590,pro,LeBouscat,44.7571681,-0.1400281,+
+537,aquitaine,  DCI 90 CV ENERGY INTENS STOP&START,Diesel,20,18990,pro,Mont-de-Marsan,43.893485,-0.4997819999999999,+
+538,aquitaine,  DCI 90 ENERGIE INTENS,Diesel,11000,17880,pro,Saint-Macaire,44.565289,-0.226334,+
+539,aquitaine,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,14417,18500,pro,Pessac,44.80583,-0.630386,+
+540,aquitaine,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,15640,18500,pro,Pessac,44.80583,-0.630386,+
+541,aquitaine,  DCI 90 ENERGY S&S ECO2 INTENS,Diesel,18403,17891,pro,Lormont,44.880163,-0.523108,+
+542,aquitaine,  DCI 90 ENERGY BUSINESS,Diesel,9118,17390,pro,Lormont,44.880163,-0.523108,+
+543,aquitaine,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,22849,15990,pro,Pau,43.2951,-0.370797,+
+544,aquitaine, ,Diesel,7100,18000,pro,Saint-Loubes,44.916735,-0.4271,N/A
+545,aquitaine,  INTENS DCI 90 EDC ECO2 18% REMISE,Diesel,7300,19700,pro,Issigeac,44.73074099999999,0.6074729999999999,+
+546,aquitaine, BUSINESS ENERGY DCI 90 ECO2 - 23600 KMS -,Diesel,23600,16500,pro,Saint-Jean-de-Luz,43.388051,-1.663055,+
+547,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,15688,17400,pro,Trelissac,45.196131,0.77911,+
+548,aquitaine,  DCI 90 ENERGY ZEN S&S ECO2,Diesel,6999,16990,pro,Dax,43.708608,-1.051945,+
+549,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,14082,17400,pro,Trelissac,45.196131,0.77911,+
+550,aquitaine,  1.5 DCI 90 ENERGY INTENS PK TECHNO,Diesel,10,19990,pro,Mont-de-Marsan,43.893485,-0.4997819999999999,+
+551,aquitaine, ,Diesel,25000,18000,pro,Soulac-sur-Mer,45.515125,-1.123258,N/A
+552,aquitaine,  DCI 90 ENERGY BUSINESS,Diesel,9418,17790,pro,Lormont,44.880163,-0.523108,+
+553,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,5,19990,pro,Parentis-en-Born,44.35261999999999,-1.0729979,+
+554,aquitaine, BUSINESS ENERGY DCI 90 ECO2,Diesel,19960,16795,pro,Bergerac,44.853806,0.483392,+
+555,aquitaine, INTENS DCI 90 FAP,Diesel,1500,19500,pro,Saint-Martin-de-Seignanx,43.544854,-1.386248,+
+556,aquitaine, INTENS DCI 90,Diesel,61,19520,pro,Bayonne,43.492949,-1.474841,+
+557,aquitaine,  DCI 90 INTENS,Diesel,23,19290,pro,Bayonne,43.492949,-1.474841,+
+558,aquitaine,  DCI 90 ENERGY INTENS S&S ECO2,Diesel,3023,19595,pro,Bergerac,44.853806,0.483392,+

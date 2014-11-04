@@ -27,3 +27,4 @@ for ville1 in villes:
             print "Distance ", ville1, ville2, "= ", res.distance
     i+=1
     
+print Matrix

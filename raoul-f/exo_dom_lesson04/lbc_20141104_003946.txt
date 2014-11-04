@@ -1,0 +1,1296 @@
+,Region,Ville,Version,Annee,Kilometrage,Prix,Telephone,Type Vendeur,Latitude,Longitude
+0,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,19 840 €,0184141900,Pro,48.911358,2.8281139
+1,ile_de_france,Massy,,2013,14 697 KM,15 200 €,01.69.93.67.10,Pro,48.730756,2.27137
+2,ile_de_france,Massy,,2013,13 799 KM,14 500 €,01.69.93.67.10,Pro,48.730756,2.27137
+3,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+4,ile_de_france,Thiais,,2014,10 KM,20 602 €,0175834788,Pro,48.760344,2.387405
+5,ile_de_france,Thiais,,2014,10 KM,17 560 €,0175834788,Pro,48.760344,2.387405
+6,ile_de_france,Athis-Mons,,2013,16 000 KM,11 990 €,01 73 49 08 01,Pro,48.7092979,2.38479
+7,ile_de_france,Paris,,2014,21 754 KM,14 500 €,0825809109,Pro,48.856614,2.3522219
+8,ile_de_france,Paris,,2014,15 269 KM,14 800 €,0825809109,Pro,48.856614,2.3522219
+9,ile_de_france,Orly,,2014,14 697 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+10,ile_de_france,Paris,,2014,28 670 KM,14 200 €,0825809109,Pro,48.856614,2.3522219
+11,ile_de_france,Chessy,,2014,17 370 KM,14 800 €,0825809109,Pro,48.87846159999999,2.7657959
+12,ile_de_france,Malakoff,,2014,20 026 KM,14 500 €,0781679569,Pro,48.817275,2.2977599
+13,ile_de_france,Nanterre,,2013,26 412 KM,13 600 €,0825809109,Pro,48.892423,2.215331
+14,ile_de_france,Montigny-le-Bretonneux,,2014,15 069 KM,14 800 €,0825809109,Pro,48.7738734,2.0360157
+15,ile_de_france,Roissy-en-France,,2014,19 247 KM,14 800 €,0825809109,Pro,49.00363,2.516978
+16,ile_de_france,Orly,,2014,11 688 KM,14 700 €,06 52 51 37 85,Pro,48.745193,2.401373
+17,ile_de_france,Pontoise,,2014,20 800 KM,14 500 €,0825809109,Pro,49.050966,2.100645
+18,ile_de_france,Roissy-en-France,,2014,28 282 KM,14 200 €,0825809109,Pro,49.00363,2.516978
+19,ile_de_france,Montigny-le-Bretonneux,,2013,12 561 KM,14 000 €,06 26 67 19 97,Pro,48.7738734,2.0360157
+20,ile_de_france,Le Blanc-Mesnil,,2014,19 211 KM,14 800 €,0825809109,Pro,48.941345,2.46436
+21,ile_de_france,Le Blanc-Mesnil,,2014,29 060 KM,14 400 €,0155811021,Pro,48.941345,2.46436
+22,ile_de_france,Pontoise,,2014,15 892 KM,14 800 €,0825809109,Pro,49.050966,2.100645
+23,ile_de_france,Orly,,2013,23 398 KM,13 900 €,0825809109,Pro,48.745193,2.401373
+24,ile_de_france,Paris,,2014,14 571 KM,14 800 €,0825809109,Pro,48.856614,2.3522219
+25,ile_de_france,Montigny-le-Bretonneux,,2014,15 607 KM,14 800 €,0825809109,Pro,48.7738734,2.0360157
+26,ile_de_france,Orly,,2014,19 172 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+27,ile_de_france,Roissy-en-France,,2014,16 521 KM,14 800 €,0825809109,Pro,49.00363,2.516978
+28,ile_de_france,Clichy,,2014,24 018 KM,14 500 €,0825809109,Pro,48.904526,2.304768
+29,ile_de_france,Colombes,,2013,23 289 KM,13 900 €,0825809109,Pro,48.9220615,2.2533313
+30,ile_de_france,Paris,,2014,14 000 KM,14 800 €,0825809109,Pro,48.856614,2.3522219
+31,ile_de_france,Montigny-le-Bretonneux,,2014,29 246 KM,14 200 €,0825809109,Pro,48.7738734,2.0360157
+32,ile_de_france,Clichy,,2014,20 966 KM,14 500 €,0825809109,Pro,48.904526,2.304768
+33,ile_de_france,Thiais,,2014,10 KM,19 900 €,0175834788,Pro,48.760344,2.387405
+34,ile_de_france,Orly,,2014,16 351 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+35,ile_de_france,Orly,,2014,13 461 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+36,ile_de_france,Thiais,,2014,10 KM,18 789 €,0175834788,Pro,48.760344,2.387405
+37,ile_de_france,Montigny-le-Bretonneux,,2014,18 108 KM,14 800 €,0825809109,Pro,48.7738734,2.0360157
+38,ile_de_france,Le Blanc-Mesnil,,2014,16 596 KM,15 000 €,0155811021,Pro,48.941345,2.46436
+39,ile_de_france,Bobigny,,2013,29 000 KM,13 600 €,0825809109,Pro,48.908612,2.439712
+40,ile_de_france,Pontoise,,2014,12 409 KM,14 800 €,0825809109,Pro,49.050966,2.100645
+41,ile_de_france,Ivry-sur-Seine,,2014,19 707 KM,14 800 €,0825809109,Pro,48.813055,2.38822
+42,ile_de_france,Orly,,2014,12 870 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+43,ile_de_france,Thiais,,2014,10 KM,20 602 €,0175834788,Pro,48.760344,2.387405
+44,ile_de_france,Saint-Rémy-lès-Chevreuse,,2014,8 900 KM,17 990 €,,Part,48.7025751,2.0696133
+45,ile_de_france,Valenton,,2014,10 KM,18 990 €,09.74.91.50.00,Pro,48.749736,2.459965
+46,ile_de_france,Paris,,,1 KM,19 990 €,0476523234,Pro,48.856614,2.3522219
+47,ile_de_france,Levallois-Perret,,2013,16 500 KM,14 000 €,,Part,48.89321700000001,2.287864
+48,ile_de_france,Vitry-sur-Seine,,2013,20 992 KM,16 590 €,0811708090,Pro,48.792001,2.39851
+49,ile_de_france,Mantes-la-Jolie,,2014,5 000 KM,18 900 €,,Part,48.989323,1.714958
+50,ile_de_france,Dourdan,,2014,10 KM,20 500 €,01.64.59.71.86,Pro,48.529171,2.0152549
+51,ile_de_france,Dourdan,,2014,4 058 KM,18 990 €,01.64.59.71.86,Pro,48.529171,2.0152549
+52,ile_de_france,Guyancourt,,2014,1 800 KM,20 300 €,,Part,48.762895,2.075323
+53,ile_de_france,Maurepas,,2014,10 KM,18 490 €,01 30 51 65 39,Pro,48.7623589,1.945326
+54,ile_de_france,Maurepas,,2014,10 KM,17 490 €,01 30 51 65 39,Pro,48.7623589,1.945326
+55,ile_de_france,Vitry-sur-Seine,,2013,7 933 KM,18 490 €,0811708090,Pro,48.792001,2.39851
+56,ile_de_france,Saclay,,2014,5 950 KM,17 900 €,,Part,48.73668,2.180034
+57,ile_de_france,Joinville-le-Pont,,2014,21 883 KM,15 900 €,0142836847,Pro,48.821267,2.472043
+58,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+59,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+60,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,19 210 €,0184141900,Pro,48.911358,2.8281139
+61,ile_de_france,Isles-lès-Villenoy,,2014,4 000 KM,18 870 €,0184141900,Pro,48.911358,2.8281139
+62,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+63,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+64,ile_de_france,Chelles,,2014,15 000 KM,20 300 €,0677372750,Pro,48.87753499999999,2.59016
+65,ile_de_france,Chelles,,2014,9 900 KM,19 600 €,0677372750,Pro,48.87753499999999,2.59016
+66,ile_de_france,Chelles,,2014,15 000 KM,17 800 €,0677372750,Pro,48.87753499999999,2.59016
+67,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+68,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,19 440 €,0184141900,Pro,48.911358,2.8281139
+69,ile_de_france,Gentilly,,2013,7 400 KM,17 400 €,,Pro,48.8138999,2.344688
+70,ile_de_france,Chelles,,2014,7 742 KM,18 900 €,0677372750,Pro,48.87753499999999,2.59016
+71,ile_de_france,Chelles,,2014,6 999 KM,18 900 €,0677372750,Pro,48.87753499999999,2.59016
+72,ile_de_france,Saint-Jean-les-Deux-Jumeaux,,2014,100 KM,16 390 €,01 64 35 90 01,Pro,48.9514039,3.018301
+73,ile_de_france,Saint-Jean-les-Deux-Jumeaux,,2013,24 200 KM,16 980 €,01 64 35 90 01,Pro,48.9514039,3.018301
+74,ile_de_france,Corbeil-Essonnes,,2013,14 900 KM,15 900 €,,Pro,48.6102599,2.474805
+75,ile_de_france,Etampes,,2013,9 000 KM,16 990 €,,Pro,48.43441600000001,2.16142
+76,ile_de_france,Chatou,,2014,10 KM,17 300 €,0130157765,Pro,48.896391,2.160098
+77,ile_de_france,Brétigny-sur-Orge,,2013,20 500 KM,16 300 €,,Part,48.611486,2.30604
+78,ile_de_france,Samoreau,,2014,3 098 KM,17 700 €,0164239675,Pro,48.42345400000001,2.754079
+79,ile_de_france,Montrouge,,2014,18 932 KM,17 880 €,0142531111,Pro,48.816363,2.317384
+80,ile_de_france,Paris,,2014,17 670 KM,15 990 €,0144740871,Pro,48.856614,2.3522219
+81,ile_de_france,Boulogne-Billancourt,,2014,22 880 KM,16 790 €,0174037256,Pro,48.8396952,2.2399123
+82,ile_de_france,Thiais,,2014,10 KM,19 372 €,0141734040,Pro,48.760344,2.387405
+83,ile_de_france,Paris,,2014,10 KM,14 800 €,0140709104,Pro,48.856614,2.3522219
+84,ile_de_france,Coulommiers,,2013,24 500 KM,16 300 €,,Pro,48.813071,3.083497
+85,ile_de_france,Levallois-Perret,,2014,11 KM,20 500 €,,Pro,48.89321700000001,2.287864
+86,ile_de_france,Paris,,2014,5 576 KM,16 500 €,0144740871,Pro,48.856614,2.3522219
+87,ile_de_france,Bois-Colombes,,2013,12 150 KM,15 999 €,06.46.06.10.08,Pro,48.917402,2.269675
+88,ile_de_france,Bois-d'Arcy,,2014,6 700 KM,15 790 €,,Part,48.80598,2.022188
+89,ile_de_france,Conflans-Sainte-Honorine,,2014,7 600 KM,18 400 €,,Part,49.000275,2.09178
+90,ile_de_france,Limay,,2014,3 000 KM,15 300 €,,Part,48.992181,1.735384
+91,ile_de_france,Orgeval,,2014,21 780 KM,17 480 €,0139754280,Pro,48.918524,1.96978
+92,ile_de_france,Isles-lès-Villenoy,,2014,7 000 KM,16 970 €,0184141900,Pro,48.911358,2.8281139
+93,ile_de_france,Isles-lès-Villenoy,,2014,1 000 KM,17 240 €,0184141900,Pro,48.911358,2.8281139
+94,ile_de_france,Thiais,,2014,10 KM,20 602 €,0175834788,Pro,48.760344,2.387405
+95,ile_de_france,Ballancourt-sur-Essonne,,2014,5 000 KM,18 800 €,,Part,48.524552,2.388169
+96,ile_de_france,Boulogne-Billancourt,,2014,8 949 KM,17 490 €,0174037256,Pro,48.8396952,2.2399123
+97,ile_de_france,Brie-Comte-Robert,,2013,6 105 KM,14 390 €,0160625056,Pro,48.69122669999999,2.6103697
+98,ile_de_france,Boulogne-Billancourt,,2014,3 631 KM,17 990 €,0174037256,Pro,48.8396952,2.2399123
+99,ile_de_france,Pontoise,,2014,9 000 KM,18 500 €,,Part,49.050966,2.100645
+100,ile_de_france,Neauphle-le-Vieux,,2014,4 500 KM,17 600 €,,Part,48.81474499999999,1.863168
+101,ile_de_france,Maurepas,,2014,5 KM,19 890 €,01 30 51 65 39,Pro,48.7623589,1.945326
+102,ile_de_france,Les Pavillons-sous-Bois,,2014,9 500 KM,17 880 €,0667277157,Pro,48.90852,2.504403
+103,ile_de_france,Noisiel,,2014,1 519 KM,17 900 €,0160059293,Pro,48.85478,2.628701
+104,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+105,ile_de_france,Argenteuil,,2014,2 874 KM,18 990 €,0178769520,Pro,48.9472096,2.2466847
+106,ile_de_france,Noisiel,,2014,1 KM,18 900 €,0160059293,Pro,48.85478,2.628701
+107,ile_de_france,Paris,,2014,16 728 KM,15 990 €,0144740871,Pro,48.856614,2.3522219
+108,ile_de_france,Melun,,2014,6 234 KM,15 980 €,0615872883,Pro,48.542105,2.6554
+109,ile_de_france,Paris,,2013,3 365 KM,17 900 €,0146348425,Pro,48.856614,2.3522219
+110,ile_de_france,Conflans-Sainte-Honorine,,2014,11 963 KM,16 900 €,0139192136,Pro,49.000275,2.09178
+111,ile_de_france,Boulogne-Billancourt,,2014,5 396 KM,18 390 €,0174037256,Pro,48.8396952,2.2399123
+112,ile_de_france,Sartrouville,,2014,2 KM,19 380 €,0139145454,Pro,48.941106,2.158431
+113,ile_de_france,Paris,,2013,16 436 KM,16 490 €,0144740871,Pro,48.856614,2.3522219
+114,ile_de_france,Brie-Comte-Robert,,2014,624 KM,18 490 €,0160625056,Pro,48.69122669999999,2.6103697
+115,ile_de_france,Paris,,2014,7 987 KM,17 990 €,0178455073,Pro,48.856614,2.3522219
+116,ile_de_france,Thiais,,2014,10 KM,20 602 €,0175834788,Pro,48.760344,2.387405
+117,ile_de_france,Coignières,,2014,60 KM,19 990 €,0130502424,Pro,48.750285,1.916261
+118,ile_de_france,Aulnay-sous-Bois,,2014,10 300 KM,18 990 €,,Pro,48.9412151,2.4970711
+119,ile_de_france,Paris,,2014,3 900 KM,19 290 €,,Part,48.856614,2.3522219
+120,ile_de_france,Montrouge,,2014,3 690 KM,18 290 €,0146128847,Pro,48.816363,2.317384
+121,ile_de_france,Limay,,2014,9 500 KM,19 190 €,,Pro,48.992181,1.735384
+122,ile_de_france,Sartrouville,,2013,17 280 KM,15 880 €,0139145454,Pro,48.941106,2.158431
+123,ile_de_france,Noisiel,,2014,1 KM,20 900 €,0160059293,Pro,48.85478,2.628701
+124,ile_de_france,Villeneuve-Saint-Georges,,2014,3 500 KM,18 900 €,0143828979,Part,48.7305769,2.447488
+125,ile_de_france,Pantin,,2013,15 898 KM,16 990 €,0174730257,Pro,48.894533,2.40963
+126,ile_de_france,Pontoise,,2014,19 700 KM,16 990 €,0624782138,Pro,49.050966,2.100645
+127,ile_de_france,Brie-Comte-Robert,,2014,10 KM,16 890 €,0160625056,Pro,48.69122669999999,2.6103697
+128,ile_de_france,Thiais,,2014,7 KM,18 990 €,0141734040,Pro,48.760344,2.387405
+129,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+130,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+131,ile_de_france,Montrouge,,2014,9 367 KM,18 290 €,0146128847,Pro,48.816363,2.317384
+132,ile_de_france,Thoiry,,2014,3 500 KM,18 500 €,,Part,48.865263,1.794903
+133,ile_de_france,Créteil,,2013,25 295 KM,14 980 €,0811708090,Pro,48.790367,2.455572
+134,ile_de_france,Sartrouville,,2014,2 KM,19 870 €,0139145454,Pro,48.941106,2.158431
+135,ile_de_france,Noisiel,,2013,14 958 KM,14 900 €,0160059293,Pro,48.85478,2.628701
+136,ile_de_france,Paris,,2014,50 KM,20 490 €,0174076006,Pro,48.856614,2.3522219
+137,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,19 770 €,0184141900,Pro,48.911358,2.8281139
+138,ile_de_france,Les Ulis,,2014,2 410 KM,19 490 €,0160926972,Pro,48.6792779,2.16647
+139,ile_de_france,Fresnes,,2014,7 KM,17 550 €,0175448164,Pro,48.757205,2.326243
+140,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,19 770 €,0184141900,Pro,48.911358,2.8281139
+141,ile_de_france,Mareil-Marly,,2014,10 KM,19 990 €,0628537072,Pro,48.882174,2.076817
+142,ile_de_france,Mareil-Marly,,2014,10 KM,19 990 €,0628537072,Pro,48.882174,2.076817
+143,ile_de_france,Montrouge,,2013,19 420 KM,15 890 €,0142531111,Pro,48.816363,2.317384
+144,ile_de_france,Montrouge,,2014,13 396 KM,16 690 €,0142531111,Pro,48.816363,2.317384
+145,ile_de_france,Aubergenville,,2013,6 400 KM,18 000 €,01 30 95 29 09,Part,48.9591319,1.855891
+146,ile_de_france,Maurepas,,2014,10 KM,18 490 €,01 30 51 65 39,Pro,48.7623589,1.945326
+147,ile_de_france,Mantes-la-Ville,,2013,8 500 KM,17 500 €,,Part,48.978154,1.713371
+148,ile_de_france,Les Ulis,,2014,16 349 KM,18 290 €,0160926972,Pro,48.6792779,2.16647
+149,ile_de_france,Clamart,,2014,10 KM,16 990 €,0983484648,Pro,48.799815,2.257289
+150,ile_de_france,Pantin,,2013,16 289 KM,16 690 €,0174730257,Pro,48.894533,2.40963
+151,ile_de_france,Plaisir,,2014,6 000 KM,15 500 €,,Part,48.817223,1.949075
+152,ile_de_france,Les Pavillons-sous-Bois,,2014,10 KM,19 990 €,0667277157,Pro,48.90852,2.504403
+153,ile_de_france,Paris,,2014,7 350 KM,19 690 €,0178455073,Pro,48.856614,2.3522219
+154,ile_de_france,Paris,,2013,11 400 KM,17 490 €,0174076006,Pro,48.856614,2.3522219
+155,ile_de_france,Champagne-sur-Oise,,2013,23 000 KM,16 900 €,,Part,49.136089,2.2350979
+156,ile_de_france,Chapet,,2013,7 500 KM,16 950 €,,Part,48.967085,1.933828
+157,ile_de_france,Ozoir-la-Ferrière,,2014,15 000 KM,17 500 €,,Part,48.763827,2.671739
+158,ile_de_france,Fresnes,,2014,8 576 KM,15 450 €,0175448164,Pro,48.757205,2.326243
+159,ile_de_france,Mitry-Mory,,2013,23 000 KM,16 000 €,,Part,48.98543,2.619156
+160,ile_de_france,Les Ulis,,2013,34 608 KM,14 900 €,0169754933,Pro,48.6792779,2.16647
+161,ile_de_france,Trappes,,2013,35 243 KM,13 990 €,0161123085,Pro,48.776731,2.001844
+162,ile_de_france,Sartrouville,,2014,2 KM,20 780 €,0139145454,Pro,48.941106,2.158431
+163,ile_de_france,Melun,,2014,19 414 KM,16 990 €,0615872883,Pro,48.542105,2.6554
+164,ile_de_france,Beauchamp,,2013,21 100 KM,16 290 €,0139316439,Pro,49.01575099999999,2.191521
+165,ile_de_france,Nanterre,,2013,11 440 KM,18 900 €,0156837400,Pro,48.892423,2.215331
+166,ile_de_france,Boulogne-Billancourt,,2014,7 200 KM,17 290 €,0174037256,Pro,48.8396952,2.2399123
+167,ile_de_france,Créteil,,2014,1 000 KM,17 390 €,0811708090,Pro,48.790367,2.455572
+168,ile_de_france,Vitry-sur-Seine,,2013,3 256 KM,18 490 €,0811708090,Pro,48.792001,2.39851
+169,ile_de_france,Fontenay-sous-Bois,,2014,19 980 KM,16 890 €,0148763773,Pro,48.851542,2.475907
+170,ile_de_france,Vitry-sur-Seine,,2013,7 933 KM,18 490 €,0811708090,Pro,48.792001,2.39851
+171,ile_de_france,Fontenay-sous-Bois,,2014,19 092 KM,16 890 €,0148763773,Pro,48.851542,2.475907
+172,ile_de_france,Mareil-Marly,,2014,1 500 KM,17 990 €,0628537072,Pro,48.882174,2.076817
+173,ile_de_france,Créteil,,2014,8 500 KM,18 290 €,0811708090,Pro,48.790367,2.455572
+174,ile_de_france,Montrouge,,2013,26 145 KM,15 380 €,0142531111,Pro,48.816363,2.317384
+175,ile_de_france,Montrouge,,2013,20 987 KM,15 850 €,0142531111,Pro,48.816363,2.317384
+176,ile_de_france,Conflans-Sainte-Honorine,,2013,34 808 KM,16 890 €,0139192136,Pro,49.000275,2.09178
+177,ile_de_france,Montrouge,,2014,8 634 KM,17 290 €,0146128847,Pro,48.816363,2.317384
+178,ile_de_france,Montrouge,,2014,22 119 KM,15 670 €,0142531111,Pro,48.816363,2.317384
+179,ile_de_france,Montrouge,,2014,9 508 KM,16 880 €,0142531111,Pro,48.816363,2.317384
+180,ile_de_france,Montrouge,,2013,20 248 KM,15 850 €,0142531111,Pro,48.816363,2.317384
+181,ile_de_france,Montrouge,,2013,25 972 KM,15 750 €,0142531111,Pro,48.816363,2.317384
+182,ile_de_france,Montrouge,,2013,20 272 KM,15 850 €,0142531111,Pro,48.816363,2.317384
+183,ile_de_france,Meaux,,2014,6 825 KM,17 800 €,0183616192,Pro,48.9562018,2.8884657
+184,ile_de_france,Noisiel,,2014,18 718 KM,16 900 €,0160059293,Pro,48.85478,2.628701
+185,ile_de_france,La Ferté-sous-Jouarre,,2013,6 900 KM,19 900 €,0609715599,Pro,48.95050699999999,3.130059
+186,ile_de_france,Houdan,,2014,5 000 KM,18 400 €,,Part,48.789808,1.601126
+187,ile_de_france,Le Port-Marly,,2014,1 KM,17 490 €,0175951008,Pro,48.88077699999999,2.110156
+188,ile_de_france,Germigny-l'Evêque,,2013,21 000 KM,15 900 €,,Part,48.993659,2.945494
+189,ile_de_france,Le Port-Marly,,2014,1 KM,17 490 €,0175951008,Pro,48.88077699999999,2.110156
+190,ile_de_france,Le Port-Marly,,2014,10 KM,17 490 €,0175951008,Pro,48.88077699999999,2.110156
+191,ile_de_france,Sartrouville,,2014,2 KM,20 780 €,0139145454,Pro,48.941106,2.158431
+192,ile_de_france,Noisiel,,2014,10 506 KM,17 490 €,0160059293,Pro,48.85478,2.628701
+193,ile_de_france,Montrouge,,2013,29 723 KM,14 850 €,0142531111,Pro,48.816363,2.317384
+194,ile_de_france,Orgeval,,2013,8 090 KM,16 985 €,0139754280,Pro,48.918524,1.96978
+195,ile_de_france,Saint-Maur-des-Fossés,,2014,9 500 KM,14 990 €,,Pro,48.8029439,2.485429
+196,ile_de_france,Le Perreux-sur-Marne,,2014,100 KM,19 850 €,0143240835,Pro,48.841386,2.504038
+197,ile_de_france,Le Perreux-sur-Marne,,2014,100 KM,17 990 €,0143240835,Pro,48.841386,2.504038
+198,ile_de_france,Le Perreux-sur-Marne,,2014,100 KM,17 990 €,0143240835,Pro,48.841386,2.504038
+199,ile_de_france,Colombes,,2013,21 500 KM,16 500 €,06.52.16.56.32,Part,48.9220615,2.2533313
+200,ile_de_france,Villepreux,,2014,3 880 KM,20 300 €,06.59.95.62.06,Part,48.8301019,2.005269
+201,ile_de_france,Boissise-le-Roi,,2014,10 KM,19 990 €,0160657097,Pro,48.526605,2.571664
+202,ile_de_france,Noisiel,,2014,2 198 KM,18 900 €,0160059293,Pro,48.85478,2.628701
+203,ile_de_france,Noisiel,,2014,2 244 KM,19 690 €,0160059293,Pro,48.85478,2.628701
+204,ile_de_france,Thiais,,2014,10 KM,19 252 €,0175834788,Pro,48.760344,2.387405
+205,ile_de_france,Nanterre,,2014,4 896 KM,16 890 €,0156837400,Pro,48.892423,2.215331
+206,ile_de_france,Chatou,,2013,10 771 KM,17 900 €,0130157765,Pro,48.896391,2.160098
+207,ile_de_france,Brie-Comte-Robert,,2014,4 500 KM,20 490 €,0160625056,Pro,48.69122669999999,2.6103697
+208,ile_de_france,Brie-Comte-Robert,,2014,8 995 KM,18 980 €,0160625056,Pro,48.69122669999999,2.6103697
+209,ile_de_france,Orgeval,,2013,21 050 KM,16 890 €,0139754280,Pro,48.918524,1.96978
+210,ile_de_france,Paris,,2014,8 360 KM,17 790 €,0178455073,Pro,48.856614,2.3522219
+211,ile_de_france,Paris,,2014,5 250 KM,17 490 €,0178455073,Pro,48.856614,2.3522219
+212,ile_de_france,Villemomble,,2013,15 KM,17 900 €,0148941616,Pro,48.886727,2.505069
+213,ile_de_france,Thiais,,2014,10 KM,17 422 €,0175834788,Pro,48.760344,2.387405
+214,ile_de_france,Thiais,,2014,10 KM,19 720 €,0175834788,Pro,48.760344,2.387405
+215,ile_de_france,Thiais,,2014,10 KM,18 442 €,0175834788,Pro,48.760344,2.387405
+216,ile_de_france,Thiais,,2014,10 KM,18 436 €,0175834788,Pro,48.760344,2.387405
+217,ile_de_france,Nointel,,2013,18 500 KM,17 730 €,,Part,49.37433,2.485642
+218,ile_de_france,Thiais,,2014,10 KM,18 220 €,0175834788,Pro,48.760344,2.387405
+219,ile_de_france,Thiais,,2014,10 KM,18 664 €,0175834788,Pro,48.760344,2.387405
+220,ile_de_france,Sevran,,2014,30 KM,16 900 €,,Part,48.93897,2.538716
+221,ile_de_france,Sartrouville,,2013,19 900 KM,15 880 €,0139145454,Pro,48.941106,2.158431
+222,ile_de_france,Beauchamp,,2013,1 320 KM,14 990 €,0139316439,Pro,49.01575099999999,2.191521
+223,ile_de_france,Beauchamp,,2014,8 860 KM,16 900 €,0139316439,Pro,49.01575099999999,2.191521
+224,ile_de_france,Beauchamp,,2013,9 360 KM,16 900 €,0139316439,Pro,49.01575099999999,2.191521
+225,ile_de_france,Antony,,2013,6 950 KM,18 300 €,,Part,48.759255,2.302553
+226,ile_de_france,Melun,,2013,17 431 KM,16 980 €,0615872883,Pro,48.542105,2.6554
+227,ile_de_france,Noisiel,,2013,10 131 KM,18 490 €,0160059293,Pro,48.85478,2.628701
+228,ile_de_france,Isles-lès-Villenoy,,2014,10 KM,16 970 €,0184141900,Pro,48.911358,2.8281139
+229,ile_de_france,Boissise-le-Roi,,2014,221 KM,19 990 €,0160657097,Pro,48.526605,2.571664
+230,ile_de_france,Brie-Comte-Robert,,2014,17 421 KM,18 680 €,0160625056,Pro,48.69122669999999,2.6103697
+231,ile_de_france,Noisiel,,2014,9 KM,18 900 €,0160059293,Pro,48.85478,2.628701
+232,ile_de_france,Gargenville,,2014,6 500 KM,18 500 €,,Part,48.991435,1.809326
+233,ile_de_france,Persan,,2014,185 KM,19 590 €,0130282837,Pro,49.152233,2.269571
+234,ile_de_france,Argenteuil,,2013,18 978 KM,15 790 €,0178769520,Pro,48.9472096,2.2466847
+235,ile_de_france,Fresnes,,2014,23 788 KM,15 990 €,0175448164,Pro,48.757205,2.326243
+236,ile_de_france,Les Clayes-sous-Bois,,2014,20 411 KM,18 200 €,,Part,48.82342,1.976374
+237,ile_de_france,Courbevoie,,2014,1 000 KM,16 500 €,,Part,48.900552,2.25929
+238,ile_de_france,Saint-Denis,,2013,15 500 KM,15 500 €,,Part,48.936181,2.357443
+239,ile_de_france,Thiais,,2014,10 KM,19 582 €,0175834788,Pro,48.760344,2.387405
+240,ile_de_france,Villebon-sur-Yvette,,2013,29 177 KM,14 880 €,0169340404,Pro,48.6964029,2.236654
+241,ile_de_france,Paris,,2013,7 800 KM,16 300 €,,Part,48.856614,2.3522219
+242,ile_de_france,Trappes,,2013,41 494 KM,13 900 €,0161123085,Pro,48.776731,2.001844
+243,ile_de_france,Trappes,,2013,37 929 KM,13 990 €,0161123085,Pro,48.776731,2.001844
+244,ile_de_france,Paris,,2013,19 852 KM,16 990 €,0174076006,Pro,48.856614,2.3522219
+245,ile_de_france,Crosne,,2013,10 000 KM,16 550 €,,Part,48.720171,2.461891
+246,ile_de_france,Trappes,,2013,40 375 KM,13 990 €,0161123085,Pro,48.776731,2.001844
+247,ile_de_france,Epinay-sous-Sénart,,2013,8 800 KM,16 800 €,,Part,48.69305199999999,2.515825
+248,ile_de_france,Paris,,2014,3 863 KM,17 890 €,0174076006,Pro,48.856614,2.3522219
+249,ile_de_france,Rambouillet,,2014,2 100 KM,16 200 €,06 84 84 82 20,Part,48.643868,1.829079
+250,ile_de_france,Paris,,2013,18 805 KM,16 490 €,0174076006,Pro,48.856614,2.3522219
+251,ile_de_france,Elancourt,,2014,19 000 KM,19 000 €,,Part,48.78290699999999,1.960077
+252,ile_de_france,Levallois-Perret,,2014,10 KM,18 600 €,,Pro,48.89321700000001,2.287864
+253,ile_de_france,Melun,,2014,19 199 KM,16 980 €,0615872883,Pro,48.542105,2.6554
+254,ile_de_france,Versailles,,2014,3 457 KM,16 990 €,0175448151,Pro,48.801408,2.130122
+255,ile_de_france,Persan,,2014,170 KM,19 590 €,0130282836,Pro,49.152233,2.269571
+256,ile_de_france,Noisiel,,2014,5 385 KM,17 200 €,0160059293,Pro,48.85478,2.628701
+257,ile_de_france,Les Ulis,,2014,3 080 KM,18 990 €,0160926972,Pro,48.6792779,2.16647
+258,ile_de_france,Versailles,,2014,10 KM,16 900 €,0175448151,Pro,48.801408,2.130122
+259,ile_de_france,Paris,,2014,5 780 KM,17 890 €,0178455073,Pro,48.856614,2.3522219
+260,ile_de_france,Rosny-sous-Bois,,2013,12 500 KM,17 000 €,,Part,48.875661,2.485932
+261,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,19 840 €,0184141900,Pro,48.911358,2.8281139
+262,provence_alpes_cote_d_azur,Massy,,2013,14 697 KM,15 200 €,01.69.93.67.10,Pro,48.730756,2.27137
+263,provence_alpes_cote_d_azur,Massy,,2013,13 799 KM,14 500 €,01.69.93.67.10,Pro,48.730756,2.27137
+264,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+265,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,20 602 €,0175834788,Pro,48.760344,2.387405
+266,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,17 560 €,0175834788,Pro,48.760344,2.387405
+267,provence_alpes_cote_d_azur,Athis-Mons,,2013,16 000 KM,11 990 €,01 73 49 08 01,Pro,48.7092979,2.38479
+268,provence_alpes_cote_d_azur,Paris,,2014,21 754 KM,14 500 €,0825809109,Pro,48.856614,2.3522219
+269,provence_alpes_cote_d_azur,Paris,,2014,15 269 KM,14 800 €,0825809109,Pro,48.856614,2.3522219
+270,provence_alpes_cote_d_azur,Orly,,2014,14 697 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+271,provence_alpes_cote_d_azur,Paris,,2014,28 670 KM,14 200 €,0825809109,Pro,48.856614,2.3522219
+272,provence_alpes_cote_d_azur,Chessy,,2014,17 370 KM,14 800 €,0825809109,Pro,48.87846159999999,2.7657959
+273,provence_alpes_cote_d_azur,Malakoff,,2014,20 026 KM,14 500 €,0781679569,Pro,48.817275,2.2977599
+274,provence_alpes_cote_d_azur,Nanterre,,2013,26 412 KM,13 600 €,0825809109,Pro,48.892423,2.215331
+275,provence_alpes_cote_d_azur,Montigny-le-Bretonneux,,2014,15 069 KM,14 800 €,0825809109,Pro,48.7738734,2.0360157
+276,provence_alpes_cote_d_azur,Roissy-en-France,,2014,19 247 KM,14 800 €,0825809109,Pro,49.00363,2.516978
+277,provence_alpes_cote_d_azur,Orly,,2014,11 688 KM,14 700 €,06 52 51 37 85,Pro,48.745193,2.401373
+278,provence_alpes_cote_d_azur,Pontoise,,2014,20 800 KM,14 500 €,0825809109,Pro,49.050966,2.100645
+279,provence_alpes_cote_d_azur,Roissy-en-France,,2014,28 282 KM,14 200 €,0825809109,Pro,49.00363,2.516978
+280,provence_alpes_cote_d_azur,Montigny-le-Bretonneux,,2013,12 561 KM,14 000 €,06 26 67 19 97,Pro,48.7738734,2.0360157
+281,provence_alpes_cote_d_azur,Le Blanc-Mesnil,,2014,19 211 KM,14 800 €,0825809109,Pro,48.941345,2.46436
+282,provence_alpes_cote_d_azur,Le Blanc-Mesnil,,2014,29 060 KM,14 400 €,0155811021,Pro,48.941345,2.46436
+283,provence_alpes_cote_d_azur,Pontoise,,2014,15 892 KM,14 800 €,0825809109,Pro,49.050966,2.100645
+284,provence_alpes_cote_d_azur,Orly,,2013,23 398 KM,13 900 €,0825809109,Pro,48.745193,2.401373
+285,provence_alpes_cote_d_azur,Paris,,2014,14 571 KM,14 800 €,0825809109,Pro,48.856614,2.3522219
+286,provence_alpes_cote_d_azur,Montigny-le-Bretonneux,,2014,15 607 KM,14 800 €,0825809109,Pro,48.7738734,2.0360157
+287,provence_alpes_cote_d_azur,Orly,,2014,19 172 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+288,provence_alpes_cote_d_azur,Roissy-en-France,,2014,16 521 KM,14 800 €,0825809109,Pro,49.00363,2.516978
+289,provence_alpes_cote_d_azur,Clichy,,2014,24 018 KM,14 500 €,0825809109,Pro,48.904526,2.304768
+290,provence_alpes_cote_d_azur,Colombes,,2013,23 289 KM,13 900 €,0825809109,Pro,48.9220615,2.2533313
+291,provence_alpes_cote_d_azur,Paris,,2014,14 000 KM,14 800 €,0825809109,Pro,48.856614,2.3522219
+292,provence_alpes_cote_d_azur,Montigny-le-Bretonneux,,2014,29 246 KM,14 200 €,0825809109,Pro,48.7738734,2.0360157
+293,provence_alpes_cote_d_azur,Clichy,,2014,20 966 KM,14 500 €,0825809109,Pro,48.904526,2.304768
+294,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,19 900 €,0175834788,Pro,48.760344,2.387405
+295,provence_alpes_cote_d_azur,Orly,,2014,16 351 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+296,provence_alpes_cote_d_azur,Orly,,2014,13 461 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+297,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,18 789 €,0175834788,Pro,48.760344,2.387405
+298,provence_alpes_cote_d_azur,Montigny-le-Bretonneux,,2014,18 108 KM,14 800 €,0825809109,Pro,48.7738734,2.0360157
+299,provence_alpes_cote_d_azur,Le Blanc-Mesnil,,2014,16 596 KM,15 000 €,0155811021,Pro,48.941345,2.46436
+300,provence_alpes_cote_d_azur,Bobigny,,2013,29 000 KM,13 600 €,0825809109,Pro,48.908612,2.439712
+301,provence_alpes_cote_d_azur,Pontoise,,2014,12 409 KM,14 800 €,0825809109,Pro,49.050966,2.100645
+302,provence_alpes_cote_d_azur,Ivry-sur-Seine,,2014,19 707 KM,14 800 €,0825809109,Pro,48.813055,2.38822
+303,provence_alpes_cote_d_azur,Orly,,2014,12 870 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+304,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,20 602 €,0175834788,Pro,48.760344,2.387405
+305,provence_alpes_cote_d_azur,Saint-Rémy-lès-Chevreuse,,2014,8 900 KM,17 990 €,,Part,48.7025751,2.0696133
+306,provence_alpes_cote_d_azur,Valenton,,2014,10 KM,18 990 €,09.74.91.50.00,Pro,48.749736,2.459965
+307,provence_alpes_cote_d_azur,Paris,,,1 KM,19 990 €,0476523234,Pro,48.856614,2.3522219
+308,provence_alpes_cote_d_azur,Levallois-Perret,,2013,16 500 KM,14 000 €,,Part,48.89321700000001,2.287864
+309,provence_alpes_cote_d_azur,Vitry-sur-Seine,,2013,20 992 KM,16 590 €,0811708090,Pro,48.792001,2.39851
+310,provence_alpes_cote_d_azur,Mantes-la-Jolie,,2014,5 000 KM,18 900 €,,Part,48.989323,1.714958
+311,provence_alpes_cote_d_azur,Dourdan,,2014,10 KM,20 500 €,01.64.59.71.86,Pro,48.529171,2.0152549
+312,provence_alpes_cote_d_azur,Dourdan,,2014,4 058 KM,18 990 €,01.64.59.71.86,Pro,48.529171,2.0152549
+313,provence_alpes_cote_d_azur,Guyancourt,,2014,1 800 KM,20 300 €,,Part,48.762895,2.075323
+314,provence_alpes_cote_d_azur,Maurepas,,2014,10 KM,18 490 €,01 30 51 65 39,Pro,48.7623589,1.945326
+315,provence_alpes_cote_d_azur,Maurepas,,2014,10 KM,17 490 €,01 30 51 65 39,Pro,48.7623589,1.945326
+316,provence_alpes_cote_d_azur,Vitry-sur-Seine,,2013,7 933 KM,18 490 €,0811708090,Pro,48.792001,2.39851
+317,provence_alpes_cote_d_azur,Saclay,,2014,5 950 KM,17 900 €,,Part,48.73668,2.180034
+318,provence_alpes_cote_d_azur,Joinville-le-Pont,,2014,21 883 KM,15 900 €,0142836847,Pro,48.821267,2.472043
+319,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+320,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+321,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,19 210 €,0184141900,Pro,48.911358,2.8281139
+322,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,4 000 KM,18 870 €,0184141900,Pro,48.911358,2.8281139
+323,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+324,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+325,provence_alpes_cote_d_azur,Chelles,,2014,15 000 KM,20 300 €,0677372750,Pro,48.87753499999999,2.59016
+326,provence_alpes_cote_d_azur,Chelles,,2014,9 900 KM,19 600 €,0677372750,Pro,48.87753499999999,2.59016
+327,provence_alpes_cote_d_azur,Chelles,,2014,15 000 KM,17 800 €,0677372750,Pro,48.87753499999999,2.59016
+328,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+329,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,19 440 €,0184141900,Pro,48.911358,2.8281139
+330,provence_alpes_cote_d_azur,Gentilly,,2013,7 400 KM,17 400 €,,Pro,48.8138999,2.344688
+331,provence_alpes_cote_d_azur,Chelles,,2014,7 742 KM,18 900 €,0677372750,Pro,48.87753499999999,2.59016
+332,provence_alpes_cote_d_azur,Chelles,,2014,6 999 KM,18 900 €,0677372750,Pro,48.87753499999999,2.59016
+333,provence_alpes_cote_d_azur,Saint-Jean-les-Deux-Jumeaux,,2014,100 KM,16 390 €,01 64 35 90 01,Pro,48.9514039,3.018301
+334,provence_alpes_cote_d_azur,Saint-Jean-les-Deux-Jumeaux,,2013,24 200 KM,16 980 €,01 64 35 90 01,Pro,48.9514039,3.018301
+335,provence_alpes_cote_d_azur,Corbeil-Essonnes,,2013,14 900 KM,15 900 €,,Pro,48.6102599,2.474805
+336,provence_alpes_cote_d_azur,Etampes,,2013,9 000 KM,16 990 €,,Pro,48.43441600000001,2.16142
+337,provence_alpes_cote_d_azur,Chatou,,2014,10 KM,17 300 €,0130157765,Pro,48.896391,2.160098
+338,provence_alpes_cote_d_azur,Brétigny-sur-Orge,,2013,20 500 KM,16 300 €,,Part,48.611486,2.30604
+339,provence_alpes_cote_d_azur,Samoreau,,2014,3 098 KM,17 700 €,0164239675,Pro,48.42345400000001,2.754079
+340,provence_alpes_cote_d_azur,Montrouge,,2014,18 932 KM,17 880 €,0142531111,Pro,48.816363,2.317384
+341,provence_alpes_cote_d_azur,Paris,,2014,17 670 KM,15 990 €,0144740871,Pro,48.856614,2.3522219
+342,provence_alpes_cote_d_azur,Boulogne-Billancourt,,2014,22 880 KM,16 790 €,0174037256,Pro,48.8396952,2.2399123
+343,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,19 372 €,0141734040,Pro,48.760344,2.387405
+344,provence_alpes_cote_d_azur,Paris,,2014,10 KM,14 800 €,0140709104,Pro,48.856614,2.3522219
+345,provence_alpes_cote_d_azur,Coulommiers,,2013,24 500 KM,16 300 €,,Pro,48.813071,3.083497
+346,provence_alpes_cote_d_azur,Levallois-Perret,,2014,11 KM,20 500 €,,Pro,48.89321700000001,2.287864
+347,provence_alpes_cote_d_azur,Paris,,2014,5 576 KM,16 500 €,0144740871,Pro,48.856614,2.3522219
+348,provence_alpes_cote_d_azur,Bois-Colombes,,2013,12 150 KM,15 999 €,06.46.06.10.08,Pro,48.917402,2.269675
+349,provence_alpes_cote_d_azur,Bois-d'Arcy,,2014,6 700 KM,15 790 €,,Part,48.80598,2.022188
+350,provence_alpes_cote_d_azur,Conflans-Sainte-Honorine,,2014,7 600 KM,18 400 €,,Part,49.000275,2.09178
+351,provence_alpes_cote_d_azur,Limay,,2014,3 000 KM,15 300 €,,Part,48.992181,1.735384
+352,provence_alpes_cote_d_azur,Orgeval,,2014,21 780 KM,17 480 €,0139754280,Pro,48.918524,1.96978
+353,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,7 000 KM,16 970 €,0184141900,Pro,48.911358,2.8281139
+354,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,1 000 KM,17 240 €,0184141900,Pro,48.911358,2.8281139
+355,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,20 602 €,0175834788,Pro,48.760344,2.387405
+356,provence_alpes_cote_d_azur,Ballancourt-sur-Essonne,,2014,5 000 KM,18 800 €,,Part,48.524552,2.388169
+357,provence_alpes_cote_d_azur,Boulogne-Billancourt,,2014,8 949 KM,17 490 €,0174037256,Pro,48.8396952,2.2399123
+358,provence_alpes_cote_d_azur,Brie-Comte-Robert,,2013,6 105 KM,14 390 €,0160625056,Pro,48.69122669999999,2.6103697
+359,provence_alpes_cote_d_azur,Boulogne-Billancourt,,2014,3 631 KM,17 990 €,0174037256,Pro,48.8396952,2.2399123
+360,provence_alpes_cote_d_azur,Pontoise,,2014,9 000 KM,18 500 €,,Part,49.050966,2.100645
+361,provence_alpes_cote_d_azur,Neauphle-le-Vieux,,2014,4 500 KM,17 600 €,,Part,48.81474499999999,1.863168
+362,provence_alpes_cote_d_azur,Maurepas,,2014,5 KM,19 890 €,01 30 51 65 39,Pro,48.7623589,1.945326
+363,provence_alpes_cote_d_azur,Les Pavillons-sous-Bois,,2014,9 500 KM,17 880 €,0667277157,Pro,48.90852,2.504403
+364,provence_alpes_cote_d_azur,Noisiel,,2014,1 519 KM,17 900 €,0160059293,Pro,48.85478,2.628701
+365,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+366,provence_alpes_cote_d_azur,Argenteuil,,2014,2 874 KM,18 990 €,0178769520,Pro,48.9472096,2.2466847
+367,provence_alpes_cote_d_azur,Noisiel,,2014,1 KM,18 900 €,0160059293,Pro,48.85478,2.628701
+368,provence_alpes_cote_d_azur,Paris,,2014,16 728 KM,15 990 €,0144740871,Pro,48.856614,2.3522219
+369,provence_alpes_cote_d_azur,Melun,,2014,6 234 KM,15 980 €,0615872883,Pro,48.542105,2.6554
+370,provence_alpes_cote_d_azur,Paris,,2013,3 365 KM,17 900 €,0146348425,Pro,48.856614,2.3522219
+371,provence_alpes_cote_d_azur,Conflans-Sainte-Honorine,,2014,11 963 KM,16 900 €,0139192136,Pro,49.000275,2.09178
+372,provence_alpes_cote_d_azur,Boulogne-Billancourt,,2014,5 396 KM,18 390 €,0174037256,Pro,48.8396952,2.2399123
+373,provence_alpes_cote_d_azur,Sartrouville,,2014,2 KM,19 380 €,0139145454,Pro,48.941106,2.158431
+374,provence_alpes_cote_d_azur,Paris,,2013,16 436 KM,16 490 €,0144740871,Pro,48.856614,2.3522219
+375,provence_alpes_cote_d_azur,Brie-Comte-Robert,,2014,624 KM,18 490 €,0160625056,Pro,48.69122669999999,2.6103697
+376,provence_alpes_cote_d_azur,Paris,,2014,7 987 KM,17 990 €,0178455073,Pro,48.856614,2.3522219
+377,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,20 602 €,0175834788,Pro,48.760344,2.387405
+378,provence_alpes_cote_d_azur,Coignières,,2014,60 KM,19 990 €,0130502424,Pro,48.750285,1.916261
+379,provence_alpes_cote_d_azur,Aulnay-sous-Bois,,2014,10 300 KM,18 990 €,,Pro,48.9412151,2.4970711
+380,provence_alpes_cote_d_azur,Paris,,2014,3 900 KM,19 290 €,,Part,48.856614,2.3522219
+381,provence_alpes_cote_d_azur,Montrouge,,2014,3 690 KM,18 290 €,0146128847,Pro,48.816363,2.317384
+382,provence_alpes_cote_d_azur,Limay,,2014,9 500 KM,19 190 €,,Pro,48.992181,1.735384
+383,provence_alpes_cote_d_azur,Sartrouville,,2013,17 280 KM,15 880 €,0139145454,Pro,48.941106,2.158431
+384,provence_alpes_cote_d_azur,Noisiel,,2014,1 KM,20 900 €,0160059293,Pro,48.85478,2.628701
+385,provence_alpes_cote_d_azur,Villeneuve-Saint-Georges,,2014,3 500 KM,18 900 €,0143828979,Part,48.7305769,2.447488
+386,provence_alpes_cote_d_azur,Pantin,,2013,15 898 KM,16 990 €,0174730257,Pro,48.894533,2.40963
+387,provence_alpes_cote_d_azur,Pontoise,,2014,19 700 KM,16 990 €,0624782138,Pro,49.050966,2.100645
+388,provence_alpes_cote_d_azur,Brie-Comte-Robert,,2014,10 KM,16 890 €,0160625056,Pro,48.69122669999999,2.6103697
+389,provence_alpes_cote_d_azur,Thiais,,2014,7 KM,18 990 €,0141734040,Pro,48.760344,2.387405
+390,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+391,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+392,provence_alpes_cote_d_azur,Montrouge,,2014,9 367 KM,18 290 €,0146128847,Pro,48.816363,2.317384
+393,provence_alpes_cote_d_azur,Thoiry,,2014,3 500 KM,18 500 €,,Part,48.865263,1.794903
+394,provence_alpes_cote_d_azur,Créteil,,2013,25 295 KM,14 980 €,0811708090,Pro,48.790367,2.455572
+395,provence_alpes_cote_d_azur,Sartrouville,,2014,2 KM,19 870 €,0139145454,Pro,48.941106,2.158431
+396,provence_alpes_cote_d_azur,Noisiel,,2013,14 958 KM,14 900 €,0160059293,Pro,48.85478,2.628701
+397,provence_alpes_cote_d_azur,Paris,,2014,50 KM,20 490 €,0174076006,Pro,48.856614,2.3522219
+398,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,19 770 €,0184141900,Pro,48.911358,2.8281139
+399,provence_alpes_cote_d_azur,Les Ulis,,2014,2 410 KM,19 490 €,0160926972,Pro,48.6792779,2.16647
+400,provence_alpes_cote_d_azur,Fresnes,,2014,7 KM,17 550 €,0175448164,Pro,48.757205,2.326243
+401,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,19 770 €,0184141900,Pro,48.911358,2.8281139
+402,provence_alpes_cote_d_azur,Mareil-Marly,,2014,10 KM,19 990 €,0628537072,Pro,48.882174,2.076817
+403,provence_alpes_cote_d_azur,Mareil-Marly,,2014,10 KM,19 990 €,0628537072,Pro,48.882174,2.076817
+404,provence_alpes_cote_d_azur,Montrouge,,2013,19 420 KM,15 890 €,0142531111,Pro,48.816363,2.317384
+405,provence_alpes_cote_d_azur,Montrouge,,2014,13 396 KM,16 690 €,0142531111,Pro,48.816363,2.317384
+406,provence_alpes_cote_d_azur,Aubergenville,,2013,6 400 KM,18 000 €,01 30 95 29 09,Part,48.9591319,1.855891
+407,provence_alpes_cote_d_azur,Maurepas,,2014,10 KM,18 490 €,01 30 51 65 39,Pro,48.7623589,1.945326
+408,provence_alpes_cote_d_azur,Mantes-la-Ville,,2013,8 500 KM,17 500 €,,Part,48.978154,1.713371
+409,provence_alpes_cote_d_azur,Les Ulis,,2014,16 349 KM,18 290 €,0160926972,Pro,48.6792779,2.16647
+410,provence_alpes_cote_d_azur,Clamart,,2014,10 KM,16 990 €,0983484648,Pro,48.799815,2.257289
+411,provence_alpes_cote_d_azur,Pantin,,2013,16 289 KM,16 690 €,0174730257,Pro,48.894533,2.40963
+412,provence_alpes_cote_d_azur,Plaisir,,2014,6 000 KM,15 500 €,,Part,48.817223,1.949075
+413,provence_alpes_cote_d_azur,Les Pavillons-sous-Bois,,2014,10 KM,19 990 €,0667277157,Pro,48.90852,2.504403
+414,provence_alpes_cote_d_azur,Paris,,2014,7 350 KM,19 690 €,0178455073,Pro,48.856614,2.3522219
+415,provence_alpes_cote_d_azur,Paris,,2013,11 400 KM,17 490 €,0174076006,Pro,48.856614,2.3522219
+416,provence_alpes_cote_d_azur,Champagne-sur-Oise,,2013,23 000 KM,16 900 €,,Part,49.136089,2.2350979
+417,provence_alpes_cote_d_azur,Chapet,,2013,7 500 KM,16 950 €,,Part,48.967085,1.933828
+418,provence_alpes_cote_d_azur,Ozoir-la-Ferrière,,2014,15 000 KM,17 500 €,,Part,48.763827,2.671739
+419,provence_alpes_cote_d_azur,Fresnes,,2014,8 576 KM,15 450 €,0175448164,Pro,48.757205,2.326243
+420,provence_alpes_cote_d_azur,Mitry-Mory,,2013,23 000 KM,16 000 €,,Part,48.98543,2.619156
+421,provence_alpes_cote_d_azur,Les Ulis,,2013,34 608 KM,14 900 €,0169754933,Pro,48.6792779,2.16647
+422,provence_alpes_cote_d_azur,Trappes,,2013,35 243 KM,13 990 €,0161123085,Pro,48.776731,2.001844
+423,provence_alpes_cote_d_azur,Sartrouville,,2014,2 KM,20 780 €,0139145454,Pro,48.941106,2.158431
+424,provence_alpes_cote_d_azur,Melun,,2014,19 414 KM,16 990 €,0615872883,Pro,48.542105,2.6554
+425,provence_alpes_cote_d_azur,Beauchamp,,2013,21 100 KM,16 290 €,0139316439,Pro,49.01575099999999,2.191521
+426,provence_alpes_cote_d_azur,Nanterre,,2013,11 440 KM,18 900 €,0156837400,Pro,48.892423,2.215331
+427,provence_alpes_cote_d_azur,Boulogne-Billancourt,,2014,7 200 KM,17 290 €,0174037256,Pro,48.8396952,2.2399123
+428,provence_alpes_cote_d_azur,Créteil,,2014,1 000 KM,17 390 €,0811708090,Pro,48.790367,2.455572
+429,provence_alpes_cote_d_azur,Vitry-sur-Seine,,2013,3 256 KM,18 490 €,0811708090,Pro,48.792001,2.39851
+430,provence_alpes_cote_d_azur,Fontenay-sous-Bois,,2014,19 980 KM,16 890 €,0148763773,Pro,48.851542,2.475907
+431,provence_alpes_cote_d_azur,Vitry-sur-Seine,,2013,7 933 KM,18 490 €,0811708090,Pro,48.792001,2.39851
+432,provence_alpes_cote_d_azur,Fontenay-sous-Bois,,2014,19 092 KM,16 890 €,0148763773,Pro,48.851542,2.475907
+433,provence_alpes_cote_d_azur,Mareil-Marly,,2014,1 500 KM,17 990 €,0628537072,Pro,48.882174,2.076817
+434,provence_alpes_cote_d_azur,Créteil,,2014,8 500 KM,18 290 €,0811708090,Pro,48.790367,2.455572
+435,provence_alpes_cote_d_azur,Montrouge,,2013,26 145 KM,15 380 €,0142531111,Pro,48.816363,2.317384
+436,provence_alpes_cote_d_azur,Montrouge,,2013,20 987 KM,15 850 €,0142531111,Pro,48.816363,2.317384
+437,provence_alpes_cote_d_azur,Conflans-Sainte-Honorine,,2013,34 808 KM,16 890 €,0139192136,Pro,49.000275,2.09178
+438,provence_alpes_cote_d_azur,Montrouge,,2014,8 634 KM,17 290 €,0146128847,Pro,48.816363,2.317384
+439,provence_alpes_cote_d_azur,Montrouge,,2014,22 119 KM,15 670 €,0142531111,Pro,48.816363,2.317384
+440,provence_alpes_cote_d_azur,Montrouge,,2014,9 508 KM,16 880 €,0142531111,Pro,48.816363,2.317384
+441,provence_alpes_cote_d_azur,Montrouge,,2013,20 248 KM,15 850 €,0142531111,Pro,48.816363,2.317384
+442,provence_alpes_cote_d_azur,Montrouge,,2013,25 972 KM,15 750 €,0142531111,Pro,48.816363,2.317384
+443,provence_alpes_cote_d_azur,Montrouge,,2013,20 272 KM,15 850 €,0142531111,Pro,48.816363,2.317384
+444,provence_alpes_cote_d_azur,Meaux,,2014,6 825 KM,17 800 €,0183616192,Pro,48.9562018,2.8884657
+445,provence_alpes_cote_d_azur,Noisiel,,2014,18 718 KM,16 900 €,0160059293,Pro,48.85478,2.628701
+446,provence_alpes_cote_d_azur,La Ferté-sous-Jouarre,,2013,6 900 KM,19 900 €,0609715599,Pro,48.95050699999999,3.130059
+447,provence_alpes_cote_d_azur,Houdan,,2014,5 000 KM,18 400 €,,Part,48.789808,1.601126
+448,provence_alpes_cote_d_azur,Le Port-Marly,,2014,1 KM,17 490 €,0175951008,Pro,48.88077699999999,2.110156
+449,provence_alpes_cote_d_azur,Germigny-l'Evêque,,2013,21 000 KM,15 900 €,,Part,48.993659,2.945494
+450,provence_alpes_cote_d_azur,Le Port-Marly,,2014,1 KM,17 490 €,0175951008,Pro,48.88077699999999,2.110156
+451,provence_alpes_cote_d_azur,Le Port-Marly,,2014,10 KM,17 490 €,0175951008,Pro,48.88077699999999,2.110156
+452,provence_alpes_cote_d_azur,Sartrouville,,2014,2 KM,20 780 €,0139145454,Pro,48.941106,2.158431
+453,provence_alpes_cote_d_azur,Noisiel,,2014,10 506 KM,17 490 €,0160059293,Pro,48.85478,2.628701
+454,provence_alpes_cote_d_azur,Montrouge,,2013,29 723 KM,14 850 €,0142531111,Pro,48.816363,2.317384
+455,provence_alpes_cote_d_azur,Orgeval,,2013,8 090 KM,16 985 €,0139754280,Pro,48.918524,1.96978
+456,provence_alpes_cote_d_azur,Saint-Maur-des-Fossés,,2014,9 500 KM,14 990 €,,Pro,48.8029439,2.485429
+457,provence_alpes_cote_d_azur,Le Perreux-sur-Marne,,2014,100 KM,19 850 €,0143240835,Pro,48.841386,2.504038
+458,provence_alpes_cote_d_azur,Le Perreux-sur-Marne,,2014,100 KM,17 990 €,0143240835,Pro,48.841386,2.504038
+459,provence_alpes_cote_d_azur,Le Perreux-sur-Marne,,2014,100 KM,17 990 €,0143240835,Pro,48.841386,2.504038
+460,provence_alpes_cote_d_azur,Colombes,,2013,21 500 KM,16 500 €,06.52.16.56.32,Part,48.9220615,2.2533313
+461,provence_alpes_cote_d_azur,Villepreux,,2014,3 880 KM,20 300 €,06.59.95.62.06,Part,48.8301019,2.005269
+462,provence_alpes_cote_d_azur,Boissise-le-Roi,,2014,10 KM,19 990 €,0160657097,Pro,48.526605,2.571664
+463,provence_alpes_cote_d_azur,Noisiel,,2014,2 198 KM,18 900 €,0160059293,Pro,48.85478,2.628701
+464,provence_alpes_cote_d_azur,Noisiel,,2014,2 244 KM,19 690 €,0160059293,Pro,48.85478,2.628701
+465,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,19 252 €,0175834788,Pro,48.760344,2.387405
+466,provence_alpes_cote_d_azur,Nanterre,,2014,4 896 KM,16 890 €,0156837400,Pro,48.892423,2.215331
+467,provence_alpes_cote_d_azur,Chatou,,2013,10 771 KM,17 900 €,0130157765,Pro,48.896391,2.160098
+468,provence_alpes_cote_d_azur,Brie-Comte-Robert,,2014,4 500 KM,20 490 €,0160625056,Pro,48.69122669999999,2.6103697
+469,provence_alpes_cote_d_azur,Brie-Comte-Robert,,2014,8 995 KM,18 980 €,0160625056,Pro,48.69122669999999,2.6103697
+470,provence_alpes_cote_d_azur,Orgeval,,2013,21 050 KM,16 890 €,0139754280,Pro,48.918524,1.96978
+471,provence_alpes_cote_d_azur,Paris,,2014,8 360 KM,17 790 €,0178455073,Pro,48.856614,2.3522219
+472,provence_alpes_cote_d_azur,Paris,,2014,5 250 KM,17 490 €,0178455073,Pro,48.856614,2.3522219
+473,provence_alpes_cote_d_azur,Villemomble,,2013,15 KM,17 900 €,0148941616,Pro,48.886727,2.505069
+474,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,17 422 €,0175834788,Pro,48.760344,2.387405
+475,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,19 720 €,0175834788,Pro,48.760344,2.387405
+476,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,18 442 €,0175834788,Pro,48.760344,2.387405
+477,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,18 436 €,0175834788,Pro,48.760344,2.387405
+478,provence_alpes_cote_d_azur,Nointel,,2013,18 500 KM,17 730 €,,Part,49.37433,2.485642
+479,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,18 220 €,0175834788,Pro,48.760344,2.387405
+480,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,18 664 €,0175834788,Pro,48.760344,2.387405
+481,provence_alpes_cote_d_azur,Sevran,,2014,30 KM,16 900 €,,Part,48.93897,2.538716
+482,provence_alpes_cote_d_azur,Sartrouville,,2013,19 900 KM,15 880 €,0139145454,Pro,48.941106,2.158431
+483,provence_alpes_cote_d_azur,Beauchamp,,2013,1 320 KM,14 990 €,0139316439,Pro,49.01575099999999,2.191521
+484,provence_alpes_cote_d_azur,Beauchamp,,2014,8 860 KM,16 900 €,0139316439,Pro,49.01575099999999,2.191521
+485,provence_alpes_cote_d_azur,Beauchamp,,2013,9 360 KM,16 900 €,0139316439,Pro,49.01575099999999,2.191521
+486,provence_alpes_cote_d_azur,Antony,,2013,6 950 KM,18 300 €,,Part,48.759255,2.302553
+487,provence_alpes_cote_d_azur,Melun,,2013,17 431 KM,16 980 €,0615872883,Pro,48.542105,2.6554
+488,provence_alpes_cote_d_azur,Noisiel,,2013,10 131 KM,18 490 €,0160059293,Pro,48.85478,2.628701
+489,provence_alpes_cote_d_azur,Isles-lès-Villenoy,,2014,10 KM,16 970 €,0184141900,Pro,48.911358,2.8281139
+490,provence_alpes_cote_d_azur,Boissise-le-Roi,,2014,221 KM,19 990 €,0160657097,Pro,48.526605,2.571664
+491,provence_alpes_cote_d_azur,Brie-Comte-Robert,,2014,17 421 KM,18 680 €,0160625056,Pro,48.69122669999999,2.6103697
+492,provence_alpes_cote_d_azur,Noisiel,,2014,9 KM,18 900 €,0160059293,Pro,48.85478,2.628701
+493,provence_alpes_cote_d_azur,Gargenville,,2014,6 500 KM,18 500 €,,Part,48.991435,1.809326
+494,provence_alpes_cote_d_azur,Persan,,2014,185 KM,19 590 €,0130282837,Pro,49.152233,2.269571
+495,provence_alpes_cote_d_azur,Argenteuil,,2013,18 978 KM,15 790 €,0178769520,Pro,48.9472096,2.2466847
+496,provence_alpes_cote_d_azur,Fresnes,,2014,23 788 KM,15 990 €,0175448164,Pro,48.757205,2.326243
+497,provence_alpes_cote_d_azur,Les Clayes-sous-Bois,,2014,20 411 KM,18 200 €,,Part,48.82342,1.976374
+498,provence_alpes_cote_d_azur,Courbevoie,,2014,1 000 KM,16 500 €,,Part,48.900552,2.25929
+499,provence_alpes_cote_d_azur,Saint-Denis,,2013,15 500 KM,15 500 €,,Part,48.936181,2.357443
+500,provence_alpes_cote_d_azur,Thiais,,2014,10 KM,19 582 €,0175834788,Pro,48.760344,2.387405
+501,provence_alpes_cote_d_azur,Villebon-sur-Yvette,,2013,29 177 KM,14 880 €,0169340404,Pro,48.6964029,2.236654
+502,provence_alpes_cote_d_azur,Paris,,2013,7 800 KM,16 300 €,,Part,48.856614,2.3522219
+503,provence_alpes_cote_d_azur,Trappes,,2013,41 494 KM,13 900 €,0161123085,Pro,48.776731,2.001844
+504,provence_alpes_cote_d_azur,Trappes,,2013,37 929 KM,13 990 €,0161123085,Pro,48.776731,2.001844
+505,provence_alpes_cote_d_azur,Paris,,2013,19 852 KM,16 990 €,0174076006,Pro,48.856614,2.3522219
+506,provence_alpes_cote_d_azur,Crosne,,2013,10 000 KM,16 550 €,,Part,48.720171,2.461891
+507,provence_alpes_cote_d_azur,Trappes,,2013,40 375 KM,13 990 €,0161123085,Pro,48.776731,2.001844
+508,provence_alpes_cote_d_azur,Epinay-sous-Sénart,,2013,8 800 KM,16 800 €,,Part,48.69305199999999,2.515825
+509,provence_alpes_cote_d_azur,Paris,,2014,3 863 KM,17 890 €,0174076006,Pro,48.856614,2.3522219
+510,provence_alpes_cote_d_azur,Rambouillet,,2014,2 100 KM,16 200 €,06 84 84 82 20,Part,48.643868,1.829079
+511,provence_alpes_cote_d_azur,Paris,,2013,18 805 KM,16 490 €,0174076006,Pro,48.856614,2.3522219
+512,provence_alpes_cote_d_azur,Elancourt,,2014,19 000 KM,19 000 €,,Part,48.78290699999999,1.960077
+513,provence_alpes_cote_d_azur,Levallois-Perret,,2014,10 KM,18 600 €,,Pro,48.89321700000001,2.287864
+514,provence_alpes_cote_d_azur,Melun,,2014,19 199 KM,16 980 €,0615872883,Pro,48.542105,2.6554
+515,provence_alpes_cote_d_azur,Versailles,,2014,3 457 KM,16 990 €,0175448151,Pro,48.801408,2.130122
+516,provence_alpes_cote_d_azur,Persan,,2014,170 KM,19 590 €,0130282836,Pro,49.152233,2.269571
+517,provence_alpes_cote_d_azur,Noisiel,,2014,5 385 KM,17 200 €,0160059293,Pro,48.85478,2.628701
+518,provence_alpes_cote_d_azur,Les Ulis,,2014,3 080 KM,18 990 €,0160926972,Pro,48.6792779,2.16647
+519,provence_alpes_cote_d_azur,Versailles,,2014,10 KM,16 900 €,0175448151,Pro,48.801408,2.130122
+520,provence_alpes_cote_d_azur,Paris,,2014,5 780 KM,17 890 €,0178455073,Pro,48.856614,2.3522219
+521,provence_alpes_cote_d_azur,Rosny-sous-Bois,,2013,12 500 KM,17 000 €,,Part,48.875661,2.485932
+522,provence_alpes_cote_d_azur,Cagnes-sur-Mer,,2014,10 KM,16 990 €,0422170093,Pro,43.663739,7.14882
+523,provence_alpes_cote_d_azur,Gap,,2014,3 714 KM,19 690 €,0628436660,Pro,44.559638,6.079758
+524,provence_alpes_cote_d_azur,Aix-en-Provence,,2013,22 900 KM,15 990 €,,Pro,43.529742,5.447426999999999
+525,provence_alpes_cote_d_azur,Fréjus,,2014,10 000 KM,18 000 €,,Part,43.43315200000001,6.737034
+526,provence_alpes_cote_d_azur,Cannes,,2014,18 182 KM,16 600 €,0422170107,Pro,43.552847,7.017369
+527,provence_alpes_cote_d_azur,Le Pontet,,2013,32 020 KM,14 990 €,0625982919,Pro,43.9591489,4.863830999999999
+528,provence_alpes_cote_d_azur,Aix-en-Provence,,2014,6 002 KM,14 800 €,0825809109,Pro,43.529742,5.447426999999999
+529,provence_alpes_cote_d_azur,Vitrolles,,2014,10 000 KM,19 300 €,0486802083,Pro,43.45859799999999,5.249702999999999
+530,provence_alpes_cote_d_azur,Hyères,,2014,18 352 KM,14 800 €,0825809109,Pro,43.120541,6.128639
+531,provence_alpes_cote_d_azur,Nice,,2014,11 888 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+532,provence_alpes_cote_d_azur,Marseille,,2014,13 055 KM,14 800 €,0825809109,Pro,43.296482,5.36978
+533,provence_alpes_cote_d_azur,Marignane,,2014,17 078 KM,14 800 €,0825809109,Pro,43.4212739,5.218332
+534,provence_alpes_cote_d_azur,Hyères,,2014,16 046 KM,14 800 €,0825809109,Pro,43.120541,6.128639
+535,provence_alpes_cote_d_azur,Nice,,2014,10 773 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+536,provence_alpes_cote_d_azur,Aix-en-Provence,,2013,25 313 KM,13 400 €,0686038342,Pro,43.529742,5.447426999999999
+537,provence_alpes_cote_d_azur,Marignane,,2014,20 078 KM,14 500 €,0825809109,Pro,43.4212739,5.218332
+538,provence_alpes_cote_d_azur,Aix-en-Provence,,2014,15 948 KM,14 800 €,0675010042,Pro,43.529742,5.447426999999999
+539,provence_alpes_cote_d_azur,Marignane,,2014,10 241 KM,14 800 €,0825809109,Pro,43.4212739,5.218332
+540,provence_alpes_cote_d_azur,Nice,,2014,17 147 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+541,provence_alpes_cote_d_azur,Marignane,,2013,20 087 KM,13 900 €,0825809109,Pro,43.4212739,5.218332
+542,provence_alpes_cote_d_azur,Nice,,2014,13 268 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+543,provence_alpes_cote_d_azur,Aix-en-Provence,,2013,22 466 KM,13 700 €,0825809109,Pro,43.529742,5.447426999999999
+544,provence_alpes_cote_d_azur,Marseille,,2014,11 841 KM,14 800 €,0825809109,Pro,43.296482,5.36978
+545,provence_alpes_cote_d_azur,Nice,,2014,9 545 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+546,provence_alpes_cote_d_azur,Cannes,,2014,16 816 KM,14 800 €,0825809109,Pro,43.552847,7.017369
+547,provence_alpes_cote_d_azur,Aix-en-Provence,,2014,19 206 KM,14 800 €,0825809109,Pro,43.529742,5.447426999999999
+548,provence_alpes_cote_d_azur,Hyères,,2014,15 998 KM,14 800 €,0825809109,Pro,43.120541,6.128639
+549,provence_alpes_cote_d_azur,Nice,,2014,11 200 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+550,provence_alpes_cote_d_azur,Toulon,,2014,19 000 KM,14 800 €,0825809109,Pro,43.124228,5.928
+551,provence_alpes_cote_d_azur,Cavaillon,,2014,15 798 KM,14 800 €,0825809109,Pro,43.8366045,5.0407814
+552,provence_alpes_cote_d_azur,Cannes,,2014,18 155 KM,14 800 €,0825809109,Pro,43.552847,7.017369
+553,provence_alpes_cote_d_azur,Nice,,2014,17 190 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+554,provence_alpes_cote_d_azur,Marignane,,2014,16 357 KM,14 800 €,0825809109,Pro,43.4212739,5.218332
+555,provence_alpes_cote_d_azur,Nice,,2014,13 785 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+556,provence_alpes_cote_d_azur,Miramas,,2014,10 KM,18 990 €,09.74.91.50.00,Pro,43.588896,5.002136
+557,provence_alpes_cote_d_azur,Roquebrune-sur-Argens,,2014,5 KM,18 990 €,0000012501,Pro,43.443408,6.637682
+558,provence_alpes_cote_d_azur,La Seyne-sur-Mer,,2013,14 600 KM,16 900 €,,Part,43.102976,5.878219
+559,provence_alpes_cote_d_azur,Aix-en-Provence,,,1 KM,19 990 €,0476523234,Pro,43.529742,5.447426999999999
+560,provence_alpes_cote_d_azur,Aix-en-Provence,,2014,19 076 KM,17 490 €,0811708090,Pro,43.529742,5.447426999999999
+561,provence_alpes_cote_d_azur,Arles,,2013,19 327 KM,15 490 €,0490188023,Pro,43.676647,4.6277769
+562,provence_alpes_cote_d_azur,Marseille,,2013,13 000 KM,16 990 €,,Pro,43.296482,5.36978
+563,provence_alpes_cote_d_azur,Hyères,,2013,12 020 KM,16 900 €,06.58.36.06.06,Pro,43.120541,6.128639
+564,provence_alpes_cote_d_azur,Aix-en-Provence,,2013,10 KM,20 200 €,0811708090,Pro,43.529742,5.447426999999999
+565,provence_alpes_cote_d_azur,Avignon,,2013,16 209 KM,14 990 €,0811708090,Pro,43.94931700000001,4.805528
+566,provence_alpes_cote_d_azur,Hyères,,2013,23 000 KM,17 000 €,,Part,43.120541,6.128639
+567,provence_alpes_cote_d_azur,Cagnes-sur-Mer,,2014,10 KM,16 990 €,0422170093,Pro,43.663739,7.14882
+568,provence_alpes_cote_d_azur,Cagnes-sur-Mer,,2014,10 KM,20 990 €,0422170093,Pro,43.663739,7.14882
+569,provence_alpes_cote_d_azur,Hyères,,2013,19 500 KM,15 800 €,,Pro,43.120541,6.128639
+570,provence_alpes_cote_d_azur,Toulon,,2014,9 950 KM,19 500 €,,Part,43.124228,5.928
+571,provence_alpes_cote_d_azur,Ceyreste,,2013,26 000 KM,15 900 €,,Part,43.221502,5.634811
+572,provence_alpes_cote_d_azur,Cannes,,2014,4 363 KM,19 900 €,0422170107,Pro,43.552847,7.017369
+573,provence_alpes_cote_d_azur,Draguignan,,2014,5 KM,18 490 €,0000000662,Pro,43.5377269,6.464993
+574,provence_alpes_cote_d_azur,Cagnes-sur-Mer,,2014,5 026 KM,17 490 €,0422170093,Pro,43.663739,7.14882
+575,provence_alpes_cote_d_azur,La Valette-du-Var,,2014,9 KM,19 500 €,0422170181,Pro,43.13824,5.987584399999999
+576,provence_alpes_cote_d_azur,Marignane,,2014,4 689 KM,19 790 €,0608929780,Pro,43.4212739,5.218332
+577,provence_alpes_cote_d_azur,Marignane,,2014,17 147 KM,16 890 €,0608929780,Pro,43.4212739,5.218332
+578,provence_alpes_cote_d_azur,Vitrolles,,2014,19 239 KM,16 990 €,0613920082,Pro,43.45859799999999,5.249702999999999
+579,provence_alpes_cote_d_azur,Cannes,,2014,3 251 KM,18 800 €,0422170107,Pro,43.552847,7.017369
+580,provence_alpes_cote_d_azur,Coudoux,,2013,22 000 KM,16 100 €,0615065363,Part,43.558086,5.251238
+581,provence_alpes_cote_d_azur,Aubagne,,2014,11 KM,18 900 €,0422170191,Pro,43.2926781,5.5676425
+582,provence_alpes_cote_d_azur,Serres,,2013,23 000 KM,15 900 €,,Part,41.090923,23.5413198
+583,provence_alpes_cote_d_azur,Gap,,2014,10 891 KM,18 990 €,0628436660,Pro,44.559638,6.079758
+584,provence_alpes_cote_d_azur,La Valette-du-Var,,2013,16 769 KM,18 400 €,0422170181,Pro,43.13824,5.987584399999999
+585,provence_alpes_cote_d_azur,Aubagne,,2013,25 155 KM,16 200 €,0422170191,Pro,43.2926781,5.5676425
+586,provence_alpes_cote_d_azur,Cannes,,2014,6 012 KM,17 600 €,0422170107,Pro,43.552847,7.017369
+587,provence_alpes_cote_d_azur,Cagnes-sur-Mer,,2014,16 527 KM,16 990 €,0422170093,Pro,43.663739,7.14882
+588,provence_alpes_cote_d_azur,Draguignan,,2014,5 KM,18 490 €,0000001730,Pro,43.5377269,6.464993
+589,provence_alpes_cote_d_azur,Roquebrune-sur-Argens,,2014,5 KM,19 590 €,0000054205,Pro,43.443408,6.637682
+590,provence_alpes_cote_d_azur,Marseille,,2013,40 849 KM,14 700 €,0422170199,Pro,43.296482,5.36978
+591,provence_alpes_cote_d_azur,Cannes,,2014,3 985 KM,17 900 €,0422170107,Pro,43.552847,7.017369
+592,provence_alpes_cote_d_azur,Cannes,,2014,3 640 KM,17 900 €,0422170107,Pro,43.552847,7.017369
+593,provence_alpes_cote_d_azur,Gap,,2013,9 954 KM,17 400 €,0492533452,Pro,44.559638,6.079758
+594,provence_alpes_cote_d_azur,Marignane,,2013,13 576 KM,17 990 €,0608929780,Pro,43.4212739,5.218332
+595,provence_alpes_cote_d_azur,Arles,,2013,23 259 KM,16 490 €,0490188023,Pro,43.676647,4.6277769
+596,provence_alpes_cote_d_azur,Manosque,,2013,29 632 KM,15 990 €,0628436660,Pro,43.835744,5.790916
+597,provence_alpes_cote_d_azur,Rognonas,,2013,28 000 KM,17 990 €,,Part,43.898503,4.803017
+598,provence_alpes_cote_d_azur,Avignon,,2013,9 500 KM,14 990 €,0486877981,Pro,43.94931700000001,4.805528
+599,provence_alpes_cote_d_azur,La Destrousse,,2014,10 KM,19 780 €,,Pro,43.37687400000001,5.605345
+600,provence_alpes_cote_d_azur,Avignon,,2013,11 900 KM,16 900 €,0624646507,Pro,43.94931700000001,4.805528
+601,provence_alpes_cote_d_azur,Fréjus,,2014,1 222 KM,19 900 €,0669509220,Pro,43.43315200000001,6.737034
+602,provence_alpes_cote_d_azur,Venelles,,2014,300 KM,19 990 €,0625620029,Pro,43.598546,5.4847245
+603,provence_alpes_cote_d_azur,Carpentras,,2014,9 548 KM,16 500 €,0640226880,Pro,44.0555639,5.048722
+604,provence_alpes_cote_d_azur,Bollène,,2013,19 279 KM,16 990 €,0634239821,Pro,44.280508,4.748965999999999
+605,provence_alpes_cote_d_azur,Bollène,,2013,9 739 KM,16 100 €,0634239821,Pro,44.280508,4.748965999999999
+606,provence_alpes_cote_d_azur,Cannes,,2013,26 808 KM,16 900 €,0422170107,Pro,43.552847,7.017369
+607,provence_alpes_cote_d_azur,Saint-Maximin-la-Sainte-Baume,,2013,29 000 KM,14 900 €,,Part,43.452497,5.864004
+608,provence_alpes_cote_d_azur,Orange,,2014,10 KM,16 700 €,0607135149,Pro,44.1380989,4.807511
+609,provence_alpes_cote_d_azur,Cannes,,2014,5 219 KM,17 900 €,0422170107,Pro,43.552847,7.017369
+610,provence_alpes_cote_d_azur,Cavaillon,,2014,18 670 KM,16 990 €,0490786363,Pro,43.8366045,5.0407814
+611,provence_alpes_cote_d_azur,Cagnes-sur-Mer,,2014,8 210 KM,17 490 €,0422170093,Pro,43.663739,7.14882
+612,provence_alpes_cote_d_azur,Salon-de-Provence,,2014,5 470 KM,17 900 €,0490421313,Pro,43.640199,5.097022
+613,provence_alpes_cote_d_azur,Cannes,,2014,4 733 KM,18 300 €,0422170107,Pro,43.552847,7.017369
+614,provence_alpes_cote_d_azur,Antibes,,2013,40 860 KM,15 290 €,,Pro,43.58041799999999,7.125102
+615,provence_alpes_cote_d_azur,Cavaillon,,2014,18 507 KM,17 490 €,0490786363,Pro,43.8366045,5.0407814
+616,provence_alpes_cote_d_azur,Arles,,2014,11 852 KM,17 990 €,0490188023,Pro,43.676647,4.6277769
+617,provence_alpes_cote_d_azur,Martigues,,2014,10 KM,18 900 €,06 64 16 99 51,Pro,43.404811,5.053728
+618,provence_alpes_cote_d_azur,Salon-de-Provence,,2014,18 637 KM,18 500 €,0490421313,Pro,43.640199,5.097022
+619,provence_alpes_cote_d_azur,Vitrolles,,2014,10 KM,19 900 €,0486802083,Pro,43.45859799999999,5.249702999999999
+620,provence_alpes_cote_d_azur,Marignane,,2014,10 KM,18 990 €,0608929780,Pro,43.4212739,5.218332
+621,provence_alpes_cote_d_azur,Marseille,,2013,9 800 KM,15 500 €,,Part,43.296482,5.36978
+622,provence_alpes_cote_d_azur,La Ciotat,,2013,17 913 KM,16 200 €,,Part,43.17365299999999,5.605155
+623,provence_alpes_cote_d_azur,Aubagne,,2014,4 535 KM,17 800 €,0422170191,Pro,43.2926781,5.5676425
+624,provence_alpes_cote_d_azur,Port-de-Bouc,,2014,2 400 KM,20 900 €,0442405353,Pro,43.405449,4.985931
+625,provence_alpes_cote_d_azur,Simiane-Collongue,,2014,4 500 KM,19 200 €,06.52.69.44.08,Part,43.429668,5.434832999999999
+626,provence_alpes_cote_d_azur,Fayence,,2013,28 000 KM,14 500 €,,Part,43.624076,6.694103000000001
+627,provence_alpes_cote_d_azur,La Seyne-sur-Mer,,2013,7 450 KM,16 500 €,0682177533,Pro,43.102976,5.878219
+628,provence_alpes_cote_d_azur,Avignon,,2013,41 573 KM,14 990 €,0486877981,Pro,43.94931700000001,4.805528
+629,provence_alpes_cote_d_azur,Marignane,,2014,1 674 KM,16 990 €,0608929780,Pro,43.4212739,5.218332
+630,provence_alpes_cote_d_azur,Cagnes-sur-Mer,,2013,20 500 KM,16 990 €,0422170093,Pro,43.663739,7.14882
+631,provence_alpes_cote_d_azur,Gardanne,,2013,24 060 KM,15 900 €,0442949596,Pro,43.4525982,5.4717363
+632,provence_alpes_cote_d_azur,Le Pontet,,2013,24 600 KM,15 790 €,0625982919,Pro,43.9591489,4.863830999999999
+633,provence_alpes_cote_d_azur,Orange,,2013,21 174 KM,15 900 €,0612103931,Pro,44.1380989,4.807511
+634,provence_alpes_cote_d_azur,Cannes,,2013,19 485 KM,16 800 €,0422170107,Pro,43.552847,7.017369
+635,provence_alpes_cote_d_azur,Aix-en-Provence,,2013,29 757 KM,15 490 €,0442952895,Pro,43.529742,5.447426999999999
+636,provence_alpes_cote_d_azur,Antibes,,2014,18 625 KM,16 990 €,,Pro,43.58041799999999,7.125102
+637,provence_alpes_cote_d_azur,Brignoles,,2013,19 372 KM,17 490 €,0494370125,Pro,43.40655,6.061186999999999
+638,provence_alpes_cote_d_azur,Valréas,,2013,3 795 KM,17 400 €,0490351460,Pro,44.383724,4.989187
+639,provence_alpes_cote_d_azur,Aix-en-Provence,,2013,10 000 KM,17 000 €,,Part,43.529742,5.447426999999999
+640,provence_alpes_cote_d_azur,Saint-Chamas,,2013,28 000 KM,17 500 €,,Part,43.550669,5.034508
+641,provence_alpes_cote_d_azur,La Valette-du-Var,,2013,11 003 KM,17 900 €,0422170181,Pro,43.13824,5.987584399999999
+642,provence_alpes_cote_d_azur,Manosque,,2013,13 500 KM,17 990 €,0628436660,Pro,43.835744,5.790916
+643,provence_alpes_cote_d_azur,Manosque,,2014,8 254 KM,15 990 €,0628436660,Pro,43.835744,5.790916
+644,provence_alpes_cote_d_azur,La Valette-du-Var,,2013,17 904 KM,17 700 €,0422170181,Pro,43.13824,5.987584399999999
+645,provence_alpes_cote_d_azur,Manosque,,2013,14 500 KM,16 490 €,0628436660,Pro,43.835744,5.790916
+646,provence_alpes_cote_d_azur,Garéoult,,2013,30 000 KM,16 900 €,,Part,43.329229,6.045799
+647,provence_alpes_cote_d_azur,Nice,,2014,16 800 KM,15 850 €,,Pro,43.7101728,7.261953200000001
+648,provence_alpes_cote_d_azur,Marseille,,2013,9 600 KM,17 500 €,,Part,43.296482,5.36978
+649,provence_alpes_cote_d_azur,Draguignan,,2013,11 058 KM,14 990 €,0687808813,Pro,43.5377269,6.464993
+650,provence_alpes_cote_d_azur,Mougins,,2013,3 895 KM,14 900 €,0422106388,Pro,43.6023319,7.006491
+651,provence_alpes_cote_d_azur,Fréjus,,2013,11 225 KM,15 990 €,0669509220,Pro,43.43315200000001,6.737034
+652,provence_alpes_cote_d_azur,Lauris,,2013,40 000 KM,16 000 €,,Part,43.746982,5.313600999999999
+653,provence_alpes_cote_d_azur,Marignane,,2014,3 962 KM,16 890 €,0608929780,Pro,43.4212739,5.218332
+654,provence_alpes_cote_d_azur,Cannes,,2014,5 109 KM,18 290 €,0422170107,Pro,43.552847,7.017369
+655,provence_alpes_cote_d_azur,Lançon-Provence,,2014,10 KM,16 990 €,,Pro,43.591912,5.126824
+656,provence_alpes_cote_d_azur,Cannes,,2014,5 541 KM,17 899 €,0422170107,Pro,43.552847,7.017369
+657,provence_alpes_cote_d_azur,Nice,,2014,4 994 KM,13 900 €,0489613187,Pro,43.7101728,7.261953200000001
+658,provence_alpes_cote_d_azur,Avignon,,2014,7 092 KM,17 900 €,0486877981,Pro,43.94931700000001,4.805528
+659,provence_alpes_cote_d_azur,Vitrolles,,2014,11 136 KM,15 990 €,0613920082,Pro,43.45859799999999,5.249702999999999
+660,provence_alpes_cote_d_azur,Manosque,,2013,5 486 KM,14 990 €,0628436660,Pro,43.835744,5.790916
+661,provence_alpes_cote_d_azur,Arles,,2014,18 303 KM,15 990 €,0490188023,Pro,43.676647,4.6277769
+662,provence_alpes_cote_d_azur,Marseille,,2013,24 500 KM,14 800 €,,Part,43.296482,5.36978
+663,provence_alpes_cote_d_azur,Draguignan,,2014,2 719 KM,16 490 €,0687808813,Pro,43.5377269,6.464993
+664,provence_alpes_cote_d_azur,La Garde,,2014,10 KM,18 790 €,04 94 03 47 80,Pro,43.128777,6.017199
+665,provence_alpes_cote_d_azur,Cagnes-sur-Mer,,2014,3 497 KM,19 490 €,0422170093,Pro,43.663739,7.14882
+666,provence_alpes_cote_d_azur,Cannes,,2013,29 361 KM,16 490 €,0422170107,Pro,43.552847,7.017369
+667,provence_alpes_cote_d_azur,Aix-en-Provence,,2014,20 598 KM,17 490 €,0811708090,Pro,43.529742,5.447426999999999
+668,provence_alpes_cote_d_azur,Aix-en-Provence,,2014,18 566 KM,17 890 €,0811708090,Pro,43.529742,5.447426999999999
+669,provence_alpes_cote_d_azur,Aix-en-Provence,,2013,3 333 KM,15 150 €,0811708090,Pro,43.529742,5.447426999999999
+670,provence_alpes_cote_d_azur,Aix-en-Provence,,2014,10 KM,19 790 €,0811708090,Pro,43.529742,5.447426999999999
+671,provence_alpes_cote_d_azur,Aix-en-Provence,,2013,10 KM,20 200 €,0811708090,Pro,43.529742,5.447426999999999
+672,provence_alpes_cote_d_azur,Avignon,,2014,8 900 KM,17 990 €,0486877981,Pro,43.94931700000001,4.805528
+673,provence_alpes_cote_d_azur,Orange,,2014,13 306 KM,17 990 €,0607135149,Pro,44.1380989,4.807511
+674,provence_alpes_cote_d_azur,Fos-sur-Mer,,2013,17 300 KM,17 300 €,,Part,43.43788199999999,4.945711
+675,provence_alpes_cote_d_azur,Draguignan,,2013,32 000 KM,16 900 €,,Part,43.5377269,6.464993
+676,provence_alpes_cote_d_azur,Brignoles,,2013,25 746 KM,16 990 €,0494370125,Pro,43.40655,6.061186999999999
+677,provence_alpes_cote_d_azur,La Seyne-sur-Mer,,2014,5 KM,19 900 €,0683688779,Pro,43.102976,5.878219
+678,provence_alpes_cote_d_azur,Cavaillon,,2014,10 KM,16 900 €,0490066262,Pro,43.8366045,5.0407814
+679,provence_alpes_cote_d_azur,Manosque,,2013,23 143 KM,16 490 €,0628436660,Pro,43.835744,5.790916
+680,provence_alpes_cote_d_azur,Cannes,,2013,19 612 KM,16 900 €,0422170107,Pro,43.552847,7.017369
+681,provence_alpes_cote_d_azur,Salon-de-Provence,,2014,20 394 KM,16 900 €,0490421313,Pro,43.640199,5.097022
+682,provence_alpes_cote_d_azur,Saint-Andiol,,2014,2 000 KM,8 500 €,,Pro,43.835465,4.944566
+683,provence_alpes_cote_d_azur,Brignoles,,2014,12 758 KM,17 490 €,0494370125,Pro,43.40655,6.061186999999999
+684,provence_alpes_cote_d_azur,Marseille,,2013,27 000 KM,15 500 €,,Part,43.296482,5.36978
+685,provence_alpes_cote_d_azur,La Garde,,2013,7 846 KM,16 000 €,06 19 79 56 24,Pro,43.128777,6.017199
+686,provence_alpes_cote_d_azur,Cagnes-sur-Mer,,2014,22 786 KM,16 990 €,0422170093,Pro,43.663739,7.14882
+687,provence_alpes_cote_d_azur,Cannes,,2014,10 KM,22 490 €,06 51 78 27 29,Pro,43.552847,7.017369
+688,provence_alpes_cote_d_azur,Marignane,,2014,7 455 KM,19 790 €,0608929780,Pro,43.4212739,5.218332
+689,provence_alpes_cote_d_azur,Tarascon,,2014,1 500 KM,19 950 €,,Part,43.80604400000001,4.65752
+690,provence_alpes_cote_d_azur,Le Lavandou,,2014,2 500 KM,19 200 €,,Part,43.138042,6.368436
+691,provence_alpes_cote_d_azur,La Seyne-sur-Mer,,2014,5 KM,19 900 €,0683688779,Pro,43.102976,5.878219
+692,provence_alpes_cote_d_azur,Rognac,,2013,39 748 KM,3 900 €,,Pro,43.487871,5.23463
+693,provence_alpes_cote_d_azur,Le Cannet,,2014,8 000 KM,17 500 €,,Part,43.57655099999999,7.019019999999999
+694,provence_alpes_cote_d_azur,Cavaillon,,2014,10 KM,21 500 €,0490064814,Pro,43.8366045,5.0407814
+695,provence_alpes_cote_d_azur,Marseille,,2014,9 000 KM,18 000 €,,Part,43.296482,5.36978
+696,provence_alpes_cote_d_azur,Saint-Julien,,2013,25 000 KM,14 600 €,,Part,46.144516,6.081338
+697,provence_alpes_cote_d_azur,Marseille,,2013,10 100 KM,19 900 €,,Part,43.296482,5.36978
+698,provence_alpes_cote_d_azur,Le Luc,,2014,8 500 KM,16 990 €,0619024715,Pro,43.39450900000001,6.313233899999999
+699,provence_alpes_cote_d_azur,Montfavet,,2014,173 KM,21 500 €,0620230666,Pro,43.9280929,4.886973999999999
+700,provence_alpes_cote_d_azur,Nice,,2014,208 KM,20 500 €,,Part,43.7101728,7.261953200000001
+701,provence_alpes_cote_d_azur,Nice,,2014,2 KM,19 680 €,06 99 35 99 64,Pro,43.7101728,7.261953200000001
+702,provence_alpes_cote_d_azur,Pertuis,,2013,27 500 KM,17 450 €,,Part,43.694275,5.501843
+703,provence_alpes_cote_d_azur,Ollioules,,2014,7 000 KM,18 000 €,,Part,43.13990099999999,5.847652
+704,provence_alpes_cote_d_azur,La Croix-Valmer,,2014,10 100 KM,18 500 €,,Part,43.206521,6.568810999999999
+705,provence_alpes_cote_d_azur,Aubagne,,2013,20 710 KM,16 800 €,0422170191,Pro,43.2926781,5.5676425
+706,provence_alpes_cote_d_azur,Rians,,2014,4 500 KM,18 900 €,,Pro,43.606476,5.756592899999999
+707,provence_alpes_cote_d_azur,Aubagne,,2013,27 785 KM,16 200 €,0422170191,Pro,43.2926781,5.5676425
+708,provence_alpes_cote_d_azur,Fos-sur-Mer,,2014,8 KM,18 990 €,0442053000,Pro,43.43788199999999,4.945711
+709,provence_alpes_cote_d_azur,La Valette-du-Var,,2013,17 233 KM,16 900 €,0422170181,Pro,43.13824,5.987584399999999
+710,provence_alpes_cote_d_azur,Gap,,2013,10 700 KM,19 300 €,,Part,44.559638,6.079758
+711,provence_alpes_cote_d_azur,Bouc-Bel-Air,,2014,20 401 KM,16 900 €,09 83 67 11 44,Pro,43.451152,5.413875
+712,provence_alpes_cote_d_azur,Fréjus,,2013,3 200 KM,18 000 €,,Part,43.43315200000001,6.737034
+713,provence_alpes_cote_d_azur,La Croix-Valmer,,2014,292 KM,19 125 €,,Pro,43.206521,6.568810999999999
+714,provence_alpes_cote_d_azur,Fréjus,,2013,10 171 KM,16 790 €,0669509220,Pro,43.43315200000001,6.737034
+715,aquitaine,Isles-lès-Villenoy,,2014,10 KM,19 840 €,0184141900,Pro,48.911358,2.8281139
+716,aquitaine,Massy,,2013,14 697 KM,15 200 €,01.69.93.67.10,Pro,48.730756,2.27137
+717,aquitaine,Massy,,2013,13 799 KM,14 500 €,01.69.93.67.10,Pro,48.730756,2.27137
+718,aquitaine,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+719,aquitaine,Thiais,,2014,10 KM,20 602 €,0175834788,Pro,48.760344,2.387405
+720,aquitaine,Thiais,,2014,10 KM,17 560 €,0175834788,Pro,48.760344,2.387405
+721,aquitaine,Athis-Mons,,2013,16 000 KM,11 990 €,01 73 49 08 01,Pro,48.7092979,2.38479
+722,aquitaine,Paris,,2014,21 754 KM,14 500 €,0825809109,Pro,48.856614,2.3522219
+723,aquitaine,Paris,,2014,15 269 KM,14 800 €,0825809109,Pro,48.856614,2.3522219
+724,aquitaine,Orly,,2014,14 697 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+725,aquitaine,Paris,,2014,28 670 KM,14 200 €,0825809109,Pro,48.856614,2.3522219
+726,aquitaine,Chessy,,2014,17 370 KM,14 800 €,0825809109,Pro,48.87846159999999,2.7657959
+727,aquitaine,Malakoff,,2014,20 026 KM,14 500 €,0781679569,Pro,48.817275,2.2977599
+728,aquitaine,Nanterre,,2013,26 412 KM,13 600 €,0825809109,Pro,48.892423,2.215331
+729,aquitaine,Montigny-le-Bretonneux,,2014,15 069 KM,14 800 €,0825809109,Pro,48.7738734,2.0360157
+730,aquitaine,Roissy-en-France,,2014,19 247 KM,14 800 €,0825809109,Pro,49.00363,2.516978
+731,aquitaine,Orly,,2014,11 688 KM,14 700 €,06 52 51 37 85,Pro,48.745193,2.401373
+732,aquitaine,Pontoise,,2014,20 800 KM,14 500 €,0825809109,Pro,49.050966,2.100645
+733,aquitaine,Roissy-en-France,,2014,28 282 KM,14 200 €,0825809109,Pro,49.00363,2.516978
+734,aquitaine,Montigny-le-Bretonneux,,2013,12 561 KM,14 000 €,06 26 67 19 97,Pro,48.7738734,2.0360157
+735,aquitaine,Le Blanc-Mesnil,,2014,19 211 KM,14 800 €,0825809109,Pro,48.941345,2.46436
+736,aquitaine,Le Blanc-Mesnil,,2014,29 060 KM,14 400 €,0155811021,Pro,48.941345,2.46436
+737,aquitaine,Pontoise,,2014,15 892 KM,14 800 €,0825809109,Pro,49.050966,2.100645
+738,aquitaine,Orly,,2013,23 398 KM,13 900 €,0825809109,Pro,48.745193,2.401373
+739,aquitaine,Paris,,2014,14 571 KM,14 800 €,0825809109,Pro,48.856614,2.3522219
+740,aquitaine,Montigny-le-Bretonneux,,2014,15 607 KM,14 800 €,0825809109,Pro,48.7738734,2.0360157
+741,aquitaine,Orly,,2014,19 172 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+742,aquitaine,Roissy-en-France,,2014,16 521 KM,14 800 €,0825809109,Pro,49.00363,2.516978
+743,aquitaine,Clichy,,2014,24 018 KM,14 500 €,0825809109,Pro,48.904526,2.304768
+744,aquitaine,Colombes,,2013,23 289 KM,13 900 €,0825809109,Pro,48.9220615,2.2533313
+745,aquitaine,Paris,,2014,14 000 KM,14 800 €,0825809109,Pro,48.856614,2.3522219
+746,aquitaine,Montigny-le-Bretonneux,,2014,29 246 KM,14 200 €,0825809109,Pro,48.7738734,2.0360157
+747,aquitaine,Clichy,,2014,20 966 KM,14 500 €,0825809109,Pro,48.904526,2.304768
+748,aquitaine,Thiais,,2014,10 KM,19 900 €,0175834788,Pro,48.760344,2.387405
+749,aquitaine,Orly,,2014,16 351 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+750,aquitaine,Orly,,2014,13 461 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+751,aquitaine,Thiais,,2014,10 KM,18 789 €,0175834788,Pro,48.760344,2.387405
+752,aquitaine,Montigny-le-Bretonneux,,2014,18 108 KM,14 800 €,0825809109,Pro,48.7738734,2.0360157
+753,aquitaine,Le Blanc-Mesnil,,2014,16 596 KM,15 000 €,0155811021,Pro,48.941345,2.46436
+754,aquitaine,Bobigny,,2013,29 000 KM,13 600 €,0825809109,Pro,48.908612,2.439712
+755,aquitaine,Pontoise,,2014,12 409 KM,14 800 €,0825809109,Pro,49.050966,2.100645
+756,aquitaine,Ivry-sur-Seine,,2014,19 707 KM,14 800 €,0825809109,Pro,48.813055,2.38822
+757,aquitaine,Orly,,2014,12 870 KM,14 800 €,06 52 51 37 85,Pro,48.745193,2.401373
+758,aquitaine,Thiais,,2014,10 KM,20 602 €,0175834788,Pro,48.760344,2.387405
+759,aquitaine,Saint-Rémy-lès-Chevreuse,,2014,8 900 KM,17 990 €,,Part,48.7025751,2.0696133
+760,aquitaine,Valenton,,2014,10 KM,18 990 €,09.74.91.50.00,Pro,48.749736,2.459965
+761,aquitaine,Paris,,,1 KM,19 990 €,0476523234,Pro,48.856614,2.3522219
+762,aquitaine,Levallois-Perret,,2013,16 500 KM,14 000 €,,Part,48.89321700000001,2.287864
+763,aquitaine,Vitry-sur-Seine,,2013,20 992 KM,16 590 €,0811708090,Pro,48.792001,2.39851
+764,aquitaine,Mantes-la-Jolie,,2014,5 000 KM,18 900 €,,Part,48.989323,1.714958
+765,aquitaine,Dourdan,,2014,10 KM,20 500 €,01.64.59.71.86,Pro,48.529171,2.0152549
+766,aquitaine,Dourdan,,2014,4 058 KM,18 990 €,01.64.59.71.86,Pro,48.529171,2.0152549
+767,aquitaine,Guyancourt,,2014,1 800 KM,20 300 €,,Part,48.762895,2.075323
+768,aquitaine,Maurepas,,2014,10 KM,18 490 €,01 30 51 65 39,Pro,48.7623589,1.945326
+769,aquitaine,Maurepas,,2014,10 KM,17 490 €,01 30 51 65 39,Pro,48.7623589,1.945326
+770,aquitaine,Vitry-sur-Seine,,2013,7 933 KM,18 490 €,0811708090,Pro,48.792001,2.39851
+771,aquitaine,Saclay,,2014,5 950 KM,17 900 €,,Part,48.73668,2.180034
+772,aquitaine,Joinville-le-Pont,,2014,21 883 KM,15 900 €,0142836847,Pro,48.821267,2.472043
+773,aquitaine,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+774,aquitaine,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+775,aquitaine,Isles-lès-Villenoy,,2014,10 KM,19 210 €,0184141900,Pro,48.911358,2.8281139
+776,aquitaine,Isles-lès-Villenoy,,2014,4 000 KM,18 870 €,0184141900,Pro,48.911358,2.8281139
+777,aquitaine,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+778,aquitaine,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+779,aquitaine,Chelles,,2014,15 000 KM,20 300 €,0677372750,Pro,48.87753499999999,2.59016
+780,aquitaine,Chelles,,2014,9 900 KM,19 600 €,0677372750,Pro,48.87753499999999,2.59016
+781,aquitaine,Chelles,,2014,15 000 KM,17 800 €,0677372750,Pro,48.87753499999999,2.59016
+782,aquitaine,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+783,aquitaine,Isles-lès-Villenoy,,2014,10 KM,19 440 €,0184141900,Pro,48.911358,2.8281139
+784,aquitaine,Gentilly,,2013,7 400 KM,17 400 €,,Pro,48.8138999,2.344688
+785,aquitaine,Chelles,,2014,7 742 KM,18 900 €,0677372750,Pro,48.87753499999999,2.59016
+786,aquitaine,Chelles,,2014,6 999 KM,18 900 €,0677372750,Pro,48.87753499999999,2.59016
+787,aquitaine,Saint-Jean-les-Deux-Jumeaux,,2014,100 KM,16 390 €,01 64 35 90 01,Pro,48.9514039,3.018301
+788,aquitaine,Saint-Jean-les-Deux-Jumeaux,,2013,24 200 KM,16 980 €,01 64 35 90 01,Pro,48.9514039,3.018301
+789,aquitaine,Corbeil-Essonnes,,2013,14 900 KM,15 900 €,,Pro,48.6102599,2.474805
+790,aquitaine,Etampes,,2013,9 000 KM,16 990 €,,Pro,48.43441600000001,2.16142
+791,aquitaine,Chatou,,2014,10 KM,17 300 €,0130157765,Pro,48.896391,2.160098
+792,aquitaine,Brétigny-sur-Orge,,2013,20 500 KM,16 300 €,,Part,48.611486,2.30604
+793,aquitaine,Samoreau,,2014,3 098 KM,17 700 €,0164239675,Pro,48.42345400000001,2.754079
+794,aquitaine,Montrouge,,2014,18 932 KM,17 880 €,0142531111,Pro,48.816363,2.317384
+795,aquitaine,Paris,,2014,17 670 KM,15 990 €,0144740871,Pro,48.856614,2.3522219
+796,aquitaine,Boulogne-Billancourt,,2014,22 880 KM,16 790 €,0174037256,Pro,48.8396952,2.2399123
+797,aquitaine,Thiais,,2014,10 KM,19 372 €,0141734040,Pro,48.760344,2.387405
+798,aquitaine,Paris,,2014,10 KM,14 800 €,0140709104,Pro,48.856614,2.3522219
+799,aquitaine,Coulommiers,,2013,24 500 KM,16 300 €,,Pro,48.813071,3.083497
+800,aquitaine,Levallois-Perret,,2014,11 KM,20 500 €,,Pro,48.89321700000001,2.287864
+801,aquitaine,Paris,,2014,5 576 KM,16 500 €,0144740871,Pro,48.856614,2.3522219
+802,aquitaine,Bois-Colombes,,2013,12 150 KM,15 999 €,06.46.06.10.08,Pro,48.917402,2.269675
+803,aquitaine,Bois-d'Arcy,,2014,6 700 KM,15 790 €,,Part,48.80598,2.022188
+804,aquitaine,Conflans-Sainte-Honorine,,2014,7 600 KM,18 400 €,,Part,49.000275,2.09178
+805,aquitaine,Limay,,2014,3 000 KM,15 300 €,,Part,48.992181,1.735384
+806,aquitaine,Orgeval,,2014,21 780 KM,17 480 €,0139754280,Pro,48.918524,1.96978
+807,aquitaine,Isles-lès-Villenoy,,2014,7 000 KM,16 970 €,0184141900,Pro,48.911358,2.8281139
+808,aquitaine,Isles-lès-Villenoy,,2014,1 000 KM,17 240 €,0184141900,Pro,48.911358,2.8281139
+809,aquitaine,Thiais,,2014,10 KM,20 602 €,0175834788,Pro,48.760344,2.387405
+810,aquitaine,Ballancourt-sur-Essonne,,2014,5 000 KM,18 800 €,,Part,48.524552,2.388169
+811,aquitaine,Boulogne-Billancourt,,2014,8 949 KM,17 490 €,0174037256,Pro,48.8396952,2.2399123
+812,aquitaine,Brie-Comte-Robert,,2013,6 105 KM,14 390 €,0160625056,Pro,48.69122669999999,2.6103697
+813,aquitaine,Boulogne-Billancourt,,2014,3 631 KM,17 990 €,0174037256,Pro,48.8396952,2.2399123
+814,aquitaine,Pontoise,,2014,9 000 KM,18 500 €,,Part,49.050966,2.100645
+815,aquitaine,Neauphle-le-Vieux,,2014,4 500 KM,17 600 €,,Part,48.81474499999999,1.863168
+816,aquitaine,Maurepas,,2014,5 KM,19 890 €,01 30 51 65 39,Pro,48.7623589,1.945326
+817,aquitaine,Les Pavillons-sous-Bois,,2014,9 500 KM,17 880 €,0667277157,Pro,48.90852,2.504403
+818,aquitaine,Noisiel,,2014,1 519 KM,17 900 €,0160059293,Pro,48.85478,2.628701
+819,aquitaine,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+820,aquitaine,Argenteuil,,2014,2 874 KM,18 990 €,0178769520,Pro,48.9472096,2.2466847
+821,aquitaine,Noisiel,,2014,1 KM,18 900 €,0160059293,Pro,48.85478,2.628701
+822,aquitaine,Paris,,2014,16 728 KM,15 990 €,0144740871,Pro,48.856614,2.3522219
+823,aquitaine,Melun,,2014,6 234 KM,15 980 €,0615872883,Pro,48.542105,2.6554
+824,aquitaine,Paris,,2013,3 365 KM,17 900 €,0146348425,Pro,48.856614,2.3522219
+825,aquitaine,Conflans-Sainte-Honorine,,2014,11 963 KM,16 900 €,0139192136,Pro,49.000275,2.09178
+826,aquitaine,Boulogne-Billancourt,,2014,5 396 KM,18 390 €,0174037256,Pro,48.8396952,2.2399123
+827,aquitaine,Sartrouville,,2014,2 KM,19 380 €,0139145454,Pro,48.941106,2.158431
+828,aquitaine,Paris,,2013,16 436 KM,16 490 €,0144740871,Pro,48.856614,2.3522219
+829,aquitaine,Brie-Comte-Robert,,2014,624 KM,18 490 €,0160625056,Pro,48.69122669999999,2.6103697
+830,aquitaine,Paris,,2014,7 987 KM,17 990 €,0178455073,Pro,48.856614,2.3522219
+831,aquitaine,Thiais,,2014,10 KM,20 602 €,0175834788,Pro,48.760344,2.387405
+832,aquitaine,Coignières,,2014,60 KM,19 990 €,0130502424,Pro,48.750285,1.916261
+833,aquitaine,Aulnay-sous-Bois,,2014,10 300 KM,18 990 €,,Pro,48.9412151,2.4970711
+834,aquitaine,Paris,,2014,3 900 KM,19 290 €,,Part,48.856614,2.3522219
+835,aquitaine,Montrouge,,2014,3 690 KM,18 290 €,0146128847,Pro,48.816363,2.317384
+836,aquitaine,Limay,,2014,9 500 KM,19 190 €,,Pro,48.992181,1.735384
+837,aquitaine,Sartrouville,,2013,17 280 KM,15 880 €,0139145454,Pro,48.941106,2.158431
+838,aquitaine,Noisiel,,2014,1 KM,20 900 €,0160059293,Pro,48.85478,2.628701
+839,aquitaine,Villeneuve-Saint-Georges,,2014,3 500 KM,18 900 €,0143828979,Part,48.7305769,2.447488
+840,aquitaine,Pantin,,2013,15 898 KM,16 990 €,0174730257,Pro,48.894533,2.40963
+841,aquitaine,Pontoise,,2014,19 700 KM,16 990 €,0624782138,Pro,49.050966,2.100645
+842,aquitaine,Brie-Comte-Robert,,2014,10 KM,16 890 €,0160625056,Pro,48.69122669999999,2.6103697
+843,aquitaine,Thiais,,2014,7 KM,18 990 €,0141734040,Pro,48.760344,2.387405
+844,aquitaine,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+845,aquitaine,Isles-lès-Villenoy,,2014,10 KM,19 640 €,0184141900,Pro,48.911358,2.8281139
+846,aquitaine,Montrouge,,2014,9 367 KM,18 290 €,0146128847,Pro,48.816363,2.317384
+847,aquitaine,Thoiry,,2014,3 500 KM,18 500 €,,Part,48.865263,1.794903
+848,aquitaine,Créteil,,2013,25 295 KM,14 980 €,0811708090,Pro,48.790367,2.455572
+849,aquitaine,Sartrouville,,2014,2 KM,19 870 €,0139145454,Pro,48.941106,2.158431
+850,aquitaine,Noisiel,,2013,14 958 KM,14 900 €,0160059293,Pro,48.85478,2.628701
+851,aquitaine,Paris,,2014,50 KM,20 490 €,0174076006,Pro,48.856614,2.3522219
+852,aquitaine,Isles-lès-Villenoy,,2014,10 KM,19 770 €,0184141900,Pro,48.911358,2.8281139
+853,aquitaine,Les Ulis,,2014,2 410 KM,19 490 €,0160926972,Pro,48.6792779,2.16647
+854,aquitaine,Fresnes,,2014,7 KM,17 550 €,0175448164,Pro,48.757205,2.326243
+855,aquitaine,Isles-lès-Villenoy,,2014,10 KM,19 770 €,0184141900,Pro,48.911358,2.8281139
+856,aquitaine,Mareil-Marly,,2014,10 KM,19 990 €,0628537072,Pro,48.882174,2.076817
+857,aquitaine,Mareil-Marly,,2014,10 KM,19 990 €,0628537072,Pro,48.882174,2.076817
+858,aquitaine,Montrouge,,2013,19 420 KM,15 890 €,0142531111,Pro,48.816363,2.317384
+859,aquitaine,Montrouge,,2014,13 396 KM,16 690 €,0142531111,Pro,48.816363,2.317384
+860,aquitaine,Aubergenville,,2013,6 400 KM,18 000 €,01 30 95 29 09,Part,48.9591319,1.855891
+861,aquitaine,Maurepas,,2014,10 KM,18 490 €,01 30 51 65 39,Pro,48.7623589,1.945326
+862,aquitaine,Mantes-la-Ville,,2013,8 500 KM,17 500 €,,Part,48.978154,1.713371
+863,aquitaine,Les Ulis,,2014,16 349 KM,18 290 €,0160926972,Pro,48.6792779,2.16647
+864,aquitaine,Clamart,,2014,10 KM,16 990 €,0983484648,Pro,48.799815,2.257289
+865,aquitaine,Pantin,,2013,16 289 KM,16 690 €,0174730257,Pro,48.894533,2.40963
+866,aquitaine,Plaisir,,2014,6 000 KM,15 500 €,,Part,48.817223,1.949075
+867,aquitaine,Les Pavillons-sous-Bois,,2014,10 KM,19 990 €,0667277157,Pro,48.90852,2.504403
+868,aquitaine,Paris,,2014,7 350 KM,19 690 €,0178455073,Pro,48.856614,2.3522219
+869,aquitaine,Paris,,2013,11 400 KM,17 490 €,0174076006,Pro,48.856614,2.3522219
+870,aquitaine,Champagne-sur-Oise,,2013,23 000 KM,16 900 €,,Part,49.136089,2.2350979
+871,aquitaine,Chapet,,2013,7 500 KM,16 950 €,,Part,48.967085,1.933828
+872,aquitaine,Ozoir-la-Ferrière,,2014,15 000 KM,17 500 €,,Part,48.763827,2.671739
+873,aquitaine,Fresnes,,2014,8 576 KM,15 450 €,0175448164,Pro,48.757205,2.326243
+874,aquitaine,Mitry-Mory,,2013,23 000 KM,16 000 €,,Part,48.98543,2.619156
+875,aquitaine,Les Ulis,,2013,34 608 KM,14 900 €,0169754933,Pro,48.6792779,2.16647
+876,aquitaine,Trappes,,2013,35 243 KM,13 990 €,0161123085,Pro,48.776731,2.001844
+877,aquitaine,Sartrouville,,2014,2 KM,20 780 €,0139145454,Pro,48.941106,2.158431
+878,aquitaine,Melun,,2014,19 414 KM,16 990 €,0615872883,Pro,48.542105,2.6554
+879,aquitaine,Beauchamp,,2013,21 100 KM,16 290 €,0139316439,Pro,49.01575099999999,2.191521
+880,aquitaine,Nanterre,,2013,11 440 KM,18 900 €,0156837400,Pro,48.892423,2.215331
+881,aquitaine,Boulogne-Billancourt,,2014,7 200 KM,17 290 €,0174037256,Pro,48.8396952,2.2399123
+882,aquitaine,Créteil,,2014,1 000 KM,17 390 €,0811708090,Pro,48.790367,2.455572
+883,aquitaine,Vitry-sur-Seine,,2013,3 256 KM,18 490 €,0811708090,Pro,48.792001,2.39851
+884,aquitaine,Fontenay-sous-Bois,,2014,19 980 KM,16 890 €,0148763773,Pro,48.851542,2.475907
+885,aquitaine,Vitry-sur-Seine,,2013,7 933 KM,18 490 €,0811708090,Pro,48.792001,2.39851
+886,aquitaine,Fontenay-sous-Bois,,2014,19 092 KM,16 890 €,0148763773,Pro,48.851542,2.475907
+887,aquitaine,Mareil-Marly,,2014,1 500 KM,17 990 €,0628537072,Pro,48.882174,2.076817
+888,aquitaine,Créteil,,2014,8 500 KM,18 290 €,0811708090,Pro,48.790367,2.455572
+889,aquitaine,Montrouge,,2013,26 145 KM,15 380 €,0142531111,Pro,48.816363,2.317384
+890,aquitaine,Montrouge,,2013,20 987 KM,15 850 €,0142531111,Pro,48.816363,2.317384
+891,aquitaine,Conflans-Sainte-Honorine,,2013,34 808 KM,16 890 €,0139192136,Pro,49.000275,2.09178
+892,aquitaine,Montrouge,,2014,8 634 KM,17 290 €,0146128847,Pro,48.816363,2.317384
+893,aquitaine,Montrouge,,2014,22 119 KM,15 670 €,0142531111,Pro,48.816363,2.317384
+894,aquitaine,Montrouge,,2014,9 508 KM,16 880 €,0142531111,Pro,48.816363,2.317384
+895,aquitaine,Montrouge,,2013,20 248 KM,15 850 €,0142531111,Pro,48.816363,2.317384
+896,aquitaine,Montrouge,,2013,25 972 KM,15 750 €,0142531111,Pro,48.816363,2.317384
+897,aquitaine,Montrouge,,2013,20 272 KM,15 850 €,0142531111,Pro,48.816363,2.317384
+898,aquitaine,Meaux,,2014,6 825 KM,17 800 €,0183616192,Pro,48.9562018,2.8884657
+899,aquitaine,Noisiel,,2014,18 718 KM,16 900 €,0160059293,Pro,48.85478,2.628701
+900,aquitaine,La Ferté-sous-Jouarre,,2013,6 900 KM,19 900 €,0609715599,Pro,48.95050699999999,3.130059
+901,aquitaine,Houdan,,2014,5 000 KM,18 400 €,,Part,48.789808,1.601126
+902,aquitaine,Le Port-Marly,,2014,1 KM,17 490 €,0175951008,Pro,48.88077699999999,2.110156
+903,aquitaine,Germigny-l'Evêque,,2013,21 000 KM,15 900 €,,Part,48.993659,2.945494
+904,aquitaine,Le Port-Marly,,2014,1 KM,17 490 €,0175951008,Pro,48.88077699999999,2.110156
+905,aquitaine,Le Port-Marly,,2014,10 KM,17 490 €,0175951008,Pro,48.88077699999999,2.110156
+906,aquitaine,Sartrouville,,2014,2 KM,20 780 €,0139145454,Pro,48.941106,2.158431
+907,aquitaine,Noisiel,,2014,10 506 KM,17 490 €,0160059293,Pro,48.85478,2.628701
+908,aquitaine,Montrouge,,2013,29 723 KM,14 850 €,0142531111,Pro,48.816363,2.317384
+909,aquitaine,Orgeval,,2013,8 090 KM,16 985 €,0139754280,Pro,48.918524,1.96978
+910,aquitaine,Saint-Maur-des-Fossés,,2014,9 500 KM,14 990 €,,Pro,48.8029439,2.485429
+911,aquitaine,Le Perreux-sur-Marne,,2014,100 KM,19 850 €,0143240835,Pro,48.841386,2.504038
+912,aquitaine,Le Perreux-sur-Marne,,2014,100 KM,17 990 €,0143240835,Pro,48.841386,2.504038
+913,aquitaine,Le Perreux-sur-Marne,,2014,100 KM,17 990 €,0143240835,Pro,48.841386,2.504038
+914,aquitaine,Colombes,,2013,21 500 KM,16 500 €,06.52.16.56.32,Part,48.9220615,2.2533313
+915,aquitaine,Villepreux,,2014,3 880 KM,20 300 €,06.59.95.62.06,Part,48.8301019,2.005269
+916,aquitaine,Boissise-le-Roi,,2014,10 KM,19 990 €,0160657097,Pro,48.526605,2.571664
+917,aquitaine,Noisiel,,2014,2 198 KM,18 900 €,0160059293,Pro,48.85478,2.628701
+918,aquitaine,Noisiel,,2014,2 244 KM,19 690 €,0160059293,Pro,48.85478,2.628701
+919,aquitaine,Thiais,,2014,10 KM,19 252 €,0175834788,Pro,48.760344,2.387405
+920,aquitaine,Nanterre,,2014,4 896 KM,16 890 €,0156837400,Pro,48.892423,2.215331
+921,aquitaine,Chatou,,2013,10 771 KM,17 900 €,0130157765,Pro,48.896391,2.160098
+922,aquitaine,Brie-Comte-Robert,,2014,4 500 KM,20 490 €,0160625056,Pro,48.69122669999999,2.6103697
+923,aquitaine,Brie-Comte-Robert,,2014,8 995 KM,18 980 €,0160625056,Pro,48.69122669999999,2.6103697
+924,aquitaine,Orgeval,,2013,21 050 KM,16 890 €,0139754280,Pro,48.918524,1.96978
+925,aquitaine,Paris,,2014,8 360 KM,17 790 €,0178455073,Pro,48.856614,2.3522219
+926,aquitaine,Paris,,2014,5 250 KM,17 490 €,0178455073,Pro,48.856614,2.3522219
+927,aquitaine,Villemomble,,2013,15 KM,17 900 €,0148941616,Pro,48.886727,2.505069
+928,aquitaine,Thiais,,2014,10 KM,17 422 €,0175834788,Pro,48.760344,2.387405
+929,aquitaine,Thiais,,2014,10 KM,19 720 €,0175834788,Pro,48.760344,2.387405
+930,aquitaine,Thiais,,2014,10 KM,18 442 €,0175834788,Pro,48.760344,2.387405
+931,aquitaine,Thiais,,2014,10 KM,18 436 €,0175834788,Pro,48.760344,2.387405
+932,aquitaine,Nointel,,2013,18 500 KM,17 730 €,,Part,49.37433,2.485642
+933,aquitaine,Thiais,,2014,10 KM,18 220 €,0175834788,Pro,48.760344,2.387405
+934,aquitaine,Thiais,,2014,10 KM,18 664 €,0175834788,Pro,48.760344,2.387405
+935,aquitaine,Sevran,,2014,30 KM,16 900 €,,Part,48.93897,2.538716
+936,aquitaine,Sartrouville,,2013,19 900 KM,15 880 €,0139145454,Pro,48.941106,2.158431
+937,aquitaine,Beauchamp,,2013,1 320 KM,14 990 €,0139316439,Pro,49.01575099999999,2.191521
+938,aquitaine,Beauchamp,,2014,8 860 KM,16 900 €,0139316439,Pro,49.01575099999999,2.191521
+939,aquitaine,Beauchamp,,2013,9 360 KM,16 900 €,0139316439,Pro,49.01575099999999,2.191521
+940,aquitaine,Antony,,2013,6 950 KM,18 300 €,,Part,48.759255,2.302553
+941,aquitaine,Melun,,2013,17 431 KM,16 980 €,0615872883,Pro,48.542105,2.6554
+942,aquitaine,Noisiel,,2013,10 131 KM,18 490 €,0160059293,Pro,48.85478,2.628701
+943,aquitaine,Isles-lès-Villenoy,,2014,10 KM,16 970 €,0184141900,Pro,48.911358,2.8281139
+944,aquitaine,Boissise-le-Roi,,2014,221 KM,19 990 €,0160657097,Pro,48.526605,2.571664
+945,aquitaine,Brie-Comte-Robert,,2014,17 421 KM,18 680 €,0160625056,Pro,48.69122669999999,2.6103697
+946,aquitaine,Noisiel,,2014,9 KM,18 900 €,0160059293,Pro,48.85478,2.628701
+947,aquitaine,Gargenville,,2014,6 500 KM,18 500 €,,Part,48.991435,1.809326
+948,aquitaine,Persan,,2014,185 KM,19 590 €,0130282837,Pro,49.152233,2.269571
+949,aquitaine,Argenteuil,,2013,18 978 KM,15 790 €,0178769520,Pro,48.9472096,2.2466847
+950,aquitaine,Fresnes,,2014,23 788 KM,15 990 €,0175448164,Pro,48.757205,2.326243
+951,aquitaine,Les Clayes-sous-Bois,,2014,20 411 KM,18 200 €,,Part,48.82342,1.976374
+952,aquitaine,Courbevoie,,2014,1 000 KM,16 500 €,,Part,48.900552,2.25929
+953,aquitaine,Saint-Denis,,2013,15 500 KM,15 500 €,,Part,48.936181,2.357443
+954,aquitaine,Thiais,,2014,10 KM,19 582 €,0175834788,Pro,48.760344,2.387405
+955,aquitaine,Villebon-sur-Yvette,,2013,29 177 KM,14 880 €,0169340404,Pro,48.6964029,2.236654
+956,aquitaine,Paris,,2013,7 800 KM,16 300 €,,Part,48.856614,2.3522219
+957,aquitaine,Trappes,,2013,41 494 KM,13 900 €,0161123085,Pro,48.776731,2.001844
+958,aquitaine,Trappes,,2013,37 929 KM,13 990 €,0161123085,Pro,48.776731,2.001844
+959,aquitaine,Paris,,2013,19 852 KM,16 990 €,0174076006,Pro,48.856614,2.3522219
+960,aquitaine,Crosne,,2013,10 000 KM,16 550 €,,Part,48.720171,2.461891
+961,aquitaine,Trappes,,2013,40 375 KM,13 990 €,0161123085,Pro,48.776731,2.001844
+962,aquitaine,Epinay-sous-Sénart,,2013,8 800 KM,16 800 €,,Part,48.69305199999999,2.515825
+963,aquitaine,Paris,,2014,3 863 KM,17 890 €,0174076006,Pro,48.856614,2.3522219
+964,aquitaine,Rambouillet,,2014,2 100 KM,16 200 €,06 84 84 82 20,Part,48.643868,1.829079
+965,aquitaine,Paris,,2013,18 805 KM,16 490 €,0174076006,Pro,48.856614,2.3522219
+966,aquitaine,Elancourt,,2014,19 000 KM,19 000 €,,Part,48.78290699999999,1.960077
+967,aquitaine,Levallois-Perret,,2014,10 KM,18 600 €,,Pro,48.89321700000001,2.287864
+968,aquitaine,Melun,,2014,19 199 KM,16 980 €,0615872883,Pro,48.542105,2.6554
+969,aquitaine,Versailles,,2014,3 457 KM,16 990 €,0175448151,Pro,48.801408,2.130122
+970,aquitaine,Persan,,2014,170 KM,19 590 €,0130282836,Pro,49.152233,2.269571
+971,aquitaine,Noisiel,,2014,5 385 KM,17 200 €,0160059293,Pro,48.85478,2.628701
+972,aquitaine,Les Ulis,,2014,3 080 KM,18 990 €,0160926972,Pro,48.6792779,2.16647
+973,aquitaine,Versailles,,2014,10 KM,16 900 €,0175448151,Pro,48.801408,2.130122
+974,aquitaine,Paris,,2014,5 780 KM,17 890 €,0178455073,Pro,48.856614,2.3522219
+975,aquitaine,Rosny-sous-Bois,,2013,12 500 KM,17 000 €,,Part,48.875661,2.485932
+976,aquitaine,Cagnes-sur-Mer,,2014,10 KM,16 990 €,0422170093,Pro,43.663739,7.14882
+977,aquitaine,Gap,,2014,3 714 KM,19 690 €,0628436660,Pro,44.559638,6.079758
+978,aquitaine,Aix-en-Provence,,2013,22 900 KM,15 990 €,,Pro,43.529742,5.447426999999999
+979,aquitaine,Fréjus,,2014,10 000 KM,18 000 €,,Part,43.43315200000001,6.737034
+980,aquitaine,Cannes,,2014,18 182 KM,16 600 €,0422170107,Pro,43.552847,7.017369
+981,aquitaine,Le Pontet,,2013,32 020 KM,14 990 €,0625982919,Pro,43.9591489,4.863830999999999
+982,aquitaine,Aix-en-Provence,,2014,6 002 KM,14 800 €,0825809109,Pro,43.529742,5.447426999999999
+983,aquitaine,Vitrolles,,2014,10 000 KM,19 300 €,0486802083,Pro,43.45859799999999,5.249702999999999
+984,aquitaine,Hyères,,2014,18 352 KM,14 800 €,0825809109,Pro,43.120541,6.128639
+985,aquitaine,Nice,,2014,11 888 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+986,aquitaine,Marseille,,2014,13 055 KM,14 800 €,0825809109,Pro,43.296482,5.36978
+987,aquitaine,Marignane,,2014,17 078 KM,14 800 €,0825809109,Pro,43.4212739,5.218332
+988,aquitaine,Hyères,,2014,16 046 KM,14 800 €,0825809109,Pro,43.120541,6.128639
+989,aquitaine,Nice,,2014,10 773 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+990,aquitaine,Aix-en-Provence,,2013,25 313 KM,13 400 €,0686038342,Pro,43.529742,5.447426999999999
+991,aquitaine,Marignane,,2014,20 078 KM,14 500 €,0825809109,Pro,43.4212739,5.218332
+992,aquitaine,Aix-en-Provence,,2014,15 948 KM,14 800 €,0675010042,Pro,43.529742,5.447426999999999
+993,aquitaine,Marignane,,2014,10 241 KM,14 800 €,0825809109,Pro,43.4212739,5.218332
+994,aquitaine,Nice,,2014,17 147 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+995,aquitaine,Marignane,,2013,20 087 KM,13 900 €,0825809109,Pro,43.4212739,5.218332
+996,aquitaine,Nice,,2014,13 268 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+997,aquitaine,Aix-en-Provence,,2013,22 466 KM,13 700 €,0825809109,Pro,43.529742,5.447426999999999
+998,aquitaine,Marseille,,2014,11 841 KM,14 800 €,0825809109,Pro,43.296482,5.36978
+999,aquitaine,Nice,,2014,9 545 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+1000,aquitaine,Cannes,,2014,16 816 KM,14 800 €,0825809109,Pro,43.552847,7.017369
+1001,aquitaine,Aix-en-Provence,,2014,19 206 KM,14 800 €,0825809109,Pro,43.529742,5.447426999999999
+1002,aquitaine,Hyères,,2014,15 998 KM,14 800 €,0825809109,Pro,43.120541,6.128639
+1003,aquitaine,Nice,,2014,11 200 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+1004,aquitaine,Toulon,,2014,19 000 KM,14 800 €,0825809109,Pro,43.124228,5.928
+1005,aquitaine,Cavaillon,,2014,15 798 KM,14 800 €,0825809109,Pro,43.8366045,5.0407814
+1006,aquitaine,Cannes,,2014,18 155 KM,14 800 €,0825809109,Pro,43.552847,7.017369
+1007,aquitaine,Nice,,2014,17 190 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+1008,aquitaine,Marignane,,2014,16 357 KM,14 800 €,0825809109,Pro,43.4212739,5.218332
+1009,aquitaine,Nice,,2014,13 785 KM,14 800 €,0825809109,Pro,43.7101728,7.261953200000001
+1010,aquitaine,Miramas,,2014,10 KM,18 990 €,09.74.91.50.00,Pro,43.588896,5.002136
+1011,aquitaine,Roquebrune-sur-Argens,,2014,5 KM,18 990 €,0000012501,Pro,43.443408,6.637682
+1012,aquitaine,La Seyne-sur-Mer,,2013,14 600 KM,16 900 €,,Part,43.102976,5.878219
+1013,aquitaine,Aix-en-Provence,,,1 KM,19 990 €,0476523234,Pro,43.529742,5.447426999999999
+1014,aquitaine,Aix-en-Provence,,2014,19 076 KM,17 490 €,0811708090,Pro,43.529742,5.447426999999999
+1015,aquitaine,Arles,,2013,19 327 KM,15 490 €,0490188023,Pro,43.676647,4.6277769
+1016,aquitaine,Marseille,,2013,13 000 KM,16 990 €,,Pro,43.296482,5.36978
+1017,aquitaine,Hyères,,2013,12 020 KM,16 900 €,06.58.36.06.06,Pro,43.120541,6.128639
+1018,aquitaine,Aix-en-Provence,,2013,10 KM,20 200 €,0811708090,Pro,43.529742,5.447426999999999
+1019,aquitaine,Avignon,,2013,16 209 KM,14 990 €,0811708090,Pro,43.94931700000001,4.805528
+1020,aquitaine,Hyères,,2013,23 000 KM,17 000 €,,Part,43.120541,6.128639
+1021,aquitaine,Cagnes-sur-Mer,,2014,10 KM,16 990 €,0422170093,Pro,43.663739,7.14882
+1022,aquitaine,Cagnes-sur-Mer,,2014,10 KM,20 990 €,0422170093,Pro,43.663739,7.14882
+1023,aquitaine,Hyères,,2013,19 500 KM,15 800 €,,Pro,43.120541,6.128639
+1024,aquitaine,Toulon,,2014,9 950 KM,19 500 €,,Part,43.124228,5.928
+1025,aquitaine,Ceyreste,,2013,26 000 KM,15 900 €,,Part,43.221502,5.634811
+1026,aquitaine,Cannes,,2014,4 363 KM,19 900 €,0422170107,Pro,43.552847,7.017369
+1027,aquitaine,Draguignan,,2014,5 KM,18 490 €,0000000662,Pro,43.5377269,6.464993
+1028,aquitaine,Cagnes-sur-Mer,,2014,5 026 KM,17 490 €,0422170093,Pro,43.663739,7.14882
+1029,aquitaine,La Valette-du-Var,,2014,9 KM,19 500 €,0422170181,Pro,43.13824,5.987584399999999
+1030,aquitaine,Marignane,,2014,4 689 KM,19 790 €,0608929780,Pro,43.4212739,5.218332
+1031,aquitaine,Marignane,,2014,17 147 KM,16 890 €,0608929780,Pro,43.4212739,5.218332
+1032,aquitaine,Vitrolles,,2014,19 239 KM,16 990 €,0613920082,Pro,43.45859799999999,5.249702999999999
+1033,aquitaine,Cannes,,2014,3 251 KM,18 800 €,0422170107,Pro,43.552847,7.017369
+1034,aquitaine,Coudoux,,2013,22 000 KM,16 100 €,0615065363,Part,43.558086,5.251238
+1035,aquitaine,Aubagne,,2014,11 KM,18 900 €,0422170191,Pro,43.2926781,5.5676425
+1036,aquitaine,Serres,,2013,23 000 KM,15 900 €,,Part,41.090923,23.5413198
+1037,aquitaine,Gap,,2014,10 891 KM,18 990 €,0628436660,Pro,44.559638,6.079758
+1038,aquitaine,La Valette-du-Var,,2013,16 769 KM,18 400 €,0422170181,Pro,43.13824,5.987584399999999
+1039,aquitaine,Aubagne,,2013,25 155 KM,16 200 €,0422170191,Pro,43.2926781,5.5676425
+1040,aquitaine,Cannes,,2014,6 012 KM,17 600 €,0422170107,Pro,43.552847,7.017369
+1041,aquitaine,Cagnes-sur-Mer,,2014,16 527 KM,16 990 €,0422170093,Pro,43.663739,7.14882
+1042,aquitaine,Draguignan,,2014,5 KM,18 490 €,0000001730,Pro,43.5377269,6.464993
+1043,aquitaine,Roquebrune-sur-Argens,,2014,5 KM,19 590 €,0000054205,Pro,43.443408,6.637682
+1044,aquitaine,Marseille,,2013,40 849 KM,14 700 €,0422170199,Pro,43.296482,5.36978
+1045,aquitaine,Cannes,,2014,3 985 KM,17 900 €,0422170107,Pro,43.552847,7.017369
+1046,aquitaine,Cannes,,2014,3 640 KM,17 900 €,0422170107,Pro,43.552847,7.017369
+1047,aquitaine,Gap,,2013,9 954 KM,17 400 €,0492533452,Pro,44.559638,6.079758
+1048,aquitaine,Marignane,,2013,13 576 KM,17 990 €,0608929780,Pro,43.4212739,5.218332
+1049,aquitaine,Arles,,2013,23 259 KM,16 490 €,0490188023,Pro,43.676647,4.6277769
+1050,aquitaine,Manosque,,2013,29 632 KM,15 990 €,0628436660,Pro,43.835744,5.790916
+1051,aquitaine,Rognonas,,2013,28 000 KM,17 990 €,,Part,43.898503,4.803017
+1052,aquitaine,Avignon,,2013,9 500 KM,14 990 €,0486877981,Pro,43.94931700000001,4.805528
+1053,aquitaine,La Destrousse,,2014,10 KM,19 780 €,,Pro,43.37687400000001,5.605345
+1054,aquitaine,Avignon,,2013,11 900 KM,16 900 €,0624646507,Pro,43.94931700000001,4.805528
+1055,aquitaine,Fréjus,,2014,1 222 KM,19 900 €,0669509220,Pro,43.43315200000001,6.737034
+1056,aquitaine,Venelles,,2014,300 KM,19 990 €,0625620029,Pro,43.598546,5.4847245
+1057,aquitaine,Carpentras,,2014,9 548 KM,16 500 €,0640226880,Pro,44.0555639,5.048722
+1058,aquitaine,Bollène,,2013,19 279 KM,16 990 €,0634239821,Pro,44.280508,4.748965999999999
+1059,aquitaine,Bollène,,2013,9 739 KM,16 100 €,0634239821,Pro,44.280508,4.748965999999999
+1060,aquitaine,Cannes,,2013,26 808 KM,16 900 €,0422170107,Pro,43.552847,7.017369
+1061,aquitaine,Saint-Maximin-la-Sainte-Baume,,2013,29 000 KM,14 900 €,,Part,43.452497,5.864004
+1062,aquitaine,Orange,,2014,10 KM,16 700 €,0607135149,Pro,44.1380989,4.807511
+1063,aquitaine,Cannes,,2014,5 219 KM,17 900 €,0422170107,Pro,43.552847,7.017369
+1064,aquitaine,Cavaillon,,2014,18 670 KM,16 990 €,0490786363,Pro,43.8366045,5.0407814
+1065,aquitaine,Cagnes-sur-Mer,,2014,8 210 KM,17 490 €,0422170093,Pro,43.663739,7.14882
+1066,aquitaine,Salon-de-Provence,,2014,5 470 KM,17 900 €,0490421313,Pro,43.640199,5.097022
+1067,aquitaine,Cannes,,2014,4 733 KM,18 300 €,0422170107,Pro,43.552847,7.017369
+1068,aquitaine,Antibes,,2013,40 860 KM,15 290 €,,Pro,43.58041799999999,7.125102
+1069,aquitaine,Cavaillon,,2014,18 507 KM,17 490 €,0490786363,Pro,43.8366045,5.0407814
+1070,aquitaine,Arles,,2014,11 852 KM,17 990 €,0490188023,Pro,43.676647,4.6277769
+1071,aquitaine,Martigues,,2014,10 KM,18 900 €,06 64 16 99 51,Pro,43.404811,5.053728
+1072,aquitaine,Salon-de-Provence,,2014,18 637 KM,18 500 €,0490421313,Pro,43.640199,5.097022
+1073,aquitaine,Vitrolles,,2014,10 KM,19 900 €,0486802083,Pro,43.45859799999999,5.249702999999999
+1074,aquitaine,Marignane,,2014,10 KM,18 990 €,0608929780,Pro,43.4212739,5.218332
+1075,aquitaine,Marseille,,2013,9 800 KM,15 500 €,,Part,43.296482,5.36978
+1076,aquitaine,La Ciotat,,2013,17 913 KM,16 200 €,,Part,43.17365299999999,5.605155
+1077,aquitaine,Aubagne,,2014,4 535 KM,17 800 €,0422170191,Pro,43.2926781,5.5676425
+1078,aquitaine,Port-de-Bouc,,2014,2 400 KM,20 900 €,0442405353,Pro,43.405449,4.985931
+1079,aquitaine,Simiane-Collongue,,2014,4 500 KM,19 200 €,06.52.69.44.08,Part,43.429668,5.434832999999999
+1080,aquitaine,Fayence,,2013,28 000 KM,14 500 €,,Part,43.624076,6.694103000000001
+1081,aquitaine,La Seyne-sur-Mer,,2013,7 450 KM,16 500 €,0682177533,Pro,43.102976,5.878219
+1082,aquitaine,Avignon,,2013,41 573 KM,14 990 €,0486877981,Pro,43.94931700000001,4.805528
+1083,aquitaine,Marignane,,2014,1 674 KM,16 990 €,0608929780,Pro,43.4212739,5.218332
+1084,aquitaine,Cagnes-sur-Mer,,2013,20 500 KM,16 990 €,0422170093,Pro,43.663739,7.14882
+1085,aquitaine,Gardanne,,2013,24 060 KM,15 900 €,0442949596,Pro,43.4525982,5.4717363
+1086,aquitaine,Le Pontet,,2013,24 600 KM,15 790 €,0625982919,Pro,43.9591489,4.863830999999999
+1087,aquitaine,Orange,,2013,21 174 KM,15 900 €,0612103931,Pro,44.1380989,4.807511
+1088,aquitaine,Cannes,,2013,19 485 KM,16 800 €,0422170107,Pro,43.552847,7.017369
+1089,aquitaine,Aix-en-Provence,,2013,29 757 KM,15 490 €,0442952895,Pro,43.529742,5.447426999999999
+1090,aquitaine,Antibes,,2014,18 625 KM,16 990 €,,Pro,43.58041799999999,7.125102
+1091,aquitaine,Brignoles,,2013,19 372 KM,17 490 €,0494370125,Pro,43.40655,6.061186999999999
+1092,aquitaine,Valréas,,2013,3 795 KM,17 400 €,0490351460,Pro,44.383724,4.989187
+1093,aquitaine,Aix-en-Provence,,2013,10 000 KM,17 000 €,,Part,43.529742,5.447426999999999
+1094,aquitaine,Saint-Chamas,,2013,28 000 KM,17 500 €,,Part,43.550669,5.034508
+1095,aquitaine,La Valette-du-Var,,2013,11 003 KM,17 900 €,0422170181,Pro,43.13824,5.987584399999999
+1096,aquitaine,Manosque,,2013,13 500 KM,17 990 €,0628436660,Pro,43.835744,5.790916
+1097,aquitaine,Manosque,,2014,8 254 KM,15 990 €,0628436660,Pro,43.835744,5.790916
+1098,aquitaine,La Valette-du-Var,,2013,17 904 KM,17 700 €,0422170181,Pro,43.13824,5.987584399999999
+1099,aquitaine,Manosque,,2013,14 500 KM,16 490 €,0628436660,Pro,43.835744,5.790916
+1100,aquitaine,Garéoult,,2013,30 000 KM,16 900 €,,Part,43.329229,6.045799
+1101,aquitaine,Nice,,2014,16 800 KM,15 850 €,,Pro,43.7101728,7.261953200000001
+1102,aquitaine,Marseille,,2013,9 600 KM,17 500 €,,Part,43.296482,5.36978
+1103,aquitaine,Draguignan,,2013,11 058 KM,14 990 €,0687808813,Pro,43.5377269,6.464993
+1104,aquitaine,Mougins,,2013,3 895 KM,14 900 €,0422106388,Pro,43.6023319,7.006491
+1105,aquitaine,Fréjus,,2013,11 225 KM,15 990 €,0669509220,Pro,43.43315200000001,6.737034
+1106,aquitaine,Lauris,,2013,40 000 KM,16 000 €,,Part,43.746982,5.313600999999999
+1107,aquitaine,Marignane,,2014,3 962 KM,16 890 €,0608929780,Pro,43.4212739,5.218332
+1108,aquitaine,Cannes,,2014,5 109 KM,18 290 €,0422170107,Pro,43.552847,7.017369
+1109,aquitaine,Lançon-Provence,,2014,10 KM,16 990 €,,Pro,43.591912,5.126824
+1110,aquitaine,Cannes,,2014,5 541 KM,17 899 €,0422170107,Pro,43.552847,7.017369
+1111,aquitaine,Nice,,2014,4 994 KM,13 900 €,0489613187,Pro,43.7101728,7.261953200000001
+1112,aquitaine,Avignon,,2014,7 092 KM,17 900 €,0486877981,Pro,43.94931700000001,4.805528
+1113,aquitaine,Vitrolles,,2014,11 136 KM,15 990 €,0613920082,Pro,43.45859799999999,5.249702999999999
+1114,aquitaine,Manosque,,2013,5 486 KM,14 990 €,0628436660,Pro,43.835744,5.790916
+1115,aquitaine,Arles,,2014,18 303 KM,15 990 €,0490188023,Pro,43.676647,4.6277769
+1116,aquitaine,Marseille,,2013,24 500 KM,14 800 €,,Part,43.296482,5.36978
+1117,aquitaine,Draguignan,,2014,2 719 KM,16 490 €,0687808813,Pro,43.5377269,6.464993
+1118,aquitaine,La Garde,,2014,10 KM,18 790 €,04 94 03 47 80,Pro,43.128777,6.017199
+1119,aquitaine,Cagnes-sur-Mer,,2014,3 497 KM,19 490 €,0422170093,Pro,43.663739,7.14882
+1120,aquitaine,Cannes,,2013,29 361 KM,16 490 €,0422170107,Pro,43.552847,7.017369
+1121,aquitaine,Aix-en-Provence,,2014,20 598 KM,17 490 €,0811708090,Pro,43.529742,5.447426999999999
+1122,aquitaine,Aix-en-Provence,,2014,18 566 KM,17 890 €,0811708090,Pro,43.529742,5.447426999999999
+1123,aquitaine,Aix-en-Provence,,2013,3 333 KM,15 150 €,0811708090,Pro,43.529742,5.447426999999999
+1124,aquitaine,Aix-en-Provence,,2014,10 KM,19 790 €,0811708090,Pro,43.529742,5.447426999999999
+1125,aquitaine,Aix-en-Provence,,2013,10 KM,20 200 €,0811708090,Pro,43.529742,5.447426999999999
+1126,aquitaine,Avignon,,2014,8 900 KM,17 990 €,0486877981,Pro,43.94931700000001,4.805528
+1127,aquitaine,Orange,,2014,13 306 KM,17 990 €,0607135149,Pro,44.1380989,4.807511
+1128,aquitaine,Fos-sur-Mer,,2013,17 300 KM,17 300 €,,Part,43.43788199999999,4.945711
+1129,aquitaine,Draguignan,,2013,32 000 KM,16 900 €,,Part,43.5377269,6.464993
+1130,aquitaine,Brignoles,,2013,25 746 KM,16 990 €,0494370125,Pro,43.40655,6.061186999999999
+1131,aquitaine,La Seyne-sur-Mer,,2014,5 KM,19 900 €,0683688779,Pro,43.102976,5.878219
+1132,aquitaine,Cavaillon,,2014,10 KM,16 900 €,0490066262,Pro,43.8366045,5.0407814
+1133,aquitaine,Manosque,,2013,23 143 KM,16 490 €,0628436660,Pro,43.835744,5.790916
+1134,aquitaine,Cannes,,2013,19 612 KM,16 900 €,0422170107,Pro,43.552847,7.017369
+1135,aquitaine,Salon-de-Provence,,2014,20 394 KM,16 900 €,0490421313,Pro,43.640199,5.097022
+1136,aquitaine,Saint-Andiol,,2014,2 000 KM,8 500 €,,Pro,43.835465,4.944566
+1137,aquitaine,Brignoles,,2014,12 758 KM,17 490 €,0494370125,Pro,43.40655,6.061186999999999
+1138,aquitaine,Marseille,,2013,27 000 KM,15 500 €,,Part,43.296482,5.36978
+1139,aquitaine,La Garde,,2013,7 846 KM,16 000 €,06 19 79 56 24,Pro,43.128777,6.017199
+1140,aquitaine,Cagnes-sur-Mer,,2014,22 786 KM,16 990 €,0422170093,Pro,43.663739,7.14882
+1141,aquitaine,Cannes,,2014,10 KM,22 490 €,06 51 78 27 29,Pro,43.552847,7.017369
+1142,aquitaine,Marignane,,2014,7 455 KM,19 790 €,0608929780,Pro,43.4212739,5.218332
+1143,aquitaine,Tarascon,,2014,1 500 KM,19 950 €,,Part,43.80604400000001,4.65752
+1144,aquitaine,Le Lavandou,,2014,2 500 KM,19 200 €,,Part,43.138042,6.368436
+1145,aquitaine,La Seyne-sur-Mer,,2014,5 KM,19 900 €,0683688779,Pro,43.102976,5.878219
+1146,aquitaine,Rognac,,2013,39 748 KM,3 900 €,,Pro,43.487871,5.23463
+1147,aquitaine,Le Cannet,,2014,8 000 KM,17 500 €,,Part,43.57655099999999,7.019019999999999
+1148,aquitaine,Cavaillon,,2014,10 KM,21 500 €,0490064814,Pro,43.8366045,5.0407814
+1149,aquitaine,Marseille,,2014,9 000 KM,18 000 €,,Part,43.296482,5.36978
+1150,aquitaine,Saint-Julien,,2013,25 000 KM,14 600 €,,Part,46.144516,6.081338
+1151,aquitaine,Marseille,,2013,10 100 KM,19 900 €,,Part,43.296482,5.36978
+1152,aquitaine,Le Luc,,2014,8 500 KM,16 990 €,0619024715,Pro,43.39450900000001,6.313233899999999
+1153,aquitaine,Montfavet,,2014,173 KM,21 500 €,0620230666,Pro,43.9280929,4.886973999999999
+1154,aquitaine,Nice,,2014,208 KM,20 500 €,,Part,43.7101728,7.261953200000001
+1155,aquitaine,Nice,,2014,2 KM,19 680 €,06 99 35 99 64,Pro,43.7101728,7.261953200000001
+1156,aquitaine,Pertuis,,2013,27 500 KM,17 450 €,,Part,43.694275,5.501843
+1157,aquitaine,Ollioules,,2014,7 000 KM,18 000 €,,Part,43.13990099999999,5.847652
+1158,aquitaine,La Croix-Valmer,,2014,10 100 KM,18 500 €,,Part,43.206521,6.568810999999999
+1159,aquitaine,Aubagne,,2013,20 710 KM,16 800 €,0422170191,Pro,43.2926781,5.5676425
+1160,aquitaine,Rians,,2014,4 500 KM,18 900 €,,Pro,43.606476,5.756592899999999
+1161,aquitaine,Aubagne,,2013,27 785 KM,16 200 €,0422170191,Pro,43.2926781,5.5676425
+1162,aquitaine,Fos-sur-Mer,,2014,8 KM,18 990 €,0442053000,Pro,43.43788199999999,4.945711
+1163,aquitaine,La Valette-du-Var,,2013,17 233 KM,16 900 €,0422170181,Pro,43.13824,5.987584399999999
+1164,aquitaine,Gap,,2013,10 700 KM,19 300 €,,Part,44.559638,6.079758
+1165,aquitaine,Bouc-Bel-Air,,2014,20 401 KM,16 900 €,09 83 67 11 44,Pro,43.451152,5.413875
+1166,aquitaine,Fréjus,,2013,3 200 KM,18 000 €,,Part,43.43315200000001,6.737034
+1167,aquitaine,La Croix-Valmer,,2014,292 KM,19 125 €,,Pro,43.206521,6.568810999999999
+1168,aquitaine,Fréjus,,2013,10 171 KM,16 790 €,0669509220,Pro,43.43315200000001,6.737034
+1169,aquitaine,Saint-Paul-lès-Dax,,2014,5 KM,18 990 €,,Pro,43.724934,-1.051409
+1170,aquitaine,Bidart,,2014,10 KM,17 900 €,,Pro,43.439236,-1.590062
+1171,aquitaine,Bergerac,,2014,19 993 KM,16 795 €,,Pro,44.853806,0.483392
+1172,aquitaine,Bergerac,,2013,21 048 KM,16 995 €,0553636565,Pro,44.853806,0.483392
+1173,aquitaine,Mérignac,,2013,11 000 KM,20 490 €,0557215831,Pro,44.8448769,-0.656358
+1174,aquitaine,Bergerac,,2014,17 084 KM,17 595 €,0553636565,Pro,44.853806,0.483392
+1175,aquitaine,Mérignac,,2014,24 353 KM,14 500 €,0825809109,Pro,44.8448769,-0.656358
+1176,aquitaine,Mérignac,,2014,18 013 KM,15 000 €,0698288701,Pro,44.8448769,-0.656358
+1177,aquitaine,Mérignac,,2014,19 520 KM,14 800 €,0825809109,Pro,44.8448769,-0.656358
+1178,aquitaine,Uzein,,2014,18 144 KM,15 000 €,0559331638,Pro,43.399259,-0.432582
+1179,aquitaine,Mérignac,,2014,22 000 KM,15 200 €,0608559898,Pro,44.8448769,-0.656358
+1180,aquitaine,Lormont,,2014,10 KM,19 390 €,05.82.84.82.37,Pro,44.880163,-0.523108
+1181,aquitaine,Lormont,,2014,10 KM,19 390 €,05.82.84.82.37,Pro,44.880163,-0.523108
+1182,aquitaine,Lormont,,2014,10 KM,19 390 €,05.82.84.82.37,Pro,44.880163,-0.523108
+1183,aquitaine,Lormont,,2014,10 KM,19 390 €,05.82.84.82.37,Pro,44.880163,-0.523108
+1184,aquitaine,Boé,,2014,10 KM,19 490 €,05.53.68.49.31,Pro,44.159599,0.628594
+1185,aquitaine,Lormont,,2014,10 KM,18 990 €,05.82.84.82.37,Pro,44.880163,-0.523108
+1186,aquitaine,Mussidan,,2013,38 000 KM,15 500 €,,Part,45.037085,0.364299
+1187,aquitaine,Boé,,2014,10 KM,19 490 €,05.53.68.49.31,Pro,44.159599,0.628594
+1188,aquitaine,Lormont,,2014,11 000 KM,18 290 €,05.82.84.82.37,Pro,44.880163,-0.523108
+1189,aquitaine,Agen,,2013,9 500 KM,17 500 €,05.53.66.89.49,Part,44.203142,0.616363
+1190,aquitaine,Saint-Sever,,2014,20 850 KM,15 990 €,0558055326,Pro,43.759137,-0.574221
+1191,aquitaine,Pau,,2013,17 000 KM,13 490 €,0000000087,Pro,43.2951,-0.370797
+1192,aquitaine,Mérignac,,2013,14 768 KM,16 990 €,0556120000,Pro,44.8448769,-0.656358
+1193,aquitaine,Mont-de-Marsan,,2014,23 739 KM,18 590 €,0524449118,Pro,43.893485,-0.4997819999999999
+1194,aquitaine,Sérignac-sur-Garonne,,2014,10 KM,19 490 €,,Pro,44.214076,0.484675
+1195,aquitaine,Mugron,,2013,11 000 KM,15 900 €,05 58 97 71 01,Pro,43.751052,-0.7487619999999999
+1196,aquitaine,Pessac,,2014,16 157 KM,18 500 €,0531081450,Pro,44.80583,-0.630386
+1197,aquitaine,Bordeaux,,2014,10 KM,19 990 €,,Pro,44.837789,-0.57918
+1198,aquitaine,Bidart,,2013,14 000 KM,14 990 €,,Pro,43.439236,-1.590062
+1199,aquitaine,Escource,,2014,16 000 KM,17 000 €,,Part,44.163863,-1.0328679
+1200,aquitaine,Le Bouscat,,2014,3 140 KM,17 490 €,0531081574,Pro,44.865164,-0.59944
+1201,aquitaine,Bayonne,,2013,21 778 KM,17 490 €,0540017303,Pro,43.492949,-1.474841
+1202,aquitaine,Le Teich,,2014,12 500 KM,16 500 €,,Part,44.635606,-1.0208759
+1203,aquitaine,Bergerac,,2014,3 576 KM,17 795 €,0553636565,Pro,44.853806,0.483392
+1204,aquitaine,Bidart,,2014,10 KM,17 290 €,,Pro,43.439236,-1.590062
+1205,aquitaine,Pessac,,2013,8 700 KM,15 900 €,,Part,44.80583,-0.630386
+1206,aquitaine,Périgueux,,2013,27 000 KM,16 500 €,05-53-35-64-15,Pro,45.184029,0.7211149
+1207,aquitaine,Pessac,,2013,29 383 KM,16 500 €,0531081450,Pro,44.80583,-0.630386
+1208,aquitaine,Lormont,,2013,20 750 KM,16 490 €,0531081576,Pro,44.880163,-0.523108
+1209,aquitaine,Mérignac,,2013,63 000 KM,14 500 €,0669093874,Pro,44.8448769,-0.656358
+1210,aquitaine,Biscarrosse,,2013,21 500 KM,18 290 €,,Pro,44.3946602,-1.164218
+1211,aquitaine,Biscarrosse,,2014,8 900 KM,19 490 €,,Pro,44.3946602,-1.164218
+1212,aquitaine,Salignac,,2014,13 360 KM,17 200 €,,Pro,45.01555399999999,-0.379659
+1213,aquitaine,Mourenx,,2014,18 000 KM,16 590 €,,Pro,43.368262,-0.6205520000000001
+1214,aquitaine,La Teste-de-Buch,,2014,10 KM,19 290 €,0556225600,Pro,44.631077,-1.148224
+1215,aquitaine,Bayonne,,2014,4 633 KM,18 490 €,0540017303,Pro,43.492949,-1.474841
+1216,aquitaine,Bergerac,,2014,19 734 KM,17 595 €,0553636565,Pro,44.853806,0.483392
+1217,aquitaine,La Teste-de-Buch,,2014,17 897 KM,17 490 €,0557525270,Pro,44.631077,-1.148224
+1218,aquitaine,Trélissac,,2014,20 116 KM,16 800 €,0634905428,Pro,45.196131,0.77911
+1219,aquitaine,Capbreton,,2013,28 830 KM,15 990 €,06.25.49.66.53,Pro,43.637844,-1.420939
+1220,aquitaine,Le Haillan,,2014,10 KM,18 950 €,05.56.98.77.50,Pro,44.873167,-0.677914
+1221,aquitaine,Mont-de-Marsan,,2014,12 377 KM,16 890 €,0524449118,Pro,43.893485,-0.4997819999999999
+1222,aquitaine,Pessac,,2013,10 541 KM,15 900 €,0531081450,Pro,44.80583,-0.630386
+1223,aquitaine,Bordeaux,,2014,20 KM,18 690 €,0557818910,Pro,44.837789,-0.57918
+1224,aquitaine,Parentis-en-Born,,2014,16 492 KM,16 990 €,0558784350,Pro,44.35261999999999,-1.0729979
+1225,aquitaine,Dax,,2014,10 KM,18 990 €,0582848036,Pro,43.708608,-1.051945
+1226,aquitaine,Bayonne,,2013,10 KM,18 950 €,0535372089,Pro,43.492949,-1.474841
+1227,aquitaine,Mérignac,,2014,17 400 KM,17 490 €,0556132965,Pro,44.8448769,-0.656358
+1228,aquitaine,Langon,,2014,11 470 KM,16 690 €,0556634469,Pro,44.555419,-0.245126
+1229,aquitaine,Lormont,,2014,5 496 KM,16 991 €,0531081576,Pro,44.880163,-0.523108
+1230,aquitaine,Dax,,2014,19 459 KM,16 490 €,0524449901,Pro,43.708608,-1.051945
+1231,aquitaine,Pau,,2014,8 650 KM,17 900 €,0547200024,Pro,43.2951,-0.370797
+1232,aquitaine,Le Bouscat,,2014,4 580 KM,17 890 €,0531081574,Pro,44.865164,-0.59944
+1233,aquitaine,Port-Sainte-Foy-et-Ponchapt,,2014,17 000 KM,19 400 €,,Part,44.84402799999999,0.210809
+1234,aquitaine,Hendaye,,2013,13 000 KM,14 200 €,0686415358,Part,43.359399,-1.766148
+1235,aquitaine,Bergerac,,2014,19 993 KM,16 795 €,0553636565,Pro,44.853806,0.483392
+1236,aquitaine,Villenave-d'Ornon,,2014,7 535 KM,17 990 €,0531081640,Pro,44.7799813,-0.5672574
+1237,aquitaine,Léognan,,2013,13 500 KM,16 190 €,,Part,44.727859,-0.59709
+1238,aquitaine,Lormont,,2014,770 KM,18 590 €,0531081576,Pro,44.880163,-0.523108
+1239,aquitaine,Pessac,,2014,10 683 KM,18 500 €,0531081450,Pro,44.80583,-0.630386
+1240,aquitaine,Orthez,,2013,25 997 KM,16 990 €,0559387915,Pro,43.48755999999999,-0.7739279
+1241,aquitaine,Pessac,,2014,16 768 KM,16 500 €,0531081450,Pro,44.80583,-0.630386
+1242,aquitaine,Mouguerre,,2014,50 KM,18 790 €,,Pro,43.4669359,-1.415368
+1243,aquitaine,Pau,,2014,1 190 KM,19 500 €,0559028670,Pro,43.2951,-0.370797
+1244,aquitaine,Pau,,2013,24 896 KM,15 500 €,0547200024,Pro,43.2951,-0.370797
+1245,aquitaine,Dax,,2014,19 500 KM,18 490 €,0524449901,Pro,43.708608,-1.051945
+1246,aquitaine,Dax,,2014,21 000 KM,17 990 €,0524449901,Pro,43.708608,-1.051945
+1247,aquitaine,Dax,,2014,18 500 KM,18 490 €,0524449901,Pro,43.708608,-1.051945
+1248,aquitaine,Trélissac,,2014,6 703 KM,19 800 €,0634905428,Pro,45.196131,0.77911
+1249,aquitaine,Mérignac,,2014,1 KM,18 490 €,06 76 52 82 45,Pro,44.8448769,-0.656358
+1250,aquitaine,Oloron-Sainte-Marie,,2013,16 670 KM,17 500 €,0531081516,Pro,43.194413,-0.6052919999999999
+1251,aquitaine,Le Bouscat,,2014,12 839 KM,17 890 €,0531081574,Pro,44.865164,-0.59944
+1252,aquitaine,Le Bouscat,,2014,22 747 KM,17 890 €,0531081574,Pro,44.865164,-0.59944
+1253,aquitaine,Oloron-Sainte-Marie,,2014,20 320 KM,17 300 €,0531081516,Pro,43.194413,-0.6052919999999999
+1254,aquitaine,Le Bouscat,,2014,18 193 KM,17 890 €,0531081574,Pro,44.865164,-0.59944
+1255,aquitaine,Le Bouscat,,2014,14 763 KM,17 590 €,0531081574,Pro,44.865164,-0.59944
+1256,aquitaine,Mont-de-Marsan,,2014,20 KM,18 990 €,06.82.65.14.60,Pro,43.893485,-0.4997819999999999
+1257,aquitaine,Saint-Macaire,,2014,11 000 KM,17 880 €,,Pro,44.565289,-0.226334
+1258,aquitaine,Pessac,,2014,14 417 KM,18 500 €,0531081450,Pro,44.80583,-0.630386
+1259,aquitaine,Pessac,,2014,15 640 KM,18 500 €,0531081450,Pro,44.80583,-0.630386
+1260,aquitaine,Lormont,,2014,18 403 KM,17 891 €,0531081576,Pro,44.880163,-0.523108
+1261,aquitaine,Lormont,,2014,9 118 KM,17 390 €,0531081576,Pro,44.880163,-0.523108
+1262,aquitaine,Pau,,2013,22 849 KM,15 990 €,0547200024,Pro,43.2951,-0.370797
+1263,aquitaine,Saint-Loubès,,2014,7 100 KM,18 000 €,,Part,44.916735,-0.4271
+1264,aquitaine,Issigeac,,2013,7 300 KM,19 700 €,,Pro,44.73074099999999,0.6074729999999999
+1265,aquitaine,Trélissac,,2014,15 688 KM,17 400 €,0634905428,Pro,45.196131,0.77911
+1266,aquitaine,Dax,,2014,6 999 KM,16 990 €,0524449901,Pro,43.708608,-1.051945
+1267,aquitaine,Trélissac,,2014,14 082 KM,17 400 €,0634905428,Pro,45.196131,0.77911
+1268,aquitaine,Mont-de-Marsan,,2014,10 KM,19 990 €,0558859191,Pro,43.893485,-0.4997819999999999
+1269,aquitaine,Soulac-sur-Mer,,2013,25 000 KM,18 000 €,,Part,45.515125,-1.123258
+1270,aquitaine,Lormont,,2014,9 418 KM,17 790 €,0531081576,Pro,44.880163,-0.523108
+1271,aquitaine,Parentis-en-Born,,2014,5 KM,19 990 €,0558784350,Pro,44.35261999999999,-1.0729979
+1272,aquitaine,Bayonne,,2014,23 KM,19 290 €,05.59.59.85.85,Pro,43.492949,-1.474841
+1273,aquitaine,Bergerac,,2014,3 023 KM,19 595 €,0553636565,Pro,44.853806,0.483392
+1274,aquitaine,Lesparre-Médoc,,2014,3 900 KM,17 990 €,0556410095,Pro,45.305814,-0.93519
+1275,aquitaine,Pau,,2013,11 270 KM,17 990 €,0559028670,Pro,43.2951,-0.370797
+1276,aquitaine,Libourne,,2013,12 729 KM,16 800 €,0557244071,Pro,44.91299799999999,-0.243985
+1277,aquitaine,Mont-de-Marsan,,2013,20 288 KM,16 590 €,0524449118,Pro,43.893485,-0.4997819999999999
+1278,aquitaine,Bordeaux,,2014,10 KM,16 950 €,0557818910,Pro,44.837789,-0.57918
+1279,aquitaine,Notre-Dame-de-Sanilhac,,2014,15 000 KM,19 500 €,,Part,45.121311,0.71385
+1280,aquitaine,Bergerac,,2014,18 503 KM,17 395 €,0553636565,Pro,44.853806,0.483392
+1281,aquitaine,Trélissac,,2013,26 409 KM,16 900 €,0634905428,Pro,45.196131,0.77911
+1282,aquitaine,Bayonne,,2014,1 550 KM,18 490 €,0540017303,Pro,43.492949,-1.474841
+1283,aquitaine,Castillon-la-Bataille,,2013,8 000 KM,16 500 €,,Part,44.852067,-0.043008
+1284,aquitaine,Villeneuve-sur-Lot,,2013,25 230 KM,16 900 €,0553401774,Pro,44.4082053,0.7072568
+1285,aquitaine,Bordeaux,,2013,18 500 KM,15 990 €,0557818910,Pro,44.837789,-0.57918
+1286,aquitaine,Le Bouscat,,2014,11 565 KM,18 290 €,0531081574,Pro,44.865164,-0.59944
+1287,aquitaine,Villenave-d'Ornon,,2013,21 263 KM,15 990 €,0531081640,Pro,44.7799813,-0.5672574
+1288,aquitaine,Agen,,2014,13 000 KM,17 800 €,0677287675,Part,44.203142,0.616363
+1289,aquitaine,Anglet,,2014,10 KM,17 990 €,0611648631,Pro,43.481402,-1.514699
+1290,aquitaine,Pessac,,2014,6 923 KM,17 500 €,0531081450,Pro,44.80583,-0.630386
+1291,aquitaine,Pessac,,2013,24 127 KM,16 500 €,0531081450,Pro,44.80583,-0.630386
+1292,aquitaine,Pessac,,2013,23 752 KM,16 500 €,0531081450,Pro,44.80583,-0.630386
+1293,aquitaine,Pessac,,2014,14 351 KM,18 500 €,0531081450,Pro,44.80583,-0.630386
+1294,aquitaine,Pessac,,2013,37 241 KM,15 900 €,0531081450,Pro,44.80583,-0.630386
