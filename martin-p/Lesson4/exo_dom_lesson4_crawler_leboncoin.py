@@ -189,7 +189,7 @@ class DataFrame:
                 phoneNumbersList = phoneNumbersList + phoneNumbersTags
 
         for phoneNumber in list(set(phoneNumbersList)):
-                phoneNumbers = phoneNumbers + re.sub(r'\D',"", unicode(phoneNumber)).strip() + " / "
+                phoneNumbers = phoneNumbers + re.sub(r'\D',"", unicode(phoneNumber)).strip() + " | "
         phoneNumbers = phoneNumbers[:-2]
 
         # if we haven't found phone numbers
