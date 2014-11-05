@@ -37,7 +37,7 @@ def findForme(s):
         
 def main():
     
-    xl = pd.ExcelFile("MEDICAM 2008-2013-AMELI.xls")
+    xl = pd.ExcelFile("/home/louarradi/Documents/Info721/MEDICAM 2008-2013-AMELI.xls")
 
     df = xl.parse("MedicAM 0813").dropna()    
  
