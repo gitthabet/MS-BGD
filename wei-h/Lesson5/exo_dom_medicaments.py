@@ -20,27 +20,16 @@ c13 = "Base de remboursement 2013"
 
 df = DataFrame(datas,columns=[nomC, c08, c09, c10, c11, c12, c13])
                              
-df['Nouveau remboursé'] = (df[c13]>0) & (df[c12]<=0)
-df['Déremboursés 2013﻿'] = (df[c13] == 0)
-df['Déremboursés 2008-2013'] = (df[c13] == 0) & (df[c12] == 0) & (df[c11] == 0) & (df[c10] == 0) & (df[c09] == 0) & (df[c08] == 0)
+df['Nouveaux rembourses'] = (df[c13]>0) & (df[c12]<=0)
+df['Derembourses 2013﻿'] = (df[c13] == 0)
+df['Derembourses 2008-2013'] = (df[c13] == 0) & (df[c12] == 0) & (df[c11] == 0) & (df[c10] == 0) & (df[c09] == 0) & (df[c08] == 0)
 
-nouveauxRembourses = df[nomC][(df['Nouveau remboursé']==True)]
-derembourses2013 = df[nomC][(df['Déremboursés 2013﻿']==True)]
-deremboursesDepuis2008 = df[nomC][(df['Déremboursés 2008-2013']==True)]
+nouveauxRembourses = df[nomC][(df['Nouveaux rembourses']==True)]
+derembourses2013 = df[nomC][(df['Derembourses 2013﻿']==True)]
+deremboursesDepuis2008 = df[nomC][(df['Derembourses 2008-2013']==True)]
 
-nouveauxRembourses.to_csv('nouveauRém.csv', encoding='utf-8')
-derembourses2013.to_csv('Déremboursés 2013﻿.csv', encoding='utf-8')
-deremboursesDepuis2008.to_csv('Déremboursés 2008﻿-2013.csv', encoding='utf-8')
+nouveauxRembourses.to_csv('nouveauRem.csv', encoding='utf-8')
+derembourses2013.to_csv('Derembourses 2013﻿.csv', encoding='utf-8')
+deremboursesDepuis2008.to_csv('Derembourses 2008﻿-2013.csv', encoding='utf-8')
 
 print "Csv files saved"
-
-
-#nomCourt = datas['NOM COURT']
-#produit = datas['PRODUIT']
-#print nomCourt
-
-#df = DataFrame(datas,columns=['NOM COURT', 'PRODUIT'])
-#print str(df['NOM COURT']).replace(str(df['PRODUIT']), '')
-
-#print datas[['NOM COURT', 'PRODUIT']].apply(lambda x: str(df['NOM COURT']).replace(str(df['PRODUIT']), ''), axis=1)[0:20]
-#print produit
