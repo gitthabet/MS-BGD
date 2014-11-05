@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 ''' Exercice pour le cours 5.
     Il faut lister les annonces de Renault Captur sur leboncoin.fr, en Aquitaine, PACA
     et IDF, récupérer les coordonnées géographiques de la ville de l'annonceur via
@@ -13,13 +14,13 @@ from bs4 import BeautifulSoup
 import re
 import unicodedata
 import numpy
-import pandas
+from pandas import DataFrame
 
 def main():
 	# Création du tableur pandas
-	tableurRenaultCaptur = pandas.DataFrame(columns=["Région","Ville","Latitude (deg)","Longitude (deg)",\
-						   "Propriétaire","Téléphone","Type","Année","Kilométrage (km)","Prix (eur)",\
-						   "Argus (eur)","Comparaison à l'argus"])
+	colonnes = ["Région","Ville","Latitude (deg)","Longitude (deg)","Propriétaire","Téléphone","Type","Année","Kilométrage (km)",\
+				"Prix (eur)","Argus (eur)","Comparaison à l'argus"]
+	tableRenaultCaptur = []
 	marque = "Renault"
 	modele = "Captur"
 	types = ["0.9 TCE90 ENERGY ARIZONA ECO2","0.9 TCE90 ENERGY INTENS ECO2","0.9 TCE90 ENERGY LIFE ECO2",\
@@ -60,18 +61,32 @@ def main():
 					# On vérifie d'abord la marque et le modèle car le moteur de recherche du
 					# bon coin renvoie toute annonce contenant les mots cherchés.
 					# S'ils sont incorrects, on gicle l'annonce
-					marqueVoiture = soupeAnnonce.find(text="Marque :").find_next().text
+					baliseMarqueVoiture = soupeAnnonce.find_all(text="Marque :")
+					if len(baliseMarqueVoiture) == 0:
+						continue
+					else:
+						marqueVoiture = baliseMarqueVoiture[0].find_next().text
 					if marque not in  marqueVoiture.capitalize():
-						break
-					modeleVoiture = soupeAnnonce.find(text="Modèle :").find_next().text
+						continue
+					baliseModeleVoiture = soupeAnnonce.find_all(text="Modèle :")
+					if len(baliseModeleVoiture) == 0:
+						continue
+					else:
+						modeleVoiture = baliseModeleVoiture[0].find_next().text
 					if modele not in  modeleVoiture.capitalize():
-						break
+						continue
 					# On récupère ensuite les différentes caractéristiques : prix, ville du propriétaire
 					# (on calcule en passant ses latitude et longitude), kilométrage, année, numéro de
 					# téléphone du prorpriétaire
 					prix = int(str(soupeAnnonce.find(class_="price").find(class_="price").text[:-2]).replace(' ',''))
-					ville = soupeAnnonce.find(text="Ville :").find_next().text
-					lat, longi = getCoordonneesGeographiques(ville)
+					baliseVille = soupeAnnonce.find_all(text="Ville :")
+					if len(baliseVille) == 0:
+						ville = "ND"
+						lat = 0.
+						longi = 0.
+					else:
+						ville = baliseVille[0].find_next().text.encode('utf-8')
+						lat, longi = getCoordonneesGeographiques(ville)
 					kilometrageString = str(soupeAnnonce.find(text="Kilométrage :").find_next().text).replace(' ','')
 					nombreRegex = re.compile(r"[0-9]*")
 					expressions = nombreRegex.findall(kilometrageString)
@@ -96,12 +111,9 @@ def main():
 						numeroTelephone = "ND"
 					else:
 						numeroTelephone = str(expressions[0])
-						numeroTelephone = numeroTelephone[0:2] + " " + numeroTelephone[2:4] + " " \
-										+ numeroTelephone[4:6] + " " + numeroTelephone[6:8] + " " \
-										+ numeroTelephone[8:10]
 					# Enfin on tâche d'identifier le modèle, uniquement pour les voitures de 2013
 					# (les autres ne figurent pas sur l'argus)
-					description = str(unicodedata.normalize('NFKD',soupeAnnonce.find(class_="AdviewContent").find(class_="content").text).encode('utf16')).lower
+					description = unicodedata.normalize('NFKD',soupeAnnonce.find(class_="AdviewContent").find(class_="content").text).encode('utf-8','ignore').lower()
 					regexpType1 = re.compile(r"dci {0,1}90")
 					regexpType2 = re.compile(r"tce {0,1}120")
 					regexpType3 = re.compile(r"tce {0,1}90")
@@ -174,7 +186,8 @@ def main():
 						nouvelleEntree[8] = numpy.nan
 					if annee == -1:
 						nouvelleEntree[7] = numpy.nan
-					tableurRenaultCaptur.append(nouvelleEntree)
+					tableRenaultCaptur.append(nouvelleEntree)
+	tableurRenaultCaptur = DataFrame(tableRenaultCaptur,columns=colonnes)
 	tableurRenaultCaptur.to_csv("annoncesRenaultCaptur.csv",na_rep="ND")
 
 
@@ -185,7 +198,7 @@ def getBeautifulSoupFromURL(URL):
 		return None
 	else:
 		#print "Succes de la requete"
-		return BeautifulSoup(res.text, "html5lib")    # text contient le code HTML associé à res
+		return BeautifulSoup(res.text)    # text contient le code HTML associé à res
 
 def getCoordonneesGeographiques(lieu):
 	clef = "AIzaSyBvCoNmPsxjiQin8Yb7BekF8iuS4ufriq8"
