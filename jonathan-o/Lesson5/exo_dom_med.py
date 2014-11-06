@@ -44,6 +44,54 @@ def RemoveProduct(df):
 DataMed['NOM COURT'] = DataMed.apply(lambda x : RemoveProduct(x),axis = 1)
 DataMed.rename(columns={'NOM COURT':'MED INFO'},inplace=True)
 
+print DataMed['MED INFO'][0:20]
+
+################################################################################################
+# extract dosage et unite
+
+def ExtractDosage(df,pattern1,pattern2):
+	dos2 =  re.search(pattern2,df['MED INFO'])
+	dos = re.search(pattern1,df['MED INFO'])
+	dosage = float('NaN')
+	Unite= float('NaN')
+	if dos:
+			#dosage = re.sub(r'\D','',dos.group(1))
+			dosage = dos.group(1)
+			#Unite = re.sub(r'\W','',dos.group(2))
+			Unite = dos.group(2)
+	if dos2:
+		if dos2.group(2) == dos2.group(5):
+			dosage = dos2.group(1) + '|' + dos2.group(4)
+			Unite = dos2.group(2)
+		else :
+			dosage = dos2.group(1) + '/' + dos2.group(4)
+			Unite = dos2.group(2) + '/' + dos2.group(5)
+	
+	return [dosage,Unite]
+
+patternBASE = re.compile(r'(\d*,{0,1}\d+)\s*([A-Z]{1,3}((\s*)/(\s*)[A-Z]{1,3})*|%)')
+patternDOUBLE = re.compile(r'(\d*,{0,1}\d+)\s*([A-Z]{1,3})(\s*\W{1}\s*)(\d*,{0,1}\d+)\s*([A-Z]{1,3})')
+
+DataMed[['DOSAGE','UNITE']] = DataMed.apply(lambda x : pd.Series(ExtractDosage(x,patternBASE,patternDOUBLE)),axis = 1)
+
+################################################################################################
+# extract type
+
+def ExtractType(df,pattern):
+	Type = pattern.search(str(df['MED INFO']))
+	result =float('NaN')
+	if Type:
+		result = Type.group(0)
+	return result
+
+pattern = re.compile(r'CPR|INJ|SOL|GEL|PDR|[A-Z]{4,15}')
+
+DataMed['TYPE'] = DataMed.apply(lambda x : pd.Series(ExtractType(x,pattern)),axis = 1)
+print  DataMed[['PRODUIT','DOSAGE','UNITE','TYPE','MED INFO']][DataMed['TYPE'] == 'CPR']
+
+#Drop some ubdetermined value
+#DataMed = DataMed.dropna()
+
 ################################################################################################
 # Liste des Medicaments derembourses
 
