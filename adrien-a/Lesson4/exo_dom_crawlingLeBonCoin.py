@@ -199,7 +199,7 @@ def getAllCarVersionsArgus(brand, model) :
 
 brand = 'renault'
 model = 'captur'
-potentialAreas = ['ile_de_france', 'aquitaine', 'provence_alpes_cote_d_azur']
+potentialAreas = ['aquitaine', 'provence_alpes_cote_d_azur']
 argus = getAllCarVersionsArgus(brand, model)
 
 # Obtention de tous les liens vers des annonces LeBonCoin qui nous intéressent
