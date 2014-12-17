@@ -26,7 +26,7 @@ def getUserFromYcombinator():
     users=[]
     for balise in balises_td:
         info_user=balise.text.split()
-        print info_user
+        #print info_user
         if info_user[2]=="by":
             user=info_user[3]
             users.append(user)
@@ -39,7 +39,6 @@ def getKarmaFromUser():
     users=getUserFromYcombinator()
     for user in users:
         SoupKarma=getSoupFromUrl(url+'user?id='+user)
-        karmalevel=SoupKarma.text.find("karma").split()
-        karma=karmalevel[0]
-        print karma+user
-
+        karmalevel=SoupKarma.text.find("karma")
+        karma=SoupKarma.text[karmalevel+6:].split()[0]
+        print user +"___"
