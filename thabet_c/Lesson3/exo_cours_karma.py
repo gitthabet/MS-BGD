@@ -41,4 +41,4 @@ def getKarmaFromUser():
         SoupKarma=getSoupFromUrl(url+'user?id='+user)
         karmalevel=SoupKarma.text.find("karma")
         karma=SoupKarma.text[karmalevel+6:].split()[0]
-        print user +"___"
+        print user +"___"+karma
