@@ -40,6 +40,10 @@ regex_email = re.compile(pattern, flags=re.IGNORECASE)
 
 matches = regex_email.findall(email)
 
+ores_paris_not_null = res_paris.dropna()
+
+
+
 
 ## Rename
 df = DataFrame(matches)

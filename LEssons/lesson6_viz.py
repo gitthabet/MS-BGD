@@ -47,21 +47,21 @@ wiki_data.groupby(lambda x: x.year).mean()
 
 x = np.random.normal(size=100)
 y = np.random.normal(size=100)
-#figure = plt.figure()
+figure = plt.figure()
 
 
-#fig, axes = plt.subplots(2, 2)
+fig, axes = plt.subplots(2, 2)
 
 #plt.close()
 #figure = plt.figure()
-#plt.plot(np.random.normal(size=100), linestyle='--', color='g', marker='o')
+plt.plot(np.random.normal(size=100), linestyle='--', color='g', marker='o')
 
 
 # labels
-#fig = plt.figure(); ax = fig.add_subplot(1, 1, 1)
-#ax.plot(randn(1000).cumsum())
-#ax.set_xticks([0, 250, 500, 750, 1000])
-#ax.set_xticklabels(['one', 'two', 'three', 'four', 'five'], rotation=30, fontsize='small')
+fig = plt.figure(); ax = fig.add_subplot(1, 1, 1)
+ax.plot(randn(1000).cumsum())
+ax.set_xticks([0, 250, 500, 750, 1000])
+ax.set_xticklabels(['one', 'two', 'three', 'four', 'five'], rotation=30, fontsize='small')
 
 
 
@@ -100,10 +100,11 @@ deases = death_data.groupby('ICD10')['Value'].sum().order(ascending=False)[0:10]
 
 #plt.scatter(cameras['Weight'], cameras['Price'])
 
-cars = pd.read_csv('cars.csv',sep=';',index_col=0).drop('STRING')
-cars['MPG'] = cars['MPG'].astype(float)
-cars['Cylinders'] = cars['Cylinders'].astype(float)
-cars['Weight'] = cars['Weight'].astype(float)
-cars['Acceleration'] = cars['Acceleration'].astype(float)
-cars['Horsepower'] = cars['Horsepower'].astype(float)
-pd.scatter_matrix(cars, diagonal='kde', color='k', alpha=0.3)
+#cars = pd.read_csv('cars.csv',sep=';',index_col=0).drop('STRING')
+#cars['MPG'] = cars['MPG'].astype(float)
+#cars['Cylinders'] = cars['Cylinders'].astype(float)
+#cars['Weight'] = cars['Weight'].astype(float)
+#cars['Acceleration'] = cars['Acceleration'].astype(float)
+#cars['Horsepower'] = cars['Horsepower'].astype(float)
+#pd.scatter_matrix(cars, diagonal='kde', color='k', alpha=0.3)
+
